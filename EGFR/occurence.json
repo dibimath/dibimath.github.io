@@ -1,0 +1,134 @@
+{
+   "compare" : "LIM1215_s",
+   "configured" : true,
+   "grid" : {
+      "columns" : [
+         {
+            "caption" : "Name",
+            "field" : "name",
+            "size" : "20%",
+            "sortable" : true
+         },
+         {
+            "caption" : "Value",
+            "field" : "value",
+            "size" : "80%"
+         }
+      ],
+      "header" : "",
+      "name" : "grid",
+      "records" : [],
+      "show" : {
+         "header" : true
+      }
+   },
+   "panel" : "",
+   "select" : "LIM1215_ms",
+   "selections" : [
+      {
+         "id" : "LIM1215",
+         "text" : "LIM1215"
+      },
+      {
+         "id" : "HCT116",
+         "text" : "HCT116"
+      },
+      {
+         "id" : "SW403",
+         "text" : "SW403"
+      },
+      {
+         "id" : "SW480",
+         "text" : "SW480"
+      },
+      {
+         "id" : "HT29",
+         "text" : "HT29"
+      },
+      {
+         "id" : "LIM1215_ps",
+         "text" : "LIM1215_ps"
+      },
+      {
+         "id" : "HCT116_ps",
+         "text" : "HCT116_ps"
+      },
+      {
+         "id" : "SW480_ps",
+         "text" : "SW480_ps"
+      },
+      {
+         "id" : "HT29_ps",
+         "text" : "HT29_ps"
+      },
+      {
+         "id" : "LIM1215_s",
+         "text" : "LIM1215_s"
+      },
+      {
+         "id" : "HCT116_s",
+         "text" : "HCT116_s"
+      },
+      {
+         "id" : "SW403_s",
+         "text" : "SW403_s"
+      },
+      {
+         "id" : "SW480_s",
+         "text" : "SW480_s"
+      },
+      {
+         "id" : "HT29_s",
+         "text" : "HT29_s"
+      },
+      {
+         "id" : "LIM1215_m",
+         "text" : "LIM1215_m"
+      },
+      {
+         "id" : "HCT116_m",
+         "text" : "HCT116_m"
+      },
+      {
+         "id" : "SW480_m",
+         "text" : "SW480_m"
+      },
+      {
+         "id" : "HT29_m",
+         "text" : "HT29_m"
+      },
+      {
+         "id" : "LIM1215_ms",
+         "text" : "LIM1215_ms"
+      },
+      {
+         "id" : "HCT116_ms",
+         "text" : "HCT116_ms"
+      },
+      {
+         "id" : "SW403_ms",
+         "text" : "SW403_ms"
+      },
+      {
+         "id" : "SW480_ms",
+         "text" : "SW480_ms"
+      },
+      {
+         "id" : "HT29_ms",
+         "text" : "HT29_ms"
+      },
+      {
+         "id" : "SW403_ps",
+         "text" : "SW403_ps"
+      },
+      {
+         "id" : "SW403_m",
+         "text" : "SW403_m"
+      },
+      {
+         "id" : "ALL",
+         "text" : "ALL"
+      }
+   ]
+}
+

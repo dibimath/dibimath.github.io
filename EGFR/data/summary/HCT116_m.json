@@ -1,0 +1,1692 @@
+{
+   "records" : [
+      {
+         "count" : 129600,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>AKT</sub>(00)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>AKT</sub>(01)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>AKT</sub>(10)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>AKT</sub>(11)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>AZD</sub>(0)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>AZD</sub>(1)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.3333333333333333,
+         "min" : 0.0,
+         "name" : "K<sub>EGFR</sub>(00)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>EGFR</sub>(01)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>EGFR</sub>(10)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.6666666666666666,
+         "min" : 0.0,
+         "name" : "K<sub>EGFR</sub>(11)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>ERK</sub>(00)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>ERK</sub>(01)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>ERK</sub>(10)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>ERK</sub>(11)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.20,
+         "min" : 0.0,
+         "name" : "K<sub>GSK3</sub>(00)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.60,
+         "min" : 0.0,
+         "name" : "K<sub>GSK3</sub>(01)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.60,
+         "min" : 0.0,
+         "name" : "K<sub>GSK3</sub>(10)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>GSK3</sub>(11)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>IGFIR</sub>(0)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>IGFIR</sub>(1)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.750,
+         "min" : 0.0,
+         "name" : "K<sub>IRS1</sub>(000)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.3333333333333333,
+         "min" : 0.0,
+         "name" : "K<sub>IRS1</sub>(001)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>IRS1</sub>(010)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.7777777777777778,
+         "min" : 0.0,
+         "name" : "K<sub>IRS1</sub>(011)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.3333333333333333,
+         "min" : 0.0,
+         "name" : "K<sub>IRS1</sub>(100)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.05555555555555555,
+         "min" : 0.0,
+         "name" : "K<sub>IRS1</sub>(101)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.7777777777777778,
+         "min" : 0.0,
+         "name" : "K<sub>IRS1</sub>(110)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.3333333333333333,
+         "min" : 0.0,
+         "name" : "K<sub>IRS1</sub>(111)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>LY</sub>(0)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>LY</sub>(1)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>MEK</sub>(0)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>MEK</sub>(1)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.1666666666666667,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(00)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(01)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(10)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.8333333333333334,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(11)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.30,
+         "min" : 0.0,
+         "name" : "K<sub>RAF</sub>(000)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.70,
+         "min" : 0.0,
+         "name" : "K<sub>RAF</sub>(001)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.050,
+         "min" : 0.0,
+         "name" : "K<sub>RAF</sub>(010)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.30,
+         "min" : 0.0,
+         "name" : "K<sub>RAF</sub>(011)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.70,
+         "min" : 0.0,
+         "name" : "K<sub>RAF</sub>(100)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.950,
+         "min" : 0.0,
+         "name" : "K<sub>RAF</sub>(101)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.30,
+         "min" : 0.0,
+         "name" : "K<sub>RAF</sub>(110)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.70,
+         "min" : 0.0,
+         "name" : "K<sub>RAF</sub>(111)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>TGFa</sub>(0)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>TGFa</sub>(1)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>p70S6K</sub>(00)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.5277777777777778,
+         "min" : 0.0,
+         "name" : "K<sub>p70S6K</sub>(01)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "K<sub>p70S6K</sub>(10)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>p70S6K</sub>(11)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>LIM1215</sub>(IGF1_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>LIM1215</sub>(TGF_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "C<sub>LIM1215</sub>(AZD_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>LIM1215</sub>(IGF1_AZD_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>LIM1215</sub>(TGF_AZD_m)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>LIM1215</sub>(LY_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>LIM1215</sub>(IGF1_LY_m)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 129600,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>LIM1215</sub>(TGF_LY_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>HCT116</sub>(IGF1_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "C<sub>HCT116</sub>(TGF_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>HCT116</sub>(AZD_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>HCT116</sub>(IGF1_AZD_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>HCT116</sub>(TGF_AZD_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>HCT116</sub>(LY_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>HCT116</sub>(IGF1_LY_m)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 129600,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>HCT116</sub>(TGF_LY_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>SW403</sub>(IGF1_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>SW403</sub>(TGF_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>SW403</sub>(AZD_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>SW403</sub>(IGF1_AZD_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>SW403</sub>(TGF_AZD_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>SW403</sub>(LY_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>SW403</sub>(IGF1_LY_m)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 129600,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>SW403</sub>(TGF_LY_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>SW480</sub>(IGF1_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 7.0,
+         "mean" : 7.0,
+         "min" : 7.0,
+         "name" : "C<sub>SW480</sub>(TGF_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>SW480</sub>(AZD_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "C<sub>SW480</sub>(IGF1_AZD_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>SW480</sub>(TGF_AZD_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>SW480</sub>(LY_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>SW480</sub>(IGF1_LY_m)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 129600,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>SW480</sub>(TGF_LY_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "C<sub>HT29</sub>(IGF1_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 7.0,
+         "mean" : 7.0,
+         "min" : 7.0,
+         "name" : "C<sub>HT29</sub>(TGF_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>HT29</sub>(AZD_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>HT29</sub>(IGF1_AZD_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>HT29</sub>(TGF_AZD_m)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>HT29</sub>(LY_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "C<sub>HT29</sub>(IGF1_LY_m)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 111600,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>HT29</sub>(TGF_LY_m)",
+         "portion" : 0.8611111111111112
+      },
+      {
+         "count" : 129600,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>LIM1215</sub>(IGF1)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 23868,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>LIM1215</sub>(IGF1_s)",
+         "portion" : 0.1841666666666667
+      },
+      {
+         "count" : 23868,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>LIM1215</sub>(IGF1_ms)",
+         "portion" : 0.1841666666666667
+      },
+      {
+         "count" : 129600,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>LIM1215</sub>(TGF)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 13320,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>LIM1215</sub>(TGF_s)",
+         "portion" : 0.1027777777777778
+      },
+      {
+         "count" : 13320,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>LIM1215</sub>(TGF_ms)",
+         "portion" : 0.1027777777777778
+      },
+      {
+         "count" : 129600,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "C<sub>LIM1215</sub>(AZD)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 36000,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "C<sub>LIM1215</sub>(AZD_s)",
+         "portion" : 0.2777777777777778
+      },
+      {
+         "count" : 36000,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "C<sub>LIM1215</sub>(AZD_ms)",
+         "portion" : 0.2777777777777778
+      },
+      {
+         "count" : 129600,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>LIM1215</sub>(IGF1_AZD)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 4428,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>LIM1215</sub>(IGF1_AZD_s)",
+         "portion" : 0.03416666666666666
+      },
+      {
+         "count" : 4428,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>LIM1215</sub>(IGF1_AZD_ms)",
+         "portion" : 0.03416666666666666
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>LIM1215</sub>(TGF_AZD)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>LIM1215</sub>(TGF_AZD_s)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>LIM1215</sub>(TGF_AZD_ms)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>LIM1215</sub>(LY)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 18576,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>LIM1215</sub>(LY_s)",
+         "portion" : 0.1433333333333333
+      },
+      {
+         "count" : 18576,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>LIM1215</sub>(LY_ms)",
+         "portion" : 0.1433333333333333
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>LIM1215</sub>(IGF1_LY)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>LIM1215</sub>(IGF1_LY_s)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>LIM1215</sub>(IGF1_LY_ms)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 129600,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>LIM1215</sub>(TGF_LY)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 8892,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>LIM1215</sub>(TGF_LY_s)",
+         "portion" : 0.06861111111111111
+      },
+      {
+         "count" : 8892,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>LIM1215</sub>(TGF_LY_ms)",
+         "portion" : 0.06861111111111111
+      },
+      {
+         "count" : 129600,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>HCT116</sub>(IGF1)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 23868,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>HCT116</sub>(IGF1_s)",
+         "portion" : 0.1841666666666667
+      },
+      {
+         "count" : 23868,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>HCT116</sub>(IGF1_ms)",
+         "portion" : 0.1841666666666667
+      },
+      {
+         "count" : 129600,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "C<sub>HCT116</sub>(TGF)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 23040,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "C<sub>HCT116</sub>(TGF_s)",
+         "portion" : 0.1777777777777778
+      },
+      {
+         "count" : 23040,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "C<sub>HCT116</sub>(TGF_ms)",
+         "portion" : 0.1777777777777778
+      },
+      {
+         "count" : 129600,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>HCT116</sub>(AZD)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 46440,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>HCT116</sub>(AZD_s)",
+         "portion" : 0.3583333333333333
+      },
+      {
+         "count" : 46440,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>HCT116</sub>(AZD_ms)",
+         "portion" : 0.3583333333333333
+      },
+      {
+         "count" : 129600,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>HCT116</sub>(IGF1_AZD)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 19332,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>HCT116</sub>(IGF1_AZD_s)",
+         "portion" : 0.1491666666666667
+      },
+      {
+         "count" : 19332,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>HCT116</sub>(IGF1_AZD_ms)",
+         "portion" : 0.1491666666666667
+      },
+      {
+         "count" : 129600,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>HCT116</sub>(TGF_AZD)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 1080,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>HCT116</sub>(TGF_AZD_s)",
+         "portion" : 0.008333333333333333
+      },
+      {
+         "count" : 1080,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>HCT116</sub>(TGF_AZD_ms)",
+         "portion" : 0.008333333333333333
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>HCT116</sub>(LY)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 79920,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>HCT116</sub>(LY_s)",
+         "portion" : 0.6166666666666667
+      },
+      {
+         "count" : 79920,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>HCT116</sub>(LY_ms)",
+         "portion" : 0.6166666666666667
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>HCT116</sub>(IGF1_LY)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>HCT116</sub>(IGF1_LY_s)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>HCT116</sub>(IGF1_LY_ms)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 129600,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>HCT116</sub>(TGF_LY)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 6552,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>HCT116</sub>(TGF_LY_s)",
+         "portion" : 0.05055555555555555
+      },
+      {
+         "count" : 6552,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>HCT116</sub>(TGF_LY_ms)",
+         "portion" : 0.05055555555555555
+      },
+      {
+         "count" : 129600,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>SW403</sub>(IGF1)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 19440,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>SW403</sub>(IGF1_s)",
+         "portion" : 0.150
+      },
+      {
+         "count" : 19440,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>SW403</sub>(IGF1_ms)",
+         "portion" : 0.150
+      },
+      {
+         "count" : 129600,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>SW403</sub>(TGF)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 13320,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>SW403</sub>(TGF_s)",
+         "portion" : 0.1027777777777778
+      },
+      {
+         "count" : 13320,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>SW403</sub>(TGF_ms)",
+         "portion" : 0.1027777777777778
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>SW403</sub>(AZD)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>SW403</sub>(AZD_s)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>SW403</sub>(AZD_ms)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>SW403</sub>(IGF1_AZD)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 19332,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>SW403</sub>(IGF1_AZD_s)",
+         "portion" : 0.1491666666666667
+      },
+      {
+         "count" : 19332,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>SW403</sub>(IGF1_AZD_ms)",
+         "portion" : 0.1491666666666667
+      },
+      {
+         "count" : 129600,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>SW403</sub>(TGF_AZD)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 22680,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>SW403</sub>(TGF_AZD_s)",
+         "portion" : 0.1750
+      },
+      {
+         "count" : 22680,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>SW403</sub>(TGF_AZD_ms)",
+         "portion" : 0.1750
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>SW403</sub>(LY)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 79920,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>SW403</sub>(LY_s)",
+         "portion" : 0.6166666666666667
+      },
+      {
+         "count" : 79920,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>SW403</sub>(LY_ms)",
+         "portion" : 0.6166666666666667
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>SW403</sub>(IGF1_LY)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>SW403</sub>(IGF1_LY_s)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>SW403</sub>(IGF1_LY_ms)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 129600,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>SW403</sub>(TGF_LY)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 14820,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>SW403</sub>(TGF_LY_s)",
+         "portion" : 0.1143518518518519
+      },
+      {
+         "count" : 14820,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>SW403</sub>(TGF_LY_ms)",
+         "portion" : 0.1143518518518519
+      },
+      {
+         "count" : 129600,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>SW480</sub>(IGF1)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 23868,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>SW480</sub>(IGF1_s)",
+         "portion" : 0.1841666666666667
+      },
+      {
+         "count" : 23868,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "C<sub>SW480</sub>(IGF1_ms)",
+         "portion" : 0.1841666666666667
+      },
+      {
+         "count" : 129600,
+         "max" : 7.0,
+         "mean" : 7.0,
+         "min" : 7.0,
+         "name" : "C<sub>SW480</sub>(TGF)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 4440,
+         "max" : 7.0,
+         "mean" : 7.0,
+         "min" : 7.0,
+         "name" : "C<sub>SW480</sub>(TGF_s)",
+         "portion" : 0.03425925925925926
+      },
+      {
+         "count" : 4440,
+         "max" : 7.0,
+         "mean" : 7.0,
+         "min" : 7.0,
+         "name" : "C<sub>SW480</sub>(TGF_ms)",
+         "portion" : 0.03425925925925926
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>SW480</sub>(AZD)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 111600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>SW480</sub>(AZD_s)",
+         "portion" : 0.8611111111111112
+      },
+      {
+         "count" : 111600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>SW480</sub>(AZD_ms)",
+         "portion" : 0.8611111111111112
+      },
+      {
+         "count" : 129600,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "C<sub>SW480</sub>(IGF1_AZD)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 47520,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "C<sub>SW480</sub>(IGF1_AZD_s)",
+         "portion" : 0.3666666666666666
+      },
+      {
+         "count" : 47520,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "C<sub>SW480</sub>(IGF1_AZD_ms)",
+         "portion" : 0.3666666666666666
+      },
+      {
+         "count" : 129600,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>SW480</sub>(TGF_AZD)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 13608,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>SW480</sub>(TGF_AZD_s)",
+         "portion" : 0.1050
+      },
+      {
+         "count" : 13608,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>SW480</sub>(TGF_AZD_ms)",
+         "portion" : 0.1050
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>SW480</sub>(LY)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 79920,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>SW480</sub>(LY_s)",
+         "portion" : 0.6166666666666667
+      },
+      {
+         "count" : 79920,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>SW480</sub>(LY_ms)",
+         "portion" : 0.6166666666666667
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>SW480</sub>(IGF1_LY)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>SW480</sub>(IGF1_LY_s)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>SW480</sub>(IGF1_LY_ms)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 129600,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>SW480</sub>(TGF_LY)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 8892,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>SW480</sub>(TGF_LY_s)",
+         "portion" : 0.06861111111111111
+      },
+      {
+         "count" : 8892,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>SW480</sub>(TGF_LY_ms)",
+         "portion" : 0.06861111111111111
+      },
+      {
+         "count" : 129600,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "C<sub>HT29</sub>(IGF1)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 26820,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "C<sub>HT29</sub>(IGF1_s)",
+         "portion" : 0.2069444444444444
+      },
+      {
+         "count" : 26820,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "C<sub>HT29</sub>(IGF1_ms)",
+         "portion" : 0.2069444444444444
+      },
+      {
+         "count" : 129600,
+         "max" : 7.0,
+         "mean" : 7.0,
+         "min" : 7.0,
+         "name" : "C<sub>HT29</sub>(TGF)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 4440,
+         "max" : 7.0,
+         "mean" : 7.0,
+         "min" : 7.0,
+         "name" : "C<sub>HT29</sub>(TGF_s)",
+         "portion" : 0.03425925925925926
+      },
+      {
+         "count" : 4440,
+         "max" : 7.0,
+         "mean" : 7.0,
+         "min" : 7.0,
+         "name" : "C<sub>HT29</sub>(TGF_ms)",
+         "portion" : 0.03425925925925926
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>HT29</sub>(AZD)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>HT29</sub>(AZD_s)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>HT29</sub>(AZD_ms)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 129600,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>HT29</sub>(IGF1_AZD)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 23760,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>HT29</sub>(IGF1_AZD_s)",
+         "portion" : 0.1833333333333333
+      },
+      {
+         "count" : 23760,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>HT29</sub>(IGF1_AZD_ms)",
+         "portion" : 0.1833333333333333
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>HT29</sub>(TGF_AZD)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>HT29</sub>(TGF_AZD_s)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 0,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 1.797693134862316e+308,
+         "name" : "C<sub>HT29</sub>(TGF_AZD_ms)",
+         "portion" : 0.0
+      },
+      {
+         "count" : 129600,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>HT29</sub>(LY)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 79920,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>HT29</sub>(LY_s)",
+         "portion" : 0.6166666666666667
+      },
+      {
+         "count" : 79920,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "C<sub>HT29</sub>(LY_ms)",
+         "portion" : 0.6166666666666667
+      },
+      {
+         "count" : 129600,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "C<sub>HT29</sub>(IGF1_LY)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 66960,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "C<sub>HT29</sub>(IGF1_LY_s)",
+         "portion" : 0.5166666666666667
+      },
+      {
+         "count" : 66960,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "C<sub>HT29</sub>(IGF1_LY_ms)",
+         "portion" : 0.5166666666666667
+      },
+      {
+         "count" : 111600,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>HT29</sub>(TGF_LY)",
+         "portion" : 0.8611111111111112
+      },
+      {
+         "count" : 6552,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>HT29</sub>(TGF_LY_s)",
+         "portion" : 0.05055555555555555
+      },
+      {
+         "count" : 6552,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "C<sub>HT29</sub>(TGF_LY_ms)",
+         "portion" : 0.05055555555555555
+      }
+   ],
+   "setup" : {
+      "date" : "Thu Apr 23 14:23:13 2015",
+      "model" : "EGFR_full",
+      "s_name" : "HCT116_m",
+      "select" : " WHERE (C_HCT116_AZD_m IS NOT NULL AND C_HCT116_TGF_LY_m IS NOT NULL AND C_HCT116_LY_m IS NOT NULL AND C_HCT116_IGF1_m IS NOT NULL AND C_HCT116_IGF1_AZD_m IS NOT NULL AND C_HCT116_TGF_m IS NOT NULL AND C_HCT116_TGF_AZD_m IS NOT NULL)",
+      "size" : 129600
+   }
+}
+

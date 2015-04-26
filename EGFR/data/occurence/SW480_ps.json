@@ -1,0 +1,1119 @@
+{
+   "setup" : {
+      "date" : "Thu Apr 23 17:09:38 2015",
+      "model" : "EGFR_full",
+      "s_name" : "SW480_ps",
+      "select" : " WHERE (C_SW480_LY_s IS NOT NULL AND C_SW480_TGF IS NOT NULL AND C_SW480_IGF1_AZD IS NOT NULL AND C_SW480_TGF_AZD IS NOT NULL AND C_SW480_AZD_s IS NOT NULL AND C_SW480_IGF1 IS NOT NULL AND C_SW480_TGF_LY IS NOT NULL)",
+      "size" : 74670
+   },
+   "values" : [
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>AKT</sub>(00)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>AKT</sub>(01)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>AKT</sub>(10)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>AKT</sub>(11)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>AZD</sub>(0)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>AZD</sub>(1)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.8396946564885496
+            },
+            {
+               "name" : "1",
+               "portion" : 0.1603053435114504
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>EGFR</sub>(00)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>EGFR</sub>(01)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>EGFR</sub>(10)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.4198473282442748
+            },
+            {
+               "name" : "1",
+               "portion" : 0.5801526717557252
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>EGFR</sub>(11)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>ERK</sub>(00)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>ERK</sub>(01)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>ERK</sub>(10)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>ERK</sub>(11)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.80
+            },
+            {
+               "name" : "1",
+               "portion" : 0.20
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>GSK3</sub>(00)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.40
+            },
+            {
+               "name" : "1",
+               "portion" : 0.60
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>GSK3</sub>(01)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.40
+            },
+            {
+               "name" : "1",
+               "portion" : 0.60
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>GSK3</sub>(10)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>GSK3</sub>(11)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>IGFIR</sub>(0)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>IGFIR</sub>(1)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.2631578947368421
+            },
+            {
+               "name" : "1",
+               "portion" : 0.7368421052631579
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>IRS1</sub>(000)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.6842105263157895
+            },
+            {
+               "name" : "1",
+               "portion" : 0.3157894736842105
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>IRS1</sub>(001)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>IRS1</sub>(010)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.2631578947368421
+            },
+            {
+               "name" : "1",
+               "portion" : 0.7368421052631579
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>IRS1</sub>(011)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.6842105263157895
+            },
+            {
+               "name" : "1",
+               "portion" : 0.3157894736842105
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>IRS1</sub>(100)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9473684210526315
+            },
+            {
+               "name" : "1",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>IRS1</sub>(101)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.2631578947368421
+            },
+            {
+               "name" : "1",
+               "portion" : 0.7368421052631579
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>IRS1</sub>(110)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.6842105263157895
+            },
+            {
+               "name" : "1",
+               "portion" : 0.3157894736842105
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>IRS1</sub>(111)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>LY</sub>(0)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>LY</sub>(1)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>MEK</sub>(0)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>MEK</sub>(1)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9058524173027990
+            },
+            {
+               "name" : "1",
+               "portion" : 0.09414758269720101
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>PI3K</sub>(00)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.5470737913486005
+            },
+            {
+               "name" : "1",
+               "portion" : 0.4529262086513995
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>PI3K</sub>(01)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.5648854961832062
+            },
+            {
+               "name" : "1",
+               "portion" : 0.4351145038167939
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>PI3K</sub>(10)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.1882951653944020
+            },
+            {
+               "name" : "1",
+               "portion" : 0.8117048346055979
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>PI3K</sub>(11)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9211195928753181
+            },
+            {
+               "name" : "1",
+               "portion" : 0.07888040712468193
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>RAF</sub>(000)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.4045801526717557
+            },
+            {
+               "name" : "1",
+               "portion" : 0.5954198473282443
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>RAF</sub>(001)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9211195928753181
+            },
+            {
+               "name" : "1",
+               "portion" : 0.07888040712468193
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>RAF</sub>(010)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7302798982188295
+            },
+            {
+               "name" : "1",
+               "portion" : 0.2697201017811705
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>RAF</sub>(011)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.4732824427480916
+            },
+            {
+               "name" : "1",
+               "portion" : 0.5267175572519084
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>RAF</sub>(100)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.07888040712468193
+            },
+            {
+               "name" : "1",
+               "portion" : 0.9211195928753181
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>RAF</sub>(101)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7531806615776081
+            },
+            {
+               "name" : "1",
+               "portion" : 0.2468193384223919
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>RAF</sub>(110)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3486005089058524
+            },
+            {
+               "name" : "1",
+               "portion" : 0.6513994910941476
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>RAF</sub>(111)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>TGFa</sub>(0)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>TGFa</sub>(1)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>p70S6K</sub>(00)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>p70S6K</sub>(01)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.5648854961832062
+            },
+            {
+               "name" : "1",
+               "portion" : 0.4351145038167939
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>p70S6K</sub>(10)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "K<sub>p70S6K</sub>(11)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "!LY&PI3K",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "F<sub>AKT</sub>()"
+      },
+      {
+         "data" : [
+            {
+               "name" : "AZD",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "F<sub>AZD</sub>()"
+      },
+      {
+         "data" : [
+            {
+               "name" : "!ERK&TGFa",
+               "portion" : 0.4198473282442748
+            },
+            {
+               "name" : "!ERK|TGFa",
+               "portion" : 0.1603053435114504
+            },
+            {
+               "name" : "TGFa",
+               "portion" : 0.4198473282442748
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "F<sub>EGFR</sub>()"
+      },
+      {
+         "data" : [
+            {
+               "name" : "!AZD&MEK",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "F<sub>ERK</sub>()"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 0.20
+            },
+            {
+               "name" : "AKT",
+               "portion" : 0.20
+            },
+            {
+               "name" : "AKT&ERK",
+               "portion" : 0.20
+            },
+            {
+               "name" : "ERK",
+               "portion" : 0.20
+            },
+            {
+               "name" : "ERK|AKT",
+               "portion" : 0.20
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "F<sub>GSK3</sub>()"
+      },
+      {
+         "data" : [
+            {
+               "name" : "IGFIR",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "F<sub>IGFIR</sub>()"
+      },
+      {
+         "data" : [
+            {
+               "name" : "!AKT",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "!AKT&!p70S6K",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "!AKT&!p70S6K|!AKT&ERK",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "!AKT&!p70S6K|!AKT&ERK|ERK&!p70S6K",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "!AKT&!p70S6K|ERK",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "!AKT&!p70S6K|ERK&!p70S6K",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "!AKT&ERK",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "!AKT&ERK&!p70S6K",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "!AKT&ERK|!p70S6K",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "!AKT&ERK|ERK&!p70S6K",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "!AKT|!p70S6K",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "!AKT|!p70S6K|ERK",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "!AKT|ERK",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "!p70S6K",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "!p70S6K|ERK",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "1",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "ERK",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "ERK&!p70S6K",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "ERK&!p70S6K|!AKT",
+               "portion" : 0.05263157894736842
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "F<sub>IRS1</sub>()"
+      },
+      {
+         "data" : [
+            {
+               "name" : "LY",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "F<sub>LY</sub>()"
+      },
+      {
+         "data" : [
+            {
+               "name" : "RAF",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "F<sub>MEK</sub>()"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.1882951653944020
+            },
+            {
+               "name" : "1",
+               "portion" : 0.09414758269720101
+            },
+            {
+               "name" : "EGFR",
+               "portion" : 0.1704834605597964
+            },
+            {
+               "name" : "EGFR&IGFIR",
+               "portion" : 0.1882951653944020
+            },
+            {
+               "name" : "IGFIR",
+               "portion" : 0.1882951653944020
+            },
+            {
+               "name" : "IGFIR|EGFR",
+               "portion" : 0.1704834605597964
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "F<sub>PI3K</sub>()"
+      },
+      {
+         "data" : [
+            {
+               "name" : "!ERK&IGFIR",
+               "portion" : 0.07888040712468193
+            },
+            {
+               "name" : "!ERK&IGFIR|EGFR",
+               "portion" : 0.05597964376590331
+            },
+            {
+               "name" : "!ERK&IGFIR|EGFR&!ERK",
+               "portion" : 0.05597964376590331
+            },
+            {
+               "name" : "!ERK&IGFIR|EGFR&!ERK|EGFR&IGFIR",
+               "portion" : 0.05597964376590331
+            },
+            {
+               "name" : "!ERK&IGFIR|EGFR&IGFIR",
+               "portion" : 0.07888040712468193
+            },
+            {
+               "name" : "0",
+               "portion" : 0.07888040712468193
+            },
+            {
+               "name" : "1",
+               "portion" : 0.07888040712468193
+            },
+            {
+               "name" : "EGFR",
+               "portion" : 0.05597964376590331
+            },
+            {
+               "name" : "EGFR&!ERK",
+               "portion" : 0.05597964376590331
+            },
+            {
+               "name" : "EGFR&!ERK&IGFIR",
+               "portion" : 0.07888040712468193
+            },
+            {
+               "name" : "EGFR&!ERK|EGFR&IGFIR",
+               "portion" : 0.05597964376590331
+            },
+            {
+               "name" : "EGFR&!ERK|IGFIR",
+               "portion" : 0.05597964376590331
+            },
+            {
+               "name" : "EGFR&IGFIR",
+               "portion" : 0.07888040712468193
+            },
+            {
+               "name" : "IGFIR",
+               "portion" : 0.07888040712468193
+            },
+            {
+               "name" : "IGFIR|EGFR",
+               "portion" : 0.05597964376590331
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "F<sub>RAF</sub>()"
+      },
+      {
+         "data" : [
+            {
+               "name" : "TGFa",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "F<sub>TGFa</sub>()"
+      },
+      {
+         "data" : [
+            {
+               "name" : "AKT",
+               "portion" : 0.2175572519083969
+            },
+            {
+               "name" : "AKT&ERK",
+               "portion" : 0.2824427480916031
+            },
+            {
+               "name" : "ERK",
+               "portion" : 0.2824427480916031
+            },
+            {
+               "name" : "ERK|AKT",
+               "portion" : 0.2175572519083969
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "name" : "F<sub>p70S6K</sub>()"
+      }
+   ]
+}
+

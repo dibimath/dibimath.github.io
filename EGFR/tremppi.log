@@ -1,0 +1,2302 @@
+[2015-Apr-08 10:55:48.135607] (1) <info>: ------------------------------
+[2015-Apr-08 10:55:48.202106] (2) <info>: tremppi_spawn started.
+[2015-Apr-08 10:55:48.202106] (3) <info>: Checking the JSON correctness.
+[2015-Apr-08 10:55:48.205109] (4) <info>: Parsing the network.
+[2015-Apr-08 10:55:48.205109] (5) <info>: Obtaining kinetics.
+[2015-Apr-08 10:55:48.209112] (6) <info>: Writing properties template.
+[2015-Apr-08 10:55:48.215116] (7) <info>: Creating the database file.
+[2015-Apr-08 10:55:48.367760] (8) <info>: Writing the database file, in total 5184 parametrizations.
+[2015-Apr-08 10:55:49.110761] (9) <info>: tremppi_spawn finished successfully.
+[2015-Apr-08 10:56:06.270474] (1) <info>: ------------------------------
+[2015-Apr-08 10:56:06.271475] (2) <info>: tremppi_summary started.
+[2015-Apr-08 10:56:06.271475] (3) <info>: Parsing data.
+[2015-Apr-08 10:56:06.382508] (4) <error>: Top level exception: Python exception encountered.
+[2015-Apr-08 10:56:29.494428] (1) <info>: ------------------------------
+[2015-Apr-08 10:56:29.495429] (2) <info>: tremppi_summary started.
+[2015-Apr-08 10:56:29.495429] (3) <info>: Parsing data.
+[2015-Apr-08 10:56:29.535456] (4) <info>: Preparing the data.
+[2015-Apr-08 10:56:29.536456] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-08 10:56:29.727495] (6) <info>: Building the JSON file.
+[2015-Apr-08 10:56:29.728495] (7) <info>: Writing output.
+[2015-Apr-08 10:56:29.736500] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-08 12:30:53.257268] (1) <info>: ------------------------------
+[2015-Apr-08 12:30:53.258268] (2) <info>: tremppi_validate started.
+[2015-Apr-08 12:30:53.258268] (3) <info>: Parsing database.
+[2015-Apr-08 12:30:53.317306] (4) <info>: Checking the JSON correctness.
+[2015-Apr-08 12:30:53.320308] (5) <info>: Parsing the properties.
+[2015-Apr-08 12:30:53.322310] (6) <info>: Building a product with the automaton: IGF1
+[2015-Apr-08 12:30:53.326312] (7) <info>: Validating for an automaton: IGF1
+[2015-Apr-08 12:30:55.518887] (8) <info>: Building a product with the automaton: IGF1_s
+[2015-Apr-08 12:30:55.522889] (9) <info>: Validating for an automaton: IGF1_s
+[2015-Apr-08 12:30:58.140599] (10) <info>: Building a product with the automaton: TGF
+[2015-Apr-08 12:30:58.147610] (11) <info>: Validating for an automaton: TGF
+[2015-Apr-08 12:31:00.019262] (12) <info>: Building a product with the automaton: TGF_s
+[2015-Apr-08 12:31:00.023265] (13) <info>: Validating for an automaton: TGF_s
+[2015-Apr-08 12:31:02.796470] (14) <info>: Building a product with the automaton: AZD
+[2015-Apr-08 12:31:02.798474] (15) <info>: Validating for an automaton: AZD
+[2015-Apr-08 12:31:03.667140] (16) <info>: Building a product with the automaton: AZD_s
+[2015-Apr-08 12:31:03.670143] (17) <info>: Validating for an automaton: AZD_s
+[2015-Apr-08 12:31:04.443426] (18) <info>: Building a product with the automaton: IGF1_AZD
+[2015-Apr-08 12:31:04.445427] (19) <info>: Validating for an automaton: IGF1_AZD
+[2015-Apr-08 12:31:05.222977] (20) <info>: Building a product with the automaton: IGF1_AZD_s
+[2015-Apr-08 12:31:05.224979] (21) <info>: Validating for an automaton: IGF1_AZD_s
+[2015-Apr-08 12:31:06.021373] (22) <info>: Building a product with the automaton: TGF_AZD
+[2015-Apr-08 12:31:06.023374] (23) <info>: Validating for an automaton: TGF_AZD
+[2015-Apr-08 12:31:07.418517] (24) <info>: Building a product with the automaton: TGF_AZD_s
+[2015-Apr-08 12:31:07.421520] (25) <info>: Validating for an automaton: TGF_AZD_s
+[2015-Apr-08 12:31:08.852003] (26) <info>: Building a product with the automaton: LY
+[2015-Apr-08 12:31:08.856009] (27) <info>: Validating for an automaton: LY
+[2015-Apr-08 12:31:10.367162] (28) <info>: Building a product with the automaton: LY_s
+[2015-Apr-08 12:31:10.370163] (29) <info>: Validating for an automaton: LY_s
+[2015-Apr-08 12:34:03.924991] (1) <info>: ------------------------------
+[2015-Apr-08 12:34:03.925991] (2) <info>: tremppi_spawn started.
+[2015-Apr-08 12:34:03.926992] (3) <info>: Checking the JSON correctness.
+[2015-Apr-08 12:34:03.929992] (4) <info>: Parsing the network.
+[2015-Apr-08 12:34:03.930993] (5) <info>: Obtaining kinetics.
+[2015-Apr-08 12:34:03.933997] (6) <info>: Writing properties template.
+[2015-Apr-08 12:34:03.943004] (7) <info>: Creating the database file.
+[2015-Apr-08 12:34:04.114396] (8) <info>: Writing the database file, in total 27993600 parametrizations.
+[2015-Apr-08 12:35:41.843718] (1) <info>: ------------------------------
+[2015-Apr-08 12:35:41.844719] (2) <info>: tremppi_spawn started.
+[2015-Apr-08 12:35:41.844719] (3) <info>: Checking the JSON correctness.
+[2015-Apr-08 12:35:41.848720] (4) <info>: Parsing the network.
+[2015-Apr-08 12:35:41.848720] (5) <info>: Obtaining kinetics.
+[2015-Apr-08 12:35:41.852724] (6) <info>: Writing properties template.
+[2015-Apr-08 12:35:41.861730] (7) <info>: Creating the database file.
+[2015-Apr-08 12:35:41.989548] (8) <info>: Writing the database file, in total 27993600 parametrizations.
+[2015-Apr-08 13:28:41.141799] (9) <info>: tremppi_spawn finished successfully.
+[2015-Apr-08 13:28:41.268178] (1) <info>: ------------------------------
+[2015-Apr-08 13:28:41.269179] (2) <info>: tremppi_validate started.
+[2015-Apr-08 13:28:41.270180] (3) <info>: Parsing database.
+[2015-Apr-08 13:28:41.390472] (4) <info>: Checking the JSON correctness.
+[2015-Apr-08 13:28:41.436493] (5) <info>: Parsing the properties.
+[2015-Apr-08 13:28:41.439495] (6) <info>: Building a product with the automaton: IGF1
+[2015-Apr-08 13:28:41.446500] (7) <info>: Validating for an automaton: IGF1
+[2015-Apr-08 13:37:39.163374] (1) <info>: ------------------------------
+[2015-Apr-08 13:37:39.174531] (2) <info>: tremppi_spawn started.
+[2015-Apr-08 13:37:39.174531] (3) <info>: Checking the JSON correctness.
+[2015-Apr-08 13:37:39.257110] (4) <info>: Parsing the network.
+[2015-Apr-08 13:37:39.257110] (5) <info>: Obtaining kinetics.
+[2015-Apr-08 13:37:39.284492] (6) <info>: Writing properties template.
+[2015-Apr-08 13:37:39.343346] (7) <info>: Creating the database file.
+[2015-Apr-08 13:37:39.680012] (8) <info>: Writing the database file, in total 3110400 parametrizations.
+[2015-Apr-08 13:38:42.354642] (1) <info>: ------------------------------
+[2015-Apr-08 13:38:42.355642] (2) <info>: tremppi_spawn started.
+[2015-Apr-08 13:38:42.355642] (3) <info>: Checking the JSON correctness.
+[2015-Apr-08 13:38:42.441699] (4) <info>: Parsing the network.
+[2015-Apr-08 13:38:42.442700] (5) <info>: Obtaining kinetics.
+[2015-Apr-08 13:38:42.445702] (6) <info>: Writing properties template.
+[2015-Apr-08 13:38:42.455708] (7) <info>: Creating the database file.
+[2015-Apr-08 13:38:42.455708] (8) <warning>: Database file C:\Users\adams_000\MODELS\Tremppi\EGFR_mon\database.sqlite already exists, erasing.
+[2015-Apr-08 13:38:42.600805] (9) <info>: Writing the database file, in total 3110400 parametrizations.
+[2015-Apr-08 13:39:16.555739] (1) <info>: ------------------------------
+[2015-Apr-08 13:39:16.556740] (2) <info>: tremppi_spawn started.
+[2015-Apr-08 13:39:16.556740] (3) <info>: Checking the JSON correctness.
+[2015-Apr-08 13:39:16.561743] (4) <info>: Parsing the network.
+[2015-Apr-08 13:39:16.561743] (5) <info>: Obtaining kinetics.
+[2015-Apr-08 13:39:16.565746] (6) <info>: Writing properties template.
+[2015-Apr-08 13:39:16.574751] (7) <info>: Creating the database file.
+[2015-Apr-08 13:39:16.575754] (8) <warning>: Database file C:\Users\adams_000\MODELS\Tremppi\EGFR_mon\database.sqlite already exists, erasing.
+[2015-Apr-08 13:39:16.812606] (9) <info>: Writing the database file, in total 1036800 parametrizations.
+[2015-Apr-08 13:41:00.207481] (10) <info>: tremppi_spawn finished successfully.
+[2015-Apr-08 13:41:06.152746] (1) <info>: ------------------------------
+[2015-Apr-08 13:41:06.153747] (2) <info>: tremppi_validate started.
+[2015-Apr-08 13:41:06.153747] (3) <info>: Parsing database.
+[2015-Apr-08 13:41:06.205787] (4) <info>: Checking the JSON correctness.
+[2015-Apr-08 13:41:06.208789] (5) <info>: Parsing the properties.
+[2015-Apr-08 13:41:06.210790] (6) <info>: Building a product with the automaton: IGF1
+[2015-Apr-08 13:41:06.214793] (7) <info>: Validating for an automaton: IGF1
+[2015-Apr-08 13:46:47.869152] (1) <info>: ------------------------------
+[2015-Apr-08 13:46:47.870153] (2) <info>: tremppi_spawn started.
+[2015-Apr-08 13:46:47.871154] (3) <info>: Checking the JSON correctness.
+[2015-Apr-08 13:46:47.875157] (4) <info>: Parsing the network.
+[2015-Apr-08 13:46:47.875157] (5) <info>: Obtaining kinetics.
+[2015-Apr-08 13:46:47.879159] (6) <info>: Writing properties template.
+[2015-Apr-08 13:46:47.889164] (7) <info>: Creating the database file.
+[2015-Apr-08 13:46:47.889164] (8) <warning>: Database file C:\Users\adams_000\MODELS\Tremppi\EGFR_mon\database.sqlite already exists, erasing.
+[2015-Apr-08 13:46:48.131304] (9) <info>: Writing the database file, in total 1036800 parametrizations.
+[2015-Apr-08 13:48:29.836481] (10) <info>: tremppi_spawn finished successfully.
+[2015-Apr-09 14:33:54.291995] (1) <info>: ------------------------------
+[2015-Apr-09 14:33:54.293119] (2) <info>: tremppi_validate started.
+[2015-Apr-09 14:33:54.293165] (3) <info>: Parsing database.
+[2015-Apr-09 14:33:54.674194] (4) <info>: Checking the JSON correctness.
+[2015-Apr-09 14:33:54.686835] (5) <info>: Parsing the properties.
+[2015-Apr-09 14:33:54.699250] (6) <info>: Building a product with the automaton: LIM1215_IGF1
+[2015-Apr-09 14:33:55.906129] (7) <info>: Validating for an automaton: LIM1215_IGF1
+[2015-Apr-09 14:46:57.271936] (8) <info>: Building a product with the automaton: LIM1215_IGF1_s
+[2015-Apr-09 14:46:57.308418] (9) <info>: Validating for an automaton: LIM1215_IGF1_s
+[2015-Apr-09 15:01:40.593559] (10) <info>: Building a product with the automaton: LIM1215_TGF
+[2015-Apr-09 15:01:40.628114] (11) <info>: Validating for an automaton: LIM1215_TGF
+[2015-Apr-09 15:12:03.949429] (12) <info>: Building a product with the automaton: LIM1215_TGF_s
+[2015-Apr-09 15:12:03.982861] (13) <info>: Validating for an automaton: LIM1215_TGF_s
+[2015-Apr-09 15:26:04.577969] (14) <info>: Building a product with the automaton: LIM1215_AZD
+[2015-Apr-09 15:26:04.595283] (15) <info>: Validating for an automaton: LIM1215_AZD
+[2015-Apr-09 15:27:37.796454] (16) <info>: Building a product with the automaton: LIM1215_AZD_s
+[2015-Apr-09 15:27:37.819136] (17) <info>: Validating for an automaton: LIM1215_AZD_s
+[2015-Apr-09 15:29:19.353239] (18) <info>: Building a product with the automaton: LIM1215_IGF1_AZD
+[2015-Apr-09 15:29:19.376372] (19) <info>: Validating for an automaton: LIM1215_IGF1_AZD
+[2015-Apr-09 15:31:00.924595] (20) <info>: Building a product with the automaton: LIM1215_IGF1_AZD_s
+[2015-Apr-09 15:31:00.948415] (21) <info>: Validating for an automaton: LIM1215_IGF1_AZD_s
+[2015-Apr-09 15:32:39.552641] (22) <info>: Building a product with the automaton: LIM1215_TGF_AZD
+[2015-Apr-09 15:32:39.576557] (23) <info>: Validating for an automaton: LIM1215_TGF_AZD
+[2015-Apr-09 15:38:49.539762] (24) <info>: Building a product with the automaton: LIM1215_TGF_AZD_s
+[2015-Apr-09 15:38:49.562877] (25) <info>: Validating for an automaton: LIM1215_TGF_AZD_s
+[2015-Apr-09 15:45:10.844569] (26) <info>: Building a product with the automaton: LIM1215_LY
+[2015-Apr-09 15:45:10.868986] (27) <info>: Validating for an automaton: LIM1215_LY
+[2015-Apr-09 15:53:28.914976] (28) <info>: Building a product with the automaton: LIM1215_LY_s
+[2015-Apr-09 15:53:28.939053] (29) <info>: Validating for an automaton: LIM1215_LY_s
+[2015-Apr-09 16:02:34.325376] (30) <info>: Building a product with the automaton: LIM1215_IGF1_LY
+[2015-Apr-09 16:02:34.350914] (31) <info>: Validating for an automaton: LIM1215_IGF1_LY
+[2015-Apr-09 16:14:11.851314] (32) <info>: Building a product with the automaton: LIM1215_IGF1_LY_s
+[2015-Apr-09 16:14:11.875591] (33) <info>: Validating for an automaton: LIM1215_IGF1_LY_s
+[2015-Apr-09 16:25:43.953727] (34) <info>: Building a product with the automaton: LIM1215_TGF_LY
+[2015-Apr-09 16:25:43.970644] (35) <info>: Validating for an automaton: LIM1215_TGF_LY
+[2015-Apr-09 16:31:01.856028] (36) <info>: Building a product with the automaton: LIM1215_TGF_LY_s
+[2015-Apr-09 16:31:01.880549] (37) <info>: Validating for an automaton: LIM1215_TGF_LY_s
+[2015-Apr-09 16:36:48.395560] (38) <info>: Building a product with the automaton: HCT116_IGF1
+[2015-Apr-09 16:36:48.429453] (39) <info>: Validating for an automaton: HCT116_IGF1
+[2015-Apr-09 16:49:56.787558] (40) <info>: Building a product with the automaton: HCT116_IGF1_s
+[2015-Apr-09 16:49:56.826186] (41) <info>: Validating for an automaton: HCT116_IGF1_s
+[2015-Apr-09 17:04:53.284301] (42) <info>: Building a product with the automaton: HCT116_TGF
+[2015-Apr-09 17:04:53.323125] (43) <info>: Validating for an automaton: HCT116_TGF
+[2015-Apr-09 17:15:24.277245] (44) <info>: Building a product with the automaton: HCT116_TGF_s
+[2015-Apr-09 17:15:24.310843] (45) <info>: Validating for an automaton: HCT116_TGF_s
+[2015-Apr-09 17:29:31.266027] (46) <info>: Building a product with the automaton: HCT116_AZD
+[2015-Apr-09 17:29:31.284466] (47) <info>: Validating for an automaton: HCT116_AZD
+[2015-Apr-09 17:31:22.195575] (48) <info>: Building a product with the automaton: HCT116_AZD_s
+[2015-Apr-09 17:31:22.217844] (49) <info>: Validating for an automaton: HCT116_AZD_s
+[2015-Apr-09 17:33:17.110106] (50) <info>: Building a product with the automaton: HCT116_IGF1_AZD
+[2015-Apr-09 17:33:17.134664] (51) <info>: Validating for an automaton: HCT116_IGF1_AZD
+[2015-Apr-09 17:35:04.323675] (52) <info>: Building a product with the automaton: HCT116_IGF1_AZD_s
+[2015-Apr-09 17:35:04.348739] (53) <info>: Validating for an automaton: HCT116_IGF1_AZD_s
+[2015-Apr-09 17:36:56.201332] (54) <info>: Building a product with the automaton: HCT116_TGF_AZD
+[2015-Apr-09 17:36:56.224955] (55) <info>: Validating for an automaton: HCT116_TGF_AZD
+[2015-Apr-09 17:42:55.112779] (56) <info>: Building a product with the automaton: HCT116_TGF_AZD_s
+[2015-Apr-09 17:42:55.136616] (57) <info>: Validating for an automaton: HCT116_TGF_AZD_s
+[2015-Apr-09 17:48:52.693673] (58) <info>: Building a product with the automaton: HCT116_LY
+[2015-Apr-09 17:48:52.717221] (59) <info>: Validating for an automaton: HCT116_LY
+[2015-Apr-09 17:50:54.061924] (60) <info>: Building a product with the automaton: HCT116_LY_s
+[2015-Apr-09 17:50:54.084364] (61) <info>: Validating for an automaton: HCT116_LY_s
+[2015-Apr-09 17:52:51.006460] (62) <info>: Building a product with the automaton: HCT116_IGF1_LY
+[2015-Apr-09 17:52:51.032952] (63) <info>: Validating for an automaton: HCT116_IGF1_LY
+[2015-Apr-09 18:04:22.890469] (64) <info>: Building a product with the automaton: HCT116_IGF1_LY_s
+[2015-Apr-09 18:04:22.910348] (65) <info>: Validating for an automaton: HCT116_IGF1_LY_s
+[2015-Apr-09 18:15:58.695405] (66) <info>: Building a product with the automaton: HCT116_TGF_LY
+[2015-Apr-09 18:15:58.720405] (67) <info>: Validating for an automaton: HCT116_TGF_LY
+[2015-Apr-09 18:17:52.643581] (68) <info>: Building a product with the automaton: HCT116_TGF_LY_s
+[2015-Apr-09 18:17:52.667607] (69) <info>: Validating for an automaton: HCT116_TGF_LY_s
+[2015-Apr-09 18:19:51.577560] (70) <info>: Building a product with the automaton: SW403_IGF1
+[2015-Apr-09 18:19:51.610688] (71) <info>: Validating for an automaton: SW403_IGF1
+[2015-Apr-09 18:31:24.832777] (72) <info>: Building a product with the automaton: SW403_IGF1_s
+[2015-Apr-09 18:31:24.871255] (73) <info>: Validating for an automaton: SW403_IGF1_s
+[2015-Apr-09 18:45:37.603297] (74) <info>: Building a product with the automaton: SW403_TGF
+[2015-Apr-09 18:45:37.642491] (75) <info>: Validating for an automaton: SW403_TGF
+[2015-Apr-09 18:57:58.827005] (76) <info>: Building a product with the automaton: SW403_TGF_s
+[2015-Apr-09 18:57:58.859669] (77) <info>: Validating for an automaton: SW403_TGF_s
+[2015-Apr-09 19:14:40.441346] (78) <info>: Building a product with the automaton: SW403_AZD
+[2015-Apr-09 19:14:40.464151] (79) <info>: Validating for an automaton: SW403_AZD
+[2015-Apr-09 19:16:51.142896] (80) <info>: Building a product with the automaton: SW403_AZD_s
+[2015-Apr-09 19:16:51.166859] (81) <info>: Validating for an automaton: SW403_AZD_s
+[2015-Apr-09 19:19:00.770807] (82) <info>: Building a product with the automaton: SW403_IGF1_AZD
+[2015-Apr-09 19:19:00.791507] (83) <info>: Validating for an automaton: SW403_IGF1_AZD
+[2015-Apr-09 19:21:14.262476] (84) <info>: Building a product with the automaton: SW403_IGF1_AZD_s
+[2015-Apr-09 19:21:14.277931] (85) <info>: Validating for an automaton: SW403_IGF1_AZD_s
+[2015-Apr-09 19:23:29.283579] (86) <info>: Building a product with the automaton: SW403_TGF_AZD
+[2015-Apr-09 19:23:29.308059] (87) <info>: Validating for an automaton: SW403_TGF_AZD
+[2015-Apr-09 19:32:23.755061] (88) <info>: Building a product with the automaton: SW403_TGF_AZD_s
+[2015-Apr-09 19:32:23.779256] (89) <info>: Validating for an automaton: SW403_TGF_AZD_s
+[2015-Apr-09 19:41:19.194445] (90) <info>: Building a product with the automaton: SW403_LY
+[2015-Apr-09 19:41:19.219999] (91) <info>: Validating for an automaton: SW403_LY
+[2015-Apr-09 19:43:27.378531] (92) <info>: Building a product with the automaton: SW403_LY_s
+[2015-Apr-09 19:43:27.402933] (93) <info>: Validating for an automaton: SW403_LY_s
+[2015-Apr-09 19:45:41.414766] (94) <info>: Building a product with the automaton: SW403_IGF1_LY
+[2015-Apr-09 19:45:41.435324] (95) <info>: Validating for an automaton: SW403_IGF1_LY
+[2015-Apr-09 19:53:16.998176] (96) <info>: Building a product with the automaton: SW403_IGF1_LY_s
+[2015-Apr-09 19:53:17.023905] (97) <info>: Validating for an automaton: SW403_IGF1_LY_s
+[2015-Apr-09 20:00:50.176772] (98) <info>: Building a product with the automaton: SW403_TGF_LY
+[2015-Apr-09 20:00:50.200961] (99) <info>: Validating for an automaton: SW403_TGF_LY
+[2015-Apr-09 20:03:06.715485] (100) <info>: Building a product with the automaton: SW403_TGF_LY_s
+[2015-Apr-09 20:03:06.739792] (101) <info>: Validating for an automaton: SW403_TGF_LY_s
+[2015-Apr-09 20:05:30.779605] (102) <info>: Building a product with the automaton: SW480_IGF1
+[2015-Apr-09 20:05:30.814990] (103) <info>: Validating for an automaton: SW480_IGF1
+[2015-Apr-09 20:19:09.686641] (104) <info>: Building a product with the automaton: SW480_IGF1_s
+[2015-Apr-09 20:19:09.720189] (105) <info>: Validating for an automaton: SW480_IGF1_s
+[2015-Apr-09 20:34:33.609264] (106) <info>: Building a product with the automaton: SW480_TGF
+[2015-Apr-09 20:34:33.645483] (107) <info>: Validating for an automaton: SW480_TGF
+[2015-Apr-09 20:45:28.625701] (108) <info>: Building a product with the automaton: SW480_TGF_s
+[2015-Apr-09 20:45:28.652705] (109) <info>: Validating for an automaton: SW480_TGF_s
+[2015-Apr-09 20:59:43.030372] (110) <info>: Building a product with the automaton: SW480_AZD
+[2015-Apr-09 20:59:43.048145] (111) <info>: Validating for an automaton: SW480_AZD
+[2015-Apr-09 21:10:34.062129] (112) <info>: Building a product with the automaton: SW480_AZD_s
+[2015-Apr-09 21:10:34.085643] (113) <info>: Validating for an automaton: SW480_AZD_s
+[2015-Apr-09 21:21:37.651121] (114) <info>: Building a product with the automaton: SW480_IGF1_AZD
+[2015-Apr-09 21:21:37.675533] (115) <info>: Validating for an automaton: SW480_IGF1_AZD
+[2015-Apr-09 21:29:18.472536] (116) <info>: Building a product with the automaton: SW480_IGF1_AZD_s
+[2015-Apr-09 21:29:18.489362] (117) <info>: Validating for an automaton: SW480_IGF1_AZD_s
+[2015-Apr-09 21:37:15.029875] (118) <info>: Building a product with the automaton: SW480_TGF_AZD
+[2015-Apr-09 21:37:15.051394] (119) <info>: Validating for an automaton: SW480_TGF_AZD
+[2015-Apr-09 21:43:46.276083] (120) <info>: Building a product with the automaton: SW480_TGF_AZD_s
+[2015-Apr-09 21:43:46.300992] (121) <info>: Validating for an automaton: SW480_TGF_AZD_s
+[2015-Apr-09 21:50:40.954373] (122) <info>: Building a product with the automaton: SW480_LY
+[2015-Apr-09 21:50:40.977984] (123) <info>: Validating for an automaton: SW480_LY
+[2015-Apr-09 21:53:17.822574] (124) <info>: Building a product with the automaton: SW480_LY_s
+[2015-Apr-09 21:53:17.844292] (125) <info>: Validating for an automaton: SW480_LY_s
+[2015-Apr-09 21:55:33.965762] (126) <info>: Building a product with the automaton: SW480_IGF1_LY
+[2015-Apr-09 21:55:33.990622] (127) <info>: Validating for an automaton: SW480_IGF1_LY
+[2015-Apr-09 22:07:41.024206] (128) <info>: Building a product with the automaton: SW480_IGF1_LY_s
+[2015-Apr-09 22:07:41.046076] (129) <info>: Validating for an automaton: SW480_IGF1_LY_s
+[2015-Apr-09 22:19:47.624956] (130) <info>: Building a product with the automaton: SW480_TGF_LY
+[2015-Apr-09 22:19:47.648270] (131) <info>: Validating for an automaton: SW480_TGF_LY
+[2015-Apr-09 22:22:19.345889] (132) <info>: Building a product with the automaton: SW480_TGF_LY_s
+[2015-Apr-09 22:22:19.368443] (133) <info>: Validating for an automaton: SW480_TGF_LY_s
+[2015-Apr-09 22:24:46.219780] (134) <info>: Building a product with the automaton: HT29_IGF1
+[2015-Apr-09 22:24:46.257690] (135) <info>: Validating for an automaton: HT29_IGF1
+[2015-Apr-09 22:40:56.233204] (136) <info>: Building a product with the automaton: HT29_IGF1_s
+[2015-Apr-09 22:40:56.270317] (137) <info>: Validating for an automaton: HT29_IGF1_s
+[2015-Apr-09 22:59:06.945550] (138) <info>: Building a product with the automaton: HT29_TGF
+[2015-Apr-09 22:59:06.981970] (139) <info>: Validating for an automaton: HT29_TGF
+[2015-Apr-09 23:10:25.304014] (140) <info>: Building a product with the automaton: HT29_TGF_s
+[2015-Apr-09 23:10:25.335388] (141) <info>: Validating for an automaton: HT29_TGF_s
+[2015-Apr-09 23:25:19.778875] (142) <info>: Building a product with the automaton: HT29_AZD
+[2015-Apr-09 23:25:19.797720] (143) <info>: Validating for an automaton: HT29_AZD
+[2015-Apr-09 23:28:17.368788] (144) <info>: Building a product with the automaton: HT29_AZD_s
+[2015-Apr-09 23:28:17.393848] (145) <info>: Validating for an automaton: HT29_AZD_s
+[2015-Apr-09 23:30:42.113272] (146) <info>: Building a product with the automaton: HT29_IGF1_AZD
+[2015-Apr-09 23:30:42.129682] (147) <info>: Validating for an automaton: HT29_IGF1_AZD
+[2015-Apr-09 23:33:35.152798] (148) <info>: Building a product with the automaton: HT29_IGF1_AZD_s
+[2015-Apr-09 23:33:35.177771] (149) <info>: Validating for an automaton: HT29_IGF1_AZD_s
+[2015-Apr-09 23:36:27.089870] (150) <info>: Building a product with the automaton: HT29_TGF_AZD
+[2015-Apr-09 23:36:27.114680] (151) <info>: Validating for an automaton: HT29_TGF_AZD
+[2015-Apr-09 23:43:11.779810] (152) <info>: Building a product with the automaton: HT29_TGF_AZD_s
+[2015-Apr-09 23:43:11.804672] (153) <info>: Validating for an automaton: HT29_TGF_AZD_s
+[2015-Apr-09 23:49:51.350266] (154) <info>: Building a product with the automaton: HT29_LY
+[2015-Apr-09 23:49:51.372652] (155) <info>: Validating for an automaton: HT29_LY
+[2015-Apr-09 23:52:28.581344] (156) <info>: Building a product with the automaton: HT29_LY_s
+[2015-Apr-09 23:52:28.606496] (157) <info>: Validating for an automaton: HT29_LY_s
+[2015-Apr-09 23:55:07.521728] (158) <info>: Building a product with the automaton: HT29_IGF1_LY
+[2015-Apr-09 23:55:07.540049] (159) <info>: Validating for an automaton: HT29_IGF1_LY
+[2015-Apr-10 00:07:27.979748] (160) <info>: Building a product with the automaton: HT29_IGF1_LY_s
+[2015-Apr-10 00:07:28.005387] (161) <info>: Validating for an automaton: HT29_IGF1_LY_s
+[2015-Apr-10 00:19:49.959412] (162) <info>: Building a product with the automaton: HT29_TGF_LY
+[2015-Apr-10 00:19:49.975348] (163) <info>: Validating for an automaton: HT29_TGF_LY
+[2015-Apr-10 00:26:14.821504] (164) <info>: Building a product with the automaton: HT29_TGF_LY_s
+[2015-Apr-10 00:26:14.846443] (165) <info>: Validating for an automaton: HT29_TGF_LY_s
+[2015-Apr-10 00:32:55.226949] (166) <info>: tremppi_validate finished successfully.
+[2015-Apr-10 09:41:43.107423] (1) <info>: ------------------------------
+[2015-Apr-10 09:41:43.111325] (2) <info>: tremppi_validate started.
+[2015-Apr-10 09:41:43.111401] (3) <info>: Parsing database.
+[2015-Apr-10 09:41:43.413231] (4) <info>: Checking the JSON correctness.
+[2015-Apr-10 09:41:43.432859] (5) <info>: Parsing the properties.
+[2015-Apr-10 09:41:43.433568] (6) <info>: Building a product with the automaton: HCT116_TGF
+[2015-Apr-10 09:41:43.461307] (7) <info>: Validating for an automaton: HCT116_TGF
+[2015-Apr-10 09:59:33.272236] (8) <info>: Building a product with the automaton: HCT116_TGF_s
+[2015-Apr-10 09:59:33.311367] (9) <info>: Validating for an automaton: HCT116_TGF_s
+[2015-Apr-10 10:20:44.557180] (10) <info>: Building a product with the automaton: HCT116_IGF1_AZD
+[2015-Apr-10 10:20:44.573120] (11) <info>: Validating for an automaton: HCT116_IGF1_AZD
+[2015-Apr-10 10:23:36.240646] (12) <info>: tremppi_validate finished successfully.
+[2015-Apr-10 10:57:45.023545] (1) <info>: ------------------------------
+[2015-Apr-10 10:57:45.024816] (2) <info>: tremppi_validate started.
+[2015-Apr-10 10:57:45.024908] (3) <info>: Parsing database.
+[2015-Apr-10 10:57:45.296791] (4) <info>: Checking the JSON correctness.
+[2015-Apr-10 10:57:45.309855] (5) <info>: Parsing the properties.
+[2015-Apr-10 10:57:45.316721] (6) <info>: Building a product with the automaton: LIM1215_AZD
+[2015-Apr-10 10:57:45.332563] (7) <info>: Validating for an automaton: LIM1215_AZD
+[2015-Apr-10 11:09:18.666864] (8) <info>: Building a product with the automaton: LIM1215_AZD_s
+[2015-Apr-10 11:09:18.691743] (9) <info>: Validating for an automaton: LIM1215_AZD_s
+[2015-Apr-10 11:21:28.425107] (10) <info>: Building a product with the automaton: LIM1215_IGF1_AZD
+[2015-Apr-10 11:21:28.444414] (11) <info>: Validating for an automaton: LIM1215_IGF1_AZD
+[2015-Apr-10 11:23:59.089585] (12) <info>: Building a product with the automaton: LIM1215_IGF1_AZD_s
+[2015-Apr-10 11:23:59.113195] (13) <info>: Validating for an automaton: LIM1215_IGF1_AZD_s
+[2015-Apr-10 11:26:46.761065] (14) <info>: Building a product with the automaton: LIM1215_TGF_AZD
+[2015-Apr-10 11:26:46.784997] (15) <info>: Validating for an automaton: LIM1215_TGF_AZD
+[2015-Apr-10 11:31:49.052904] (16) <info>: Building a product with the automaton: LIM1215_TGF_AZD_s
+[2015-Apr-10 11:31:49.077311] (17) <info>: Validating for an automaton: LIM1215_TGF_AZD_s
+[2015-Apr-10 11:36:50.110121] (18) <info>: Building a product with the automaton: HCT116_AZD
+[2015-Apr-10 11:36:50.128787] (19) <info>: Validating for an automaton: HCT116_AZD
+[2015-Apr-10 11:48:10.753798] (20) <info>: Building a product with the automaton: HCT116_AZD_s
+[2015-Apr-10 11:48:10.774984] (21) <info>: Validating for an automaton: HCT116_AZD_s
+[2015-Apr-10 11:59:31.051866] (22) <info>: Building a product with the automaton: HCT116_IGF1_AZD
+[2015-Apr-10 11:59:31.076334] (23) <info>: Validating for an automaton: HCT116_IGF1_AZD
+[2015-Apr-10 12:08:18.853392] (24) <info>: Building a product with the automaton: HCT116_IGF1_AZD_s
+[2015-Apr-10 12:08:18.877482] (25) <info>: Validating for an automaton: HCT116_IGF1_AZD_s
+[2015-Apr-10 12:17:03.910794] (26) <info>: Building a product with the automaton: HCT116_TGF_AZD
+[2015-Apr-10 12:17:03.935052] (27) <info>: Validating for an automaton: HCT116_TGF_AZD
+[2015-Apr-10 12:21:45.965037] (28) <info>: Building a product with the automaton: HCT116_TGF_AZD_s
+[2015-Apr-10 12:21:45.990270] (29) <info>: Validating for an automaton: HCT116_TGF_AZD_s
+[2015-Apr-10 12:26:28.487499] (30) <info>: Building a product with the automaton: SW403_AZD
+[2015-Apr-10 12:26:28.510027] (31) <info>: Validating for an automaton: SW403_AZD
+[2015-Apr-10 12:39:32.192764] (32) <info>: Building a product with the automaton: SW403_AZD_s
+[2015-Apr-10 12:39:32.216997] (33) <info>: Validating for an automaton: SW403_AZD_s
+[2015-Apr-10 12:52:32.064265] (34) <info>: Building a product with the automaton: SW403_IGF1_AZD
+[2015-Apr-10 12:52:32.085239] (35) <info>: Validating for an automaton: SW403_IGF1_AZD
+[2015-Apr-10 13:01:21.058628] (36) <info>: Building a product with the automaton: SW403_IGF1_AZD_s
+[2015-Apr-10 13:01:21.082148] (37) <info>: Validating for an automaton: SW403_IGF1_AZD_s
+[2015-Apr-10 13:10:00.267154] (38) <info>: Building a product with the automaton: SW403_TGF_AZD
+[2015-Apr-10 13:10:00.290318] (39) <info>: Validating for an automaton: SW403_TGF_AZD
+[2015-Apr-10 13:16:12.779924] (40) <info>: Building a product with the automaton: SW403_TGF_AZD_s
+[2015-Apr-10 13:16:12.802781] (41) <info>: Validating for an automaton: SW403_TGF_AZD_s
+[2015-Apr-10 13:22:28.699758] (42) <info>: Building a product with the automaton: SW480_AZD
+[2015-Apr-10 13:22:28.724429] (43) <info>: Validating for an automaton: SW480_AZD
+[2015-Apr-10 13:32:45.099331] (44) <info>: Building a product with the automaton: SW480_AZD_s
+[2015-Apr-10 13:32:45.115803] (45) <info>: Validating for an automaton: SW480_AZD_s
+[2015-Apr-10 13:43:10.836514] (46) <info>: Building a product with the automaton: SW480_IGF1_AZD
+[2015-Apr-10 13:43:10.859681] (47) <info>: Validating for an automaton: SW480_IGF1_AZD
+[2015-Apr-10 13:52:31.054163] (48) <info>: Building a product with the automaton: SW480_IGF1_AZD_s
+[2015-Apr-10 13:52:31.074135] (49) <info>: Validating for an automaton: SW480_IGF1_AZD_s
+[2015-Apr-10 13:57:51.138152] (1) <info>: ------------------------------
+[2015-Apr-10 13:57:51.139395] (2) <info>: tremppi_spawn started.
+[2015-Apr-10 13:57:51.139440] (3) <info>: Checking the JSON correctness.
+[2015-Apr-10 13:57:51.152468] (4) <info>: Parsing the network.
+[2015-Apr-10 13:57:51.153432] (5) <info>: Obtaining kinetics.
+[2015-Apr-10 13:57:51.159795] (6) <info>: Writing properties template.
+[2015-Apr-10 13:57:51.194490] (7) <info>: Creating the database file.
+[2015-Apr-10 13:57:51.243574] (8) <info>: Writing the database file, in total 259200 parametrizations.
+[2015-Apr-10 13:58:17.868754] (9) <info>: tremppi_spawn finished successfully.
+[2015-Apr-10 14:00:15.604759] (1) <info>: ------------------------------
+[2015-Apr-10 14:00:15.605960] (2) <info>: tremppi_validate started.
+[2015-Apr-10 14:00:15.606009] (3) <info>: Parsing database.
+[2015-Apr-10 14:00:15.847927] (4) <info>: Checking the JSON correctness.
+[2015-Apr-10 14:00:15.869301] (5) <info>: Parsing the properties.
+[2015-Apr-10 14:00:15.883721] (6) <info>: Building a product with the automaton: LIM1215_IGF1
+[2015-Apr-10 14:00:15.914232] (7) <info>: Validating for an automaton: LIM1215_IGF1
+[2015-Apr-10 14:03:33.925762] (8) <info>: Building a product with the automaton: LIM1215_IGF1_s
+[2015-Apr-10 14:03:33.960743] (9) <info>: Validating for an automaton: LIM1215_IGF1_s
+[2015-Apr-10 14:07:18.759746] (10) <info>: Building a product with the automaton: LIM1215_TGF
+[2015-Apr-10 14:07:18.793371] (11) <info>: Validating for an automaton: LIM1215_TGF
+[2015-Apr-10 14:10:00.475085] (12) <info>: Building a product with the automaton: LIM1215_TGF_s
+[2015-Apr-10 14:10:00.517195] (13) <info>: Validating for an automaton: LIM1215_TGF_s
+[2015-Apr-10 14:13:34.942345] (14) <info>: Building a product with the automaton: LIM1215_AZD
+[2015-Apr-10 14:13:34.977971] (15) <info>: Validating for an automaton: LIM1215_AZD
+[2015-Apr-10 14:18:54.748522] (16) <info>: Building a product with the automaton: LIM1215_AZD_s
+[2015-Apr-10 14:18:54.787260] (17) <info>: Validating for an automaton: LIM1215_AZD_s
+[2015-Apr-10 14:24:34.944322] (18) <info>: Building a product with the automaton: LIM1215_IGF1_AZD
+[2015-Apr-10 14:24:34.981858] (19) <info>: Validating for an automaton: LIM1215_IGF1_AZD
+[2015-Apr-10 14:28:07.811239] (20) <info>: Building a product with the automaton: LIM1215_IGF1_AZD_s
+[2015-Apr-10 14:28:07.842124] (21) <info>: Validating for an automaton: LIM1215_IGF1_AZD_s
+[2015-Apr-10 14:31:47.532911] (22) <info>: Building a product with the automaton: LIM1215_TGF_AZD
+[2015-Apr-10 14:31:47.569516] (23) <info>: Validating for an automaton: LIM1215_TGF_AZD
+[2015-Apr-10 14:33:26.996182] (24) <info>: Building a product with the automaton: LIM1215_TGF_AZD_s
+[2015-Apr-10 14:33:27.029205] (25) <info>: Validating for an automaton: LIM1215_TGF_AZD_s
+[2015-Apr-10 14:35:06.371401] (26) <info>: Building a product with the automaton: LIM1215_LY
+[2015-Apr-10 14:35:06.412600] (27) <info>: Validating for an automaton: LIM1215_LY
+[2015-Apr-10 14:39:49.105447] (28) <info>: Building a product with the automaton: LIM1215_LY_s
+[2015-Apr-10 14:39:49.142113] (29) <info>: Validating for an automaton: LIM1215_LY_s
+[2015-Apr-10 14:45:28.056401] (30) <info>: Building a product with the automaton: LIM1215_IGF1_LY
+[2015-Apr-10 14:45:28.089035] (31) <info>: Validating for an automaton: LIM1215_IGF1_LY
+[2015-Apr-10 14:48:26.211335] (32) <info>: Building a product with the automaton: LIM1215_IGF1_LY_s
+[2015-Apr-10 14:48:26.249627] (33) <info>: Validating for an automaton: LIM1215_IGF1_LY_s
+[2015-Apr-10 14:51:24.182105] (34) <info>: Building a product with the automaton: LIM1215_TGF_LY
+[2015-Apr-10 14:51:24.218981] (35) <info>: Validating for an automaton: LIM1215_TGF_LY
+[2015-Apr-10 14:54:36.121097] (36) <info>: Building a product with the automaton: LIM1215_TGF_LY_s
+[2015-Apr-10 14:54:36.158169] (37) <info>: Validating for an automaton: LIM1215_TGF_LY_s
+[2015-Apr-10 14:58:43.994233] (38) <info>: Building a product with the automaton: HCT116_IGF1
+[2015-Apr-10 14:58:44.028884] (39) <info>: Validating for an automaton: HCT116_IGF1
+[2015-Apr-10 15:02:07.480827] (40) <info>: Building a product with the automaton: HCT116_IGF1_s
+[2015-Apr-10 15:02:07.510899] (41) <info>: Validating for an automaton: HCT116_IGF1_s
+[2015-Apr-10 15:05:59.273418] (42) <info>: Building a product with the automaton: HCT116_TGF
+[2015-Apr-10 15:05:59.314453] (43) <info>: Validating for an automaton: HCT116_TGF
+[2015-Apr-10 15:10:20.200642] (44) <info>: Building a product with the automaton: HCT116_TGF_s
+[2015-Apr-10 15:10:20.233582] (45) <info>: Validating for an automaton: HCT116_TGF_s
+[2015-Apr-10 15:15:29.527744] (46) <info>: Building a product with the automaton: HCT116_AZD
+[2015-Apr-10 15:15:29.566193] (47) <info>: Validating for an automaton: HCT116_AZD
+[2015-Apr-10 15:20:14.324968] (48) <info>: Building a product with the automaton: HCT116_AZD_s
+[2015-Apr-10 15:20:14.356498] (49) <info>: Validating for an automaton: HCT116_AZD_s
+[2015-Apr-10 15:25:13.912688] (50) <info>: Building a product with the automaton: HCT116_IGF1_AZD
+[2015-Apr-10 15:25:13.954861] (51) <info>: Validating for an automaton: HCT116_IGF1_AZD
+[2015-Apr-10 15:28:43.113114] (52) <info>: Building a product with the automaton: HCT116_IGF1_AZD_s
+[2015-Apr-10 15:28:43.146270] (53) <info>: Validating for an automaton: HCT116_IGF1_AZD_s
+[2015-Apr-10 15:32:16.910678] (54) <info>: Building a product with the automaton: HCT116_TGF_AZD
+[2015-Apr-10 15:32:16.945374] (55) <info>: Validating for an automaton: HCT116_TGF_AZD
+[2015-Apr-10 15:33:59.507806] (56) <info>: Building a product with the automaton: HCT116_TGF_AZD_s
+[2015-Apr-10 15:33:59.545566] (57) <info>: Validating for an automaton: HCT116_TGF_AZD_s
+[2015-Apr-10 15:35:44.824090] (58) <info>: Building a product with the automaton: HCT116_LY
+[2015-Apr-10 15:35:44.855097] (59) <info>: Validating for an automaton: HCT116_LY
+[2015-Apr-10 15:42:01.782190] (60) <info>: Building a product with the automaton: HCT116_LY_s
+[2015-Apr-10 15:42:01.816244] (61) <info>: Validating for an automaton: HCT116_LY_s
+[2015-Apr-10 15:48:15.344901] (62) <info>: Building a product with the automaton: HCT116_IGF1_LY
+[2015-Apr-10 15:48:15.381231] (63) <info>: Validating for an automaton: HCT116_IGF1_LY
+[2015-Apr-10 15:51:27.328049] (64) <info>: Building a product with the automaton: HCT116_IGF1_LY_s
+[2015-Apr-10 15:51:27.361120] (65) <info>: Validating for an automaton: HCT116_IGF1_LY_s
+[2015-Apr-10 15:54:42.351221] (66) <info>: Building a product with the automaton: HCT116_TGF_LY
+[2015-Apr-10 15:54:42.386962] (67) <info>: Validating for an automaton: HCT116_TGF_LY
+[2015-Apr-10 15:58:36.283678] (68) <info>: Building a product with the automaton: HCT116_TGF_LY_s
+[2015-Apr-10 15:58:36.322817] (69) <info>: Validating for an automaton: HCT116_TGF_LY_s
+[2015-Apr-10 16:02:49.108573] (70) <info>: Building a product with the automaton: SW403_IGF1
+[2015-Apr-10 16:02:49.142924] (71) <info>: Validating for an automaton: SW403_IGF1
+[2015-Apr-10 16:05:57.888941] (72) <info>: Building a product with the automaton: SW403_IGF1_s
+[2015-Apr-10 16:05:57.927237] (73) <info>: Validating for an automaton: SW403_IGF1_s
+[2015-Apr-10 16:09:52.131316] (74) <info>: Building a product with the automaton: SW403_TGF
+[2015-Apr-10 16:09:52.164249] (75) <info>: Validating for an automaton: SW403_TGF
+[2015-Apr-10 16:13:16.408595] (76) <info>: Building a product with the automaton: SW403_TGF_s
+[2015-Apr-10 16:13:16.441689] (77) <info>: Validating for an automaton: SW403_TGF_s
+[2015-Apr-10 16:17:51.109716] (78) <info>: Building a product with the automaton: SW403_AZD
+[2015-Apr-10 16:17:51.145016] (79) <info>: Validating for an automaton: SW403_AZD
+[2015-Apr-10 16:24:14.674122] (80) <info>: Building a product with the automaton: SW403_AZD_s
+[2015-Apr-10 16:24:14.713164] (81) <info>: Validating for an automaton: SW403_AZD_s
+[2015-Apr-10 16:30:39.398104] (82) <info>: Building a product with the automaton: SW403_IGF1_AZD
+[2015-Apr-10 16:30:39.434986] (83) <info>: Validating for an automaton: SW403_IGF1_AZD
+[2015-Apr-10 16:34:26.022007] (84) <info>: Building a product with the automaton: SW403_IGF1_AZD_s
+[2015-Apr-10 16:34:26.062761] (85) <info>: Validating for an automaton: SW403_IGF1_AZD_s
+[2015-Apr-10 16:38:13.621804] (86) <info>: Building a product with the automaton: SW403_TGF_AZD
+[2015-Apr-10 16:38:13.659298] (87) <info>: Validating for an automaton: SW403_TGF_AZD
+[2015-Apr-10 16:40:48.586058] (88) <info>: Building a product with the automaton: SW403_TGF_AZD_s
+[2015-Apr-10 16:40:48.622758] (89) <info>: Validating for an automaton: SW403_TGF_AZD_s
+[2015-Apr-10 16:43:16.846079] (90) <info>: Building a product with the automaton: SW403_LY
+[2015-Apr-10 16:43:16.878878] (91) <info>: Validating for an automaton: SW403_LY
+[2015-Apr-10 16:49:55.091843] (92) <info>: Building a product with the automaton: SW403_LY_s
+[2015-Apr-10 16:49:55.122663] (93) <info>: Validating for an automaton: SW403_LY_s
+[2015-Apr-10 16:56:25.311611] (94) <info>: Building a product with the automaton: SW403_IGF1_LY
+[2015-Apr-10 16:56:25.349714] (95) <info>: Validating for an automaton: SW403_IGF1_LY
+[2015-Apr-10 16:58:35.765886] (96) <info>: Building a product with the automaton: SW403_IGF1_LY_s
+[2015-Apr-10 16:58:35.797017] (97) <info>: Validating for an automaton: SW403_IGF1_LY_s
+[2015-Apr-10 17:00:42.455651] (98) <info>: Building a product with the automaton: SW403_TGF_LY
+[2015-Apr-10 17:00:42.489353] (99) <info>: Validating for an automaton: SW403_TGF_LY
+[2015-Apr-10 17:04:59.537873] (100) <info>: Building a product with the automaton: SW403_TGF_LY_s
+[2015-Apr-10 17:04:59.579150] (101) <info>: Validating for an automaton: SW403_TGF_LY_s
+[2015-Apr-10 17:10:01.771415] (102) <info>: Building a product with the automaton: SW480_IGF1
+[2015-Apr-10 17:10:01.810024] (103) <info>: Validating for an automaton: SW480_IGF1
+[2015-Apr-10 17:13:58.873986] (104) <info>: Building a product with the automaton: SW480_IGF1_s
+[2015-Apr-10 17:13:58.904530] (105) <info>: Validating for an automaton: SW480_IGF1_s
+[2015-Apr-10 17:18:21.072217] (106) <info>: Building a product with the automaton: SW480_TGF
+[2015-Apr-10 17:18:21.106617] (107) <info>: Validating for an automaton: SW480_TGF
+[2015-Apr-10 17:21:35.494588] (108) <info>: Building a product with the automaton: SW480_TGF_s
+[2015-Apr-10 17:21:35.524927] (109) <info>: Validating for an automaton: SW480_TGF_s
+[2015-Apr-10 17:25:25.665676] (110) <info>: Building a product with the automaton: SW480_AZD
+[2015-Apr-10 17:25:25.698944] (111) <info>: Validating for an automaton: SW480_AZD
+[2015-Apr-10 17:30:33.162865] (112) <info>: Building a product with the automaton: SW480_AZD_s
+[2015-Apr-10 17:30:33.204462] (113) <info>: Validating for an automaton: SW480_AZD_s
+[2015-Apr-10 17:35:49.891997] (114) <info>: Building a product with the automaton: SW480_IGF1_AZD
+[2015-Apr-10 17:35:49.932620] (115) <info>: Validating for an automaton: SW480_IGF1_AZD
+[2015-Apr-10 17:40:29.385258] (116) <info>: Building a product with the automaton: SW480_IGF1_AZD_s
+[2015-Apr-10 17:40:29.416503] (117) <info>: Validating for an automaton: SW480_IGF1_AZD_s
+[2015-Apr-10 17:45:16.092953] (118) <info>: Building a product with the automaton: SW480_TGF_AZD
+[2015-Apr-10 17:45:16.130832] (119) <info>: Validating for an automaton: SW480_TGF_AZD
+[2015-Apr-10 17:49:34.643747] (120) <info>: Building a product with the automaton: SW480_TGF_AZD_s
+[2015-Apr-10 17:49:34.674165] (121) <info>: Validating for an automaton: SW480_TGF_AZD_s
+[2015-Apr-10 17:54:32.567400] (122) <info>: Building a product with the automaton: SW480_LY
+[2015-Apr-10 17:54:32.605052] (123) <info>: Validating for an automaton: SW480_LY
+[2015-Apr-10 18:01:05.350200] (124) <info>: Building a product with the automaton: SW480_LY_s
+[2015-Apr-10 18:01:05.384145] (125) <info>: Validating for an automaton: SW480_LY_s
+[2015-Apr-10 18:07:46.890701] (126) <info>: Building a product with the automaton: SW480_IGF1_LY
+[2015-Apr-10 18:07:46.927037] (127) <info>: Validating for an automaton: SW480_IGF1_LY
+[2015-Apr-10 18:11:17.121810] (128) <info>: Building a product with the automaton: SW480_IGF1_LY_s
+[2015-Apr-10 18:11:17.159371] (129) <info>: Validating for an automaton: SW480_IGF1_LY_s
+[2015-Apr-10 18:14:36.597636] (130) <info>: Building a product with the automaton: SW480_TGF_LY
+[2015-Apr-10 18:14:36.630975] (131) <info>: Validating for an automaton: SW480_TGF_LY
+[2015-Apr-10 18:18:31.629801] (132) <info>: Building a product with the automaton: SW480_TGF_LY_s
+[2015-Apr-10 18:18:31.668931] (133) <info>: Validating for an automaton: SW480_TGF_LY_s
+[2015-Apr-10 18:22:59.894749] (134) <info>: Building a product with the automaton: HT29_IGF1
+[2015-Apr-10 18:22:59.926204] (135) <info>: Validating for an automaton: HT29_IGF1
+[2015-Apr-10 18:27:16.821161] (136) <info>: Building a product with the automaton: HT29_IGF1_s
+[2015-Apr-10 18:27:16.851650] (137) <info>: Validating for an automaton: HT29_IGF1_s
+[2015-Apr-10 18:32:05.633916] (138) <info>: Building a product with the automaton: HT29_TGF
+[2015-Apr-10 18:32:05.673074] (139) <info>: Validating for an automaton: HT29_TGF
+[2015-Apr-10 18:35:03.850938] (140) <info>: Building a product with the automaton: HT29_TGF_s
+[2015-Apr-10 18:35:03.886666] (141) <info>: Validating for an automaton: HT29_TGF_s
+[2015-Apr-10 18:38:54.537063] (142) <info>: Building a product with the automaton: HT29_AZD
+[2015-Apr-10 18:38:54.574095] (143) <info>: Validating for an automaton: HT29_AZD
+[2015-Apr-10 18:45:33.588082] (144) <info>: Building a product with the automaton: HT29_AZD_s
+[2015-Apr-10 18:45:33.622782] (145) <info>: Validating for an automaton: HT29_AZD_s
+[2015-Apr-10 18:52:13.359982] (146) <info>: Building a product with the automaton: HT29_IGF1_AZD
+[2015-Apr-10 18:52:13.391020] (147) <info>: Validating for an automaton: HT29_IGF1_AZD
+[2015-Apr-10 18:56:17.113117] (148) <info>: Building a product with the automaton: HT29_IGF1_AZD_s
+[2015-Apr-10 18:56:17.145686] (149) <info>: Validating for an automaton: HT29_IGF1_AZD_s
+[2015-Apr-10 19:00:29.206824] (150) <info>: Building a product with the automaton: HT29_TGF_AZD
+[2015-Apr-10 19:00:29.238057] (151) <info>: Validating for an automaton: HT29_TGF_AZD
+[2015-Apr-10 19:02:28.459301] (152) <info>: Building a product with the automaton: HT29_TGF_AZD_s
+[2015-Apr-10 19:02:28.498966] (153) <info>: Validating for an automaton: HT29_TGF_AZD_s
+[2015-Apr-10 19:04:18.288353] (154) <info>: Building a product with the automaton: HT29_LY
+[2015-Apr-10 19:04:18.324661] (155) <info>: Validating for an automaton: HT29_LY
+[2015-Apr-10 19:10:53.574867] (156) <info>: Building a product with the automaton: HT29_LY_s
+[2015-Apr-10 19:10:53.615463] (157) <info>: Validating for an automaton: HT29_LY_s
+[2015-Apr-10 19:17:29.095447] (158) <info>: Building a product with the automaton: HT29_IGF1_LY
+[2015-Apr-10 19:17:29.132621] (159) <info>: Validating for an automaton: HT29_IGF1_LY
+[2015-Apr-10 19:24:13.547844] (160) <info>: Building a product with the automaton: HT29_IGF1_LY_s
+[2015-Apr-10 19:24:13.591240] (161) <info>: Validating for an automaton: HT29_IGF1_LY_s
+[2015-Apr-10 19:30:54.636636] (162) <info>: Building a product with the automaton: HT29_TGF_LY
+[2015-Apr-10 19:30:54.675101] (163) <info>: Validating for an automaton: HT29_TGF_LY
+[2015-Apr-10 19:34:22.784961] (164) <info>: Building a product with the automaton: HT29_TGF_LY_s
+[2015-Apr-10 19:34:22.817412] (165) <info>: Validating for an automaton: HT29_TGF_LY_s
+[2015-Apr-10 19:38:38.394693] (166) <info>: tremppi_validate finished successfully.
+[2015-Apr-10 19:38:54.736602] (1) <info>: ------------------------------
+[2015-Apr-10 19:38:54.738359] (2) <info>: tremppi_summary started.
+[2015-Apr-10 19:38:54.738413] (3) <info>: Parsing data.
+[2015-Apr-10 19:39:00.079499] (4) <info>: Preparing the data.
+[2015-Apr-10 19:39:05.117477] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-10 19:39:49.019293] (6) <info>: Building the JSON file.
+[2015-Apr-10 19:39:49.020593] (7) <info>: Writing output.
+[2015-Apr-10 19:39:49.047418] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-13 15:02:09.997148] (1) <info>: ------------------------------
+[2015-Apr-13 15:02:09.998279] (2) <info>: tremppi_validate started.
+[2015-Apr-13 15:02:09.998328] (3) <info>: Parsing database.
+[2015-Apr-13 15:02:10.377662] (4) <info>: Checking the JSON correctness.
+[2015-Apr-13 15:02:10.406882] (5) <info>: Parsing the properties.
+[2015-Apr-13 15:02:10.421612] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-13 15:02:10.451262] (7) <info>: Validating for an automaton: LIM1215_IGF1_m
+[2015-Apr-13 15:05:32.379966] (8) <info>: Building a product with the automaton: LIM1215_IGF1_ms
+[2015-Apr-13 15:05:32.421272] (9) <info>: Validating for an automaton: LIM1215_IGF1_ms
+[2015-Apr-13 15:09:24.127763] (10) <info>: Building a product with the automaton: LIM1215_TGF_m
+[2015-Apr-13 15:09:24.156734] (11) <info>: Validating for an automaton: LIM1215_TGF_m
+[2015-Apr-13 15:12:13.351362] (12) <info>: Building a product with the automaton: LIM1215_TGF_ms
+[2015-Apr-13 15:12:13.389173] (13) <info>: Validating for an automaton: LIM1215_TGF_ms
+[2015-Apr-13 15:15:51.611886] (14) <info>: Building a product with the automaton: LIM1215_AZD_m
+[2015-Apr-13 15:15:51.648873] (15) <info>: Validating for an automaton: LIM1215_AZD_m
+[2015-Apr-13 15:21:09.827876] (16) <info>: Building a product with the automaton: LIM1215_AZD_ms
+[2015-Apr-13 15:21:09.864010] (17) <info>: Validating for an automaton: LIM1215_AZD_ms
+[2015-Apr-13 15:26:51.635978] (18) <error>: Top level exception: Python exception encountered.
+[2015-Apr-14 15:10:12.884465] (1) <info>: ------------------------------
+[2015-Apr-14 15:10:12.885732] (2) <info>: tremppi_validate started.
+[2015-Apr-14 15:10:12.885774] (3) <info>: Parsing database.
+[2015-Apr-14 15:10:13.196137] (4) <info>: Checking the JSON correctness.
+[2015-Apr-14 15:10:13.215652] (5) <info>: Parsing the properties.
+[2015-Apr-14 15:10:13.216865] (6) <info>: Building a product with the automaton: HCT116_TGF_AZD
+[2015-Apr-14 15:10:13.265124] (7) <info>: Validating for an automaton: HCT116_TGF_AZD
+[2015-Apr-14 15:14:03.203952] (8) <info>: Building a product with the automaton: HCT116_TGF_AZD_s
+[2015-Apr-14 15:14:03.242399] (9) <info>: Validating for an automaton: HCT116_TGF_AZD_s
+[2015-Apr-14 15:18:23.378006] (10) <info>: Building a product with the automaton: SW403_TGF_AZD
+[2015-Apr-14 15:18:23.415260] (11) <info>: Validating for an automaton: SW403_TGF_AZD
+[2015-Apr-14 15:23:17.461520] (12) <info>: Building a product with the automaton: SW403_TGF_AZD_s
+[2015-Apr-14 15:23:17.499022] (13) <info>: Validating for an automaton: SW403_TGF_AZD_s
+[2015-Apr-14 15:28:28.107436] (14) <info>: Building a product with the automaton: HT29_TGF_AZD
+[2015-Apr-14 15:28:28.143651] (15) <info>: Validating for an automaton: HT29_TGF_AZD
+[2015-Apr-14 15:29:50.836194] (16) <info>: Building a product with the automaton: HT29_TGF_AZD_s
+[2015-Apr-14 15:29:50.872285] (17) <info>: Validating for an automaton: HT29_TGF_AZD_s
+[2015-Apr-14 15:31:13.064800] (18) <info>: tremppi_validate finished successfully.
+[2015-Apr-14 15:39:10.368008] (1) <info>: ------------------------------
+[2015-Apr-14 15:39:10.369008] (2) <info>: tremppi_express started.
+[2015-Apr-14 15:45:27.034145] (3) <info>: tremppi_express finished successfully.
+[2015-Apr-14 15:45:31.857444] (1) <info>: ------------------------------
+[2015-Apr-14 15:45:31.858445] (2) <info>: tremppi_summary started.
+[2015-Apr-14 15:45:31.858445] (3) <info>: Parsing data.
+[2015-Apr-14 15:45:32.195671] (4) <info>: Preparing the data.
+[2015-Apr-14 15:45:32.484863] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 15:45:44.935672] (6) <info>: Building the JSON file.
+[2015-Apr-14 15:45:44.936677] (7) <info>: Writing output.
+[2015-Apr-14 15:45:44.947682] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 15:49:13.919895] (1) <info>: ------------------------------
+[2015-Apr-14 15:49:13.919895] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 15:49:13.919895] (3) <info>: Parsing data.
+[2015-Apr-14 15:49:14.410220] (4) <info>: Preparing the data.
+[2015-Apr-14 15:49:14.850512] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 15:49:25.957103] (6) <info>: Building the JSON file.
+[2015-Apr-14 15:49:25.957103] (7) <info>: Writing output.
+[2015-Apr-14 15:49:42.631533] (1) <info>: ------------------------------
+[2015-Apr-14 15:49:42.631533] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 15:49:42.631533] (3) <info>: Parsing data.
+[2015-Apr-14 15:49:43.114854] (4) <info>: Preparing the data.
+[2015-Apr-14 15:49:43.554144] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 15:49:54.607049] (6) <info>: Building the JSON file.
+[2015-Apr-14 15:49:54.608050] (7) <info>: Writing output.
+[2015-Apr-14 15:50:14.982217] (1) <info>: ------------------------------
+[2015-Apr-14 15:50:14.983218] (2) <info>: tremppi_summary started.
+[2015-Apr-14 15:50:14.983218] (3) <info>: Parsing data.
+[2015-Apr-14 15:50:15.459729] (4) <info>: Preparing the data.
+[2015-Apr-14 15:50:15.893017] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 15:50:25.744439] (6) <info>: Building the JSON file.
+[2015-Apr-14 15:50:25.745440] (7) <info>: Writing output.
+[2015-Apr-14 15:50:25.753446] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 15:51:07.369298] (1) <info>: ------------------------------
+[2015-Apr-14 15:51:07.370300] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 15:51:07.370300] (3) <info>: Parsing data.
+[2015-Apr-14 15:51:07.710524] (4) <info>: Preparing the data.
+[2015-Apr-14 15:51:08.002718] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 15:51:24.866267] (6) <info>: Building the JSON file.
+[2015-Apr-14 15:51:24.867267] (7) <info>: Writing output.
+[2015-Apr-14 15:54:25.349063] (1) <info>: ------------------------------
+[2015-Apr-14 15:54:25.350063] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 15:54:25.350063] (3) <info>: Parsing data.
+[2015-Apr-14 15:54:25.855399] (4) <info>: Preparing the data.
+[2015-Apr-14 15:54:26.308700] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 15:54:34.517604] (6) <info>: Building the JSON file.
+[2015-Apr-14 15:54:34.518606] (7) <info>: Writing output.
+[2015-Apr-14 15:54:36.122167] (1) <info>: ------------------------------
+[2015-Apr-14 15:54:36.122167] (2) <info>: tremppi_summary started.
+[2015-Apr-14 15:54:36.122167] (3) <info>: Parsing data.
+[2015-Apr-14 15:54:36.677536] (4) <info>: Preparing the data.
+[2015-Apr-14 15:54:37.142845] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 15:54:44.228441] (6) <info>: Building the JSON file.
+[2015-Apr-14 15:54:44.229443] (7) <info>: Writing output.
+[2015-Apr-14 15:54:44.238448] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 15:55:57.482584] (1) <info>: ------------------------------
+[2015-Apr-14 15:55:57.483585] (2) <info>: tremppi_summary started.
+[2015-Apr-14 15:55:57.483585] (3) <info>: Parsing data.
+[2015-Apr-14 15:55:57.989921] (4) <info>: Preparing the data.
+[2015-Apr-14 15:55:58.450226] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 15:56:05.216044] (6) <info>: Building the JSON file.
+[2015-Apr-14 15:56:05.217028] (7) <info>: Writing output.
+[2015-Apr-14 15:56:05.225032] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 15:56:05.243277] (1) <info>: ------------------------------
+[2015-Apr-14 15:56:05.244277] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 15:56:05.244277] (3) <info>: Parsing data.
+[2015-Apr-14 15:56:05.750613] (4) <info>: Preparing the data.
+[2015-Apr-14 15:56:06.209919] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 15:56:15.622516] (6) <info>: Building the JSON file.
+[2015-Apr-14 15:56:15.623517] (7) <info>: Writing output.
+[2015-Apr-14 16:00:53.415588] (1) <info>: ------------------------------
+[2015-Apr-14 16:00:53.416589] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:00:53.416589] (3) <info>: Parsing data.
+[2015-Apr-14 16:00:53.962958] (4) <info>: Preparing the data.
+[2015-Apr-14 16:00:54.451282] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:01:03.617020] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:01:03.618021] (7) <info>: Writing output.
+[2015-Apr-14 16:01:03.637036] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:01:03.657047] (1) <info>: ------------------------------
+[2015-Apr-14 16:01:03.658048] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:01:03.658048] (3) <info>: Parsing data.
+[2015-Apr-14 16:01:04.239435] (4) <info>: Preparing the data.
+[2015-Apr-14 16:01:04.758779] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:01:16.764748] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:01:16.765747] (7) <info>: Writing output.
+[2015-Apr-14 16:06:25.292090] (1) <info>: ------------------------------
+[2015-Apr-14 16:06:25.293090] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:06:25.293090] (3) <info>: Parsing data.
+[2015-Apr-14 16:06:25.853462] (4) <info>: Preparing the data.
+[2015-Apr-14 16:06:26.368803] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:06:33.309047] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:06:33.310039] (7) <info>: Writing output.
+[2015-Apr-14 16:06:33.319044] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:06:33.337057] (1) <info>: ------------------------------
+[2015-Apr-14 16:06:33.337057] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:06:33.337057] (3) <info>: Parsing data.
+[2015-Apr-14 16:06:33.906918] (4) <info>: Preparing the data.
+[2015-Apr-14 16:06:34.429272] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:06:43.247860] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:06:43.248861] (7) <info>: Writing output.
+[2015-Apr-14 16:07:05.746690] (1) <info>: ------------------------------
+[2015-Apr-14 16:07:05.747691] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:07:05.747691] (3) <info>: Parsing data.
+[2015-Apr-14 16:07:06.337799] (4) <info>: Preparing the data.
+[2015-Apr-14 16:07:06.877157] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:07:16.511942] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:07:16.511942] (7) <info>: Writing output.
+[2015-Apr-14 16:07:16.519949] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:07:16.538587] (1) <info>: ------------------------------
+[2015-Apr-14 16:07:16.539588] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:07:16.539588] (3) <info>: Parsing data.
+[2015-Apr-14 16:07:17.138994] (4) <info>: Preparing the data.
+[2015-Apr-14 16:07:17.682347] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:07:28.583765] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:07:28.584765] (7) <info>: Writing output.
+[2015-Apr-14 16:07:47.155289] (1) <info>: ------------------------------
+[2015-Apr-14 16:07:47.155289] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:07:47.155289] (3) <info>: Parsing data.
+[2015-Apr-14 16:07:47.711658] (4) <info>: Preparing the data.
+[2015-Apr-14 16:07:48.209991] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:07:57.376988] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:07:57.376988] (7) <info>: Writing output.
+[2015-Apr-14 16:07:57.384994] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:07:57.403005] (1) <info>: ------------------------------
+[2015-Apr-14 16:07:57.403005] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:07:57.403005] (3) <info>: Parsing data.
+[2015-Apr-14 16:07:57.936359] (4) <info>: Preparing the data.
+[2015-Apr-14 16:07:58.426684] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:08:09.598738] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:08:09.598738] (7) <info>: Writing output.
+[2015-Apr-14 16:17:02.438818] (1) <info>: ------------------------------
+[2015-Apr-14 16:17:02.439815] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:17:02.439815] (3) <info>: Parsing data.
+[2015-Apr-14 16:17:02.903123] (4) <info>: Preparing the data.
+[2015-Apr-14 16:17:03.311393] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:17:04.018865] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:17:04.018865] (7) <info>: Writing output.
+[2015-Apr-14 16:17:04.027869] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:17:04.046881] (1) <info>: ------------------------------
+[2015-Apr-14 16:17:04.047882] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:17:04.047882] (3) <info>: Parsing data.
+[2015-Apr-14 16:17:04.495179] (4) <info>: Preparing the data.
+[2015-Apr-14 16:17:04.896446] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:17:05.673962] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:17:05.674962] (7) <info>: Writing output.
+[2015-Apr-14 16:24:01.202015] (1) <info>: ------------------------------
+[2015-Apr-14 16:24:01.203016] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:24:01.203016] (3) <info>: Parsing data.
+[2015-Apr-14 16:24:01.674088] (4) <info>: Preparing the data.
+[2015-Apr-14 16:24:02.097369] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:24:02.520651] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:24:02.521651] (7) <info>: Writing output.
+[2015-Apr-14 16:24:02.531658] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:24:02.548745] (1) <info>: ------------------------------
+[2015-Apr-14 16:24:02.549745] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:24:02.549745] (3) <info>: Parsing data.
+[2015-Apr-14 16:24:03.007051] (4) <info>: Preparing the data.
+[2015-Apr-14 16:24:03.439337] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:24:03.875626] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:24:03.876627] (7) <info>: Writing output.
+[2015-Apr-14 16:25:10.736379] (1) <info>: ------------------------------
+[2015-Apr-14 16:25:10.736379] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:25:10.736379] (3) <info>: Parsing data.
+[2015-Apr-14 16:25:11.216384] (4) <info>: Preparing the data.
+[2015-Apr-14 16:25:11.718717] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:25:12.438011] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:25:12.439012] (7) <info>: Writing output.
+[2015-Apr-14 16:25:12.449019] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:25:12.468031] (1) <info>: ------------------------------
+[2015-Apr-14 16:25:12.469032] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:25:12.469032] (3) <info>: Parsing data.
+[2015-Apr-14 16:25:12.940345] (4) <info>: Preparing the data.
+[2015-Apr-14 16:25:13.391645] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:25:14.235875] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:25:14.236875] (7) <info>: Writing output.
+[2015-Apr-14 16:26:21.576026] (1) <info>: ------------------------------
+[2015-Apr-14 16:26:21.576026] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:26:21.576026] (3) <info>: Parsing data.
+[2015-Apr-14 16:26:22.040692] (4) <info>: Preparing the data.
+[2015-Apr-14 16:26:22.497996] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:26:22.919275] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:26:22.919275] (7) <info>: Writing output.
+[2015-Apr-14 16:26:22.928281] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:26:22.945730] (1) <info>: ------------------------------
+[2015-Apr-14 16:26:22.946731] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:26:22.946731] (3) <info>: Parsing data.
+[2015-Apr-14 16:26:23.419046] (4) <info>: Preparing the data.
+[2015-Apr-14 16:26:23.868343] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:26:24.346661] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:26:24.347661] (7) <info>: Writing output.
+[2015-Apr-14 16:26:28.263746] (1) <info>: ------------------------------
+[2015-Apr-14 16:26:28.264747] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:26:28.264747] (3) <info>: Parsing data.
+[2015-Apr-14 16:26:28.731058] (4) <info>: Preparing the data.
+[2015-Apr-14 16:26:29.150337] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:26:29.571616] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:26:29.572617] (7) <info>: Writing output.
+[2015-Apr-14 16:26:29.581622] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:26:29.599270] (1) <info>: ------------------------------
+[2015-Apr-14 16:26:29.599270] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:26:29.599270] (3) <info>: Parsing data.
+[2015-Apr-14 16:26:30.056575] (4) <info>: Preparing the data.
+[2015-Apr-14 16:26:30.468848] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:26:30.883121] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:26:30.883121] (7) <info>: Writing output.
+[2015-Apr-14 16:26:58.655707] (1) <info>: ------------------------------
+[2015-Apr-14 16:26:58.655707] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:26:58.656707] (3) <info>: Parsing data.
+[2015-Apr-14 16:26:59.136266] (4) <info>: Preparing the data.
+[2015-Apr-14 16:26:59.592569] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:27:00.110913] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:27:00.111921] (7) <info>: Writing output.
+[2015-Apr-14 16:27:00.120921] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:27:00.138932] (1) <info>: ------------------------------
+[2015-Apr-14 16:27:00.139934] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:27:00.139934] (3) <info>: Parsing data.
+[2015-Apr-14 16:27:00.601243] (4) <info>: Preparing the data.
+[2015-Apr-14 16:27:01.019519] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:27:01.435795] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:27:01.436796] (7) <info>: Writing output.
+[2015-Apr-14 16:27:09.617564] (1) <info>: ------------------------------
+[2015-Apr-14 16:27:09.618565] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:27:09.618565] (3) <info>: Parsing data.
+[2015-Apr-14 16:27:10.100885] (4) <info>: Preparing the data.
+[2015-Apr-14 16:27:10.548181] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:27:11.036506] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:27:11.037506] (7) <info>: Writing output.
+[2015-Apr-14 16:27:11.048515] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:27:11.077534] (1) <info>: ------------------------------
+[2015-Apr-14 16:27:11.078534] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:27:11.078534] (3) <info>: Parsing data.
+[2015-Apr-14 16:27:11.591487] (4) <info>: Preparing the data.
+[2015-Apr-14 16:27:12.100827] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:27:12.566134] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:27:12.567135] (7) <info>: Writing output.
+[2015-Apr-14 16:27:29.262109] (1) <info>: ------------------------------
+[2015-Apr-14 16:27:29.263110] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:27:29.263110] (3) <info>: Parsing data.
+[2015-Apr-14 16:27:29.788460] (4) <info>: Preparing the data.
+[2015-Apr-14 16:27:30.234755] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:27:30.962101] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:27:30.962101] (7) <info>: Writing output.
+[2015-Apr-14 16:27:30.971109] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:27:30.989119] (1) <info>: ------------------------------
+[2015-Apr-14 16:27:30.990120] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:27:30.990120] (3) <info>: Parsing data.
+[2015-Apr-14 16:27:31.484448] (4) <info>: Preparing the data.
+[2015-Apr-14 16:27:31.938749] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:27:32.744301] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:27:32.745300] (7) <info>: Writing output.
+[2015-Apr-14 16:32:22.932745] (1) <info>: ------------------------------
+[2015-Apr-14 16:32:22.933745] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:32:22.933745] (3) <info>: Parsing data.
+[2015-Apr-14 16:32:23.481110] (4) <info>: Preparing the data.
+[2015-Apr-14 16:32:23.970435] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:32:29.669757] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:32:29.670757] (7) <info>: Writing output.
+[2015-Apr-14 16:32:29.727587] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:32:29.745597] (1) <info>: ------------------------------
+[2015-Apr-14 16:32:29.746598] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:32:29.746598] (3) <info>: Parsing data.
+[2015-Apr-14 16:32:30.267945] (4) <info>: Preparing the data.
+[2015-Apr-14 16:32:30.744262] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:32:37.788301] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:32:37.788301] (7) <info>: Writing output.
+[2015-Apr-14 16:32:50.411959] (1) <info>: ------------------------------
+[2015-Apr-14 16:32:50.412961] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:32:50.412961] (3) <info>: Parsing data.
+[2015-Apr-14 16:32:50.912006] (4) <info>: Preparing the data.
+[2015-Apr-14 16:32:51.379319] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:32:51.934404] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:32:51.935405] (7) <info>: Writing output.
+[2015-Apr-14 16:32:51.945413] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:32:51.962423] (1) <info>: ------------------------------
+[2015-Apr-14 16:32:51.963423] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:32:51.963423] (3) <info>: Parsing data.
+[2015-Apr-14 16:32:52.497778] (4) <info>: Preparing the data.
+[2015-Apr-14 16:32:52.964087] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:32:53.540285] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:32:53.541286] (7) <info>: Writing output.
+[2015-Apr-14 16:36:08.952754] (1) <info>: ------------------------------
+[2015-Apr-14 16:36:08.953756] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:36:08.953756] (3) <info>: Parsing data.
+[2015-Apr-14 16:36:09.400052] (4) <info>: Preparing the data.
+[2015-Apr-14 16:36:09.857356] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:36:10.267079] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:36:10.268080] (7) <info>: Writing output.
+[2015-Apr-14 16:36:10.278088] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:36:10.296475] (1) <info>: ------------------------------
+[2015-Apr-14 16:36:10.297476] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:36:10.297476] (3) <info>: Parsing data.
+[2015-Apr-14 16:36:10.733766] (4) <info>: Preparing the data.
+[2015-Apr-14 16:36:11.128027] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:36:11.533296] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:36:11.534297] (7) <info>: Writing output.
+[2015-Apr-14 16:38:07.216450] (1) <info>: ------------------------------
+[2015-Apr-14 16:38:07.217451] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:38:07.217451] (3) <info>: Parsing data.
+[2015-Apr-14 16:38:07.760813] (4) <info>: Preparing the data.
+[2015-Apr-14 16:38:08.262146] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:38:12.664132] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:38:12.664132] (7) <info>: Writing output.
+[2015-Apr-14 16:38:12.674139] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:38:12.693153] (1) <info>: ------------------------------
+[2015-Apr-14 16:38:12.694154] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:38:12.694154] (3) <info>: Parsing data.
+[2015-Apr-14 16:38:13.230510] (4) <info>: Preparing the data.
+[2015-Apr-14 16:38:13.760861] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:38:19.150603] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:38:19.150603] (7) <info>: Writing output.
+[2015-Apr-14 16:38:27.695194] (1) <info>: ------------------------------
+[2015-Apr-14 16:38:27.696194] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:38:27.696194] (3) <info>: Parsing data.
+[2015-Apr-14 16:38:28.224546] (4) <info>: Preparing the data.
+[2015-Apr-14 16:38:28.755900] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:38:29.242220] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:38:29.243221] (7) <info>: Writing output.
+[2015-Apr-14 16:38:29.253228] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:38:29.271240] (1) <info>: ------------------------------
+[2015-Apr-14 16:38:29.272241] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:38:29.272241] (3) <info>: Parsing data.
+[2015-Apr-14 16:38:29.773574] (4) <info>: Preparing the data.
+[2015-Apr-14 16:38:30.597122] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:38:31.388647] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:38:31.389648] (7) <info>: Writing output.
+[2015-Apr-14 16:41:05.150650] (1) <info>: ------------------------------
+[2015-Apr-14 16:41:05.151650] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:41:05.151650] (3) <info>: Parsing data.
+[2015-Apr-14 16:41:05.790073] (4) <info>: Preparing the data.
+[2015-Apr-14 16:41:06.350445] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:41:11.945159] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:41:11.945159] (7) <info>: Writing output.
+[2015-Apr-14 16:41:11.954166] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:41:11.973176] (1) <info>: ------------------------------
+[2015-Apr-14 16:41:11.974180] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:41:11.974180] (3) <info>: Parsing data.
+[2015-Apr-14 16:41:12.589585] (4) <info>: Preparing the data.
+[2015-Apr-14 16:41:13.151959] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:41:20.060701] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:41:20.061704] (7) <info>: Writing output.
+[2015-Apr-14 16:41:25.982724] (1) <info>: ------------------------------
+[2015-Apr-14 16:41:25.983724] (2) <info>: tremppi_summary started.
+[2015-Apr-14 16:41:25.983724] (3) <info>: Parsing data.
+[2015-Apr-14 16:41:26.532090] (4) <info>: Preparing the data.
+[2015-Apr-14 16:41:27.031421] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:41:27.540757] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:41:27.541758] (7) <info>: Writing output.
+[2015-Apr-14 16:41:27.550765] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-14 16:41:27.568777] (1) <info>: ------------------------------
+[2015-Apr-14 16:41:27.569777] (2) <info>: tremppi_qualitative started.
+[2015-Apr-14 16:41:27.569777] (3) <info>: Parsing data.
+[2015-Apr-14 16:41:28.101129] (4) <info>: Preparing the data.
+[2015-Apr-14 16:41:28.621474] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-14 16:41:29.135815] (6) <info>: Building the JSON file.
+[2015-Apr-14 16:41:29.136817] (7) <info>: Writing output.
+[2015-Apr-16 14:16:42.350389] (1) <info>: ------------------------------
+[2015-Apr-16 14:16:42.365602] (2) <info>: tremppi_validate started.
+[2015-Apr-16 14:16:42.365602] (3) <info>: Parsing database.
+[2015-Apr-16 14:16:42.552286] (4) <error>: Top level exception: Python exception encountered.
+[2015-Apr-16 14:16:53.389752] (1) <info>: ------------------------------
+[2015-Apr-16 14:16:53.390753] (2) <info>: tremppi_validate started.
+[2015-Apr-16 14:16:53.390753] (3) <info>: Parsing database.
+[2015-Apr-16 14:16:53.656849] (4) <info>: Checking the JSON correctness.
+[2015-Apr-16 14:16:53.694239] (5) <info>: Parsing the properties.
+[2015-Apr-16 14:16:53.695238] (6) <info>: Building a product with the automaton: LIM1215_IGF1
+[2015-Apr-16 14:16:53.712269] (7) <info>: Validating for an automaton: LIM1215_IGF1
+[2015-Apr-16 14:20:06.981559] (8) <info>: Building a product with the automaton: HCT116_TGF_AZD
+[2015-Apr-16 14:20:06.986560] (9) <info>: Validating for an automaton: HCT116_TGF_AZD
+[2015-Apr-16 14:22:27.584479] (10) <error>: Top level exception: Python exception encountered.
+[2015-Apr-16 14:43:57.586326] (1) <info>: ------------------------------
+[2015-Apr-16 14:43:57.587327] (2) <info>: tremppi_validate started.
+[2015-Apr-16 14:43:57.587327] (3) <info>: Parsing database.
+[2015-Apr-16 14:43:57.677709] (4) <info>: Checking the JSON correctness.
+[2015-Apr-16 14:43:57.693719] (5) <info>: Parsing the properties.
+[2015-Apr-16 14:43:57.694720] (6) <info>: Building a product with the automaton: LIM1215_IGF1
+[2015-Apr-16 14:43:57.698722] (7) <info>: Validating for an automaton: LIM1215_IGF1
+[2015-Apr-16 14:45:51.810933] (8) <info>: tremppi_validate finished successfully.
+[2015-Apr-16 14:46:01.113903] (1) <info>: ------------------------------
+[2015-Apr-16 14:46:01.114904] (2) <info>: tremppi_validate started.
+[2015-Apr-16 14:46:01.114904] (3) <info>: Parsing database.
+[2015-Apr-16 14:46:01.176727] (4) <info>: Checking the JSON correctness.
+[2015-Apr-16 14:46:01.194739] (5) <info>: Parsing the properties.
+[2015-Apr-16 14:46:01.195740] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-16 14:46:01.199744] (7) <info>: Validating for an automaton: LIM1215_IGF1_m
+[2015-Apr-16 14:47:57.425257] (8) <info>: tremppi_validate finished successfully.
+[2015-Apr-16 15:11:14.890114] (1) <info>: ------------------------------
+[2015-Apr-16 15:11:14.891115] (2) <info>: tremppi_validate started.
+[2015-Apr-16 15:11:14.891115] (3) <info>: Parsing database.
+[2015-Apr-16 15:11:14.950325] (4) <info>: Checking the JSON correctness.
+[2015-Apr-16 15:11:14.965335] (5) <info>: Parsing the properties.
+[2015-Apr-16 15:11:14.966335] (6) <info>: Building a product with the automaton: LIM1215_IGF1_s
+[2015-Apr-16 15:11:14.970338] (7) <info>: Validating for an automaton: LIM1215_IGF1_s
+[2015-Apr-16 15:13:34.748197] (8) <info>: tremppi_validate finished successfully.
+[2015-Apr-16 15:33:10.821277] (1) <info>: ------------------------------
+[2015-Apr-16 15:33:10.822277] (2) <info>: tremppi_validate started.
+[2015-Apr-16 15:33:10.822277] (3) <info>: Parsing database.
+[2015-Apr-16 15:33:10.885319] (4) <info>: Checking the JSON correctness.
+[2015-Apr-16 15:33:10.902330] (5) <info>: Parsing the properties.
+[2015-Apr-16 15:33:10.902330] (6) <info>: Building a product with the automaton: LIM1215_IGF1_ms
+[2015-Apr-16 15:33:10.906332] (7) <info>: Validating for an automaton: LIM1215_IGF1_ms
+[2015-Apr-16 15:35:16.474197] (8) <info>: tremppi_validate finished successfully.
+[2015-Apr-19 18:48:47.075031] (1) <info>: ------------------------------
+[2015-Apr-19 18:48:47.090594] (2) <info>: tremppi_summary started.
+[2015-Apr-19 18:48:47.090594] (3) <info>: Parsing data.
+[2015-Apr-19 18:49:51.627140] (4) <info>: Preparing the data.
+[2015-Apr-19 18:49:51.949351] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-19 18:50:07.124420] (6) <info>: Building the JSON file.
+[2015-Apr-19 18:50:07.124420] (7) <info>: Writing output.
+[2015-Apr-19 18:50:07.173021] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:15:13.673136] (1) <info>: ------------------------------
+[2015-Apr-20 16:15:13.674536] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:15:13.674536] (3) <info>: Parsing data.
+[2015-Apr-20 16:16:23.628966] (4) <info>: Preparing the data.
+[2015-Apr-20 16:16:24.916824] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:16:26.439837] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:16:26.442838] (7) <info>: Writing output.
+[2015-Apr-20 16:16:26.464852] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:16:48.607126] (1) <info>: ------------------------------
+[2015-Apr-20 16:16:48.608127] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:16:48.608127] (3) <info>: Parsing data.
+[2015-Apr-20 16:16:49.584777] (4) <info>: Preparing the data.
+[2015-Apr-20 16:16:50.488377] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:16:51.395982] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:16:51.397982] (7) <info>: Writing output.
+[2015-Apr-20 16:16:51.412992] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:16:51.437008] (1) <info>: ------------------------------
+[2015-Apr-20 16:16:51.438008] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:16:51.438008] (3) <info>: Parsing data.
+[2015-Apr-20 16:16:52.416659] (4) <info>: Preparing the data.
+[2015-Apr-20 16:16:53.321260] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:16:54.229864] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:16:54.230864] (7) <info>: Writing output.
+[2015-Apr-20 16:16:54.555011] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:27:20.031341] (1) <info>: ------------------------------
+[2015-Apr-20 16:27:20.031341] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:27:20.031341] (3) <info>: Parsing data.
+[2015-Apr-20 16:27:20.821673] (4) <info>: Preparing the data.
+[2015-Apr-20 16:27:21.512130] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:27:37.528094] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:27:37.529095] (7) <info>: Writing output.
+[2015-Apr-20 16:27:37.593148] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:27:37.619165] (1) <info>: ------------------------------
+[2015-Apr-20 16:27:37.620166] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:27:37.620166] (3) <info>: Parsing data.
+[2015-Apr-20 16:27:38.396680] (4) <info>: Preparing the data.
+[2015-Apr-20 16:27:39.086141] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:27:53.934972] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:27:53.936968] (7) <info>: Writing output.
+[2015-Apr-20 16:27:53.948976] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:28:36.495834] (1) <info>: ------------------------------
+[2015-Apr-20 16:28:36.497836] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:28:36.497836] (3) <info>: Parsing data.
+[2015-Apr-20 16:28:37.304372] (4) <info>: Preparing the data.
+[2015-Apr-20 16:28:38.048866] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:28:50.648578] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:28:50.649579] (7) <info>: Writing output.
+[2015-Apr-20 16:28:50.662588] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:28:50.689606] (1) <info>: ------------------------------
+[2015-Apr-20 16:28:50.690607] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:28:50.690607] (3) <info>: Parsing data.
+[2015-Apr-20 16:28:51.501145] (4) <info>: Preparing the data.
+[2015-Apr-20 16:28:52.246643] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:29:03.162674] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:29:03.163675] (7) <info>: Writing output.
+[2015-Apr-20 16:29:03.174679] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:29:33.898106] (1) <info>: ------------------------------
+[2015-Apr-20 16:29:33.900108] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:29:33.900108] (3) <info>: Parsing data.
+[2015-Apr-20 16:29:34.802708] (4) <info>: Preparing the data.
+[2015-Apr-20 16:29:35.870420] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:29:52.243312] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:29:52.244313] (7) <info>: Writing output.
+[2015-Apr-20 16:29:52.257322] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:29:52.283339] (1) <info>: ------------------------------
+[2015-Apr-20 16:29:52.284340] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:29:52.284340] (3) <info>: Parsing data.
+[2015-Apr-20 16:29:53.130903] (4) <info>: Preparing the data.
+[2015-Apr-20 16:29:53.908417] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:30:09.012610] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:30:09.013611] (7) <info>: Writing output.
+[2015-Apr-20 16:30:09.031639] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:30:27.311060] (1) <info>: ------------------------------
+[2015-Apr-20 16:30:27.312059] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:30:27.312059] (3) <info>: Parsing data.
+[2015-Apr-20 16:30:28.252694] (4) <info>: Preparing the data.
+[2015-Apr-20 16:30:29.288372] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:30:41.999225] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:30:42.000227] (7) <info>: Writing output.
+[2015-Apr-20 16:30:42.015238] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:30:42.041256] (1) <info>: ------------------------------
+[2015-Apr-20 16:30:42.042257] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:30:42.042257] (3) <info>: Parsing data.
+[2015-Apr-20 16:30:42.931847] (4) <info>: Preparing the data.
+[2015-Apr-20 16:30:43.729377] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:30:55.487657] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:30:55.488659] (7) <info>: Writing output.
+[2015-Apr-20 16:30:55.499666] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:31:01.270199] (1) <info>: ------------------------------
+[2015-Apr-20 16:31:01.271200] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:31:01.271200] (3) <info>: Parsing data.
+[2015-Apr-20 16:31:02.252880] (4) <info>: Preparing the data.
+[2015-Apr-20 16:31:03.361617] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:31:18.590277] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:31:18.592278] (7) <info>: Writing output.
+[2015-Apr-20 16:31:18.605285] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:31:18.629301] (1) <info>: ------------------------------
+[2015-Apr-20 16:31:18.630302] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:31:18.630302] (3) <info>: Parsing data.
+[2015-Apr-20 16:31:19.391807] (4) <info>: Preparing the data.
+[2015-Apr-20 16:31:20.074262] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:31:21.225269] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:31:21.225269] (7) <info>: Writing output.
+[2015-Apr-20 16:31:21.288528] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:31:30.966343] (1) <info>: ------------------------------
+[2015-Apr-20 16:31:30.968345] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:31:30.968345] (3) <info>: Parsing data.
+[2015-Apr-20 16:31:31.719844] (4) <info>: Preparing the data.
+[2015-Apr-20 16:31:32.429315] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:31:33.746584] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:31:33.748587] (7) <info>: Writing output.
+[2015-Apr-20 16:31:33.765598] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:31:33.791615] (1) <info>: ------------------------------
+[2015-Apr-20 16:31:33.792615] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:31:33.792615] (3) <info>: Parsing data.
+[2015-Apr-20 16:31:34.615378] (4) <info>: Preparing the data.
+[2015-Apr-20 16:31:35.338859] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:31:36.989826] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:31:36.990827] (7) <info>: Writing output.
+[2015-Apr-20 16:31:37.087901] (8) <error>: Top level exception: Could not open C:\Users\adams_000\MODELS\Tremppi\EGFR_full\data\occurence\LIM1215_ps|HCT116_ps.json
+[2015-Apr-20 16:32:04.965865] (1) <info>: ------------------------------
+[2015-Apr-20 16:32:04.966865] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:32:04.966865] (3) <info>: Parsing data.
+[2015-Apr-20 16:32:05.703352] (4) <info>: Preparing the data.
+[2015-Apr-20 16:32:06.361792] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:32:07.548632] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:32:07.550635] (7) <info>: Writing output.
+[2015-Apr-20 16:32:07.565647] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:32:12.949509] (1) <info>: ------------------------------
+[2015-Apr-20 16:32:12.950511] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:32:12.951512] (3) <info>: Parsing data.
+[2015-Apr-20 16:32:13.698005] (4) <info>: Preparing the data.
+[2015-Apr-20 16:32:14.373455] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:32:15.578644] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:32:15.580644] (7) <info>: Writing output.
+[2015-Apr-20 16:32:15.596657] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:32:15.620673] (1) <info>: ------------------------------
+[2015-Apr-20 16:32:15.622674] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:32:15.622674] (3) <info>: Parsing data.
+[2015-Apr-20 16:32:16.344152] (4) <info>: Preparing the data.
+[2015-Apr-20 16:32:16.987582] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:32:18.127439] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:32:18.128436] (7) <info>: Writing output.
+[2015-Apr-20 16:32:18.138443] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:32:25.061956] (1) <info>: ------------------------------
+[2015-Apr-20 16:32:25.062957] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:32:25.062957] (3) <info>: Parsing data.
+[2015-Apr-20 16:32:25.850483] (4) <info>: Preparing the data.
+[2015-Apr-20 16:32:26.580968] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:32:27.868824] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:32:27.869827] (7) <info>: Writing output.
+[2015-Apr-20 16:32:27.886834] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:32:27.913853] (1) <info>: ------------------------------
+[2015-Apr-20 16:32:27.914853] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:32:27.914853] (3) <info>: Parsing data.
+[2015-Apr-20 16:32:28.730394] (4) <info>: Preparing the data.
+[2015-Apr-20 16:32:29.617984] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:32:31.034926] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:32:31.036926] (7) <info>: Writing output.
+[2015-Apr-20 16:32:31.056941] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:32:36.013574] (1) <info>: ------------------------------
+[2015-Apr-20 16:32:36.014574] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:32:36.014574] (3) <info>: Parsing data.
+[2015-Apr-20 16:32:36.895158] (4) <info>: Preparing the data.
+[2015-Apr-20 16:32:37.707697] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:32:48.162652] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:32:48.163653] (7) <info>: Writing output.
+[2015-Apr-20 16:32:48.178663] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:32:48.208683] (1) <info>: ------------------------------
+[2015-Apr-20 16:32:48.209684] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:32:48.209684] (3) <info>: Parsing data.
+[2015-Apr-20 16:32:49.112285] (4) <info>: Preparing the data.
+[2015-Apr-20 16:32:49.915817] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:32:56.783255] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:32:56.784259] (7) <info>: Writing output.
+[2015-Apr-20 16:32:56.863584] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:32:59.621899] (1) <info>: ------------------------------
+[2015-Apr-20 16:32:59.622897] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:32:59.622897] (3) <info>: Parsing data.
+[2015-Apr-20 16:33:00.507486] (4) <info>: Preparing the data.
+[2015-Apr-20 16:33:01.314020] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:33:09.078304] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:33:09.081301] (7) <info>: Writing output.
+[2015-Apr-20 16:33:09.109319] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:33:09.160356] (1) <info>: ------------------------------
+[2015-Apr-20 16:33:09.162356] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:33:09.162356] (3) <info>: Parsing data.
+[2015-Apr-20 16:33:10.480231] (4) <info>: Preparing the data.
+[2015-Apr-20 16:33:11.439870] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:33:20.276064] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:33:20.277066] (7) <info>: Writing output.
+[2015-Apr-20 16:33:20.289073] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:33:47.748287] (1) <info>: ------------------------------
+[2015-Apr-20 16:33:47.750289] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:33:47.750289] (3) <info>: Parsing data.
+[2015-Apr-20 16:33:48.697918] (4) <info>: Preparing the data.
+[2015-Apr-20 16:33:49.592513] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:33:58.949753] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:33:58.950753] (7) <info>: Writing output.
+[2015-Apr-20 16:33:58.963761] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:33:58.990783] (1) <info>: ------------------------------
+[2015-Apr-20 16:33:58.991783] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:33:58.991783] (3) <info>: Parsing data.
+[2015-Apr-20 16:33:59.912395] (4) <info>: Preparing the data.
+[2015-Apr-20 16:34:00.745948] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:34:09.861183] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:34:09.862183] (7) <info>: Writing output.
+[2015-Apr-20 16:34:09.872192] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:34:19.293959] (1) <info>: ------------------------------
+[2015-Apr-20 16:34:19.294960] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:34:19.294960] (3) <info>: Parsing data.
+[2015-Apr-20 16:34:20.010436] (4) <info>: Preparing the data.
+[2015-Apr-20 16:34:20.650860] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:34:21.325631] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:34:21.326632] (7) <info>: Writing output.
+[2015-Apr-20 16:34:21.432701] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:34:21.458717] (1) <info>: ------------------------------
+[2015-Apr-20 16:34:21.459718] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:34:21.459718] (3) <info>: Parsing data.
+[2015-Apr-20 16:34:22.171191] (4) <info>: Preparing the data.
+[2015-Apr-20 16:34:22.891675] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:34:23.610147] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:34:23.611148] (7) <info>: Writing output.
+[2015-Apr-20 16:34:23.624157] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:34:30.319540] (1) <info>: ------------------------------
+[2015-Apr-20 16:34:30.320541] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:34:30.320541] (3) <info>: Parsing data.
+[2015-Apr-20 16:34:31.084050] (4) <info>: Preparing the data.
+[2015-Apr-20 16:34:31.771506] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:34:32.530009] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:34:32.532010] (7) <info>: Writing output.
+[2015-Apr-20 16:34:32.556027] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:34:32.584046] (1) <info>: ------------------------------
+[2015-Apr-20 16:34:32.586047] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:34:32.586047] (3) <info>: Parsing data.
+[2015-Apr-20 16:34:33.402590] (4) <info>: Preparing the data.
+[2015-Apr-20 16:34:34.129072] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:34:34.834539] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:34:34.835540] (7) <info>: Writing output.
+[2015-Apr-20 16:34:34.849549] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:34:41.524495] (1) <info>: ------------------------------
+[2015-Apr-20 16:34:41.525496] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:34:41.525496] (3) <info>: Parsing data.
+[2015-Apr-20 16:34:42.323025] (4) <info>: Preparing the data.
+[2015-Apr-20 16:34:43.051509] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:34:43.905075] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:34:43.907077] (7) <info>: Writing output.
+[2015-Apr-20 16:34:43.926089] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:34:43.955109] (1) <info>: ------------------------------
+[2015-Apr-20 16:34:43.957111] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:34:43.957111] (3) <info>: Parsing data.
+[2015-Apr-20 16:34:44.786662] (4) <info>: Preparing the data.
+[2015-Apr-20 16:34:45.553170] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:34:46.418747] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:34:46.419748] (7) <info>: Writing output.
+[2015-Apr-20 16:34:46.434757] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:34:52.011989] (1) <info>: ------------------------------
+[2015-Apr-20 16:34:52.012990] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:34:52.012990] (3) <info>: Parsing data.
+[2015-Apr-20 16:34:52.855535] (4) <info>: Preparing the data.
+[2015-Apr-20 16:34:53.651064] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:34:54.504632] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:34:54.505632] (7) <info>: Writing output.
+[2015-Apr-20 16:34:54.525646] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:34:54.555667] (1) <info>: ------------------------------
+[2015-Apr-20 16:34:54.556668] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:34:54.556668] (3) <info>: Parsing data.
+[2015-Apr-20 16:34:55.408233] (4) <info>: Preparing the data.
+[2015-Apr-20 16:34:56.184749] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:34:56.980278] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:34:56.982279] (7) <info>: Writing output.
+[2015-Apr-20 16:34:56.998291] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:35:05.147592] (1) <info>: ------------------------------
+[2015-Apr-20 16:35:05.148593] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:35:05.148593] (3) <info>: Parsing data.
+[2015-Apr-20 16:35:06.017169] (4) <info>: Preparing the data.
+[2015-Apr-20 16:35:06.841717] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:35:07.707291] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:35:07.708292] (7) <info>: Writing output.
+[2015-Apr-20 16:35:07.723302] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:35:07.749320] (1) <info>: ------------------------------
+[2015-Apr-20 16:35:07.750322] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:35:07.751322] (3) <info>: Parsing data.
+[2015-Apr-20 16:35:08.632906] (4) <info>: Preparing the data.
+[2015-Apr-20 16:35:09.445452] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:35:10.285005] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:35:10.286006] (7) <info>: Writing output.
+[2015-Apr-20 16:35:10.366058] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:35:18.544563] (1) <info>: ------------------------------
+[2015-Apr-20 16:35:18.545562] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:35:18.545562] (3) <info>: Parsing data.
+[2015-Apr-20 16:35:19.524214] (4) <info>: Preparing the data.
+[2015-Apr-20 16:35:20.476847] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:35:36.547619] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:35:36.549621] (7) <info>: Writing output.
+[2015-Apr-20 16:35:36.562636] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:35:36.588645] (1) <info>: ------------------------------
+[2015-Apr-20 16:35:36.589645] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:35:36.589645] (3) <info>: Parsing data.
+[2015-Apr-20 16:35:37.527269] (4) <info>: Preparing the data.
+[2015-Apr-20 16:35:38.393844] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:35:53.211745] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:35:53.212746] (7) <info>: Writing output.
+[2015-Apr-20 16:35:53.224963] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:36:19.106959] (1) <info>: ------------------------------
+[2015-Apr-20 16:36:19.107960] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:36:19.107960] (3) <info>: Parsing data.
+[2015-Apr-20 16:36:20.164143] (4) <info>: Preparing the data.
+[2015-Apr-20 16:36:21.105769] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:36:33.104265] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:36:33.105266] (7) <info>: Writing output.
+[2015-Apr-20 16:36:33.119275] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:36:33.144292] (1) <info>: ------------------------------
+[2015-Apr-20 16:36:33.145293] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:36:33.145293] (3) <info>: Parsing data.
+[2015-Apr-20 16:36:34.101928] (4) <info>: Preparing the data.
+[2015-Apr-20 16:36:34.986516] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:36:46.248777] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:36:46.249778] (7) <info>: Writing output.
+[2015-Apr-20 16:36:46.263785] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:37:09.738267] (1) <info>: ------------------------------
+[2015-Apr-20 16:37:09.739268] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:37:09.739268] (3) <info>: Parsing data.
+[2015-Apr-20 16:37:10.745935] (4) <info>: Preparing the data.
+[2015-Apr-20 16:37:11.708577] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:37:28.213589] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:37:28.214589] (7) <info>: Writing output.
+[2015-Apr-20 16:37:28.229598] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:37:28.255617] (1) <info>: ------------------------------
+[2015-Apr-20 16:37:28.256618] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:37:28.256618] (3) <info>: Parsing data.
+[2015-Apr-20 16:37:29.275295] (4) <info>: Preparing the data.
+[2015-Apr-20 16:37:30.198908] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:37:41.799106] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:37:41.799106] (7) <info>: Writing output.
+[2015-Apr-20 16:37:41.813115] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:37:50.370260] (1) <info>: ------------------------------
+[2015-Apr-20 16:37:50.372261] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:37:50.372261] (3) <info>: Parsing data.
+[2015-Apr-20 16:37:51.491005] (4) <info>: Preparing the data.
+[2015-Apr-20 16:37:52.453646] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:38:05.222808] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:38:05.223808] (7) <info>: Writing output.
+[2015-Apr-20 16:38:05.306098] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:38:05.336119] (1) <info>: ------------------------------
+[2015-Apr-20 16:38:05.338119] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:38:05.338119] (3) <info>: Parsing data.
+[2015-Apr-20 16:38:06.359511] (4) <info>: Preparing the data.
+[2015-Apr-20 16:38:07.298137] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:38:21.142651] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:38:21.142651] (7) <info>: Writing output.
+[2015-Apr-20 16:38:21.156108] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:38:25.812911] (1) <info>: ------------------------------
+[2015-Apr-20 16:38:25.813912] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:38:25.813912] (3) <info>: Parsing data.
+[2015-Apr-20 16:38:26.893630] (4) <info>: Preparing the data.
+[2015-Apr-20 16:38:27.911305] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:38:42.529519] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:38:42.529519] (7) <info>: Writing output.
+[2015-Apr-20 16:38:42.545151] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:38:42.578690] (1) <info>: ------------------------------
+[2015-Apr-20 16:38:42.579863] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:38:42.579863] (3) <info>: Parsing data.
+[2015-Apr-20 16:38:43.445595] (4) <info>: Preparing the data.
+[2015-Apr-20 16:38:44.238123] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:38:45.021896] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:38:45.021896] (7) <info>: Writing output.
+[2015-Apr-20 16:38:45.048071] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:40:26.096912] (1) <info>: ------------------------------
+[2015-Apr-20 16:40:26.097454] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:40:26.097454] (3) <info>: Parsing data.
+[2015-Apr-20 16:40:27.035697] (4) <info>: Preparing the data.
+[2015-Apr-20 16:40:27.864745] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:40:28.695297] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:40:28.696301] (7) <info>: Writing output.
+[2015-Apr-20 16:40:28.737327] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:40:28.761402] (1) <info>: ------------------------------
+[2015-Apr-20 16:40:28.762403] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:40:28.762403] (3) <info>: Parsing data.
+[2015-Apr-20 16:40:29.826144] (4) <info>: Preparing the data.
+[2015-Apr-20 16:40:30.761765] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:40:31.691381] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:40:31.692383] (7) <info>: Writing output.
+[2015-Apr-20 16:40:31.703390] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:40:43.560066] (1) <info>: ------------------------------
+[2015-Apr-20 16:40:43.561067] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:40:43.562067] (3) <info>: Parsing data.
+[2015-Apr-20 16:40:44.585747] (4) <info>: Preparing the data.
+[2015-Apr-20 16:40:45.556392] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:40:46.491013] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:40:46.493015] (7) <info>: Writing output.
+[2015-Apr-20 16:40:46.510024] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:40:46.534716] (1) <info>: ------------------------------
+[2015-Apr-20 16:40:46.535783] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:40:46.535783] (3) <info>: Parsing data.
+[2015-Apr-20 16:40:47.555746] (4) <info>: Preparing the data.
+[2015-Apr-20 16:40:48.498374] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:40:49.415982] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:40:49.416983] (7) <info>: Writing output.
+[2015-Apr-20 16:40:49.445318] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:40:52.016218] (1) <info>: ------------------------------
+[2015-Apr-20 16:40:52.017219] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:40:52.017219] (3) <info>: Parsing data.
+[2015-Apr-20 16:40:53.051907] (4) <info>: Preparing the data.
+[2015-Apr-20 16:40:54.044567] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:40:55.077252] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:40:55.079256] (7) <info>: Writing output.
+[2015-Apr-20 16:40:55.099266] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:40:55.129287] (1) <info>: ------------------------------
+[2015-Apr-20 16:40:55.131288] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:40:55.131288] (3) <info>: Parsing data.
+[2015-Apr-20 16:40:56.182986] (4) <info>: Preparing the data.
+[2015-Apr-20 16:40:57.154635] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:40:58.232025] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:40:58.233027] (7) <info>: Writing output.
+[2015-Apr-20 16:40:58.266113] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:41:00.344289] (1) <info>: ------------------------------
+[2015-Apr-20 16:41:00.345292] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:41:00.345292] (3) <info>: Parsing data.
+[2015-Apr-20 16:41:01.413002] (4) <info>: Preparing the data.
+[2015-Apr-20 16:41:02.411666] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:41:03.390313] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:41:03.392314] (7) <info>: Writing output.
+[2015-Apr-20 16:41:03.454356] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:41:03.480375] (1) <info>: ------------------------------
+[2015-Apr-20 16:41:03.481375] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:41:03.481375] (3) <info>: Parsing data.
+[2015-Apr-20 16:41:04.566097] (4) <info>: Preparing the data.
+[2015-Apr-20 16:41:05.554751] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:41:06.530315] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:41:06.531316] (7) <info>: Writing output.
+[2015-Apr-20 16:41:06.550328] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:41:11.392855] (1) <info>: ------------------------------
+[2015-Apr-20 16:41:11.394856] (2) <info>: tremppi_summary started.
+[2015-Apr-20 16:41:11.394856] (3) <info>: Parsing data.
+[2015-Apr-20 16:41:12.459564] (4) <info>: Preparing the data.
+[2015-Apr-20 16:41:13.469235] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:41:14.467899] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:41:14.468899] (7) <info>: Writing output.
+[2015-Apr-20 16:41:14.482909] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-20 16:41:14.509925] (1) <info>: ------------------------------
+[2015-Apr-20 16:41:14.510927] (2) <info>: tremppi_qualitative started.
+[2015-Apr-20 16:41:14.511927] (3) <info>: Parsing data.
+[2015-Apr-20 16:41:15.624668] (4) <info>: Preparing the data.
+[2015-Apr-20 16:41:16.640343] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-20 16:41:17.666061] (6) <info>: Building the JSON file.
+[2015-Apr-20 16:41:17.667062] (7) <info>: Writing output.
+[2015-Apr-20 16:41:17.679072] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-20 16:49:29.542140] (1) <info>: ------------------------------
+[2015-Apr-20 16:49:29.542140] (2) <info>: tremppi_validate started.
+[2015-Apr-20 16:49:29.542140] (3) <info>: Parsing database.
+[2015-Apr-20 16:49:29.621794] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 16:49:29.629862] (5) <info>: Parsing the properties.
+[2015-Apr-20 16:49:29.629862] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 16:49:29.959812] (7) <info>: Validating for an automaton: LIM1215_IGF1_m
+[2015-Apr-20 16:49:32.794052] (8) <info>: tremppi_validate finished successfully.
+[2015-Apr-20 16:52:43.977335] (1) <info>: ------------------------------
+[2015-Apr-20 16:52:43.978335] (2) <info>: tremppi_validate started.
+[2015-Apr-20 16:52:43.978335] (3) <info>: Parsing database.
+[2015-Apr-20 16:52:44.041376] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 16:52:44.057386] (5) <info>: Parsing the properties.
+[2015-Apr-20 16:52:44.057386] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 16:52:44.249512] (7) <info>: Validating for an automaton: LIM1215_IGF1_m
+[2015-Apr-20 16:52:46.604007] (8) <info>: tremppi_validate finished successfully.
+[2015-Apr-20 16:53:20.721439] (1) <info>: ------------------------------
+[2015-Apr-20 16:53:20.722441] (2) <info>: tremppi_validate started.
+[2015-Apr-20 16:53:20.722441] (3) <info>: Parsing database.
+[2015-Apr-20 16:53:20.914728] (4) <error>: Top level exception: Python exception encountered.
+[2015-Apr-20 16:53:27.013097] (1) <info>: ------------------------------
+[2015-Apr-20 16:53:27.013097] (2) <info>: tremppi_validate started.
+[2015-Apr-20 16:53:27.013097] (3) <info>: Parsing database.
+[2015-Apr-20 16:53:27.093042] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 16:53:27.101103] (5) <info>: Parsing the properties.
+[2015-Apr-20 16:53:27.101103] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 16:53:27.101103] (7) <info>: Validating for an automaton: LIM1215_IGF1_m
+[2015-Apr-20 16:55:26.532262] (8) <info>: tremppi_validate finished successfully.
+[2015-Apr-20 17:04:43.938355] (1) <info>: ------------------------------
+[2015-Apr-20 17:04:44.222356] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:04:44.222356] (3) <info>: Parsing database.
+[2015-Apr-20 17:04:44.565585] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:04:44.988868] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:04:45.001876] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:04:45.477191] (7) <info>: Validating for an automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:05:23.664590] (1) <info>: ------------------------------
+[2015-Apr-20 17:05:23.667592] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:05:23.667592] (3) <info>: Parsing database.
+[2015-Apr-20 17:05:23.968792] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:05:24.220962] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:05:24.230967] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:06:43.209348] (1) <info>: ------------------------------
+[2015-Apr-20 17:06:43.212350] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:06:43.212350] (3) <info>: Parsing database.
+[2015-Apr-20 17:06:43.501543] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:06:43.757710] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:06:43.768718] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:07:05.051448] (1) <info>: ------------------------------
+[2015-Apr-20 17:07:05.056453] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:07:05.057456] (3) <info>: Parsing database.
+[2015-Apr-20 17:07:05.353650] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:07:05.614820] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:08:55.910627] (1) <info>: ------------------------------
+[2015-Apr-20 17:08:55.913629] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:08:55.913629] (3) <info>: Parsing database.
+[2015-Apr-20 17:08:56.229840] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:08:56.484006] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:09:08.446658] (1) <info>: ------------------------------
+[2015-Apr-20 17:09:08.449661] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:09:08.449661] (3) <info>: Parsing database.
+[2015-Apr-20 17:09:08.761869] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:09:09.023040] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:11:10.002430] (1) <info>: ------------------------------
+[2015-Apr-20 17:11:10.005432] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:11:10.005432] (3) <info>: Parsing database.
+[2015-Apr-20 17:11:10.345655] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:11:10.609831] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:11:34.537171] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:11:34.896411] (7) <info>: Validating for an automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:11:51.009272] (1) <info>: ------------------------------
+[2015-Apr-20 17:11:51.012273] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:11:51.013274] (3) <info>: Parsing database.
+[2015-Apr-20 17:11:51.368510] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:11:51.660702] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:11:51.671709] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:14:02.752670] (1) <info>: ------------------------------
+[2015-Apr-20 17:14:02.753671] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:14:02.753671] (3) <info>: Parsing database.
+[2015-Apr-20 17:14:02.824718] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:14:02.840729] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:14:02.840729] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:14:02.844731] (7) <info>: Validating for an automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:16:13.598558] (8) <info>: tremppi_validate finished successfully.
+[2015-Apr-20 17:21:19.278486] (1) <info>: ------------------------------
+[2015-Apr-20 17:21:19.296496] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:21:19.296496] (3) <info>: Parsing database.
+[2015-Apr-20 17:21:19.345530] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:21:19.355537] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:21:19.356536] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:21:19.359538] (7) <info>: Validating for an automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:22:03.749529] (8) <info>: tremppi_validate finished successfully.
+[2015-Apr-20 17:22:19.535422] (1) <info>: ------------------------------
+[2015-Apr-20 17:22:19.536422] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:22:19.536422] (3) <info>: Parsing database.
+[2015-Apr-20 17:22:19.581453] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:22:19.594462] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:22:19.594462] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:22:19.597464] (7) <info>: Validating for an automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:23:12.493281] (8) <error>: Top level exception: Python exception encountered.
+[2015-Apr-20 17:23:15.090240] (1) <info>: ------------------------------
+[2015-Apr-20 17:23:15.091241] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:23:15.091241] (3) <info>: Parsing database.
+[2015-Apr-20 17:23:15.142274] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:23:15.152281] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:23:15.152281] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:23:15.155284] (7) <info>: Validating for an automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:24:03.021442] (8) <info>: tremppi_validate finished successfully.
+[2015-Apr-20 17:26:12.912714] (1) <info>: ------------------------------
+[2015-Apr-20 17:26:12.913715] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:26:12.913715] (3) <info>: Parsing database.
+[2015-Apr-20 17:26:12.958553] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:26:12.969560] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:26:12.969560] (6) <info>: Building a product with the automaton: LIM1215_IGF1
+[2015-Apr-20 17:26:12.972562] (7) <info>: Validating for an automaton: LIM1215_IGF1
+[2015-Apr-20 17:27:22.843958] (8) <info>: tremppi_validate finished successfully.
+[2015-Apr-20 17:28:18.919886] (1) <info>: ------------------------------
+[2015-Apr-20 17:28:18.936896] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:28:18.936896] (3) <info>: Parsing database.
+[2015-Apr-20 17:28:19.156043] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:28:19.404207] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:28:19.424220] (6) <info>: Building a product with the automaton: LIM1215_IGF1
+[2015-Apr-20 17:28:59.532807] (1) <info>: ------------------------------
+[2015-Apr-20 17:28:59.536811] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:28:59.537810] (3) <info>: Parsing database.
+[2015-Apr-20 17:28:59.790979] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:28:59.966095] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:28:59.974100] (6) <info>: Building a product with the automaton: LIM1215_IGF1
+[2015-Apr-20 17:29:11.809532] (1) <info>: ------------------------------
+[2015-Apr-20 17:29:11.812534] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:29:11.813534] (3) <info>: Parsing database.
+[2015-Apr-20 17:29:12.009664] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:29:12.181779] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:29:12.188785] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:30:27.190929] (1) <info>: ------------------------------
+[2015-Apr-20 17:30:27.191930] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:30:27.191930] (3) <info>: Parsing database.
+[2015-Apr-20 17:30:27.233750] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:30:27.243757] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:30:27.243757] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:30:27.246759] (7) <info>: Validating for an automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:31:08.900833] (8) <info>: tremppi_validate finished successfully.
+[2015-Apr-20 17:31:54.221424] (1) <info>: ------------------------------
+[2015-Apr-20 17:31:54.221424] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:31:54.222424] (3) <info>: Parsing database.
+[2015-Apr-20 17:31:54.264453] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:31:54.274461] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:31:54.275460] (6) <info>: tremppi_validate finished successfully.
+[2015-Apr-20 17:31:58.204904] (1) <info>: ------------------------------
+[2015-Apr-20 17:31:58.205906] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:31:58.205906] (3) <info>: Parsing database.
+[2015-Apr-20 17:31:58.247933] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:31:58.257940] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:31:58.258940] (6) <info>: tremppi_validate finished successfully.
+[2015-Apr-20 17:32:13.860644] (1) <info>: ------------------------------
+[2015-Apr-20 17:32:13.861645] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:32:13.861645] (3) <info>: Parsing database.
+[2015-Apr-20 17:32:13.903562] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:32:13.913568] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:32:13.913568] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:32:13.916570] (7) <info>: Validating for an automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:33:01.368862] (8) <info>: tremppi_validate finished successfully.
+[2015-Apr-20 17:33:26.019693] (1) <info>: ------------------------------
+[2015-Apr-20 17:33:26.020713] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:33:26.020713] (3) <info>: Parsing database.
+[2015-Apr-20 17:33:26.063856] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:33:26.073862] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:33:26.073862] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:33:26.076864] (7) <info>: Validating for an automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:34:35.047632] (8) <info>: tremppi_validate finished successfully.
+[2015-Apr-20 17:35:27.891950] (1) <info>: ------------------------------
+[2015-Apr-20 17:35:27.892948] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:35:27.892948] (3) <info>: Parsing database.
+[2015-Apr-20 17:35:27.937977] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:35:27.948985] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:35:27.949985] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:35:27.951987] (7) <info>: Validating for an automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:36:23.940823] (8) <info>: tremppi_validate finished successfully.
+[2015-Apr-20 17:38:50.904371] (1) <info>: ------------------------------
+[2015-Apr-20 17:38:50.905372] (2) <info>: tremppi_validate started.
+[2015-Apr-20 17:38:50.905372] (3) <info>: Parsing database.
+[2015-Apr-20 17:38:50.947406] (4) <info>: Checking the JSON correctness.
+[2015-Apr-20 17:38:50.958413] (5) <info>: Parsing the properties.
+[2015-Apr-20 17:38:50.958413] (6) <info>: Building a product with the automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:38:50.961415] (7) <info>: Validating for an automaton: LIM1215_IGF1_m
+[2015-Apr-20 17:39:57.901052] (8) <info>: tremppi_validate finished successfully.
+[2015-Apr-23 14:10:49.983289] (1) <info>: ------------------------------
+[2015-Apr-23 14:10:49.998094] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:10:49.999450] (3) <info>: Parsing data.
+[2015-Apr-23 14:12:53.467607] (4) <info>: Preparing the data.
+[2015-Apr-23 14:12:54.060000] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:13:06.760498] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:13:06.776509] (7) <info>: Writing output.
+[2015-Apr-23 14:13:06.863570] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:13:07.148758] (1) <info>: ------------------------------
+[2015-Apr-23 14:13:07.149758] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:13:07.149758] (3) <info>: Parsing data.
+[2015-Apr-23 14:13:07.988315] (4) <info>: Preparing the data.
+[2015-Apr-23 14:13:08.769835] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:13:20.595436] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:13:20.595436] (7) <info>: Writing output.
+[2015-Apr-23 14:13:20.606444] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:15:05.984550] (1) <info>: ------------------------------
+[2015-Apr-23 14:15:06.042232] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:15:06.042232] (3) <info>: Parsing data.
+[2015-Apr-23 14:15:06.720492] (4) <info>: Preparing the data.
+[2015-Apr-23 14:15:07.283867] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:15:15.161220] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:15:15.163222] (7) <info>: Writing output.
+[2015-Apr-23 14:15:15.172227] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:15:15.234079] (1) <info>: ------------------------------
+[2015-Apr-23 14:15:15.235078] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:15:15.235078] (3) <info>: Parsing data.
+[2015-Apr-23 14:15:15.910392] (4) <info>: Preparing the data.
+[2015-Apr-23 14:15:16.485775] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:15:24.164530] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:15:24.164530] (7) <info>: Writing output.
+[2015-Apr-23 14:15:24.173534] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:15:48.326703] (1) <info>: ------------------------------
+[2015-Apr-23 14:15:48.327704] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:15:48.327704] (3) <info>: Parsing data.
+[2015-Apr-23 14:15:48.968130] (4) <info>: Preparing the data.
+[2015-Apr-23 14:15:49.558522] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:16:03.639110] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:16:03.640111] (7) <info>: Writing output.
+[2015-Apr-23 14:16:03.652876] (8) <error>: Top level exception: Could not open C:\Users\adams_000\MODELS\Tremppi\EGFR_full\data\summary\HCT116|SW403.json
+[2015-Apr-23 14:16:03.673864] (1) <info>: ------------------------------
+[2015-Apr-23 14:16:03.674863] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:16:03.674863] (3) <info>: Parsing data.
+[2015-Apr-23 14:16:04.334225] (4) <info>: Preparing the data.
+[2015-Apr-23 14:16:04.984658] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:16:15.408419] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:16:15.409419] (7) <info>: Writing output.
+[2015-Apr-23 14:16:15.423461] (8) <error>: Top level exception: Could not open C:\Users\adams_000\MODELS\Tremppi\EGFR_full\data\occurence\HCT116|SW403.json
+[2015-Apr-23 14:17:07.082792] (1) <info>: ------------------------------
+[2015-Apr-23 14:17:07.084794] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:17:07.084794] (3) <info>: Parsing data.
+[2015-Apr-23 14:17:07.711211] (4) <info>: Preparing the data.
+[2015-Apr-23 14:17:08.258574] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:17:15.887103] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:17:15.887103] (7) <info>: Writing output.
+[2015-Apr-23 14:17:15.896109] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:17:15.913119] (1) <info>: ------------------------------
+[2015-Apr-23 14:17:15.914119] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:17:15.914119] (3) <info>: Parsing data.
+[2015-Apr-23 14:17:16.517521] (4) <info>: Preparing the data.
+[2015-Apr-23 14:17:17.073890] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:17:24.470216] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:17:24.470216] (7) <info>: Writing output.
+[2015-Apr-23 14:17:24.479223] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:17:35.318762] (1) <info>: ------------------------------
+[2015-Apr-23 14:17:35.319762] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:17:35.319762] (3) <info>: Parsing data.
+[2015-Apr-23 14:17:35.998212] (4) <info>: Preparing the data.
+[2015-Apr-23 14:17:36.617624] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:17:47.805361] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:17:47.806361] (7) <info>: Writing output.
+[2015-Apr-23 14:17:47.813366] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:17:47.831377] (1) <info>: ------------------------------
+[2015-Apr-23 14:17:47.832377] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:17:47.832377] (3) <info>: Parsing data.
+[2015-Apr-23 14:17:48.469832] (4) <info>: Preparing the data.
+[2015-Apr-23 14:17:49.067229] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:17:59.273342] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:17:59.274343] (7) <info>: Writing output.
+[2015-Apr-23 14:17:59.280347] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:18:13.501860] (1) <info>: ------------------------------
+[2015-Apr-23 14:18:13.502861] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:18:13.502861] (3) <info>: Parsing data.
+[2015-Apr-23 14:18:14.196322] (4) <info>: Preparing the data.
+[2015-Apr-23 14:18:14.868768] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:18:23.224485] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:18:23.225486] (7) <info>: Writing output.
+[2015-Apr-23 14:18:23.233492] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:18:23.251503] (1) <info>: ------------------------------
+[2015-Apr-23 14:18:23.252504] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:18:23.252504] (3) <info>: Parsing data.
+[2015-Apr-23 14:18:23.915941] (4) <info>: Preparing the data.
+[2015-Apr-23 14:18:24.585387] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:18:33.307800] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:18:33.307800] (7) <info>: Writing output.
+[2015-Apr-23 14:18:33.314805] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:19:12.430829] (1) <info>: ------------------------------
+[2015-Apr-23 14:19:12.431830] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:19:12.431830] (3) <info>: Parsing data.
+[2015-Apr-23 14:19:13.152857] (4) <info>: Preparing the data.
+[2015-Apr-23 14:19:13.874338] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:19:22.400580] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:19:22.401583] (7) <info>: Writing output.
+[2015-Apr-23 14:19:22.411589] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:19:22.429601] (1) <info>: ------------------------------
+[2015-Apr-23 14:19:22.430601] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:19:22.430601] (3) <info>: Parsing data.
+[2015-Apr-23 14:19:23.148079] (4) <info>: Preparing the data.
+[2015-Apr-23 14:19:23.826529] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:19:32.445250] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:19:32.446255] (7) <info>: Writing output.
+[2015-Apr-23 14:19:32.455258] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:20:45.542140] (1) <info>: ------------------------------
+[2015-Apr-23 14:20:45.543140] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:20:45.543140] (3) <info>: Parsing data.
+[2015-Apr-23 14:20:46.152544] (4) <info>: Preparing the data.
+[2015-Apr-23 14:20:46.669888] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:20:47.518671] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:20:47.519678] (7) <info>: Writing output.
+[2015-Apr-23 14:20:47.527678] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:20:47.544689] (1) <info>: ------------------------------
+[2015-Apr-23 14:20:47.545690] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:20:47.545690] (3) <info>: Parsing data.
+[2015-Apr-23 14:20:48.073931] (4) <info>: Preparing the data.
+[2015-Apr-23 14:20:48.549246] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:20:49.366629] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:20:49.366629] (7) <info>: Writing output.
+[2015-Apr-23 14:20:49.373634] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:20:53.124221] (1) <info>: ------------------------------
+[2015-Apr-23 14:20:53.124221] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:20:53.124221] (3) <info>: Parsing data.
+[2015-Apr-23 14:20:53.734628] (4) <info>: Preparing the data.
+[2015-Apr-23 14:20:54.325020] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:20:55.241629] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:20:55.242629] (7) <info>: Writing output.
+[2015-Apr-23 14:20:55.253637] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:20:55.271649] (1) <info>: ------------------------------
+[2015-Apr-23 14:20:55.272649] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:20:55.272649] (3) <info>: Parsing data.
+[2015-Apr-23 14:20:55.892062] (4) <info>: Preparing the data.
+[2015-Apr-23 14:20:56.456436] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:20:57.338203] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:20:57.339204] (7) <info>: Writing output.
+[2015-Apr-23 14:20:57.348209] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:21:04.572913] (1) <info>: ------------------------------
+[2015-Apr-23 14:21:04.614941] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:21:04.614941] (3) <info>: Parsing data.
+[2015-Apr-23 14:21:05.309404] (4) <info>: Preparing the data.
+[2015-Apr-23 14:21:05.906799] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:21:12.804980] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:21:12.805981] (7) <info>: Writing output.
+[2015-Apr-23 14:21:12.812987] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:21:12.831000] (1) <info>: ------------------------------
+[2015-Apr-23 14:21:12.832000] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:21:12.832000] (3) <info>: Parsing data.
+[2015-Apr-23 14:21:13.477177] (4) <info>: Preparing the data.
+[2015-Apr-23 14:21:14.071574] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:21:21.054873] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:21:21.055873] (7) <info>: Writing output.
+[2015-Apr-23 14:21:21.063880] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:21:24.036025] (1) <info>: ------------------------------
+[2015-Apr-23 14:21:24.037026] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:21:24.037026] (3) <info>: Parsing data.
+[2015-Apr-23 14:21:24.690460] (4) <info>: Preparing the data.
+[2015-Apr-23 14:21:25.316877] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:21:30.564925] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:21:30.565926] (7) <info>: Writing output.
+[2015-Apr-23 14:21:30.572931] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:21:30.591943] (1) <info>: ------------------------------
+[2015-Apr-23 14:21:30.592945] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:21:30.592945] (3) <info>: Parsing data.
+[2015-Apr-23 14:21:31.318426] (4) <info>: Preparing the data.
+[2015-Apr-23 14:21:32.016889] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:21:37.533608] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:21:37.533608] (7) <info>: Writing output.
+[2015-Apr-23 14:21:37.533608] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:21:38.832204] (1) <info>: ------------------------------
+[2015-Apr-23 14:21:38.832204] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:21:38.832204] (3) <info>: Parsing data.
+[2015-Apr-23 14:21:39.528826] (4) <info>: Preparing the data.
+[2015-Apr-23 14:21:40.197818] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:21:46.142181] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:21:46.143182] (7) <info>: Writing output.
+[2015-Apr-23 14:21:46.152188] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:21:46.173202] (1) <info>: ------------------------------
+[2015-Apr-23 14:21:46.174203] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:21:46.174203] (3) <info>: Parsing data.
+[2015-Apr-23 14:21:46.734577] (4) <info>: Preparing the data.
+[2015-Apr-23 14:21:47.223902] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:21:47.723233] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:21:47.723233] (7) <info>: Writing output.
+[2015-Apr-23 14:21:47.732240] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:21:51.210816] (1) <info>: ------------------------------
+[2015-Apr-23 14:21:51.210816] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:21:51.210816] (3) <info>: Parsing data.
+[2015-Apr-23 14:21:51.726468] (4) <info>: Preparing the data.
+[2015-Apr-23 14:21:52.179615] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:21:52.648388] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:21:52.648388] (7) <info>: Writing output.
+[2015-Apr-23 14:21:52.648388] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:21:52.679639] (1) <info>: ------------------------------
+[2015-Apr-23 14:21:52.679639] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:21:52.679639] (3) <info>: Parsing data.
+[2015-Apr-23 14:21:53.179665] (4) <info>: Preparing the data.
+[2015-Apr-23 14:21:53.663513] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:21:54.150508] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:21:54.150508] (7) <info>: Writing output.
+[2015-Apr-23 14:21:54.163515] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:21:58.014395] (1) <info>: ------------------------------
+[2015-Apr-23 14:21:58.014395] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:21:58.014395] (3) <info>: Parsing data.
+[2015-Apr-23 14:21:58.622800] (4) <info>: Preparing the data.
+[2015-Apr-23 14:21:59.139142] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:21:59.691511] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:21:59.692512] (7) <info>: Writing output.
+[2015-Apr-23 14:21:59.701517] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:21:59.722532] (1) <info>: ------------------------------
+[2015-Apr-23 14:21:59.723532] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:21:59.723532] (3) <info>: Parsing data.
+[2015-Apr-23 14:22:00.331936] (4) <info>: Preparing the data.
+[2015-Apr-23 14:22:00.867290] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:22:01.410784] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:22:01.410784] (7) <info>: Writing output.
+[2015-Apr-23 14:22:01.410784] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:22:04.763721] (1) <info>: ------------------------------
+[2015-Apr-23 14:22:04.764720] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:22:04.764720] (3) <info>: Parsing data.
+[2015-Apr-23 14:22:05.376128] (4) <info>: Preparing the data.
+[2015-Apr-23 14:22:05.965524] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:22:06.596938] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:22:06.597939] (7) <info>: Writing output.
+[2015-Apr-23 14:22:06.607946] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:22:06.625958] (1) <info>: ------------------------------
+[2015-Apr-23 14:22:06.626958] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:22:06.626958] (3) <info>: Parsing data.
+[2015-Apr-23 14:22:07.233362] (4) <info>: Preparing the data.
+[2015-Apr-23 14:22:07.806743] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:22:08.439162] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:22:08.439162] (7) <info>: Writing output.
+[2015-Apr-23 14:22:08.446167] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:22:11.036795] (1) <info>: ------------------------------
+[2015-Apr-23 14:22:11.036795] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:22:11.036795] (3) <info>: Parsing data.
+[2015-Apr-23 14:22:11.694570] (4) <info>: Preparing the data.
+[2015-Apr-23 14:22:12.312982] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:22:12.981427] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:22:12.982427] (7) <info>: Writing output.
+[2015-Apr-23 14:22:12.994435] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:22:13.012446] (1) <info>: ------------------------------
+[2015-Apr-23 14:22:13.013446] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:22:13.013446] (3) <info>: Parsing data.
+[2015-Apr-23 14:22:13.653873] (4) <info>: Preparing the data.
+[2015-Apr-23 14:22:14.271285] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:22:14.935725] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:22:14.936726] (7) <info>: Writing output.
+[2015-Apr-23 14:22:14.943728] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:22:23.098992] (1) <info>: ------------------------------
+[2015-Apr-23 14:22:23.099991] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:22:23.099991] (3) <info>: Parsing data.
+[2015-Apr-23 14:22:23.793450] (4) <info>: Preparing the data.
+[2015-Apr-23 14:22:24.479906] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:22:25.148354] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:22:25.149351] (7) <info>: Writing output.
+[2015-Apr-23 14:22:25.159358] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:22:25.176370] (1) <info>: ------------------------------
+[2015-Apr-23 14:22:25.177371] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:22:25.177371] (3) <info>: Parsing data.
+[2015-Apr-23 14:22:25.861827] (4) <info>: Preparing the data.
+[2015-Apr-23 14:22:26.501250] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:22:27.133670] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:22:27.134671] (7) <info>: Writing output.
+[2015-Apr-23 14:22:27.140675] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:22:41.394576] (1) <info>: ------------------------------
+[2015-Apr-23 14:22:41.394576] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:22:41.394576] (3) <info>: Parsing data.
+[2015-Apr-23 14:22:41.906413] (4) <info>: Preparing the data.
+[2015-Apr-23 14:22:42.366717] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:22:53.090588] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:22:53.090588] (7) <info>: Writing output.
+[2015-Apr-23 14:22:53.090588] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:22:53.106211] (1) <info>: ------------------------------
+[2015-Apr-23 14:22:53.121839] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:22:53.121839] (3) <info>: Parsing data.
+[2015-Apr-23 14:22:53.590612] (4) <info>: Preparing the data.
+[2015-Apr-23 14:22:54.028133] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:23:03.830705] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:23:03.830705] (7) <info>: Writing output.
+[2015-Apr-23 14:23:03.846331] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:23:13.370686] (1) <info>: ------------------------------
+[2015-Apr-23 14:23:13.371687] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:23:13.371687] (3) <info>: Parsing data.
+[2015-Apr-23 14:23:13.889032] (4) <info>: Preparing the data.
+[2015-Apr-23 14:23:14.391366] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:23:23.159228] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:23:23.161222] (7) <info>: Writing output.
+[2015-Apr-23 14:23:23.171230] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:23:23.197247] (1) <info>: ------------------------------
+[2015-Apr-23 14:23:23.198247] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:23:23.198247] (3) <info>: Parsing data.
+[2015-Apr-23 14:23:23.711587] (4) <info>: Preparing the data.
+[2015-Apr-23 14:23:24.199913] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:23:31.993310] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:23:31.993310] (7) <info>: Writing output.
+[2015-Apr-23 14:23:31.993310] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:23:45.451089] (1) <info>: ------------------------------
+[2015-Apr-23 14:23:45.452090] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:23:45.452090] (3) <info>: Parsing data.
+[2015-Apr-23 14:23:45.987447] (4) <info>: Preparing the data.
+[2015-Apr-23 14:23:46.497787] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:23:56.939818] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:23:56.939818] (7) <info>: Writing output.
+[2015-Apr-23 14:23:56.939818] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:23:56.971082] (1) <info>: ------------------------------
+[2015-Apr-23 14:23:56.971082] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:23:56.971082] (3) <info>: Parsing data.
+[2015-Apr-23 14:23:57.477579] (4) <info>: Preparing the data.
+[2015-Apr-23 14:23:57.985323] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:24:08.356061] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:24:08.356061] (7) <info>: Writing output.
+[2015-Apr-23 14:24:08.371687] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:24:09.449865] (1) <info>: ------------------------------
+[2015-Apr-23 14:24:09.449865] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:24:09.449865] (3) <info>: Parsing data.
+[2015-Apr-23 14:24:09.965516] (4) <info>: Preparing the data.
+[2015-Apr-23 14:24:10.451863] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:24:18.974044] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:24:18.976045] (7) <info>: Writing output.
+[2015-Apr-23 14:24:18.984050] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:24:19.006065] (1) <info>: ------------------------------
+[2015-Apr-23 14:24:19.007066] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:24:19.007066] (3) <info>: Parsing data.
+[2015-Apr-23 14:24:19.569439] (4) <info>: Preparing the data.
+[2015-Apr-23 14:24:20.085782] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:24:28.113752] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:24:28.113752] (7) <info>: Writing output.
+[2015-Apr-23 14:24:28.113752] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:24:32.363962] (1) <info>: ------------------------------
+[2015-Apr-23 14:24:32.363962] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:24:32.363962] (3) <info>: Parsing data.
+[2015-Apr-23 14:24:32.895240] (4) <info>: Preparing the data.
+[2015-Apr-23 14:24:33.415581] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:24:43.722461] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:24:43.723462] (7) <info>: Writing output.
+[2015-Apr-23 14:24:43.735471] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:24:43.755484] (1) <info>: ------------------------------
+[2015-Apr-23 14:24:43.756485] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:24:43.756485] (3) <info>: Parsing data.
+[2015-Apr-23 14:24:44.363887] (4) <info>: Preparing the data.
+[2015-Apr-23 14:24:44.898243] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:24:45.438602] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:24:45.439604] (7) <info>: Writing output.
+[2015-Apr-23 14:24:45.448610] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:25:57.665570] (1) <info>: ------------------------------
+[2015-Apr-23 14:25:57.666571] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:25:57.666571] (3) <info>: Parsing data.
+[2015-Apr-23 14:25:58.268972] (4) <info>: Preparing the data.
+[2015-Apr-23 14:25:58.844354] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:25:59.378707] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:25:59.379708] (7) <info>: Writing output.
+[2015-Apr-23 14:25:59.387713] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:25:59.404724] (1) <info>: ------------------------------
+[2015-Apr-23 14:25:59.404724] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:25:59.404724] (3) <info>: Parsing data.
+[2015-Apr-23 14:25:59.979109] (4) <info>: Preparing the data.
+[2015-Apr-23 14:26:00.528474] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:26:01.081840] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:26:01.081840] (7) <info>: Writing output.
+[2015-Apr-23 14:26:01.089845] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:26:07.826716] (1) <info>: ------------------------------
+[2015-Apr-23 14:26:07.826716] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:26:07.826716] (3) <info>: Parsing data.
+[2015-Apr-23 14:26:08.432120] (4) <info>: Preparing the data.
+[2015-Apr-23 14:26:08.994493] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:26:09.616266] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:26:09.631897] (7) <info>: Writing output.
+[2015-Apr-23 14:26:09.631897] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:26:09.663146] (1) <info>: ------------------------------
+[2015-Apr-23 14:26:09.663146] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:26:09.663146] (3) <info>: Parsing data.
+[2015-Apr-23 14:26:10.272964] (4) <info>: Preparing the data.
+[2015-Apr-23 14:26:10.817326] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:26:11.421748] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:26:11.421748] (7) <info>: Writing output.
+[2015-Apr-23 14:26:11.427751] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:26:20.816432] (1) <info>: ------------------------------
+[2015-Apr-23 14:26:20.817433] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:26:20.817433] (3) <info>: Parsing data.
+[2015-Apr-23 14:26:21.484876] (4) <info>: Preparing the data.
+[2015-Apr-23 14:26:22.155322] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:26:22.762724] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:26:22.763725] (7) <info>: Writing output.
+[2015-Apr-23 14:26:22.773733] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:26:22.790742] (1) <info>: ------------------------------
+[2015-Apr-23 14:26:22.791743] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:26:22.791743] (3) <info>: Parsing data.
+[2015-Apr-23 14:26:23.474198] (4) <info>: Preparing the data.
+[2015-Apr-23 14:26:24.119627] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:26:24.747043] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:26:24.748044] (7) <info>: Writing output.
+[2015-Apr-23 14:26:24.751601] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:26:27.384302] (1) <info>: ------------------------------
+[2015-Apr-23 14:26:27.385302] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:26:27.385302] (3) <info>: Parsing data.
+[2015-Apr-23 14:26:28.078763] (4) <info>: Preparing the data.
+[2015-Apr-23 14:26:28.763219] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:26:29.439668] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:26:29.440668] (7) <info>: Writing output.
+[2015-Apr-23 14:26:29.450675] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:26:29.467685] (1) <info>: ------------------------------
+[2015-Apr-23 14:26:29.467685] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:26:29.467685] (3) <info>: Parsing data.
+[2015-Apr-23 14:26:30.195169] (4) <info>: Preparing the data.
+[2015-Apr-23 14:26:30.857608] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:26:31.515753] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:26:31.515753] (7) <info>: Writing output.
+[2015-Apr-23 14:26:31.640758] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:26:59.970366] (1) <info>: ------------------------------
+[2015-Apr-23 14:26:59.971367] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:26:59.971367] (3) <info>: Parsing data.
+[2015-Apr-23 14:27:00.542745] (4) <info>: Preparing the data.
+[2015-Apr-23 14:27:01.027066] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:27:01.540407] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:27:01.541407] (7) <info>: Writing output.
+[2015-Apr-23 14:27:01.550413] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:27:01.571429] (1) <info>: ------------------------------
+[2015-Apr-23 14:27:01.572429] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:27:01.572429] (3) <info>: Parsing data.
+[2015-Apr-23 14:27:02.137806] (4) <info>: Preparing the data.
+[2015-Apr-23 14:27:02.637137] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:27:03.128460] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:27:03.144085] (7) <info>: Writing output.
+[2015-Apr-23 14:27:03.206594] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:27:16.529407] (1) <info>: ------------------------------
+[2015-Apr-23 14:27:16.530407] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:27:16.530407] (3) <info>: Parsing data.
+[2015-Apr-23 14:27:17.051625] (4) <info>: Preparing the data.
+[2015-Apr-23 14:27:17.566530] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:27:25.755701] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:27:25.755701] (7) <info>: Writing output.
+[2015-Apr-23 14:27:25.771324] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:27:25.786953] (1) <info>: ------------------------------
+[2015-Apr-23 14:27:25.786953] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:27:25.786953] (3) <info>: Parsing data.
+[2015-Apr-23 14:27:26.309870] (4) <info>: Preparing the data.
+[2015-Apr-23 14:27:26.784185] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:27:34.519365] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:27:34.519365] (7) <info>: Writing output.
+[2015-Apr-23 14:27:34.534993] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 14:27:43.983338] (1) <info>: ------------------------------
+[2015-Apr-23 14:27:43.984339] (2) <info>: tremppi_summary started.
+[2015-Apr-23 14:27:43.984339] (3) <info>: Parsing data.
+[2015-Apr-23 14:27:44.672797] (4) <info>: Preparing the data.
+[2015-Apr-23 14:27:45.342242] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:27:51.458437] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:27:51.458437] (7) <info>: Writing output.
+[2015-Apr-23 14:27:51.470157] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-23 14:27:51.485787] (1) <info>: ------------------------------
+[2015-Apr-23 14:27:51.489688] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 14:27:51.489688] (3) <info>: Parsing data.
+[2015-Apr-23 14:27:52.241390] (4) <info>: Preparing the data.
+[2015-Apr-23 14:27:52.932848] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 14:27:58.223418] (6) <info>: Building the JSON file.
+[2015-Apr-23 14:27:58.227320] (7) <info>: Writing output.
+[2015-Apr-23 14:27:58.231225] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:07:45.486599] (1) <info>: ------------------------------
+[2015-Apr-23 17:07:45.508459] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:07:45.509463] (3) <info>: Parsing data.
+[2015-Apr-23 17:07:46.792208] (4) <info>: Preparing the data.
+[2015-Apr-23 17:07:47.741838] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:08:04.158312] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:08:04.159313] (7) <info>: Writing output.
+[2015-Apr-23 17:08:04.221395] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:08:05.376072] (1) <info>: ------------------------------
+[2015-Apr-23 17:08:05.376072] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:08:05.376072] (3) <info>: Parsing data.
+[2015-Apr-23 17:08:06.102556] (4) <info>: Preparing the data.
+[2015-Apr-23 17:08:06.787008] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:08:15.930376] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:08:15.931376] (7) <info>: Writing output.
+[2015-Apr-23 17:08:16.073212] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:08:19.440446] (1) <info>: ------------------------------
+[2015-Apr-23 17:08:19.441447] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:08:19.441447] (3) <info>: Parsing data.
+[2015-Apr-23 17:08:20.203078] (4) <info>: Preparing the data.
+[2015-Apr-23 17:08:20.944575] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:08:33.140342] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:08:33.141343] (7) <info>: Writing output.
+[2015-Apr-23 17:08:33.148353] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:08:45.808001] (1) <info>: ------------------------------
+[2015-Apr-23 17:08:45.808001] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:08:45.808001] (3) <info>: Parsing data.
+[2015-Apr-23 17:08:46.595991] (4) <info>: Preparing the data.
+[2015-Apr-23 17:08:47.375514] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:08:56.183571] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:08:56.184571] (7) <info>: Writing output.
+[2015-Apr-23 17:08:56.192577] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:08:58.682408] (1) <info>: ------------------------------
+[2015-Apr-23 17:08:58.683409] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:08:58.683409] (3) <info>: Parsing data.
+[2015-Apr-23 17:08:59.575002] (4) <info>: Preparing the data.
+[2015-Apr-23 17:09:00.383539] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:09:10.154989] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:09:10.154989] (7) <info>: Writing output.
+[2015-Apr-23 17:09:10.165997] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:09:13.983134] (1) <info>: ------------------------------
+[2015-Apr-23 17:09:13.984134] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:09:13.984134] (3) <info>: Parsing data.
+[2015-Apr-23 17:09:14.669589] (4) <info>: Preparing the data.
+[2015-Apr-23 17:09:15.300008] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:09:16.367452] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:09:16.368454] (7) <info>: Writing output.
+[2015-Apr-23 17:09:16.376461] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:09:19.335220] (1) <info>: ------------------------------
+[2015-Apr-23 17:09:19.335220] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:09:19.335220] (3) <info>: Parsing data.
+[2015-Apr-23 17:09:20.042690] (4) <info>: Preparing the data.
+[2015-Apr-23 17:09:20.721141] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:09:21.750826] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:09:21.751826] (7) <info>: Writing output.
+[2015-Apr-23 17:09:21.761832] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:09:26.286179] (1) <info>: ------------------------------
+[2015-Apr-23 17:09:26.287180] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:09:26.287180] (3) <info>: Parsing data.
+[2015-Apr-23 17:09:27.075706] (4) <info>: Preparing the data.
+[2015-Apr-23 17:09:27.848217] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:09:35.260009] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:09:35.261010] (7) <info>: Writing output.
+[2015-Apr-23 17:09:35.269013] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:09:38.888907] (1) <info>: ------------------------------
+[2015-Apr-23 17:09:38.888907] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:09:38.889907] (3) <info>: Parsing data.
+[2015-Apr-23 17:09:39.678432] (4) <info>: Preparing the data.
+[2015-Apr-23 17:09:40.468957] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:09:45.981253] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:09:45.982253] (7) <info>: Writing output.
+[2015-Apr-23 17:09:45.990260] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:09:47.328302] (1) <info>: ------------------------------
+[2015-Apr-23 17:09:47.329303] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:09:47.330302] (3) <info>: Parsing data.
+[2015-Apr-23 17:09:48.205885] (4) <info>: Preparing the data.
+[2015-Apr-23 17:09:49.012420] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:09:55.264472] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:09:55.264472] (7) <info>: Writing output.
+[2015-Apr-23 17:09:55.271833] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:09:56.080629] (1) <info>: ------------------------------
+[2015-Apr-23 17:09:56.081630] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:09:56.081630] (3) <info>: Parsing data.
+[2015-Apr-23 17:09:56.807109] (4) <info>: Preparing the data.
+[2015-Apr-23 17:09:57.447536] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:09:58.095966] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:09:58.095966] (7) <info>: Writing output.
+[2015-Apr-23 17:09:58.105973] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:10:05.486852] (1) <info>: ------------------------------
+[2015-Apr-23 17:10:05.487853] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:10:05.487853] (3) <info>: Parsing data.
+[2015-Apr-23 17:10:06.185317] (4) <info>: Preparing the data.
+[2015-Apr-23 17:10:06.881779] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:10:07.556227] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:10:07.556227] (7) <info>: Writing output.
+[2015-Apr-23 17:10:07.564233] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:10:11.783678] (1) <info>: ------------------------------
+[2015-Apr-23 17:10:11.784679] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:10:11.784679] (3) <info>: Parsing data.
+[2015-Apr-23 17:10:12.515536] (4) <info>: Preparing the data.
+[2015-Apr-23 17:10:13.237016] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:10:14.015530] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:10:14.015530] (7) <info>: Writing output.
+[2015-Apr-23 17:10:14.024536] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:10:18.334237] (1) <info>: ------------------------------
+[2015-Apr-23 17:10:18.335239] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:10:18.335239] (3) <info>: Parsing data.
+[2015-Apr-23 17:10:19.084736] (4) <info>: Preparing the data.
+[2015-Apr-23 17:10:19.836236] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:10:20.546709] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:10:20.546709] (7) <info>: Writing output.
+[2015-Apr-23 17:10:20.555713] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:10:25.799792] (1) <info>: ------------------------------
+[2015-Apr-23 17:10:25.800792] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:10:25.800792] (3) <info>: Parsing data.
+[2015-Apr-23 17:10:26.659363] (4) <info>: Preparing the data.
+[2015-Apr-23 17:10:27.465901] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:10:28.290446] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:10:28.291447] (7) <info>: Writing output.
+[2015-Apr-23 17:10:28.299452] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:12:03.861292] (1) <info>: ------------------------------
+[2015-Apr-23 17:12:03.862293] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:12:03.862293] (3) <info>: Parsing data.
+[2015-Apr-23 17:12:04.473699] (4) <info>: Preparing the data.
+[2015-Apr-23 17:12:05.069095] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:12:16.876506] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:12:16.877506] (7) <info>: Writing output.
+[2015-Apr-23 17:12:16.884509] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:12:18.077405] (1) <info>: ------------------------------
+[2015-Apr-23 17:12:18.078406] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:12:18.078406] (3) <info>: Parsing data.
+[2015-Apr-23 17:12:18.683650] (4) <info>: Preparing the data.
+[2015-Apr-23 17:12:19.243021] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:12:28.018456] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:12:28.019458] (7) <info>: Writing output.
+[2015-Apr-23 17:12:28.026463] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:12:29.061380] (1) <info>: ------------------------------
+[2015-Apr-23 17:12:29.062381] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:12:29.062381] (3) <info>: Parsing data.
+[2015-Apr-23 17:12:29.693929] (4) <info>: Preparing the data.
+[2015-Apr-23 17:12:30.296329] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:12:41.860881] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:12:41.860881] (7) <info>: Writing output.
+[2015-Apr-23 17:12:41.870888] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:13:17.860556] (1) <info>: ------------------------------
+[2015-Apr-23 17:13:17.861561] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:13:17.861561] (3) <info>: Parsing data.
+[2015-Apr-23 17:13:18.508987] (4) <info>: Preparing the data.
+[2015-Apr-23 17:13:19.120394] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:13:28.315325] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:13:28.316326] (7) <info>: Writing output.
+[2015-Apr-23 17:13:28.325332] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:13:30.804186] (1) <info>: ------------------------------
+[2015-Apr-23 17:13:30.805187] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:13:30.805187] (3) <info>: Parsing data.
+[2015-Apr-23 17:13:31.458621] (4) <info>: Preparing the data.
+[2015-Apr-23 17:13:32.115058] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:13:41.518212] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:13:41.519213] (7) <info>: Writing output.
+[2015-Apr-23 17:13:41.527862] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:13:45.243874] (1) <info>: ------------------------------
+[2015-Apr-23 17:13:45.244875] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:13:45.244875] (3) <info>: Parsing data.
+[2015-Apr-23 17:13:45.869290] (4) <info>: Preparing the data.
+[2015-Apr-23 17:13:46.455679] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:13:47.074000] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:13:47.075001] (7) <info>: Writing output.
+[2015-Apr-23 17:13:47.084011] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:13:50.109195] (1) <info>: ------------------------------
+[2015-Apr-23 17:13:50.111197] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:13:50.111197] (3) <info>: Parsing data.
+[2015-Apr-23 17:13:50.853690] (4) <info>: Preparing the data.
+[2015-Apr-23 17:13:51.506124] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:13:52.211592] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:13:52.211592] (7) <info>: Writing output.
+[2015-Apr-23 17:13:52.220600] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:13:55.867524] (1) <info>: ------------------------------
+[2015-Apr-23 17:13:55.868525] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:13:55.868525] (3) <info>: Parsing data.
+[2015-Apr-23 17:13:56.574379] (4) <info>: Preparing the data.
+[2015-Apr-23 17:13:57.268841] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:13:58.034350] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:13:58.035350] (7) <info>: Writing output.
+[2015-Apr-23 17:13:58.042354] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:14:02.995810] (1) <info>: ------------------------------
+[2015-Apr-23 17:14:02.996810] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:14:02.996810] (3) <info>: Parsing data.
+[2015-Apr-23 17:14:03.763321] (4) <info>: Preparing the data.
+[2015-Apr-23 17:14:04.513819] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:14:05.249307] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:14:05.249307] (7) <info>: Writing output.
+[2015-Apr-23 17:14:05.257312] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-23 17:14:09.411542] (1) <info>: ------------------------------
+[2015-Apr-23 17:14:09.412542] (2) <info>: tremppi_qualitative started.
+[2015-Apr-23 17:14:09.412542] (3) <info>: Parsing data.
+[2015-Apr-23 17:14:10.195064] (4) <info>: Preparing the data.
+[2015-Apr-23 17:14:10.976581] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-23 17:14:11.730084] (6) <info>: Building the JSON file.
+[2015-Apr-23 17:14:11.731089] (7) <info>: Writing output.
+[2015-Apr-23 17:14:11.741090] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-24 15:57:30.251222] (1) <info>: ------------------------------
+[2015-Apr-24 15:57:30.251222] (2) <info>: tremppi_summary started.
+[2015-Apr-24 15:57:30.251222] (3) <info>: Parsing data.
+[2015-Apr-24 15:58:17.978121] (4) <info>: Preparing the data.
+[2015-Apr-24 15:58:18.384392] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-24 15:58:32.986718] (6) <info>: Building the JSON file.
+[2015-Apr-24 15:58:32.986718] (7) <info>: Writing output.
+[2015-Apr-24 15:58:32.986718] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-24 15:58:33.017973] (1) <info>: ------------------------------
+[2015-Apr-24 15:58:33.017973] (2) <info>: tremppi_qualitative started.
+[2015-Apr-24 15:58:33.017973] (3) <info>: Parsing data.
+[2015-Apr-24 15:58:33.455494] (4) <info>: Preparing the data.
+[2015-Apr-24 15:58:33.861764] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-24 15:58:49.818706] (6) <info>: Building the JSON file.
+[2015-Apr-24 15:58:49.818706] (7) <info>: Writing output.
+[2015-Apr-24 15:58:49.834333] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Apr-25 12:47:56.589924] (1) <info>: ------------------------------
+[2015-Apr-25 12:47:59.525587] (2) <info>: tremppi_summary started.
+[2015-Apr-25 12:47:59.700285] (3) <info>: Parsing data.
+[2015-Apr-25 12:48:25.428116] (4) <info>: Preparing the data.
+[2015-Apr-25 12:48:25.894808] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-25 12:48:41.056862] (6) <info>: Building the JSON file.
+[2015-Apr-25 12:48:41.057871] (7) <info>: Writing output.
+[2015-Apr-25 12:48:44.173323] (8) <info>: tremppi_summary finished successfully.
+[2015-Apr-25 12:48:50.041342] (1) <info>: ------------------------------
+[2015-Apr-25 12:48:50.042343] (2) <info>: tremppi_qualitative started.
+[2015-Apr-25 12:48:50.042343] (3) <info>: Parsing data.
+[2015-Apr-25 12:48:52.432393] (4) <info>: Preparing the data.
+[2015-Apr-25 12:48:52.996768] (5) <info>: Reading the values, computing the statistics.
+[2015-Apr-25 12:49:08.735627] (6) <info>: Building the JSON file.
+[2015-Apr-25 12:49:08.736627] (7) <info>: Writing output.
+[2015-Apr-25 12:49:08.829545] (8) <info>: tremppi_qualitative finished successfully.
