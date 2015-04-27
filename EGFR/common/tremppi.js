@@ -29,6 +29,7 @@ tremppi = {
     initiate: function () {
         var url = window.location.pathname;
         tremppi.widget_name = url.substring(url.lastIndexOf('/') + 1).slice(0, -5);
+		console.log(tremppi.widget_name);
         tremppi[tremppi.widget_name] = tremppi.widget = this.widgetInterface();
         tremppi.data_file = "./" + tremppi.widget_name + ".json";
         tremppi.makeHead();
