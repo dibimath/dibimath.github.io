@@ -47,7 +47,7 @@
 			"header": true
 		}
 	},
-	"panel": "",
+	"panel": "all",
 	"select": "ALL",
 	"selections": [
 		{

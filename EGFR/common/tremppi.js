@@ -81,11 +81,11 @@ tremppi = {
                 {id: 'widget_list', text: 'widgets', expanded: true, group: true,
                     nodes: [
                         {id: 'index', text: 'index'},
-                        {id: 'editor', text: 'editor'},
-                        {id: 'select', text: 'select'},
+                        {id: 'editor', text: 'network'},
                         {id: 'properties', text: 'properties'},
-                        {id: 'summary', text: 'summary'},
-                        {id: 'occurence', text: 'occurence'}
+                        {id: 'select', text: 'selections'},
+                        {id: 'summary', text: 'quantitative'},
+                        {id: 'occurence', text: 'qualitative'}
                     ]
                 }
             ]
