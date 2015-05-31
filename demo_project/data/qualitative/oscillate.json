@@ -1,0 +1,151 @@
+{
+   "setup" : {
+      "date" : "Sun May 31 12:52:29 2015",
+      "s_name" : "oscillate",
+      "select" : " WHERE (C_oscillateOnB IS NOT NULL)",
+      "size" : 5
+   },
+   "values" : [
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 0.40
+            },
+            {
+               "name" : "2",
+               "portion" : 0.60
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 3,
+         "name" : "K<sub>A</sub>(00)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 2,
+         "name" : "K<sub>A</sub>(01)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.40
+            },
+            {
+               "name" : "1",
+               "portion" : 0.40
+            },
+            {
+               "name" : "2",
+               "portion" : 0.20
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 4,
+         "name" : "K<sub>A</sub>(20)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 2,
+         "name" : "K<sub>A</sub>(21)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 2,
+         "name" : "K<sub>B</sub>(0)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 2,
+         "name" : "K<sub>B</sub>(1)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1&!B",
+               "portion" : 0.20
+            },
+            {
+               "name" : "1&A{01}&!B",
+               "portion" : 0.20
+            },
+            {
+               "name" : "1&A{2}&!B|2&A{01}&!B",
+               "portion" : 0.20
+            },
+            {
+               "name" : "2&!B",
+               "portion" : 0.20
+            },
+            {
+               "name" : "2&A{01}&!B",
+               "portion" : 0.20
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 6,
+         "name" : "F<sub>A</sub>()"
+      },
+      {
+         "data" : [
+            {
+               "name" : "A{12}",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 2,
+         "name" : "F<sub>B</sub>()"
+      }
+   ]
+}
+

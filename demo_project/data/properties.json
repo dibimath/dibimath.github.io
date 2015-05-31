@@ -1,0 +1,52 @@
+{
+	"records": [
+		{
+			"name": "oscillateOnB",
+			"records": [
+				{
+					"recid": 0,
+					"id": "A",
+					"V_B": "0"
+				},
+				{
+					"recid": 1,
+					"id": "B",
+					"V_B": "1"
+				}
+			],
+			"recid": 0,
+			"ending": "goto A",
+			"validate": true,
+			"robustness": true,
+			"witness": true
+		},
+		{
+			"name": "fallOnA",
+			"records": [
+				{
+					"recid": 0,
+					"id": "A",
+					"V_A": "2",
+					"D_A": "down"
+				},
+				{
+					"recid": 1,
+					"id": "B",
+					"V_A": "1",
+					"D_A": "down"
+				},
+				{
+					"recid": 2,
+					"id": "C",
+					"V_A": "0"
+				}
+			],
+			"recid": 1,
+			"E_B": "0",
+			"validate": true,
+			"ending": "any",
+			"witness": true,
+			"robustness": true
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"records": [
+		{
+			"name": "ALL",
+			"recid": 0,
+			"select": false
+		},
+		{
+			"name": "oscillate",
+			"recid": 1,
+			"R_oscillateOnB": "",
+			"C_oscillateOnB": "ANY",
+			"select": false
+		},
+		{
+			"name": "fall",
+			"recid": 2,
+			"R_oscillateOnB": "",
+			"R_fallOnA": "",
+			"C_oscillateOnB": "",
+			"C_fallOnA": "ANY",
+			"select": true
+		}
+	]
+}

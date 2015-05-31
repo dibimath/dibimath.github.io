@@ -1,0 +1,91 @@
+{
+   "records" : [
+      {
+         "count" : 36,
+         "max" : 2.0,
+         "mean" : 1.333333333333333,
+         "min" : 0.0,
+         "name" : "K<sub>A</sub>(00)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 36,
+         "max" : 2.0,
+         "mean" : 1.333333333333333,
+         "min" : 0.0,
+         "name" : "K<sub>A</sub>(01)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 36,
+         "max" : 2.0,
+         "mean" : 0.6666666666666666,
+         "min" : 0.0,
+         "name" : "K<sub>A</sub>(20)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 36,
+         "max" : 2.0,
+         "mean" : 0.6666666666666666,
+         "min" : 0.0,
+         "name" : "K<sub>A</sub>(21)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 36,
+         "max" : 2.225073858507201e-308,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(0)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 36,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>B</sub>(1)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 5,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "C<sub>oscillateOnB</sub>()",
+         "portion" : 0.1388888888888889
+      },
+      {
+         "count" : 36,
+         "max" : 0.3333330,
+         "mean" : 0.03240741666666666,
+         "min" : 0.0,
+         "name" : "R<sub>oscillateOnB</sub>()",
+         "portion" : 1.0
+      },
+      {
+         "count" : 6,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "C<sub>fallOnA</sub>()",
+         "portion" : 0.1666666666666667
+      },
+      {
+         "count" : 36,
+         "max" : 1.0,
+         "mean" : 0.1666666666666667,
+         "min" : 0.0,
+         "name" : "R<sub>fallOnA</sub>()",
+         "portion" : 1.0
+      }
+   ],
+   "setup" : {
+      "date" : "Sun May 31 12:51:45 2015",
+      "s_name" : "ALL",
+      "select" : " WHERE (1)",
+      "size" : 36
+   }
+}
+
