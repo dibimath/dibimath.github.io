@@ -1,0 +1,1 @@
+tremppi.quantitative.setup = {"files": ["all", "phi", "psi"]};

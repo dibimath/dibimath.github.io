@@ -1,0 +1,115 @@
+{
+   "records" : [
+      {
+         "count" : 5,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>A</sub>(0)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 5,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>A</sub>(1)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 5,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(00)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 5,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(02)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 5,
+         "max" : 2.0,
+         "mean" : 1.60,
+         "min" : 1.0,
+         "name" : "K<sub>B</sub>(10)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 5,
+         "max" : 2.0,
+         "mean" : 0.80,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(12)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 3,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "Cost(test_ts)",
+         "portion" : 0.60
+      },
+      {
+         "count" : 5,
+         "max" : 0.250,
+         "mean" : 0.150,
+         "min" : 0.0,
+         "name" : "Robustness(test_ts)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 5,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "Cost(test_cycle)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 5,
+         "max" : 0.50,
+         "mean" : 0.350,
+         "min" : 0.250,
+         "name" : "Robustness(test_cycle)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 5,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "Indigree(A)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 5,
+         "max" : 2.0,
+         "mean" : 1.60,
+         "min" : 1.0,
+         "name" : "Indigree(B)",
+         "portion" : 1.0
+      },
+      {
+         "count" : 5,
+         "max" : 3.0,
+         "mean" : 2.60,
+         "min" : 2.0,
+         "name" : "Indigree(SUM)",
+         "portion" : 1.0
+      }
+   ],
+   "setup" : {
+      "date" : "Thu Jun 11 18:54:33 2015",
+      "s_name" : "psi",
+      "select" : " WHERE (C_test_cycle IS NOT NULL)",
+      "size" : 5
+   }
+}
+

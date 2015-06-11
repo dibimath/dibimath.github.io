@@ -1,0 +1,42 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "B",
+               "target" : "A"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "Bias" : 0.0,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.3535533905932738,
+               "id" : "A",
+               "name" : "A"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.1363636363636365,
+               "Max" : 2,
+               "Mean" : 1.136363636363636,
+               "Std" : 0.3593497341100431,
+               "id" : "B",
+               "name" : "B"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Thu Jun 11 18:54:23 2015",
+      "s_name" : "phi",
+      "select" : " WHERE (C_test_ts IS NOT NULL)",
+      "size" : 44
+   }
+}
+

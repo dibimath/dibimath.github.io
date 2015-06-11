@@ -1,0 +1,49 @@
+{
+	"records": [
+		{
+			"recid": 0,
+			"E_A": "",
+			"E_B": "",
+			"ending": "any",
+			"name": "phi",
+			"records": [
+				{
+					"recid": 0,
+					"id": "A",
+					"V_B": "0"
+				},
+				{
+					"recid": 1,
+					"id": "B",
+					"V_B": "2"
+				}
+			],
+			"robustness": true,
+			"validate": true,
+			"witness": false,
+			"bound": ""
+		},
+		{
+			"recid": 1,
+			"E_A": "",
+			"E_B": "",
+			"ending": "goto A",
+			"name": "psi",
+			"records": [
+				{
+					"recid": 0,
+					"id": "A",
+					"V_B": "0"
+				},
+				{
+					"recid": 1,
+					"id": "B",
+					"V_B": "1"
+				}
+			],
+			"robustness": true,
+			"validate": true,
+			"witness": false
+		}
+	]
+}

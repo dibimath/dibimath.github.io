@@ -1,0 +1,1 @@
+tremppi.regulations.setup = {"files": ["all", "phi", "psi"]};

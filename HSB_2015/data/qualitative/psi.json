@@ -1,0 +1,197 @@
+{
+   "setup" : {
+      "date" : "Thu Jun 11 18:54:33 2015",
+      "s_name" : "psi",
+      "select" : " WHERE (C_test_cycle IS NOT NULL)",
+      "size" : 5
+   },
+   "values" : [
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 2,
+         "name" : "K<sub>A</sub>(0)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 2,
+         "name" : "K<sub>A</sub>(1)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 2,
+         "name" : "K<sub>B</sub>(00)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 2,
+         "name" : "K<sub>B</sub>(02)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 0.40
+            },
+            {
+               "name" : "2",
+               "portion" : 0.60
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 3,
+         "name" : "K<sub>B</sub>(10)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.40
+            },
+            {
+               "name" : "1",
+               "portion" : 0.40
+            },
+            {
+               "name" : "2",
+               "portion" : 0.20
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 4,
+         "name" : "K<sub>B</sub>(12)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "-",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 2,
+         "name" : "Label(B,1,A)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "+",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 2,
+         "name" : "Label(A,1,B)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "-",
+               "portion" : 0.60
+            },
+            {
+               "name" : "0",
+               "portion" : 0.40
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 3,
+         "name" : "Label(B,2,B)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "B{0}",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 2,
+         "name" : "F<sub>A</sub>"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1&A",
+               "portion" : 0.20
+            },
+            {
+               "name" : "1&A&B{01}",
+               "portion" : 0.20
+            },
+            {
+               "name" : "1&A&B{2}|2&A&B{01}",
+               "portion" : 0.20
+            },
+            {
+               "name" : "2&A",
+               "portion" : 0.20
+            },
+            {
+               "name" : "2&A&B{01}",
+               "portion" : 0.20
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 6,
+         "name" : "F<sub>B</sub>"
+      }
+   ]
+}
+

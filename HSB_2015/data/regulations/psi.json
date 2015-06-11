@@ -1,0 +1,60 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : -1.0,
+               "Sign" : "-",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "B",
+               "target" : "A"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.8118469144225084,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.56250,
+               "source" : "A",
+               "target" : "B"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.60,
+               "Pearson" : -0.2912423765914031,
+               "Sign" : "-",
+               "Threshold" : 2,
+               "WeightedFrequency" : 0.33750,
+               "source" : "B",
+               "target" : "B"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "id" : "A",
+               "name" : "A"
+            }
+         },
+         {
+            "data" : {
+               "id" : "B",
+               "name" : "B"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Thu Jun 11 18:54:33 2015",
+      "s_name" : "psi",
+      "select" : " WHERE (C_test_cycle IS NOT NULL)",
+      "size" : 5
+   }
+}
+

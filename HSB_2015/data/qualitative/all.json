@@ -1,0 +1,273 @@
+{
+   "setup" : {
+      "date" : "Tue Jun  9 15:52:25 2015",
+      "s_name" : "all",
+      "select" : " WHERE (1)",
+      "size" : 56
+   },
+   "values" : [
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 3,
+         "name" : "K<sub>A</sub>(0)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 3,
+         "name" : "K<sub>A</sub>(1)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3571428571428572
+            },
+            {
+               "name" : "1",
+               "portion" : 0.4285714285714285
+            },
+            {
+               "name" : "2",
+               "portion" : 0.2142857142857143
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 4,
+         "name" : "K<sub>B</sub>(00)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7857142857142857
+            },
+            {
+               "name" : "1",
+               "portion" : 0.2142857142857143
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 3,
+         "name" : "K<sub>B</sub>(02)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 0.2142857142857143
+            },
+            {
+               "name" : "2",
+               "portion" : 0.7857142857142857
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 3,
+         "name" : "K<sub>B</sub>(10)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.2142857142857143
+            },
+            {
+               "name" : "1",
+               "portion" : 0.4285714285714285
+            },
+            {
+               "name" : "2",
+               "portion" : 0.3571428571428572
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 4,
+         "name" : "K<sub>B</sub>(12)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "+",
+               "portion" : 0.250
+            },
+            {
+               "name" : "-",
+               "portion" : 0.250
+            },
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 4,
+         "name" : "Label(B,1,A)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "+",
+               "portion" : 1.0
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 2,
+         "name" : "Label(A,1,B)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "-",
+               "portion" : 0.7857142857142857
+            },
+            {
+               "name" : "0",
+               "portion" : 0.2142857142857143
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 3,
+         "name" : "Label(B,2,B)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.250
+            },
+            {
+               "name" : "1",
+               "portion" : 0.250
+            },
+            {
+               "name" : "B{0}",
+               "portion" : 0.250
+            },
+            {
+               "name" : "B{12}",
+               "portion" : 0.250
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 5,
+         "name" : "F<sub>A</sub>"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1&!A&B{01}|1&A&B{2}|2&A&B{01}",
+               "portion" : 0.07142857142857142
+            },
+            {
+               "name" : "1&!A&B{01}|2&A",
+               "portion" : 0.07142857142857142
+            },
+            {
+               "name" : "1&!A&B{01}|2&A&B{01}",
+               "portion" : 0.07142857142857142
+            },
+            {
+               "name" : "1&!A&B{2}|2&B{01}|2&A",
+               "portion" : 0.07142857142857142
+            },
+            {
+               "name" : "1&!A|1&B{2}|2&A&B{01}",
+               "portion" : 0.07142857142857142
+            },
+            {
+               "name" : "1&!A|2&A",
+               "portion" : 0.07142857142857142
+            },
+            {
+               "name" : "1&A",
+               "portion" : 0.07142857142857142
+            },
+            {
+               "name" : "1&A&B{01}",
+               "portion" : 0.07142857142857142
+            },
+            {
+               "name" : "1&A&B{2}|2&A&B{01}",
+               "portion" : 0.07142857142857142
+            },
+            {
+               "name" : "1&A&B{2}|2&B{01}",
+               "portion" : 0.07142857142857142
+            },
+            {
+               "name" : "1&B{01}|1&A",
+               "portion" : 0.07142857142857142
+            },
+            {
+               "name" : "2&A",
+               "portion" : 0.07142857142857142
+            },
+            {
+               "name" : "2&A&B{01}",
+               "portion" : 0.07142857142857142
+            },
+            {
+               "name" : "2&B{01}|2&A",
+               "portion" : 0.07142857142857142
+            },
+            {
+               "name" : "null",
+               "portion" : 0.0
+            }
+         ],
+         "entries" : 15,
+         "name" : "F<sub>B</sub>"
+      }
+   ]
+}
+

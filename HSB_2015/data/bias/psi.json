@@ -1,0 +1,42 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "B",
+               "target" : "A"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "Bias" : 0.0,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "A",
+               "name" : "A"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : -0.40,
+               "Max" : 2,
+               "Mean" : 0.60,
+               "Std" : 0.2549509756796393,
+               "id" : "B",
+               "name" : "B"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Thu Jun 11 18:54:33 2015",
+      "s_name" : "psi",
+      "select" : " WHERE (C_test_cycle IS NOT NULL)",
+      "size" : 5
+   }
+}
+
