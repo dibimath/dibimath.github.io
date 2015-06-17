@@ -1,115 +1,123 @@
 {
    "records" : [
       {
-         "count" : 56,
+         "count" : 162,
          "max" : 1.0,
-         "mean" : 0.50,
+         "mean" : 0.003095975232198143,
          "min" : 0.0,
-         "name" : "K<sub>A</sub>(0)",
-         "portion" : 1.0
+         "name" : "K<sub>A</sub>(0)"
       },
       {
-         "count" : 56,
+         "count" : 162,
          "max" : 1.0,
-         "mean" : 0.50,
+         "mean" : 0.003095975232198143,
          "min" : 0.0,
-         "name" : "K<sub>A</sub>(1)",
-         "portion" : 1.0
+         "name" : "K<sub>A</sub>(1)"
       },
       {
-         "count" : 56,
+         "count" : 216,
          "max" : 2.0,
-         "mean" : 0.8571428571428571,
+         "mean" : 0.006191950464396285,
          "min" : 0.0,
-         "name" : "K<sub>B</sub>(00)",
-         "portion" : 1.0
+         "name" : "K<sub>B</sub>(00)"
       },
       {
-         "count" : 56,
+         "count" : 216,
+         "max" : 2.0,
+         "mean" : 0.006191950464396285,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(02)"
+      },
+      {
+         "count" : 216,
+         "max" : 2.0,
+         "mean" : 0.006191950373370914,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(10)"
+      },
+      {
+         "count" : 216,
+         "max" : 2.0,
+         "mean" : 0.006182365674834014,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(12)"
+      },
+      {
+         "count" : 162,
          "max" : 1.0,
-         "mean" : 0.2142857142857143,
+         "mean" : 1.369782618157022e-206,
          "min" : 0.0,
-         "name" : "K<sub>B</sub>(02)",
-         "portion" : 1.0
+         "name" : "Indigree(A)"
       },
       {
-         "count" : 56,
+         "count" : 312,
          "max" : 2.0,
-         "mean" : 1.785714285714286,
-         "min" : 1.0,
-         "name" : "K<sub>B</sub>(10)",
-         "portion" : 1.0
-      },
-      {
-         "count" : 56,
-         "max" : 2.0,
-         "mean" : 1.142857142857143,
+         "mean" : 1.911095794336993e-05,
          "min" : 0.0,
-         "name" : "K<sub>B</sub>(12)",
-         "portion" : 1.0
+         "name" : "Indigree(B)"
       },
       {
-         "count" : 44,
+         "count" : 318,
          "max" : 3.0,
-         "mean" : 3.0,
-         "min" : 3.0,
-         "name" : "Cost(test_ts)",
-         "portion" : 0.7857142857142857
-      },
-      {
-         "count" : 56,
-         "max" : 0.6250,
-         "mean" : 0.281250,
+         "mean" : 1.911095794336993e-05,
          "min" : 0.0,
-         "name" : "Robustness(test_ts)",
-         "portion" : 1.0
+         "name" : "Indigree(SUM)"
       },
       {
-         "count" : 5,
-         "max" : 5.0,
-         "mean" : 5.0,
-         "min" : 5.0,
-         "name" : "Cost(test_cycle)",
-         "portion" : 0.08928571428571429
-      },
-      {
-         "count" : 56,
-         "max" : 0.50,
-         "mean" : 0.031250,
-         "min" : 0.0,
-         "name" : "Robustness(test_cycle)",
-         "portion" : 1.0
-      },
-      {
-         "count" : 56,
+         "count" : 243,
          "max" : 1.0,
-         "mean" : 0.50,
+         "mean" : 0.003095975232198143,
          "min" : 0.0,
-         "name" : "Indigree(A)",
-         "portion" : 1.0
+         "name" : "Bias(A)"
       },
       {
-         "count" : 56,
-         "max" : 2.0,
-         "mean" : 1.785714285714286,
-         "min" : 1.0,
-         "name" : "Indigree(B)",
-         "portion" : 1.0
+         "count" : 320,
+         "max" : 1.0,
+         "mean" : 0.003094777122124687,
+         "min" : 0.0,
+         "name" : "Bias(B)"
       },
       {
-         "count" : 56,
-         "max" : 3.0,
-         "mean" : 2.285714285714286,
-         "min" : 1.0,
-         "name" : "Indigree(SUM)",
-         "portion" : 1.0
+         "count" : 162,
+         "max" : 1.0,
+         "mean" : -1.369782618157022e-206,
+         "min" : -1.0,
+         "name" : "Impact(B,1,A)"
+      },
+      {
+         "count" : 248,
+         "max" : 1.0,
+         "mean" : -5.516855983809773e-06,
+         "min" : -1.0,
+         "name" : "Impact(A,1,B)"
+      },
+      {
+         "count" : 248,
+         "max" : 1.0,
+         "mean" : -5.516750920621006e-06,
+         "min" : -1.0,
+         "name" : "Impact(B,2,B)"
+      },
+      {
+         "count" : 108,
+         "max" : 4.0,
+         "mean" : 5.479130472628082e-206,
+         "min" : 0.0,
+         "name" : "Cost(p)"
+      },
+      {
+         "count" : 108,
+         "max" : 1.0,
+         "mean" : 1.368725697192803e-206,
+         "min" : 0.0,
+         "name" : "Robustness(p)"
       }
    ],
    "setup" : {
-      "date" : "Tue Jun  9 15:52:30 2015",
+      "date" : "Wed Jun 17 10:41:10 2015",
       "s_name" : "all",
       "select" : " WHERE (1)",
-      "size" : 56
+      "size" : 324
    }
 }
 

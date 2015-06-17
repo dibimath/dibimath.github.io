@@ -3,7 +3,7 @@
       "edges" : [
          {
             "data" : {
-               "Pearson" : 0.0,
+               "Pearson" : 0.3273268353539885,
                "source" : "B",
                "target" : "A"
             }
@@ -12,20 +12,20 @@
       "nodes" : [
          {
             "data" : {
-               "Bias" : 0.0,
+               "Bias" : 0.20,
                "Max" : 1,
-               "Mean" : 0.50,
-               "Std" : 0.3535533905932738,
+               "Mean" : 0.20,
+               "Std" : 0.2449489742783178,
                "id" : "A",
                "name" : "A"
             }
          },
          {
             "data" : {
-               "Bias" : 0.0,
+               "Bias" : 0.80,
                "Max" : 2,
-               "Mean" : 1.0,
-               "Std" : 0.4225771273642583,
+               "Mean" : 0.80,
+               "Std" : 0.1870828693386971,
                "id" : "B",
                "name" : "B"
             }
@@ -33,10 +33,10 @@
       ]
    },
    "setup" : {
-      "date" : "Tue Jun  9 15:53:43 2015",
-      "s_name" : "all",
-      "select" : " WHERE (1)",
-      "size" : 56
+      "date" : "Wed Jun 17 10:41:02 2015",
+      "s_name" : "selected",
+      "select" : " WHERE (R_p = 1.0 AND C_p = 4 AND S_B_2_B = 0)",
+      "size" : 5
    }
 }
 

@@ -1,1 +1,1 @@
-tremppi.qualitative.setup = {"files": ["all", "phi", "psi"]};
+tremppi.qualitative.setup = {"files": ["all", "selected"]};

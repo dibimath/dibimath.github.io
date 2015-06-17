@@ -5,45 +5,25 @@
 			"E_A": "",
 			"E_B": "",
 			"ending": "any",
-			"name": "phi",
+			"name": "p",
 			"records": [
 				{
 					"recid": 0,
 					"id": "A",
-					"V_B": "0"
+					"V_B": "0",
+					"V_A": "1"
 				},
 				{
 					"recid": 1,
 					"id": "B",
-					"V_B": "2"
+					"V_B": "2",
+					"V_A": "0"
 				}
 			],
 			"robustness": true,
 			"validate": true,
 			"witness": false,
 			"bound": ""
-		},
-		{
-			"recid": 1,
-			"E_A": "",
-			"E_B": "",
-			"ending": "goto A",
-			"name": "psi",
-			"records": [
-				{
-					"recid": 0,
-					"id": "A",
-					"V_B": "0"
-				},
-				{
-					"recid": 1,
-					"id": "B",
-					"V_B": "1"
-				}
-			],
-			"robustness": true,
-			"validate": true,
-			"witness": false
 		}
 	]
 }

@@ -1,0 +1,123 @@
+{
+   "records" : [
+      {
+         "count" : 2,
+         "max" : 1.0,
+         "mean" : 0.240,
+         "min" : 0.0,
+         "name" : "K<sub>A</sub>(0)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>A</sub>(1)"
+      },
+      {
+         "count" : 5,
+         "max" : 2.0,
+         "mean" : 0.499840,
+         "min" : 2.0,
+         "name" : "K<sub>B</sub>(00)"
+      },
+      {
+         "count" : 5,
+         "max" : 2.0,
+         "mean" : 0.499840,
+         "min" : 2.0,
+         "name" : "K<sub>B</sub>(02)"
+      },
+      {
+         "count" : 4,
+         "max" : 2.0,
+         "mean" : 0.45760,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(10)"
+      },
+      {
+         "count" : 4,
+         "max" : 2.0,
+         "mean" : 0.45760,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(12)"
+      },
+      {
+         "count" : 2,
+         "max" : 1.0,
+         "mean" : 0.240,
+         "min" : 0.0,
+         "name" : "Indigree(A)"
+      },
+      {
+         "count" : 3,
+         "max" : 1.0,
+         "mean" : 0.041920,
+         "min" : 0.0,
+         "name" : "Indigree(B)"
+      },
+      {
+         "count" : 4,
+         "max" : 2.0,
+         "mean" : 0.281920,
+         "min" : 0.0,
+         "name" : "Indigree(SUM)"
+      },
+      {
+         "count" : 2,
+         "max" : 0.50,
+         "mean" : 0.120,
+         "min" : 0.0,
+         "name" : "Bias(A)"
+      },
+      {
+         "count" : 5,
+         "max" : 1.0,
+         "mean" : 0.239360,
+         "min" : 0.50,
+         "name" : "Bias(B)"
+      },
+      {
+         "count" : 2,
+         "max" : 0.0,
+         "mean" : -0.240,
+         "min" : -1.0,
+         "name" : "Impact(B,1,A)"
+      },
+      {
+         "count" : 3,
+         "max" : 0.0,
+         "mean" : -0.041920,
+         "min" : -1.0,
+         "name" : "Impact(A,1,B)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Impact(B,2,B)"
+      },
+      {
+         "count" : 5,
+         "max" : 4.0,
+         "mean" : 0.999680,
+         "min" : 4.0,
+         "name" : "Cost(p)"
+      },
+      {
+         "count" : 5,
+         "max" : 1.0,
+         "mean" : 0.249920,
+         "min" : 1.0,
+         "name" : "Robustness(p)"
+      }
+   ],
+   "setup" : {
+      "date" : "Wed Jun 17 10:41:02 2015",
+      "s_name" : "selected",
+      "select" : " WHERE (S_B_2_B = 0 AND R_p = 1.0 AND C_p = 4)",
+      "size" : 5
+   }
+}
+

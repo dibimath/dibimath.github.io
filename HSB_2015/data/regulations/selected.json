@@ -3,34 +3,23 @@
       "edges" : [
          {
             "data" : {
-               "Frequency" : 1.0,
-               "Pearson" : -1.0,
+               "Frequency" : 0.40,
+               "Pearson" : -0.40,
                "Sign" : "-",
                "Threshold" : 1,
-               "WeightedFrequency" : 1.0,
+               "WeightedFrequency" : 0.40,
                "source" : "B",
                "target" : "A"
             }
          },
          {
             "data" : {
-               "Frequency" : 1.0,
-               "Pearson" : 0.8118469144225084,
-               "Sign" : "+",
-               "Threshold" : 1,
-               "WeightedFrequency" : 0.56250,
-               "source" : "A",
-               "target" : "B"
-            }
-         },
-         {
-            "data" : {
                "Frequency" : 0.60,
-               "Pearson" : -0.2912423765914031,
+               "Pearson" : -0.60,
                "Sign" : "-",
-               "Threshold" : 2,
+               "Threshold" : 1,
                "WeightedFrequency" : 0.33750,
-               "source" : "B",
+               "source" : "A",
                "target" : "B"
             }
          }
@@ -51,9 +40,9 @@
       ]
    },
    "setup" : {
-      "date" : "Thu Jun 11 18:54:33 2015",
-      "s_name" : "psi",
-      "select" : " WHERE (C_test_cycle IS NOT NULL)",
+      "date" : "Wed Jun 17 10:41:02 2015",
+      "s_name" : "selected",
+      "select" : " WHERE (S_B_2_B = 0 AND C_p = 4 AND R_p = 1.0)",
       "size" : 5
    }
 }

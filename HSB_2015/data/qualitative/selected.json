@@ -1,23 +1,22 @@
 {
    "setup" : {
-      "date" : "Thu Jun 11 18:54:33 2015",
-      "s_name" : "psi",
-      "select" : " WHERE (C_test_cycle IS NOT NULL)",
+      "date" : "Wed Jun 17 10:41:02 2015",
+      "s_name" : "selected",
+      "select" : " WHERE (R_p = 1.0 AND C_p = 4 AND S_B_2_B = 0)",
       "size" : 5
    },
    "values" : [
       {
          "data" : [
             {
-               "name" : "1",
-               "portion" : 1.0
+               "name" : "0",
+               "portion" : 0.60
             },
             {
-               "name" : "null",
-               "portion" : 0.0
+               "name" : "1",
+               "portion" : 0.40
             }
          ],
-         "entries" : 2,
          "name" : "K<sub>A</sub>(0)"
       },
       {
@@ -25,66 +24,50 @@
             {
                "name" : "0",
                "portion" : 1.0
-            },
-            {
-               "name" : "null",
-               "portion" : 0.0
             }
          ],
-         "entries" : 2,
          "name" : "K<sub>A</sub>(1)"
       },
       {
          "data" : [
             {
-               "name" : "0",
+               "name" : "2",
                "portion" : 1.0
-            },
-            {
-               "name" : "null",
-               "portion" : 0.0
             }
          ],
-         "entries" : 2,
          "name" : "K<sub>B</sub>(00)"
       },
       {
          "data" : [
             {
-               "name" : "0",
+               "name" : "2",
                "portion" : 1.0
-            },
-            {
-               "name" : "null",
-               "portion" : 0.0
             }
          ],
-         "entries" : 2,
          "name" : "K<sub>B</sub>(02)"
       },
       {
          "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.20
+            },
             {
                "name" : "1",
                "portion" : 0.40
             },
             {
                "name" : "2",
-               "portion" : 0.60
-            },
-            {
-               "name" : "null",
-               "portion" : 0.0
+               "portion" : 0.40
             }
          ],
-         "entries" : 3,
          "name" : "K<sub>B</sub>(10)"
       },
       {
          "data" : [
             {
                "name" : "0",
-               "portion" : 0.40
+               "portion" : 0.20
             },
             {
                "name" : "1",
@@ -92,43 +75,36 @@
             },
             {
                "name" : "2",
-               "portion" : 0.20
-            },
-            {
-               "name" : "null",
-               "portion" : 0.0
+               "portion" : 0.40
             }
          ],
-         "entries" : 4,
          "name" : "K<sub>B</sub>(12)"
       },
       {
          "data" : [
             {
                "name" : "-",
-               "portion" : 1.0
+               "portion" : 0.40
             },
             {
-               "name" : "null",
-               "portion" : 0.0
+               "name" : "0",
+               "portion" : 0.60
             }
          ],
-         "entries" : 2,
-         "name" : "Label(B,1,A)"
+         "name" : "Sign(B,1,A)"
       },
       {
          "data" : [
             {
-               "name" : "+",
-               "portion" : 1.0
+               "name" : "0",
+               "portion" : 0.60
             },
             {
-               "name" : "null",
-               "portion" : 0.0
+               "name" : "1",
+               "portion" : 0.40
             }
          ],
-         "entries" : 2,
-         "name" : "Label(A,1,B)"
+         "name" : "Indigree(A)"
       },
       {
          "data" : [
@@ -139,57 +115,77 @@
             {
                "name" : "0",
                "portion" : 0.40
-            },
-            {
-               "name" : "null",
-               "portion" : 0.0
             }
          ],
-         "entries" : 3,
-         "name" : "Label(B,2,B)"
+         "name" : "Sign(A,1,B)"
       },
       {
          "data" : [
             {
-               "name" : "B{0}",
+               "name" : "0",
                "portion" : 1.0
-            },
-            {
-               "name" : "null",
-               "portion" : 0.0
             }
          ],
-         "entries" : 2,
+         "name" : "Sign(B,2,B)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.40
+            },
+            {
+               "name" : "1",
+               "portion" : 0.60
+            }
+         ],
+         "name" : "Indigree(B)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.20
+            },
+            {
+               "name" : "1",
+               "portion" : 0.60
+            },
+            {
+               "name" : "2",
+               "portion" : 0.20
+            }
+         ],
+         "name" : "Indigree(SUM)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.60
+            },
+            {
+               "name" : "B{0}",
+               "portion" : 0.40
+            }
+         ],
          "name" : "F<sub>A</sub>"
       },
       {
          "data" : [
             {
-               "name" : "1&A",
-               "portion" : 0.20
+               "name" : "1&A|2&!A",
+               "portion" : 0.40
             },
             {
-               "name" : "1&A&B{01}",
-               "portion" : 0.20
+               "name" : "2",
+               "portion" : 0.40
             },
             {
-               "name" : "1&A&B{2}|2&A&B{01}",
+               "name" : "2&!A",
                "portion" : 0.20
-            },
-            {
-               "name" : "2&A",
-               "portion" : 0.20
-            },
-            {
-               "name" : "2&A&B{01}",
-               "portion" : 0.20
-            },
-            {
-               "name" : "null",
-               "portion" : 0.0
             }
          ],
-         "entries" : 6,
          "name" : "F<sub>B</sub>"
       }
    ]
