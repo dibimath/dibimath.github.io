@@ -1,0 +1,732 @@
+{
+   "records" : [
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>Akt</sub>(0)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "K<sub>Akt</sub>(1)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>EGFR</sub>(00)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "K<sub>EGFR</sub>(01)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>EGFR</sub>(10)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>EGFR</sub>(11)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>Erk</sub>(0)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "K<sub>Erk</sub>(1)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>IGFR</sub>(0)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "K<sub>IGFR</sub>(1)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>Mek</sub>(0)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "K<sub>Mek</sub>(1)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>Nutri</sub>(0)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "K<sub>Nutri</sub>(1)"
+      },
+      {
+         "count" : 1298,
+         "max" : 1.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(0000)"
+      },
+      {
+         "count" : 198,
+         "max" : 1.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(0001)"
+      },
+      {
+         "count" : 8183,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(0010)"
+      },
+      {
+         "count" : 3874,
+         "max" : 1.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(0011)"
+      },
+      {
+         "count" : 242,
+         "max" : 1.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(0100)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(0101)"
+      },
+      {
+         "count" : 4355,
+         "max" : 1.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(0110)"
+      },
+      {
+         "count" : 635,
+         "max" : 1.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(0111)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "K<sub>PI3K</sub>(1000)"
+      },
+      {
+         "count" : 4180,
+         "max" : 1.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(1001)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "K<sub>PI3K</sub>(1010)"
+      },
+      {
+         "count" : 8445,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(1011)"
+      },
+      {
+         "count" : 4814,
+         "max" : 1.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(1100)"
+      },
+      {
+         "count" : 635,
+         "max" : 1.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(1101)"
+      },
+      {
+         "count" : 8598,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(1110)"
+      },
+      {
+         "count" : 4486,
+         "max" : 1.0,
+         "mean" : 2.402075647461604e-207,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(1111)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>Raf</sub>(0000)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>Raf</sub>(0001)"
+      },
+      {
+         "count" : 4611,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 0.0,
+         "name" : "K<sub>Raf</sub>(0010)"
+      },
+      {
+         "count" : 1113,
+         "max" : 1.0,
+         "mean" : 4.080091071301092e-92,
+         "min" : 0.0,
+         "name" : "K<sub>Raf</sub>(0011)"
+      },
+      {
+         "count" : 5260,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 0.0,
+         "name" : "K<sub>Raf</sub>(0100)"
+      },
+      {
+         "count" : 854,
+         "max" : 1.0,
+         "mean" : 1.959221713652740e-44,
+         "min" : 0.0,
+         "name" : "K<sub>Raf</sub>(0101)"
+      },
+      {
+         "count" : 8971,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 0.0,
+         "name" : "K<sub>Raf</sub>(0110)"
+      },
+      {
+         "count" : 5301,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 0.0,
+         "name" : "K<sub>Raf</sub>(0111)"
+      },
+      {
+         "count" : 5537,
+         "max" : 1.0,
+         "mean" : 0.0001063151180096533,
+         "min" : 0.0,
+         "name" : "K<sub>Raf</sub>(1000)"
+      },
+      {
+         "count" : 1449,
+         "max" : 1.0,
+         "mean" : 1.201286420902897e-12,
+         "min" : 0.0,
+         "name" : "K<sub>Raf</sub>(1001)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "K<sub>Raf</sub>(1010)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "K<sub>Raf</sub>(1011)"
+      },
+      {
+         "count" : 9030,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 0.0,
+         "name" : "K<sub>Raf</sub>(1100)"
+      },
+      {
+         "count" : 5637,
+         "max" : 1.0,
+         "mean" : 0.0001063038175084195,
+         "min" : 0.0,
+         "name" : "K<sub>Raf</sub>(1101)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "K<sub>Raf</sub>(1110)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "K<sub>Raf</sub>(1111)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>S6K</sub>(0)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "K<sub>S6K</sub>(1)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>Sora</sub>(0)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "K<sub>Sora</sub>(1)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>mTor</sub>(00)"
+      },
+      {
+         "count" : 2703,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 0.0,
+         "name" : "K<sub>mTor</sub>(01)"
+      },
+      {
+         "count" : 5406,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 0.0,
+         "name" : "K<sub>mTor</sub>(10)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "K<sub>mTor</sub>(11)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "Cost(Triv_FP)"
+      },
+      {
+         "count" : 3895,
+         "max" : 1.0,
+         "mean" : 2.353586440151969e-56,
+         "min" : 0.0,
+         "name" : "Cost(Cyc_MAPK)"
+      },
+      {
+         "count" : 5351,
+         "max" : 1.0,
+         "mean" : 2.353586440151969e-56,
+         "min" : 0.0,
+         "name" : "Cost(Cyc_mTor)"
+      },
+      {
+         "count" : 5508,
+         "max" : 1.0,
+         "mean" : 2.353586440151969e-56,
+         "min" : 0.0,
+         "name" : "Cost(DMSO1851)"
+      },
+      {
+         "count" : 7879,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 0.0,
+         "name" : "Cost(Sora1851)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "Cost(DMSO1257)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "Cost(Sora1257)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "Indigree(Akt)"
+      },
+      {
+         "count" : 9407,
+         "max" : 2.0,
+         "mean" : 0.0002126302360195620,
+         "min" : 2.0,
+         "name" : "Indigree(EGFR)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "Indigree(Erk)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "Indigree(IGFR)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "Indigree(Mek)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "Indigree(Nutri)"
+      },
+      {
+         "count" : 9407,
+         "max" : 4.0,
+         "mean" : 0.0004252604720391240,
+         "min" : 3.0,
+         "name" : "Indigree(PI3K)"
+      },
+      {
+         "count" : 9407,
+         "max" : 4.0,
+         "mean" : 0.0004252604720391240,
+         "min" : 3.0,
+         "name" : "Indigree(Raf)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "Indigree(S6K)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "Indigree(Sora)"
+      },
+      {
+         "count" : 9407,
+         "max" : 2.0,
+         "mean" : 0.0002126302360195620,
+         "min" : 1.0,
+         "name" : "Indigree(mTor)"
+      },
+      {
+         "count" : 9407,
+         "max" : 19.0,
+         "mean" : 0.002019987242185839,
+         "min" : 16.0,
+         "name" : "Indigree(SUM)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "Impact(PI3K,1,Akt)"
+      },
+      {
+         "count" : 9407,
+         "max" : -0.577350,
+         "mean" : -6.138103338294706e-05,
+         "min" : -0.577350,
+         "name" : "Impact(Erk,1,EGFR)"
+      },
+      {
+         "count" : 9407,
+         "max" : 0.577350,
+         "mean" : 6.138103338294706e-05,
+         "min" : 0.577350,
+         "name" : "Impact(Nutri,1,EGFR)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "Impact(Mek,1,Erk)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "Impact(Nutri,1,IGFR)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "Impact(Raf,1,Mek)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "Impact(Nutri,1,Nutri)"
+      },
+      {
+         "count" : 9407,
+         "max" : 0.8819170,
+         "mean" : 4.300659153731661e-05,
+         "min" : 0.1259880,
+         "name" : "Impact(EGFR,1,PI3K)"
+      },
+      {
+         "count" : 8598,
+         "max" : 0.0,
+         "mean" : -4.300659153731661e-05,
+         "min" : -0.8819170,
+         "name" : "Impact(Erk,1,PI3K)"
+      },
+      {
+         "count" : 9407,
+         "max" : 0.8819170,
+         "mean" : 4.300659153731661e-05,
+         "min" : 0.1259880,
+         "name" : "Impact(IGFR,1,PI3K)"
+      },
+      {
+         "count" : 9407,
+         "max" : -0.1259880,
+         "mean" : -4.300659153731661e-05,
+         "min" : -0.8819170,
+         "name" : "Impact(S6K,1,PI3K)"
+      },
+      {
+         "count" : 9407,
+         "max" : 0.8819170,
+         "mean" : 4.300493824425654e-05,
+         "min" : 0.1259880,
+         "name" : "Impact(EGFR,1,Raf)"
+      },
+      {
+         "count" : 9407,
+         "max" : 0.67420,
+         "mean" : 4.300493789750816e-05,
+         "min" : 0.1259880,
+         "name" : "Impact(IGFR,1,Raf)"
+      },
+      {
+         "count" : 9189,
+         "max" : 0.8819170,
+         "mean" : 4.300785567565918e-05,
+         "min" : 0.0,
+         "name" : "Impact(PI3K,1,Raf)"
+      },
+      {
+         "count" : 9407,
+         "max" : -0.1259880,
+         "mean" : -4.300785567562620e-05,
+         "min" : -0.6299410,
+         "name" : "Impact(Sora,1,Raf)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "Impact(mTor,1,S6K)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 0.0001063151180097810,
+         "min" : 1.0,
+         "name" : "Impact(Sora,1,Sora)"
+      },
+      {
+         "count" : 9407,
+         "max" : 1.0,
+         "mean" : 6.138103338294706e-05,
+         "min" : 0.577350,
+         "name" : "Impact(Akt,1,mTor)"
+      },
+      {
+         "count" : 6704,
+         "max" : 0.577350,
+         "mean" : 6.138103338294706e-05,
+         "min" : 0.0,
+         "name" : "Impact(Erk,1,mTor)"
+      },
+      {
+         "count" : 9407,
+         "max" : 0.50,
+         "mean" : 5.315755900489050e-05,
+         "min" : 0.50,
+         "name" : "Bias(Akt)"
+      },
+      {
+         "count" : 9407,
+         "max" : 0.250,
+         "mean" : 2.657877950244525e-05,
+         "min" : 0.250,
+         "name" : "Bias(EGFR)"
+      },
+      {
+         "count" : 9407,
+         "max" : 0.50,
+         "mean" : 5.315755900489050e-05,
+         "min" : 0.50,
+         "name" : "Bias(Erk)"
+      },
+      {
+         "count" : 9407,
+         "max" : 0.50,
+         "mean" : 5.315755900489050e-05,
+         "min" : 0.50,
+         "name" : "Bias(IGFR)"
+      },
+      {
+         "count" : 9407,
+         "max" : 0.50,
+         "mean" : 5.315755900489050e-05,
+         "min" : 0.50,
+         "name" : "Bias(Mek)"
+      },
+      {
+         "count" : 9407,
+         "max" : 0.50,
+         "mean" : 5.315755900489050e-05,
+         "min" : 0.50,
+         "name" : "Bias(Nutri)"
+      },
+      {
+         "count" : 9407,
+         "max" : 0.93750,
+         "mean" : 3.322347437805656e-05,
+         "min" : 0.18750,
+         "name" : "Bias(PI3K)"
+      },
+      {
+         "count" : 9407,
+         "max" : 0.81250,
+         "mean" : 7.309093742546175e-05,
+         "min" : 0.31250,
+         "name" : "Bias(Raf)"
+      },
+      {
+         "count" : 9407,
+         "max" : 0.50,
+         "mean" : 5.315755900489050e-05,
+         "min" : 0.50,
+         "name" : "Bias(S6K)"
+      },
+      {
+         "count" : 9407,
+         "max" : 0.50,
+         "mean" : 5.315755900489050e-05,
+         "min" : 0.50,
+         "name" : "Bias(Sora)"
+      },
+      {
+         "count" : 9407,
+         "max" : 0.750,
+         "mean" : 7.973633850733574e-05,
+         "min" : 0.250,
+         "name" : "Bias(mTor)"
+      }
+   ],
+   "setup" : {
+      "date" : "Tue Jun 23 16:46:10 2015",
+      "s_name" : "ii_r",
+      "select" : " WHERE (C_Triv_FP = 1 AND C_Sora1257 = 1)",
+      "size" : 9407
+   }
+}
+

@@ -1,0 +1,1 @@
+tremppi.regulations.setup = {"files": ["iii_l", "iii_r", "ii_l", "ii_r", "i_l", "i_r"]};

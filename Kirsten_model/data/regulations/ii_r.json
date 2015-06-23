@@ -1,0 +1,290 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 1.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "PI3K",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : -0.5773499999999110,
+               "Sign" : "-",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.6666666666666666,
+               "source" : "Erk",
+               "target" : "EGFR"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.5773499999999110,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.6666666666666666,
+               "source" : "Nutri",
+               "target" : "EGFR"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 1.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "Mek",
+               "target" : "Erk"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 1.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "Nutri",
+               "target" : "IGFR"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 1.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "Raf",
+               "target" : "Mek"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 1.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "Nutri",
+               "target" : "Nutri"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.4327997581588109,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.5019607843137255,
+               "source" : "EGFR",
+               "target" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.9140002126076326,
+               "Pearson" : -0.2968082039970117,
+               "Sign" : "-",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.4587922635834391,
+               "source" : "Erk",
+               "target" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.3750622390772712,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.5019607843137255,
+               "source" : "IGFR",
+               "target" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : -0.3328327627298645,
+               "Sign" : "-",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.5019607843137255,
+               "source" : "S6K",
+               "target" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.4579540864249945,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.5019607843137255,
+               "source" : "EGFR",
+               "target" : "Raf"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.3107381395768947,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.5019607843137255,
+               "source" : "IGFR",
+               "target" : "Raf"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.9768257680450728,
+               "Pearson" : 0.4128020313596163,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.4903282286657620,
+               "source" : "PI3K",
+               "target" : "Raf"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : -0.2622167502923309,
+               "Sign" : "-",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.5019607843137255,
+               "source" : "Sora",
+               "target" : "Raf"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 1.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "mTor",
+               "target" : "S6K"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 1.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "Sora",
+               "target" : "Sora"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.6987939194215924,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.6666666666666666,
+               "source" : "Akt",
+               "target" : "mTor"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.7126607845221643,
+               "Pearson" : 0.4114547039438874,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.4751071896814429,
+               "source" : "Erk",
+               "target" : "mTor"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "id" : "Akt",
+               "name" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "id" : "EGFR",
+               "name" : "EGFR"
+            }
+         },
+         {
+            "data" : {
+               "id" : "Erk",
+               "name" : "Erk"
+            }
+         },
+         {
+            "data" : {
+               "id" : "IGFR",
+               "name" : "IGFR"
+            }
+         },
+         {
+            "data" : {
+               "id" : "Mek",
+               "name" : "Mek"
+            }
+         },
+         {
+            "data" : {
+               "id" : "Nutri",
+               "name" : "Nutri"
+            }
+         },
+         {
+            "data" : {
+               "id" : "PI3K",
+               "name" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "id" : "Raf",
+               "name" : "Raf"
+            }
+         },
+         {
+            "data" : {
+               "id" : "S6K",
+               "name" : "S6K"
+            }
+         },
+         {
+            "data" : {
+               "id" : "Sora",
+               "name" : "Sora"
+            }
+         },
+         {
+            "data" : {
+               "id" : "mTor",
+               "name" : "mTor"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Tue Jun 23 16:46:13 2015",
+      "s_name" : "ii_r",
+      "select" : " WHERE (C_Triv_FP = 1 AND C_Sora1257 = 1)",
+      "size" : 9407
+   }
+}
+

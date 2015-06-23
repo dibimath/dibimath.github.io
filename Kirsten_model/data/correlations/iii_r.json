@@ -1,0 +1,510 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "EGFR",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Erk",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Erk",
+               "target" : "EGFR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "IGFR",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "IGFR",
+               "target" : "EGFR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "IGFR",
+               "target" : "Erk"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Mek",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Mek",
+               "target" : "EGFR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Mek",
+               "target" : "Erk"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Mek",
+               "target" : "IGFR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Nutri",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Nutri",
+               "target" : "EGFR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Nutri",
+               "target" : "Erk"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Nutri",
+               "target" : "IGFR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Nutri",
+               "target" : "Mek"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PI3K",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PI3K",
+               "target" : "EGFR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PI3K",
+               "target" : "Erk"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PI3K",
+               "target" : "IGFR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PI3K",
+               "target" : "Mek"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PI3K",
+               "target" : "Nutri"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf",
+               "target" : "EGFR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf",
+               "target" : "Erk"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf",
+               "target" : "IGFR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf",
+               "target" : "Mek"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf",
+               "target" : "Nutri"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf",
+               "target" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "S6K",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "S6K",
+               "target" : "EGFR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "S6K",
+               "target" : "Erk"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "S6K",
+               "target" : "IGFR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "S6K",
+               "target" : "Mek"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "S6K",
+               "target" : "Nutri"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "S6K",
+               "target" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "S6K",
+               "target" : "Raf"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Sora",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Sora",
+               "target" : "EGFR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Sora",
+               "target" : "Erk"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Sora",
+               "target" : "IGFR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Sora",
+               "target" : "Mek"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Sora",
+               "target" : "Nutri"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Sora",
+               "target" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Sora",
+               "target" : "Raf"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Sora",
+               "target" : "S6K"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "mTor",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "mTor",
+               "target" : "EGFR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "mTor",
+               "target" : "Erk"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "mTor",
+               "target" : "IGFR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "mTor",
+               "target" : "Mek"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "mTor",
+               "target" : "Nutri"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "mTor",
+               "target" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "mTor",
+               "target" : "Raf"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "mTor",
+               "target" : "S6K"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "mTor",
+               "target" : "Sora"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "Akt",
+               "name" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.250,
+               "Max" : 1,
+               "Mean" : 0.250,
+               "Std" : 0.0,
+               "id" : "EGFR",
+               "name" : "EGFR"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "Erk",
+               "name" : "Erk"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "IGFR",
+               "name" : "IGFR"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "Mek",
+               "name" : "Mek"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "Nutri",
+               "name" : "Nutri"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.1427800868421546,
+               "id" : "PI3K",
+               "name" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.5772058823529411,
+               "Max" : 1,
+               "Mean" : 0.5772058823529411,
+               "Std" : 0.1210074611405222,
+               "id" : "Raf",
+               "name" : "Raf"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "S6K",
+               "name" : "S6K"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "Sora",
+               "name" : "Sora"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.2061756957267697,
+               "id" : "mTor",
+               "name" : "mTor"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Tue Jun 23 16:49:35 2015",
+      "s_name" : "iii_r",
+      "select" : " WHERE (C_Sora1257 = 1 AND C_Sora1851 = 1)",
+      "size" : 15147
+   }
+}
+

@@ -1,0 +1,47 @@
+{
+	"records": [
+		{
+			"name": "i_l",
+			"recid": 2,
+			"select": false
+		},
+		{
+			"name": "i_r",
+			"recid": 0,
+			"C_Triv_FP": "1",
+			"C_DMSO1851": "1",
+			"C_Sora1851": "1",
+			"C_Sora1257": "1",
+			"select": false
+		},
+		{
+			"name": "ii_l",
+			"recid": 1,
+			"C_Triv_FP": "1",
+			"C_DMSO1851": "1",
+			"C_Sora1851": "1",
+			"select": false
+		},
+		{
+			"name": "ii_r",
+			"recid": 3,
+			"C_Triv_FP": "1",
+			"C_Sora1257": "1",
+			"select": false
+		},
+		{
+			"name": "iii_l",
+			"recid": 4,
+			"C_Triv_FP": "1",
+			"C_DMSO1851": "1",
+			"select": false
+		},
+		{
+			"name": "iii_r",
+			"recid": 5,
+			"C_Sora1851": "1",
+			"C_Sora1257": "1",
+			"select": true
+		}
+	]
+}
