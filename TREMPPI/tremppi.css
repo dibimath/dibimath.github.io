@@ -1,0 +1,31 @@
+div.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30pt;
+}
+
+div.subtitle {
+    text-align: center;
+    font-size: 16pt;
+    margin-bottom: 16pt;
+}
+
+div.section {
+    font-size: 26pt;
+    font-variant: small-caps;
+}
+
+div.subsection {
+    font-size: 20pt;
+    font-variant: small-caps;
+}
+
+span.warning {
+    color: #ae2527
+}
+
+p.code {
+    font-family: monospace;
+    padding: 5pt 5pt 5pt 25pt;
+    background-color: #DDDDDD
+}

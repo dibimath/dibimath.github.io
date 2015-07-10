@@ -1,0 +1,14 @@
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+/TREMPPI/builds/javascript/correlations/nbproject/private/
+/TREMPPI/builds/javascript/index/nbproject/private/
+/TREMPPI/builds/javascript/qualitative/nbproject/private/
+/TREMPPI/builds/javascript/regulations/nbproject/private/
+/TREMPPI/builds/javascript/select/nbproject/private/
+/TREMPPI/builds/javascript/tools/nbproject/private/

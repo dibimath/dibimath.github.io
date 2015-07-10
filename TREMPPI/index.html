@@ -1,0 +1,93 @@
+<!doctype html>
+<head>
+<title>TREMPPI tool homepage</title>
+<link rel="stylesheet" type="text/css" href="TREMPPI/tremppi.css">
+</head>
+<body>
+<div class="title">TREMPPI</div>
+<div class="subtitle">Toolkit for Reverse Engineering of Molecular Pathways through Parameter Identification </div>
+<div class ="section">Introduction</div>
+<p>
+    This the homepage of TREMPPI, a systems biology toolkit for research in gene regulation and molecular signalling. 
+</p>
+<p>
+    This fully integrated, visual toolkit is well suited for the analysis of complex functional modules, e.g. circadian clock. 
+    TREMPPI supports multiple ways of encoding various biological knowledge about the system. 
+    The goal is to provide as much information as possible about how the structure of the system is likely to look. 
+    Such an approach is most valuable if the precise mechanics of the module in question are not known. 
+    In this scenario we simply consider all the possibilities for how the components of the module may interact and analyse them one by one. 
+    This is a computationally very demanding task. To this end we are employing a coarse-grained modelling framework of logical networks, focusing solely on qualitative features of a model.
+</p>
+<div class ="section">Download</div>
+<p>
+    <span class="warning">TREMPPI is currently in Alpha version and the user experience is likely to be rough. 
+        The developers bear no liability for any problems connected to using the software. </span>
+</p>
+<p>
+    The easiest way of getting TREMPPI is via prebuild packages 
+    <!--(if on Linux you get an error of the style "version 'LIBRARY_X.XX' not found", you can try upgrading the specified library via "apt-get install LIBRARY_X.XX").-->
+</p>
+<ul>
+    <li><a href="/TREMPPI/build/TREMPPI_Ubuntu32.tar.gz">Ubuntu/Debian 32bit</a> (preferred for Ubuntu)</li>
+    <li><a href="/TREMPPI/build/TREMPPI_Debian64.tar.gz">Ubuntu/Debian 64bit</a> (preferred for Debian)</li>
+    <li><a href="/TREMPPI/build/TREMPPI_Windows32.zip">Windows 32bit</a>
+        <ul>
+            <li>You also need the <a href="https://www.microsoft.com/en-us/download/details.aspx?id=46881">Visual Studio 2015</a> runtime, if you do not have it already.</li>
+            <li>You also need <a href="https://www.python.org/ftp/python/3.0/python-3.0.msi">Python3 32bit</a>. Lastly, the environment variable PYTHONPATH must point to the Python location.</li>
+        </ul>
+    </li>
+</ul>
+<p>
+    If your system is not in the list, or the binary does not work 
+    (in that case also please consider sharing your experience at esther<img src="zavinac.png" width="10pt" />fi.muni.cz), 
+    you can try building it from the <a href="https://github.com/xstreck1/TREMPPI">source at GITHUB</a>.
+</p>
+<div class="section">Usage</div>
+<p>
+TREMPPI has almost fully integrated graphical interface, however as of now some command line interaction is needed. 
+In this section we exaplain the basics of using tremppi.
+</p>
+<div class="subsection">Creating a project</div>
+<p>
+    In the current version, TREMPPI is started from the command line and executed individually for each project.
+</p>
+<p>
+    To make a new TREMPPI project, open terminal (cmd on Windows) and execute:
+</p>
+<p class="code">
+    PATH_TO_TREMPPI/tremppi init PROJECT_NAME
+</p>
+<p>
+    Where PATH_TO_TREMPPI is the path to where TREMPPI is located on your system and PROJECT_NAME is the name of the project you want to create. 
+    For example consider that on a Linux system you have TREMPPI in the directory software/TREMPPI and you want to create project called first_project. 
+    Then call:
+</p>
+<p class="code">
+    ~/software/TREMPPI/tremppi init first_project
+</p>
+<p>
+    This will create a new directory in the current location called "first_project". To open the project in TREMPPI then call:
+</p>
+<p class="code">
+    cd first_project <br />
+    ~/software/TREMPPI/tremppi browse
+</p>
+<div class="subsection">Workflow</div>
+<p>
+    Once the GUI is started, a project is opened and the list of widgets is available. 
+    Each of the widgets provides access to some part of the functionality of TREMPPI. 
+    These are illustrated in detail in the following section, before that we illustrate the general workflow of TREMPPI step by step.    
+</p>
+<ol>
+    <li>Editor: build the model by using the new button to create nodes and edges.</li>
+    <li>Select: add new selection and check it (all the tools will now be applied to all models)</li>
+    <li>Tools: click on "spawn" to create a database of parametrizations.</li>
+    <li>Tools: you can now use bias, sign, express, impact and validate.</li>
+
+    
+</ol>
+
+<div class="subsection">Publishing</div>
+
+<div class="section">Widgets</div>
+</body>
