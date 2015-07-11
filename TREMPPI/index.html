@@ -1,93 +1,241 @@
 <!doctype html>
 <head>
-<title>TREMPPI tool homepage</title>
-<link rel="stylesheet" type="text/css" href="/TREMPPI/tremppi.css">
+    <title>TREMPPI tool documentation</title>
+    <link rel="stylesheet" type="text/css" href="/TREMPPI/tremppi.css">
 </head>
 <body>
-<div class="title">TREMPPI</div>
-<div class="subtitle">Toolkit for Reverse Engineering of Molecular Pathways through Parameter Identification </div>
-<div class ="section">Introduction</div>
-<p>
-    This the homepage of TREMPPI, a systems biology toolkit for research in gene regulation and molecular signalling. 
-</p>
-<p>
-    This fully integrated, visual toolkit is well suited for the analysis of complex functional modules, e.g. circadian clock. 
-    TREMPPI supports multiple ways of encoding various biological knowledge about the system. 
-    The goal is to provide as much information as possible about how the structure of the system is likely to look. 
-    Such an approach is most valuable if the precise mechanics of the module in question are not known. 
-    In this scenario we simply consider all the possibilities for how the components of the module may interact and analyse them one by one. 
-    This is a computationally very demanding task. To this end we are employing a coarse-grained modelling framework of logical networks, focusing solely on qualitative features of a model.
-</p>
-<div class ="section">Download</div>
-<p>
-    <span class="warning">TREMPPI is currently in Alpha version and the user experience is likely to be rough. 
-        The developers bear no liability for any problems connected to using the software. </span>
-</p>
-<p>
-    The easiest way of getting TREMPPI is via prebuild packages 
-    <!--(if on Linux you get an error of the style "version 'LIBRARY_X.XX' not found", you can try upgrading the specified library via "apt-get install LIBRARY_X.XX").-->
-</p>
-<ul>
-    <li><a href="/TREMPPI/build/TREMPPI_Ubuntu32.tar.gz">Ubuntu/Debian 32bit</a> (preferred for Ubuntu)</li>
-    <li><a href="/TREMPPI/build/TREMPPI_Debian64.tar.gz">Ubuntu/Debian 64bit</a> (preferred for Debian)</li>
-    <li><a href="/TREMPPI/build/TREMPPI_Windows32.zip">Windows 32bit</a>
-        <ul>
-            <li>You also need the <a href="https://www.microsoft.com/en-us/download/details.aspx?id=46881">Visual Studio 2015</a> runtime, if you do not have it already.</li>
-            <li>You also need <a href="https://www.python.org/ftp/python/3.0/python-3.0.msi">Python3 32bit</a>. Lastly, the environment variable PYTHONPATH must point to the Python location.</li>
-        </ul>
-    </li>
-</ul>
-<p>
-    If your system is not in the list, or the binary does not work 
-    (in that case also please consider sharing your experience at esther<img src="/zavinac.png" width="10pt" />fi.muni.cz), 
-    you can try building it from the <a href="https://github.com/xstreck1/TREMPPI">source at GITHUB</a>.
-</p>
-<div class="section">Usage</div>
-<p>
-TREMPPI has almost fully integrated graphical interface, however as of now some command line interaction is needed. 
-In this section we exaplain the basics of using tremppi.
-</p>
-<div class="subsection">Creating a project</div>
-<p>
-    In the current version, TREMPPI is started from the command line and executed individually for each project.
-</p>
-<p>
-    To make a new TREMPPI project, open terminal (cmd on Windows) and execute:
-</p>
-<p class="code">
-    PATH_TO_TREMPPI/tremppi init PROJECT_NAME
-</p>
-<p>
-    Where PATH_TO_TREMPPI is the path to where TREMPPI is located on your system and PROJECT_NAME is the name of the project you want to create. 
-    For example consider that on a Linux system you have TREMPPI in the directory software/TREMPPI and you want to create project called first_project. 
-    Then call:
-</p>
-<p class="code">
-    ~/software/TREMPPI/tremppi init first_project
-</p>
-<p>
-    This will create a new directory in the current location called "first_project". To open the project in TREMPPI then call:
-</p>
-<p class="code">
-    cd first_project <br />
-    ~/software/TREMPPI/tremppi browse
-</p>
-<div class="subsection">Workflow</div>
-<p>
-    Once the GUI is started, a project is opened and the list of widgets is available. 
-    Each of the widgets provides access to some part of the functionality of TREMPPI. 
-    These are illustrated in detail in the following section, before that we illustrate the general workflow of TREMPPI step by step.    
-</p>
-<ol>
-    <li>Editor: build the model by using the new button to create nodes and edges.</li>
-    <li>Select: add new selection and check it (all the tools will now be applied to all models)</li>
-    <li>Tools: click on "spawn" to create a database of parametrizations.</li>
-    <li>Tools: you can now use bias, sign, express, impact and validate.</li>
+    <div class="title">TREMPPI 0.4.0</div>
+    <div class="subtitle">Toolkit for Reverse Engineering of Molecular Pathways through Parameter Identification </div>
+    <div class ="section">Introduction</div>
+    <p>
+        This the homepage of TREMPPI, a systems biology toolkit for research in gene regulation and molecular signalling. 
+    </p>
+    <p>
+        This fully integrated, visual toolkit is well suited for the analysis of complex functional modules, e.g. circadian clock. 
+        TREMPPI supports multiple ways of encoding various biological knowledge about the system. 
+        The goal is to provide as much information as possible about how the structure of the system is likely to look. 
+        Such an approach is most valuable if the precise mechanics of the module in question are not known. 
+        In this scenario we simply consider all the possibilities for how the components of the module may interact and analyse them one by one. 
+        This is a computationally very demanding task. To this end we are employing a coarse-grained modelling framework of logical networks, focusing solely on qualitative features of a model.
+    </p>
+    <div class ="section">Download</div>
+    <p>
+        <span class="warning">TREMPPI is currently in Alpha version and the user experience is likely to be rough. 
+            The developers bear no liability for any problems connected to using the software. </span>
+    </p>
+    <p>
+        The easiest way of getting TREMPPI is via prebuild packages 
+        <!--(if on Linux you get an error of the style "version 'LIBRARY_X.XX' not found", you can try upgrading the specified library via "apt-get install LIBRARY_X.XX").-->
+    </p>
+    <ul>
+        <li><a href="/TREMPPI/build/TREMPPI_Ubuntu32.tar.gz">Ubuntu/Debian 32bit</a> (preferred for Ubuntu)</li>
+        <li><a href="/TREMPPI/build/TREMPPI_Debian64.tar.gz">Ubuntu/Debian 64bit</a> (preferred for Debian)</li>
+        <li><a href="/TREMPPI/build/TREMPPI_Windows32.zip">Windows 32bit</a>
+            <ul>
+                <li>You also need the <a href="https://www.microsoft.com/en-us/download/details.aspx?id=46881">Visual Studio 2015</a> runtime, if you do not have it already.</li>
+                <li>You also need <a href="https://www.python.org/ftp/python/3.0/python-3.0.msi">Python3 32bit</a>. Lastly, the environment variable PYTHONPATH must point to the Python location.</li>
+            </ul>
+        </li>
+    </ul>
+    <p>
+        If your system is not in the list, or the binary does not work 
+        (in that case also please consider sharing your experience at esther<img src="/zavinac.png" width="10pt" />fi.muni.cz), 
+        you can try building it from the <a href="https://github.com/xstreck1/TREMPPI">source at GITHUB</a>.
+    </p>
+    <div class="section">Usage</div>
+    <p>
+        TREMPPI has almost fully integrated graphical interface, however as of now some command line interaction is needed. 
+        In this section we exaplain the basics of using tremppi.
+    </p>
+    <div class="subsection">Creating a project</div>
+    <p>
+        In the current version, TREMPPI is started from the command line and executed individually for each project.
+    </p>
+    <p>
+        To make a new TREMPPI project, open terminal (cmd on Windows) and execute:
+    </p>
+    <p class="code">
+        PATH_TO_TREMPPI/tremppi init PROJECT_NAME
+    </p>
+    <p>
+        Where PATH_TO_TREMPPI is the path to where TREMPPI is located on your system and PROJECT_NAME is the name of the project you want to create. 
+        For example consider that on a Linux system you have TREMPPI in the directory software/TREMPPI and you want to create project called first_project. 
+        Then call:
+    </p>
+    <p class="code">
+        ~/software/TREMPPI/tremppi init first_project
+    </p>
+    <p>
+        This will create a new directory in the current location called "first_project". To open the project in TREMPPI then call:
+    </p>
+    <p class="code">
+        cd first_project <br />
+        ~/software/TREMPPI/tremppi browse
+    </p>
+    <div class="subsection">Workflow</div>
+    <p>
+        Once the GUI is started, a project is opened and the list of widgets is available. 
+        Each of the widgets provides access to some part of the functionality of TREMPPI. 
+        These are illustrated in detail in the following section, before that we illustrate the general workflow of TREMPPI step by step.    
+    </p>
+    <ol>
+        <li>editor: build the network by using the new button to create nodes (components) and edges (regulations).</li>
+        <li>select: add new selection and check it (all the tools will now be applied to all models)</li>
+        <li>tools: click on "spawn" to create a database of models.</li>
+        <li>tools: you can now create labels. The labelling tools are:  
+            <ul>
+                <li>sign: each regulation in the network is assigned semantics - 
+                    for inactive, + for activating, - for inhibiting, 1 for ambiguous.</li>
+                <li>express: each model is expressed as a set of multi-valued logical equations in the form of Post Algebra.</li>
+                <li>bias: for each component its bias is computed.</li>
+                <li>impact: for each regulation its impact is computed.</li>
+                <li>validate: this tool is dependent on the properties. 
+                    For each selected property its Cost is computed, with optional Robustness and Witness computation.
+                    This is detailed in the description of the properties widget.</li>
+            </ul>  
+        </li>
+        <li>select: after executing a labelling tool, a set of new columns appears, relating to each of the labelled values
+            (with the exception of the express tool).
+            Specific selections can be created, as detailed in the description of the widget, for the purpose of statistical analysis.</li>
+        <li>
+            tools: based on the selection, on of the analytical tools can be executed:
+            <ul>
+                <li>correlations: creates a graph with correlations between the individual components in the sample.</li>
+                <li>regulations: based on the impact infers a regulatory graph from the parametrizations set.</li>
+                <li>qualitative: creates a summary for the qualitative labels in the selection.</li> 
+                <li>quantitative: creates a summary for the quantitative labels in the selection.</li>
+            </ul>
+        </li>
+        <li>correlations, regulations, qualitative, quantitative: 
+            each of the previous tools creates a report that can be viewed in the like-named widget.
+            Open the widget and pick the selection by its name.
+        </li>
+    </ol>
 
+    <div class="subsection">Publishing</div>
+    <p>
+        Once it is finished, a project can be easily published on-line or shared without any further need for TREMPPI itself.
+        To publish the project on a web, simply copy its folder to the target server, it will be immediately available.
+        To share the project, copy the folder too, then it can be viewed in two ways:
+    </p>
+    <ul>
+        <li>Open the file "index.html" in a browser. 
+            This way is not supported by the Google Chrome browser, due to security restrictions. 
+            Possibly some other browsers also may cause problem.
+        </li>
+        <li>
+            Start a local HTML server in the folder, e.g. if Python is available by the command "python SimpleHTTPServer".
+        </li>
+    </ul>
+
+    <div class="section">Widgets</div>
+    <p>
+        In this section we detail the individual widgets.
+    </p>
+    <div class="subsection">Index</div>
+    <p>
+        This is the entry point of a project. 
+        The purpose of this widget is documentation.
+        Write any comments about the project here, don't forget to use the "Save" button.
+    </p>
+    <div class="subsection">Editor</div>
+    <p>
+        The editor is the first step of using TREMPPI. 
+        In the editor, the regulatory network and it's constraint are specified. 
+        Once your work with the editor is finished, the network should no be anymore altered.
+    </p>
+    <p>
+        To create a component, click the "new" button and then empty space. 
+        To create a regulation, click the "new" button and then first the source and then the target component.
+        The component has a name and a maximum value.
+        When you select a component, these appear on the top of the page, where the value can be replaced.
+        Similarly, after selecting an edge, the threshold value and the edge label can be selected.
+        The semantics of the regulatory network are described e.g. <a href="http://www.diss.fu-berlin.de/docs/servlets/MCRFileNodeServlet/FUDOCS_derivate_000000002847/FIMU-RS-2012-03.pdf">in this article</a>.
+    </p>
+    <div class="subsection">Select</div>
+    <p>
+        Selection is one of the core notions of TREMPPI.
+        In the intuitive terms, selection is a condition each model must satisfy to be selected.
+        This is used to label/analyse only certain models in the pool, which is crucial mainly for the analysis step.
+        For each label that is available in the database, there is an option to create a selection condition. 
+        First, click add to create a new selection and write a new name for it.
+        Then for each field that is of an interest add the selection conditions. 
+        There are three ways of doing so:
+    </p>
+    <ul>
+        <li>Explicit value. By writing down an explicit number, you state that all models in the selection must have this label equal to this value.
+            Use the decimal point for the values that are expected to be floating point values.
+        </li> 
+        <li>A range, e.g. (0.0,1.0], which states that the value must be between 0 (exclusive) and 1 (inclusive).</li>
+        <li>A member of a list, for those values which provide the capability (e.g. sign). </li>   
+    </ul>
+    <p>
+        All the selections that are checked on the (on the left) are applied in <b>disjunction</b>, 
+        i.e. a model that meets any picked selections is going to be selected.
+    </p>
+    <div class="subsection">Properties</div>
+    <p>
+        Properties page is used to describe discrete formulas used by the validate tool.
+        The widget is divided into two tables.
+        The bottom table is used to describe the measurements.
+        For each component, you can enter its exact value or a range of values in the given measurement.
+        The delta value states what sort of change can the component undergo, 
+        i.e. if it can go only up, down, or can not change at all in the steps from when the current measurement is entered until the next is entered.
+        Note that each measurement has a letter assigned to it.
+    </p>
+    <p>
+        The upper table holds a list of properties.
+        Each property has following components:
+    </p>
+    <ol>
+        <li>Name: this name is then referred to for the cost and robustness values.</li> 
+        <li>Ending: represents how the model should behave after the last measurement. 
+            This can be either left open (any value), or it may be required that it reaches a stable state, 
+            or it may be required that from a certain point a measurement gets repeated. </li> 
+        <li>V: check to conduct validation, produces the cost value.</li>
+        <li>W: check to produce witness during validation (currently unused).</li>
+        <li>R: check to computed robustness</li>
+        <li>S: check to produce simulation trace from a witness (currently unused).</li>
+        <li>Bound: currently unused.</li>
+        <li>Name of the component: use a range or a specific value to fix this component to that value / range.</li>
+    </ol>
+    <div class="subsection">Quantitative</div>
+    <p>
+        First of the reporting tools. 
+        The select and compare buttons pick the data to load.
+        All, Left, Mid, Right select which of the reports are going to be visible at a time.
+        Each of the quantitative labels that is available at the time of creation of the report is depicted.
+        The count value states how many entries attain a non-zero value.
+    </p>
+    <div class="subsection">Qualitative</div>
+    <p>
+        Similar to the quantitative report, however it displays rather how many different qualitative values there are and how big a portion of the selection they represent.
+    </p>
+    <div class="subsection">Regulations</div>
+    <p>
+        An inferred regulatory graph, describing the mean impact in the selection,
+        together with the frequency value (how often does an edge has a non-zero sign) and the sign itself.
+        
+    </p>
+    <p>
+        The relative button changes the scale for the values to the range of the values in the selection.
+    </p>
+    <div class="subsection">Correlations</div>
+    <p>
+        Similar to the regulations graph, only with the correlation instead of impact.
+    </p>
     
-</ol>
-
-<div class="subsection">Publishing</div>
-
-<div class="section">Widgets</div>
+    <div class="subsection">Tools</div>
+    <p>
+        This widget provides three panels. 
+    </p>
+    <p>
+        The first provides the list of tools, you can start a tool by clicking on it.
+    </p>
+    <p>
+        The second shows currently running processes. You can stop them by clicking "kill all".
+    </p>
+    <p>
+        The third show the log from the processes.
+    </p>
 </body>
