@@ -24,8 +24,10 @@
             The developers bear no liability for any problems connected to using the software. </span>
     </p>
     <p>
-        The easiest way of getting TREMPPI is via prebuild packages 
-        <!--(if on Linux you get an error of the style "version 'LIBRARY_X.XX' not found", you can try upgrading the specified library via "apt-get install LIBRARY_X.XX").-->
+        The easiest way of getting TREMPPI is via pre-build packages:
+    </p>   
+    <p>
+        Distributions
     </p>
     <ul>
         <li><a href="/TREMPPI/build/TREMPPI_Ubuntu32.tar.gz">Ubuntu/Debian 32bit</a> (preferred for Ubuntu)</li>
@@ -33,10 +35,24 @@
         <li><a href="/TREMPPI/build/TREMPPI_Windows32.zip">Windows 32bit</a>
             <ul>
                 <li>You also need the <a href="https://www.microsoft.com/en-us/download/details.aspx?id=46881">Visual Studio 2015</a> runtime, if you do not have it already.</li>
-                <li>You also need <a href="https://www.python.org/ftp/python/3.0/python-3.0.msi">Python3 32bit</a>. Lastly, the environment variable PYTHONPATH must point to the Python location.</li>
             </ul>
         </li>
     </ul>
+    <p>        
+        For all systems you need the <a href="https://www.python.org/downloads/">Python 3</a>. 
+        On Windows (also on Linux if it is in a non-standard location, the environment points to Python 2, etc.) <span class="warning">PYTHONHOME must point to Python 3 location</span>. 
+        This can be achieved from a Unix terminal by calling:
+    </p>
+    <p class="code">
+        export PYTHONHOME=path_to_python3
+    </p>
+    <p>
+        On Windows from the cmd tool by calling:
+    </p>
+    <p class="code">
+        set PYTHONHOME=path_to_python3
+    </p>
+        <!--(if on Linux you get an error of the style "version 'LIBRARY_X.XX' not found", you can try upgrading the specified library via "apt-get install LIBRARY_X.XX").-->
     <p>
         If your system is not in the list, or the binary does not work 
         (in that case also please consider sharing your experience at esther<img src="/zavinac.png" width="10pt" />fi.muni.cz), 
