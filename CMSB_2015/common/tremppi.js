@@ -7,33 +7,64 @@
 /* global w2ui */
 
 tremppi = {
+    track: function () {
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-41570674-4', 'auto');
+        ga('send', 'pageview');
+
+    },
     server_port: 8080,
     server_location: "localhost",
     getServerAddress: function () {
         return "http://" + this.server_location + ":" + this.server_port + "/";
     },
-    getDataFile: function(file) {
+    getDataFile: function (file) {
         return "./data/" + tremppi.widget_name + "/" + file + ".json";
     },
     widgetInterface: function () {
         return {
-            setPage: function () { tremppi.log("setPage not implemented", "warning" ); },
-            setData: function (data) { tremppi.log("setData not implemented", "warning" ); return false; },
-            layout: function () { tremppi.log("layout not implemented", "warning" ); },
-            save: function () { tremppi.log("save not implemented", "warning" ); },
-            setDefaultData: function (data) { tremppi.log("setDefaultDatas not implemented", "warning" ); },
-            defaultToolbar: function (){ tremppi.log("toolbar not implemented", "warning" ); }
+            setPage: function () {
+                tremppi.log("setPage not implemented", "warning");
+            },
+            setData: function (data) {
+                tremppi.log("setData not implemented", "warning");
+                return false;
+            },
+            layout: function () {
+                tremppi.log("layout not implemented", "warning");
+            },
+            save: function () {
+                tremppi.log("save not implemented", "warning");
+            },
+            setDefaultData: function (data) {
+                tremppi.log("setDefaultDatas not implemented", "warning");
+            },
+            defaultToolbar: function () {
+                tremppi.log("toolbar not implemented", "warning");
+            }
         };
     },
     // the setup function - sets globals, obtains data and adds server content, if possible
     initiate: function () {
         var url = window.location.pathname;
         tremppi.widget_name = url.substring(url.lastIndexOf('/') + 1).slice(0, -5);
-		console.log(tremppi.widget_name);
+        console.log(tremppi.widget_name);
         tremppi[tremppi.widget_name] = tremppi.widget = this.widgetInterface();
         tremppi.data_file = "./" + tremppi.widget_name + ".json";
         tremppi.makeHead();
         $(window).ready(tremppi.construct);
+        tremppi.track();
     },
     // Saves the variable to the respective file
     save: function () {
@@ -100,11 +131,11 @@ tremppi = {
                 {type: 'bottom', size: 20, content: '<div id="log_line" ></div>'}
             ]
         };
-        
+
         var toolbar = tremppi.widget.defaultToolbar();
         if (toolbar !== "undefined")
             layout.panels[1].toolbar = toolbar;
-        
+
         // Layout
         $('body').w2layout(layout);
         // Toolbar
