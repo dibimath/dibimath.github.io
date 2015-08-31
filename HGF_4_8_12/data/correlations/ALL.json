@@ -1,0 +1,792 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "ERK",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Gab1",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Gab1",
+               "target" : "ERK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "HGF",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "HGF",
+               "target" : "ERK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "HGF",
+               "target" : "Gab1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "MEK",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "MEK",
+               "target" : "ERK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "MEK",
+               "target" : "Gab1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "MEK",
+               "target" : "HGF"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Met",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Met",
+               "target" : "ERK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Met",
+               "target" : "Gab1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Met",
+               "target" : "HGF"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Met",
+               "target" : "MEK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PAK",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PAK",
+               "target" : "ERK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PAK",
+               "target" : "Gab1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PAK",
+               "target" : "HGF"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PAK",
+               "target" : "MEK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PAK",
+               "target" : "Met"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PDK1",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PDK1",
+               "target" : "ERK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PDK1",
+               "target" : "Gab1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PDK1",
+               "target" : "HGF"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PDK1",
+               "target" : "MEK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PDK1",
+               "target" : "Met"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PDK1",
+               "target" : "PAK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PI3K",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PI3K",
+               "target" : "ERK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PI3K",
+               "target" : "Gab1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PI3K",
+               "target" : "HGF"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PI3K",
+               "target" : "MEK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PI3K",
+               "target" : "Met"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PI3K",
+               "target" : "PAK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "PI3K",
+               "target" : "PDK1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "RSK",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "RSK",
+               "target" : "ERK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "RSK",
+               "target" : "Gab1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "RSK",
+               "target" : "HGF"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "RSK",
+               "target" : "MEK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "RSK",
+               "target" : "Met"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "RSK",
+               "target" : "PAK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "RSK",
+               "target" : "PDK1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "RSK",
+               "target" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Rac",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Rac",
+               "target" : "ERK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Rac",
+               "target" : "Gab1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Rac",
+               "target" : "HGF"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Rac",
+               "target" : "MEK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Rac",
+               "target" : "Met"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Rac",
+               "target" : "PAK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Rac",
+               "target" : "PDK1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Rac",
+               "target" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Rac",
+               "target" : "RSK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf1",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf1",
+               "target" : "ERK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf1",
+               "target" : "Gab1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf1",
+               "target" : "HGF"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf1",
+               "target" : "MEK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf1",
+               "target" : "Met"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf1",
+               "target" : "PAK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf1",
+               "target" : "PDK1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf1",
+               "target" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf1",
+               "target" : "RSK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Raf1",
+               "target" : "Rac"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Ras",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Ras",
+               "target" : "ERK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Ras",
+               "target" : "Gab1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Ras",
+               "target" : "HGF"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Ras",
+               "target" : "MEK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Ras",
+               "target" : "Met"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Ras",
+               "target" : "PAK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Ras",
+               "target" : "PDK1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Ras",
+               "target" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Ras",
+               "target" : "RSK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Ras",
+               "target" : "Rac"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "Ras",
+               "target" : "Raf1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "SOS1",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "SOS1",
+               "target" : "ERK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "SOS1",
+               "target" : "Gab1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "SOS1",
+               "target" : "HGF"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "SOS1",
+               "target" : "MEK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "SOS1",
+               "target" : "Met"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "SOS1",
+               "target" : "PAK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "SOS1",
+               "target" : "PDK1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "SOS1",
+               "target" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "SOS1",
+               "target" : "RSK"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "SOS1",
+               "target" : "Rac"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "SOS1",
+               "target" : "Raf1"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "SOS1",
+               "target" : "Ras"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.250,
+               "id" : "Akt",
+               "name" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "ERK",
+               "name" : "ERK"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.2041241452319315,
+               "id" : "Gab1",
+               "name" : "Gab1"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "HGF",
+               "name" : "HGF"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.2041241452319315,
+               "id" : "MEK",
+               "name" : "MEK"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "Met",
+               "name" : "Met"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "PAK",
+               "name" : "PAK"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.50,
+               "id" : "PDK1",
+               "name" : "PDK1"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.2112885636821291,
+               "id" : "PI3K",
+               "name" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.250,
+               "id" : "RSK",
+               "name" : "RSK"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "Rac",
+               "name" : "Rac"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.1801779807016655,
+               "id" : "Raf1",
+               "name" : "Raf1"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "Ras",
+               "name" : "Ras"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.2041241452319315,
+               "id" : "SOS1",
+               "name" : "SOS1"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Sun Aug 30 11:02:54 2015",
+      "s_name" : "ALL",
+      "select" : " WHERE (1)",
+      "size" : 447552
+   }
+}
+

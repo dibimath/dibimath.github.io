@@ -1,0 +1,352 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.5773500000050070,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.6666666666666666,
+               "source" : "PDK1",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.5773500000050070,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.6666666666666666,
+               "source" : "PI3K",
+               "target" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 1.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "MEK",
+               "target" : "ERK"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.7182333333318407,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.6666666666666666,
+               "source" : "Met",
+               "target" : "Gab1"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.6666666666666666,
+               "Pearson" : 0.3849000000027252,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.4444444444444444,
+               "source" : "PI3K",
+               "target" : "Gab1"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 1.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "HGF",
+               "target" : "HGF"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.6666666666666666,
+               "Pearson" : 0.3849000000027252,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.4444444444444444,
+               "source" : "PDK1",
+               "target" : "MEK"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.7182333333328799,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.6666666666666666,
+               "source" : "Raf1",
+               "target" : "MEK"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 1.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "HGF",
+               "target" : "Met"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 1.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "Rac",
+               "target" : "PAK"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.7857142857142857,
+               "Pearson" : 0.3566155714303386,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.4190476190476191,
+               "source" : "ERK",
+               "target" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.5105227142892724,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.5333333333333333,
+               "source" : "Gab1",
+               "target" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.7857142857142857,
+               "Pearson" : 0.3566155714303363,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.4190476190476191,
+               "source" : "Ras",
+               "target" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.5773500000050070,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.6666666666666666,
+               "source" : "ERK",
+               "target" : "RSK"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.5773500000050070,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.6666666666666666,
+               "source" : "PDK1",
+               "target" : "RSK"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 1.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "Gab1",
+               "target" : "Rac"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.9054054054054054,
+               "Pearson" : -0.3343409864873463,
+               "Sign" : "-",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.4544780074191839,
+               "source" : "Akt",
+               "target" : "Raf1"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.9054054054054054,
+               "Pearson" : 0.3343409864873462,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.4544780074191839,
+               "source" : "ERK",
+               "target" : "Raf1"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.9054054054054054,
+               "Pearson" : 0.3343409864873460,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.4544780074191839,
+               "source" : "PAK",
+               "target" : "Raf1"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.3826336756772798,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.5019607843137255,
+               "source" : "Ras",
+               "target" : "Raf1"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 1.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "SOS1",
+               "target" : "Ras"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.7182333333333322,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.6666666666666666,
+               "source" : "Met",
+               "target" : "SOS1"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.6666666666666666,
+               "Pearson" : -0.3849000000027252,
+               "Sign" : "-",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.4444444444444444,
+               "source" : "RSK",
+               "target" : "SOS1"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "id" : "Akt",
+               "name" : "Akt"
+            }
+         },
+         {
+            "data" : {
+               "id" : "ERK",
+               "name" : "ERK"
+            }
+         },
+         {
+            "data" : {
+               "id" : "Gab1",
+               "name" : "Gab1"
+            }
+         },
+         {
+            "data" : {
+               "id" : "HGF",
+               "name" : "HGF"
+            }
+         },
+         {
+            "data" : {
+               "id" : "MEK",
+               "name" : "MEK"
+            }
+         },
+         {
+            "data" : {
+               "id" : "Met",
+               "name" : "Met"
+            }
+         },
+         {
+            "data" : {
+               "id" : "PAK",
+               "name" : "PAK"
+            }
+         },
+         {
+            "data" : {
+               "id" : "PDK1",
+               "name" : "PDK1"
+            }
+         },
+         {
+            "data" : {
+               "id" : "PI3K",
+               "name" : "PI3K"
+            }
+         },
+         {
+            "data" : {
+               "id" : "RSK",
+               "name" : "RSK"
+            }
+         },
+         {
+            "data" : {
+               "id" : "Rac",
+               "name" : "Rac"
+            }
+         },
+         {
+            "data" : {
+               "id" : "Raf1",
+               "name" : "Raf1"
+            }
+         },
+         {
+            "data" : {
+               "id" : "Ras",
+               "name" : "Ras"
+            }
+         },
+         {
+            "data" : {
+               "id" : "SOS1",
+               "name" : "SOS1"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Sun Aug 30 11:05:37 2015",
+      "s_name" : "ALL",
+      "select" : " WHERE (1)",
+      "size" : 447552
+   }
+}
+

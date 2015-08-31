@@ -1,0 +1,1 @@
+tremppi.regulations.setup = {"files": ["ALL", "MIN_COST", "VALID"]};

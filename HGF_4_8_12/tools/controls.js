@@ -1,0 +1,98 @@
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/* global tremppi */
+
+tremppi.tools.controls = function () {
+    tremppi.toolbar.onClick = tremppi.tools.toolbarClick;
+};
+
+tremppi.tools.toolbarClick = function (event) {
+};
+
+tremppi.tools.getCommands = function () {
+    var url = tremppi.getServerAddress() + "?getCommands";
+    $.ajax({
+        type: "GET",
+        url: url,
+        success: function (data) {
+            $('#progress').html('');
+            if (data === "") {
+                $('<div>NO COMMAND RUNNING</div>').appendTo($("#progress"));
+            }
+            else {
+                var commands = data.split(" ");
+                var current_command = $('<div><span>' + commands[0] + ': </span><span id="progress_no">0</span></div>');
+                current_command.appendTo($("#progress"));
+                for (var i = 1; i < commands.length; i++) {
+                    $('<div>' + commands[i] + '</div>').appendTo($("#progress"));
+                }
+                tremppi.tools.getProgress();
+            }
+        }
+    });
+};
+
+tremppi.tools.killAll = function (command) {
+    var url = tremppi.getServerAddress() + "?killAll";
+    $.ajax({
+        type: "POST",
+        url: url,
+        success: function (res) {
+            tremppi.log("Kill all executed successfully.");
+            tremppi.tools.getCommands();
+        },
+        fail: function (res) {
+            tremppi.log("Kill all failed.", 'error');
+        }
+    });
+};
+
+
+tremppi.tools.addToQueue = function (command) {
+    var url = tremppi.getServerAddress() + "?tremppi+" + command;
+    $.ajax({
+        type: "POST",
+        url: url,
+        success: function (res) {
+            tremppi.log(command + " executed successfully.");
+            tremppi.tools.getCommands();
+        },
+        fail: function (res) {
+            tremppi.log(command + " failed.", 'error');
+        }
+    });
+};
+
+tremppi.tools.getProgress = function () {
+    var url = tremppi.getServerAddress() + "?getProgress";
+    $.ajax({
+        type: "GET",
+        url: url,
+        success: function (data) {
+            var result = parseInt(data);
+            if (result !== -1) {
+                $("#progress_no").html(data);
+                setTimeout(tremppi.tools.getProgress, 1000);
+            }
+            else {
+                tremppi.tools.getCommands();
+                tremppi.tools.getLog();
+            }
+        }
+    });
+};
+
+tremppi.tools.getLog = function () {
+    var url = tremppi.getServerAddress() + "?getLog";
+    $.ajax({
+        type: "GET",
+        url: url,
+        success: function (data) {
+            $("#log_file").val(data);
+        }
+    });
+};
