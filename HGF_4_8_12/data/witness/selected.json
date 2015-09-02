@@ -1,0 +1,103 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Step" : "2",
+               "id" : "0",
+               "source" : "00A",
+               "target" : "01A"
+            }
+         },
+         {
+            "data" : {
+               "Step" : "3",
+               "id" : "1",
+               "source" : "01A",
+               "target" : "02A"
+            }
+         },
+         {
+            "data" : {
+               "Step" : "1",
+               "id" : "2",
+               "source" : "10A",
+               "target" : "00A"
+            }
+         },
+         {
+            "data" : {
+               "Step" : "1",
+               "id" : "3",
+               "source" : "10A",
+               "target" : "11A"
+            }
+         },
+         {
+            "data" : {
+               "Step" : "2",
+               "id" : "4",
+               "source" : "11A",
+               "target" : "01A"
+            }
+         },
+         {
+            "data" : {
+               "Step" : "2",
+               "id" : "5",
+               "source" : "11A",
+               "target" : "12A"
+            }
+         },
+         {
+            "data" : {
+               "Step" : "3",
+               "id" : "6",
+               "source" : "12A",
+               "target" : "02A"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "id" : "00A"
+            }
+         },
+         {
+            "data" : {
+               "id" : "01A"
+            }
+         },
+         {
+            "data" : {
+               "id" : "02A"
+            }
+         },
+         {
+            "data" : {
+               "id" : "10A"
+            }
+         },
+         {
+            "data" : {
+               "id" : "11A"
+            }
+         },
+         {
+            "data" : {
+               "id" : "12A"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "components" : [ "A", "B" ],
+      "date" : "Fri Aug 28 16:01:58 2015",
+      "properties" : "series,",
+      "s_name" : "selected",
+      "select" : " WHERE (S_B_2_B = 0 AND C_series = 4 AND R_series = 1)",
+      "size" : 5
+   }
+}
+
