@@ -3,91 +3,91 @@
       {
          "count" : 2,
          "max" : 1.0,
-         "mean" : 0.240,
+         "mean" : 0.40,
          "min" : 0.0,
-         "name" : "K<sub>A</sub>(0)"
+         "name" : "K<sub>A</sub>(B{0})"
       },
       {
          "count" : 0,
          "max" : 0.0,
          "mean" : 0.0,
          "min" : 0.0,
-         "name" : "K<sub>A</sub>(1)"
+         "name" : "K<sub>A</sub>(B{1})"
       },
       {
          "count" : 5,
          "max" : 2.0,
-         "mean" : 0.499840,
+         "mean" : 2.0,
          "min" : 2.0,
-         "name" : "K<sub>B</sub>(00)"
+         "name" : "K<sub>B</sub>(A{0},B{0,1})"
       },
       {
          "count" : 5,
          "max" : 2.0,
-         "mean" : 0.499840,
+         "mean" : 2.0,
          "min" : 2.0,
-         "name" : "K<sub>B</sub>(02)"
+         "name" : "K<sub>B</sub>(A{0},B{2})"
       },
       {
          "count" : 4,
          "max" : 2.0,
-         "mean" : 0.45760,
+         "mean" : 1.20,
          "min" : 0.0,
-         "name" : "K<sub>B</sub>(10)"
+         "name" : "K<sub>B</sub>(A{1,2},B{0,1})"
       },
       {
          "count" : 4,
          "max" : 2.0,
-         "mean" : 0.45760,
+         "mean" : 1.20,
          "min" : 0.0,
-         "name" : "K<sub>B</sub>(12)"
+         "name" : "K<sub>B</sub>(A{1,2},B{2})"
       },
       {
          "count" : 2,
          "max" : 1.0,
-         "mean" : 0.240,
+         "mean" : 0.40,
          "min" : 0.0,
          "name" : "Indigree(A)"
       },
       {
          "count" : 3,
          "max" : 1.0,
-         "mean" : 0.041920,
+         "mean" : 0.60,
          "min" : 0.0,
          "name" : "Indigree(B)"
       },
       {
          "count" : 4,
          "max" : 2.0,
-         "mean" : 0.281920,
+         "mean" : 1.0,
          "min" : 0.0,
          "name" : "Indigree(SUM)"
       },
       {
          "count" : 2,
          "max" : 0.50,
-         "mean" : 0.120,
+         "mean" : 0.20,
          "min" : 0.0,
          "name" : "Bias(A)"
       },
       {
          "count" : 5,
          "max" : 1.0,
-         "mean" : 0.239360,
+         "mean" : 0.80,
          "min" : 0.50,
          "name" : "Bias(B)"
       },
       {
          "count" : 2,
          "max" : 0.0,
-         "mean" : -0.240,
+         "mean" : -0.40,
          "min" : -1.0,
          "name" : "Impact(B,1,A)"
       },
       {
          "count" : 3,
          "max" : 0.0,
-         "mean" : -0.041920,
+         "mean" : -0.60,
          "min" : -1.0,
          "name" : "Impact(A,1,B)"
       },
@@ -101,22 +101,22 @@
       {
          "count" : 5,
          "max" : 4.0,
-         "mean" : 0.999680,
+         "mean" : 4.0,
          "min" : 4.0,
-         "name" : "Cost(p)"
+         "name" : "Cost(M)"
       },
       {
          "count" : 5,
          "max" : 1.0,
-         "mean" : 0.249920,
+         "mean" : 1.0,
          "min" : 1.0,
-         "name" : "Robustness(p)"
+         "name" : "Robustness(M)"
       }
    ],
    "setup" : {
-      "date" : "Wed Jun 17 10:41:02 2015",
+      "date" : "Thu Sep 10 14:16:06 2015",
       "s_name" : "selected",
-      "select" : " WHERE (S_B_2_B = 0 AND R_p = 1.0 AND C_p = 4)",
+      "select" : " WHERE (S_B_2_B = \"0\" AND R_M = \"1\" AND C_M = 4)",
       "size" : 5
    }
 }

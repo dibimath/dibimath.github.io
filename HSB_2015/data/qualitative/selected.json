@@ -1,8 +1,8 @@
 {
    "setup" : {
-      "date" : "Wed Jun 17 10:41:02 2015",
+      "date" : "Thu Sep 10 14:16:05 2015",
       "s_name" : "selected",
-      "select" : " WHERE (R_p = 1.0 AND C_p = 4 AND S_B_2_B = 0)",
+      "select" : " WHERE (C_M = 4 AND R_M = \"1\" AND S_B_2_B = \"0\")",
       "size" : 5
    },
    "values" : [
@@ -17,7 +17,7 @@
                "portion" : 0.40
             }
          ],
-         "name" : "K<sub>A</sub>(0)"
+         "name" : "K<sub>A</sub>(B{0})"
       },
       {
          "data" : [
@@ -26,7 +26,7 @@
                "portion" : 1.0
             }
          ],
-         "name" : "K<sub>A</sub>(1)"
+         "name" : "K<sub>A</sub>(B{1})"
       },
       {
          "data" : [
@@ -35,7 +35,7 @@
                "portion" : 1.0
             }
          ],
-         "name" : "K<sub>B</sub>(00)"
+         "name" : "K<sub>B</sub>(A{0},B{0,1})"
       },
       {
          "data" : [
@@ -44,24 +44,7 @@
                "portion" : 1.0
             }
          ],
-         "name" : "K<sub>B</sub>(02)"
-      },
-      {
-         "data" : [
-            {
-               "name" : "0",
-               "portion" : 0.20
-            },
-            {
-               "name" : "1",
-               "portion" : 0.40
-            },
-            {
-               "name" : "2",
-               "portion" : 0.40
-            }
-         ],
-         "name" : "K<sub>B</sub>(10)"
+         "name" : "K<sub>B</sub>(A{0},B{2})"
       },
       {
          "data" : [
@@ -78,7 +61,24 @@
                "portion" : 0.40
             }
          ],
-         "name" : "K<sub>B</sub>(12)"
+         "name" : "K<sub>B</sub>(A{1,2},B{0,1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.20
+            },
+            {
+               "name" : "1",
+               "portion" : 0.40
+            },
+            {
+               "name" : "2",
+               "portion" : 0.40
+            }
+         ],
+         "name" : "K<sub>B</sub>(A{1,2},B{2})"
       },
       {
          "data" : [
@@ -187,6 +187,15 @@
             }
          ],
          "name" : "F<sub>B</sub>"
+      },
+      {
+         "data" : [
+            {
+               "name" : "4",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(M)"
       }
    ]
 }

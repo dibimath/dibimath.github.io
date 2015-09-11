@@ -15,6 +15,7 @@ tremppi.regulations.page = function () {
         tremppi.report.createPanels();
         for (var i = 0; i < tremppi.report.panels.length; i++) {
             $('#container_' + tremppi.report.panels[i]).html("");
+            $("#container_" + tremppi.report.panels[i]).append('<div id="header_' + tremppi.report.panels[i] + '" class="header" >' + tremppi.report.panels[i] + '</div>');
             $("#container_" + tremppi.report.panels[i]).append('<div class="graph" id="graph_' + tremppi.report.panels[i] + '"></div>');
             $("#container_" + tremppi.report.panels[i]).append('<canvas class="legend" id="legend_' + tremppi.report.panels[i] + '"></canvas>');
         }
@@ -47,6 +48,10 @@ tremppi.regulations.setData = function (data) {
     tremppi.toolbar.onClick = tremppi.regulations.toolbarClick;
 };
 
+tremppi.regulations.getData = function () {
+    return {};
+};
+
 tremppi.regulations.layout = function () {
     for (var i = 0; i < tremppi.report.panels.length; i++) {
         tremppi.regulations.loadLabels(tremppi.report.panels[i]);
@@ -57,9 +62,6 @@ tremppi.regulations.toolbarClass = function () {
     return {
         name: 'toolbar',
         items: [
-            {type: 'menu', id: 'select', caption: 'Select', items: []},
-            {type: 'menu', id: 'compare', caption: 'Compare', items: []},
-            {type: 'break', id: 'break0'},
             {type: 'radio', id: 'all', group: '1', caption: 'All', checked: true},
             {type: 'radio', id: 'left', group: '1', caption: 'Left'},
             {type: 'radio', id: 'mid', group: '1', caption: 'Mid'},

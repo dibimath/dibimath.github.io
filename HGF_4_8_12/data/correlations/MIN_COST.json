@@ -388,7 +388,7 @@
          },
          {
             "data" : {
-               "Pearson" : 3.966835928942063e-20,
+               "Pearson" : 7.933671857881909e-20,
                "source" : "Raf1",
                "target" : "Akt"
             }
@@ -402,7 +402,7 @@
          },
          {
             "data" : {
-               "Pearson" : 4.858361959623683e-20,
+               "Pearson" : 9.716723919244648e-20,
                "source" : "Raf1",
                "target" : "Gab1"
             }
@@ -416,7 +416,7 @@
          },
          {
             "data" : {
-               "Pearson" : 3.966835928942063e-20,
+               "Pearson" : 7.933671857881909e-20,
                "source" : "Raf1",
                "target" : "MEK"
             }
@@ -437,7 +437,7 @@
          },
          {
             "data" : {
-               "Pearson" : 3.966835928942063e-20,
+               "Pearson" : 0.0,
                "source" : "Raf1",
                "target" : "PDK1"
             }
@@ -451,7 +451,7 @@
          },
          {
             "data" : {
-               "Pearson" : 3.966835928942063e-20,
+               "Pearson" : 7.933671857881909e-20,
                "source" : "Raf1",
                "target" : "RSK"
             }
@@ -715,7 +715,7 @@
                "Bias" : 0.50,
                "Max" : 1,
                "Mean" : 0.50,
-               "Std" : 0.50,
+               "Std" : 0.0,
                "id" : "PDK1",
                "name" : "PDK1"
             }
@@ -755,7 +755,7 @@
                "Bias" : 0.5261194029850746,
                "Max" : 1,
                "Mean" : 0.5261194029850746,
-               "Std" : 0.1657641641940666,
+               "Std" : 0.1657641641941129,
                "id" : "Raf1",
                "name" : "Raf1"
             }
@@ -783,10 +783,10 @@
       ]
    },
    "setup" : {
-      "date" : "Sun Aug 30 19:31:58 2015",
+      "date" : "Fri Sep 11 20:17:31 2015",
       "s_name" : "MIN_COST",
-      "select" : " WHERE (C_PDK1_inh = 6 AND C_Mek_and_PDK1_inh = 4 AND C_Met_inh = 1 AND C_siRNA_ERK = 1 AND C_Mek_inh = 4)",
-      "size" : 270144
+      "select" : " WHERE (C_Mek_inh = 4 AND C_Mek_and_PDK1_inh = 4 AND C_siRNA_ERK = \"1\" AND C_Met_inh = \"1\" AND C_PDK1_inh = 6)",
+      "size" : 135072
    }
 }
 

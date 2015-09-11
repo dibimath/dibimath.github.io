@@ -14,8 +14,9 @@ tremppi.qualitative.getGrid = function (grid_name) {
             header: true
         },
         columns: [
-            {field: 'name', caption: 'Label', size: '25%', sortable: true},
-            {field: 'value', caption: 'Values', size: '75%'}
+            {field: 'name', caption: 'Label', size: '20%', sortable: true},
+            {field: 'entries', caption: '#', size: '10%'},
+            {field: 'value', caption: 'Elements', size: '70%'}
         ]
     };
 };

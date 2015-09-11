@@ -715,7 +715,7 @@
                "Bias" : 0.50,
                "Max" : 1,
                "Mean" : 0.50,
-               "Std" : 0.50,
+               "Std" : 0.0,
                "id" : "PDK1",
                "name" : "PDK1"
             }
@@ -783,10 +783,10 @@
       ]
    },
    "setup" : {
-      "date" : "Sun Aug 30 12:20:43 2015",
+      "date" : "Fri Sep 11 10:30:18 2015",
       "s_name" : "VALID",
-      "select" : " WHERE (C_PDK1_inh > 0 AND C_PDK1_inh <= 100 AND C_Mek_and_PDK1_inh > 0 AND C_Mek_and_PDK1_inh <= 100 AND C_Mek_inh > 0 AND C_Mek_inh <= 100 AND C_siRNA_ERK > 0 AND C_siRNA_ERK <= 100 AND C_Met_inh > 0 AND C_Met_inh <= 100)",
-      "size" : 298368
+      "select" : " WHERE (C_Met_inh > 0 AND C_Met_inh <= 100 AND C_PDK1_inh > 0 AND C_PDK1_inh <= 100 AND C_Mek_inh > 0 AND C_Mek_inh <= 100 AND C_Mek_and_PDK1_inh > 0 AND C_Mek_and_PDK1_inh <= 100 AND C_siRNA_ERK > 0 AND C_siRNA_ERK <= 100)",
+      "size" : 149184
    }
 }
 

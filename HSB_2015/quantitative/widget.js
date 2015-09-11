@@ -36,7 +36,7 @@ tremppi.quantitative.valuesSetter = function (source, panel) {
 };
 
 tremppi.quantitative.getGrid = function (grid_name) {
-    var portion = (100 - 32) / 4;
+    var portion = (100 - 40) / 4;
     return {
         name: grid_name,
         header: grid_name,
@@ -44,7 +44,7 @@ tremppi.quantitative.getGrid = function (grid_name) {
             header: true
         },
         columns: [
-            {field: 'name', caption: 'Name', size: '32%', sortable: true},
+            {field: 'name', caption: 'Label', size: '40%', sortable: true},
             {field: 'count', caption: 'Count', size: portion + '%', sortable: true},
             {field: 'min', caption: 'Min', size: portion + '%', sortable: true},
             {field: 'max', caption: 'Max', size: portion + '%', sortable: true},

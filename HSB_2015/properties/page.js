@@ -29,8 +29,10 @@ tremppi.properties.setData = function (data) {
     tremppi.properties.controls();
 };
 
-tremppi.properties.save = function () {
-    tremppi.saveData({records: tremppi.properties.list.records});
+tremppi.properties.getData = function () {
+    tremppi.properties.detail.mergeChanges();
+    tremppi.properties.list.mergeChanges();
+    return {records: tremppi.properties.list.records};
 };
 
 tremppi.properties.layout = function () {
@@ -43,10 +45,5 @@ tremppi.properties.setDefaultData = function (data) {
 };
 
 tremppi.properties.toolbarClass = function () {
-    return {
-        name: 'toolbar',
-        items: [
-            {type: 'button', id: 'save', caption: 'Save', img: 'icon-page', hint: 'Save the data'}
-        ]
-    };
+    return {};
 };

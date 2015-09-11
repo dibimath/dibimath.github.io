@@ -1,1 +1,1 @@
-tremppi.witness.setup = {"files": ["all", "selected"]};
+tremppi.witness.setup = {"files": []};

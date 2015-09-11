@@ -3,22 +3,28 @@
 		{
 			"name": "all",
 			"recid": 0,
-			"select": true,
+			"select": false,
 			"R_test_ts": "",
-			"C_test_ts": ""
+			"C_test_ts": "",
+			"R_M": "",
+			"C_M": ""
 		},
 		{
 			"name": "selected",
 			"recid": 1,
 			"R_time_series": "",
 			"C_time_series": "",
-			"select": false,
+			"select": true,
 			"S_B_1_A": " ",
 			"S_A_1_B": " ",
 			"S_B_2_B": "0",
 			"E_SUM": "",
-			"R_p": "1.0",
-			"C_p": "4"
+			"R_p": "",
+			"C_p": "",
+			"R_series": "",
+			"C_series": "",
+			"R_M": "1",
+			"C_M": "4"
 		}
 	]
 }

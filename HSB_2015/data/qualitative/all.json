@@ -1,6 +1,6 @@
 {
    "setup" : {
-      "date" : "Wed Jun 17 10:41:10 2015",
+      "date" : "Thu Sep 10 14:15:27 2015",
       "s_name" : "all",
       "select" : " WHERE (1)",
       "size" : 324
@@ -17,7 +17,7 @@
                "portion" : 0.50
             }
          ],
-         "name" : "K<sub>A</sub>(0)"
+         "name" : "K<sub>A</sub>(B{0})"
       },
       {
          "data" : [
@@ -30,7 +30,7 @@
                "portion" : 0.50
             }
          ],
-         "name" : "K<sub>A</sub>(1)"
+         "name" : "K<sub>A</sub>(B{1})"
       },
       {
          "data" : [
@@ -47,7 +47,7 @@
                "portion" : 0.3333333333333333
             }
          ],
-         "name" : "K<sub>B</sub>(00)"
+         "name" : "K<sub>B</sub>(A{0},B{0,1})"
       },
       {
          "data" : [
@@ -64,7 +64,7 @@
                "portion" : 0.3333333333333333
             }
          ],
-         "name" : "K<sub>B</sub>(02)"
+         "name" : "K<sub>B</sub>(A{0},B{2})"
       },
       {
          "data" : [
@@ -81,7 +81,7 @@
                "portion" : 0.3333333333333333
             }
          ],
-         "name" : "K<sub>B</sub>(10)"
+         "name" : "K<sub>B</sub>(A{1,2},B{0,1})"
       },
       {
          "data" : [
@@ -98,7 +98,7 @@
                "portion" : 0.3333333333333333
             }
          ],
-         "name" : "K<sub>B</sub>(12)"
+         "name" : "K<sub>B</sub>(A{1,2},B{2})"
       },
       {
          "data" : [
@@ -559,6 +559,19 @@
             }
          ],
          "name" : "F<sub>B</sub>"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.6666666666666666
+            },
+            {
+               "name" : "4",
+               "portion" : 0.3333333333333333
+            }
+         ],
+         "name" : "Cost(M)"
       }
    ]
 }

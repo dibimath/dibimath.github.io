@@ -1,26 +1,29 @@
 {
 	"records": [
 		{
-			"name": "all",
 			"recid": 0,
-			"select": false,
-			"R_test_ts": "",
-			"C_test_ts": ""
+			"name": "ALL",
+			"select": false
 		},
 		{
-			"name": "selected",
+			"name": "VALID",
 			"recid": 1,
-			"R_time_series": "",
-			"C_time_series": "",
-			"select": true,
-			"S_B_1_A": " ",
-			"S_A_1_B": " ",
-			"S_B_2_B": "0",
-			"E_SUM": "",
-			"R_p": "",
-			"C_p": "",
-			"R_series": "1",
-			"C_series": "4"
+			"C_Met_inh": "(0,100]",
+			"C_siRNA_ERK": "(0,100]",
+			"C_Mek_inh": "(0,100]",
+			"C_PDK1_inh": "(0,100]",
+			"C_Mek_and_PDK1_inh": "(0,100]",
+			"select": false
+		},
+		{
+			"name": "MIN_COST",
+			"recid": 2,
+			"C_Met_inh": "1",
+			"C_siRNA_ERK": "1",
+			"C_Mek_inh": "4",
+			"C_PDK1_inh": "6",
+			"C_Mek_and_PDK1_inh": "4",
+			"select": true
 		}
 	]
 }

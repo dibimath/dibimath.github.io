@@ -248,11 +248,9 @@ tremppi.report = {
         tremppi.getData(tremppi.widget.valuesSetter(source, panel), source);
     },
     createPanels: function () {
-        tremppi.toolbar.get('select').items = tremppi.widget.setup.files;
-        tremppi.toolbar.get('compare').items = tremppi.widget.setup.files;
-        $("#widget").append('<div class="container" id="container_left">left</div>');
-        $("#widget").append('<div class="container" id="container_mid">mid</div>');
-        $("#widget").append('<div class="container" id="container_right">right</div>');
+        $("#widget").append('<div class="report_container" id="container_left">left</div>');
+        $("#widget").append('<div class="report_container" id="container_mid">mid</div>');
+        $("#widget").append('<div class="report_container" id="container_right">right</div>');
     },
     initialPanel: function () {
         tremppi.widget.setPanel('left');
@@ -325,7 +323,7 @@ tremppi.report = {
             }
         }
         if (!positive) {
-            return {min: -1 * range.max, max: -1 * range.min}
+            return {min: -1 * range.max, max: -1 * range.min};
         } else {
             return range;
         }
@@ -333,8 +331,9 @@ tremppi.report = {
 };
 
 tremppi.log = function (content, level) {
-    if (typeof level === 'undefined')
+    if (typeof level === 'undefined' || (level !== 'error' && level !== 'warning')) {
         level = 'info';
+    }
 
     var date = new Date();
     $('#log_line').html('[' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds() + '] ' + content);

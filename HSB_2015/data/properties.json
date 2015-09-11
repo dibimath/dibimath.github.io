@@ -5,7 +5,7 @@
 			"E_A": "",
 			"E_B": "",
 			"ending": "any",
-			"name": "p",
+			"name": "M",
 			"records": [
 				{
 					"recid": 0,
@@ -23,7 +23,8 @@
 			"robustness": true,
 			"validate": true,
 			"witness": false,
-			"bound": ""
+			"bound": "",
+			"select": true
 		}
 	]
 }

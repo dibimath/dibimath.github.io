@@ -4,7 +4,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.5773500000037998,
+               "Pearson" : 0.5773500000007544,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.6666666666666666,
@@ -15,7 +15,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.5773500000037998,
+               "Pearson" : 0.5773500000007544,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.6666666666666666,
@@ -37,7 +37,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.7182333333366960,
+               "Pearson" : 0.7182333333342826,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.6666666666666666,
@@ -48,7 +48,7 @@
          {
             "data" : {
                "Frequency" : 0.6666666666666666,
-               "Pearson" : 0.3849000000015181,
+               "Pearson" : 0.3848999999997367,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.4444444444444444,
@@ -70,7 +70,7 @@
          {
             "data" : {
                "Frequency" : 0.50,
-               "Pearson" : 0.2886750000003772,
+               "Pearson" : 0.2886749999998084,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.3333333333333333,
@@ -81,7 +81,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.7886750000024657,
+               "Pearson" : 0.7886750000015088,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.6666666666666666,
@@ -113,8 +113,19 @@
          },
          {
             "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 1.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "PDK1",
+               "target" : "PDK1"
+            }
+         },
+         {
+            "data" : {
                "Frequency" : 0.7857142857142857,
-               "Pearson" : 0.3566155714293804,
+               "Pearson" : 0.356615571428880,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.4190476190476191,
@@ -125,7 +136,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.5105227142873642,
+               "Pearson" : 0.5105227142862879,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.5333333333333333,
@@ -136,7 +147,7 @@
          {
             "data" : {
                "Frequency" : 0.7857142857142857,
-               "Pearson" : 0.3566155714293549,
+               "Pearson" : 0.3566155714288577,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.4190476190476191,
@@ -147,7 +158,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.5773500000037998,
+               "Pearson" : 0.5773500000007544,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.6666666666666666,
@@ -158,7 +169,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.5773500000037998,
+               "Pearson" : 0.5773500000007544,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.6666666666666666,
@@ -180,7 +191,7 @@
          {
             "data" : {
                "Frequency" : 0.9179104477611940,
-               "Pearson" : -0.3484970223882662,
+               "Pearson" : -0.3484970223880212,
                "Sign" : "-",
                "Threshold" : 1,
                "WeightedFrequency" : 0.4607550482879719,
@@ -191,7 +202,7 @@
          {
             "data" : {
                "Frequency" : 0.8955223880597015,
-               "Pearson" : 0.3090953432837723,
+               "Pearson" : 0.3090953432834841,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.4495171202809482,
@@ -202,7 +213,7 @@
          {
             "data" : {
                "Frequency" : 0.9179104477611940,
-               "Pearson" : 0.3484970223882666,
+               "Pearson" : 0.3484970223880215,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.4607550482879719,
@@ -213,7 +224,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.3927791492540661,
+               "Pearson" : 0.3927791492537684,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.5019607843137255,
@@ -235,7 +246,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.7182333333362647,
+               "Pearson" : 0.7182333333346328,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.6666666666666666,
@@ -246,7 +257,7 @@
          {
             "data" : {
                "Frequency" : 0.6666666666666666,
-               "Pearson" : -0.3849000000015181,
+               "Pearson" : -0.3848999999997367,
                "Sign" : "-",
                "Threshold" : 1,
                "WeightedFrequency" : 0.4444444444444444,
@@ -343,10 +354,10 @@
       ]
    },
    "setup" : {
-      "date" : "Sun Aug 30 19:36:09 2015",
+      "date" : "Fri Sep 11 20:20:14 2015",
       "s_name" : "MIN_COST",
-      "select" : " WHERE (C_siRNA_ERK = 1 AND C_Mek_and_PDK1_inh = 4 AND C_PDK1_inh = 6 AND C_Mek_inh = 4 AND C_Met_inh = 1)",
-      "size" : 270144
+      "select" : " WHERE (C_Met_inh = \"1\" AND C_Mek_and_PDK1_inh = 4 AND C_Mek_inh = 4 AND C_siRNA_ERK = \"1\" AND C_PDK1_inh = 6)",
+      "size" : 135072
    }
 }
 

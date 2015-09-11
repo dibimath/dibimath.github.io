@@ -15,10 +15,12 @@ tremppi.regulations.createPanelContent = function (elements, panel) {
 
 tremppi.regulations.valuesSetter = function (source, panel) {
     return function (data) {
+        $('#header_' + panel).html(source);
         tremppi.regulations.createPanelContent(data.elements, panel);
         tremppi.log(source + ' loaded successfully.');
 
         if (tremppi.regulations.left.edges().length > 0 && tremppi.regulations.right.edges().length > 0) {
+            $('#header_mid').html($('#header_left').html() + ' - ' + $('#header_right').html());
             var to_synchronize = tremppi.regulations.mid.nodes().length === 0;
 
             var mid = {};
@@ -86,15 +88,15 @@ tremppi.regulations.applyVisuals = function (type) {
     var weighted = tremppi.getItem('weighted') === 'true';
 
     var width_param = weighted ? 'WeightedFrequency' : 'Frequency';
-    var range = tremppi.report.getRange(type, relative, 'edge[Frequency>=0]', width_param, true);
+    var range = tremppi.report.getRange(type, relative, 'edge[Frequency]', width_param, true);
     tremppi.cytoscape.mapRange(type, 'edge[Frequency>=0]', width_param, 'width', range.min, range.max, 1, 10);
-    range = tremppi.report.getRange(type, relative, 'edge[Frequency<0]', width_param, false);
+    var range = tremppi.report.getRange(type, relative, 'edge[Frequency]', width_param, false);
     tremppi.cytoscape.mapRange(type, 'edge[Frequency<0]', width_param, 'width', range.min, range.max, 10, 1);
 
     range = tremppi.report.getRange(type, relative, 'edge[Pearson>=0]', 'Pearson', true);
-    tremppi.cytoscape.mapRange(type, 'edge[Pearson>=0]', 'Pearson', 'line-color', range.min, range.max, 'yellow', 'green');
+    tremppi.cytoscape.mapRange(type, 'edge[Pearson>=0]', 'Pearson', 'line-color', 0, range.max, 'yellow', 'green');
     range = tremppi.report.getRange(type, relative, 'edge[Pearson<0]', 'Pearson', false);
-    tremppi.cytoscape.mapRange(type, 'edge[Pearson<0]', 'Pearson', 'line-color', range.min, range.max, 'red', 'yellow');
+    tremppi.cytoscape.mapRange(type, 'edge[Pearson<0]', 'Pearson', 'line-color', range.min, 0, 'red', 'yellow');
 
     tremppi.cytoscape.mapValue(type, 'edge[Sign="0"]', 'target-arrow-shape', 'circle');
     tremppi.cytoscape.mapValue(type, 'edge[Sign="+"]', 'target-arrow-shape', 'triangle');
@@ -115,8 +117,8 @@ tremppi.regulations.addQtip = function (type) {
         return 'source: ' + my_data.source + '<br />'
                 + 'target: ' + my_data.target + '<br />'
                 + 'Impact: ' + my_data.Pearson.toFixed(num_of_decimals) + '<br />'
-                + 'Ocurrence: ' + my_data.Frequency.toFixed(num_of_decimals) + '<br />'
-                + 'Weighted Occurence: ' + my_data.WeightedFrequency.toFixed(num_of_decimals) + '<br />';
+                + 'Frequency: ' + my_data.Frequency.toFixed(num_of_decimals) + '<br />'
+                + 'Weighted Frequency: ' + my_data.WeightedFrequency.toFixed(num_of_decimals) + '<br />';
     };
 
     tremppi.qtip.addOnHoverLabeller(type, edges, labeller);
@@ -159,8 +161,8 @@ tremppi.regulations.makeText = function (content, position) {
 tremppi.regulations.addGradient = function (relative, type, my_paper, positive) {
     var selection = positive ? 'edge[Pearson>=0]' : 'edge[Pearson<0]';
     var range = {
-        min: tremppi.report.getRange(type, relative, selection, 'Pearson', positive).min,
-        max: tremppi.report.getRange(type, relative, selection, 'Pearson', positive).max
+        min: positive ? 0 : tremppi.report.getRange(type, relative, selection, 'Pearson', positive).min,
+        max: positive ? tremppi.report.getRange(type, relative, selection, 'Pearson', positive).max : 0
     };
     var bar_right = my_paper.view.viewSize.width - 80;
     var height = positive ? tremppi.regulations.P_height : tremppi.regulations.N_height;

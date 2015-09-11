@@ -4,5 +4,4 @@
  * and open the template in the editor.
  */
 
-tremppi.witness.setServer = function () {
-};
+/* global tremppi */

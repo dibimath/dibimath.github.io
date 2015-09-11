@@ -19,15 +19,17 @@ tremppi.qualitative.page = function () {
 tremppi.qualitative.setData = function (data) {
 };
 
+tremppi.qualitative.getData = function () {
+    return {};
+};
+
 tremppi.qualitative.layout = function () {
 };
 
 tremppi.qualitative.toolbarClass = function () {
     return {
         name: 'toolbar',
-        items: [{type: 'menu', id: 'select', caption: 'Select', items: []},
-            {type: 'menu', id: 'compare', caption: 'Compare', items: []},
-            {type: 'break', id: 'break0'},
+        items: [
             {type: 'radio', id: 'all', group: '1', caption: 'All', checked: true},
             {type: 'radio', id: 'left', group: '1', caption: 'Left'},
             {type: 'radio', id: 'mid', group: '1', caption: 'Mid'},

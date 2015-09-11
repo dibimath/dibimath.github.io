@@ -4,7 +4,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.5773500000040879,
+               "Pearson" : 0.5773500000013306,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.6666666666666666,
@@ -15,7 +15,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.5773500000040879,
+               "Pearson" : 0.5773500000013306,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.6666666666666666,
@@ -37,7 +37,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.7182333333366949,
+               "Pearson" : 0.7182333333344826,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.6666666666666666,
@@ -48,7 +48,7 @@
          {
             "data" : {
                "Frequency" : 0.6666666666666666,
-               "Pearson" : 0.3849000000018062,
+               "Pearson" : 0.3848999999997344,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.4444444444444444,
@@ -70,7 +70,7 @@
          {
             "data" : {
                "Frequency" : 0.50,
-               "Pearson" : 0.2886750000006653,
+               "Pearson" : 0.2886749999998062,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.3333333333333333,
@@ -81,7 +81,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.7886750000027549,
+               "Pearson" : 0.7886750000016036,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.6666666666666666,
@@ -113,8 +113,19 @@
          },
          {
             "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 1.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "PDK1",
+               "target" : "PDK1"
+            }
+         },
+         {
+            "data" : {
                "Frequency" : 0.7857142857142857,
-               "Pearson" : 0.3566155714294426,
+               "Pearson" : 0.3566155714289648,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.4190476190476191,
@@ -125,7 +136,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.5105227142878263,
+               "Pearson" : 0.5105227142864411,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.5333333333333333,
@@ -136,7 +147,7 @@
          {
             "data" : {
                "Frequency" : 0.7857142857142857,
-               "Pearson" : 0.3566155714294351,
+               "Pearson" : 0.3566155714289478,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.4190476190476191,
@@ -147,7 +158,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.5773500000040879,
+               "Pearson" : 0.5773500000013306,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.6666666666666666,
@@ -158,7 +169,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.5773500000040879,
+               "Pearson" : 0.5773500000013306,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.6666666666666666,
@@ -180,7 +191,7 @@
          {
             "data" : {
                "Frequency" : 0.9054054054054054,
-               "Pearson" : -0.3343409864867210,
+               "Pearson" : -0.3343409864864858,
                "Sign" : "-",
                "Threshold" : 1,
                "WeightedFrequency" : 0.4544780074191839,
@@ -191,7 +202,7 @@
          {
             "data" : {
                "Frequency" : 0.9054054054054054,
-               "Pearson" : 0.3343409864867209,
+               "Pearson" : 0.3343409864864860,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.4544780074191839,
@@ -202,7 +213,7 @@
          {
             "data" : {
                "Frequency" : 0.9054054054054054,
-               "Pearson" : 0.3343409864867208,
+               "Pearson" : 0.3343409864864860,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.4544780074191839,
@@ -213,7 +224,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.3826336756760633,
+               "Pearson" : 0.3826336756757630,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.5019607843137255,
@@ -235,7 +246,7 @@
          {
             "data" : {
                "Frequency" : 1.0,
-               "Pearson" : 0.7182333333364191,
+               "Pearson" : 0.7182333333349415,
                "Sign" : "+",
                "Threshold" : 1,
                "WeightedFrequency" : 0.6666666666666666,
@@ -246,7 +257,7 @@
          {
             "data" : {
                "Frequency" : 0.6666666666666666,
-               "Pearson" : -0.3849000000018062,
+               "Pearson" : -0.3848999999997344,
                "Sign" : "-",
                "Threshold" : 1,
                "WeightedFrequency" : 0.4444444444444444,
@@ -343,10 +354,10 @@
       ]
    },
    "setup" : {
-      "date" : "Sun Aug 30 12:27:54 2015",
+      "date" : "Fri Sep 11 10:33:34 2015",
       "s_name" : "VALID",
-      "select" : " WHERE (C_Met_inh > 0 AND C_Met_inh <= 100 AND C_Mek_inh > 0 AND C_Mek_inh <= 100 AND C_siRNA_ERK > 0 AND C_siRNA_ERK <= 100 AND C_Mek_and_PDK1_inh > 0 AND C_Mek_and_PDK1_inh <= 100 AND C_PDK1_inh > 0 AND C_PDK1_inh <= 100)",
-      "size" : 298368
+      "select" : " WHERE (C_PDK1_inh > 0 AND C_PDK1_inh <= 100 AND C_Met_inh > 0 AND C_Met_inh <= 100 AND C_Mek_and_PDK1_inh > 0 AND C_Mek_and_PDK1_inh <= 100 AND C_Mek_inh > 0 AND C_Mek_inh <= 100 AND C_siRNA_ERK > 0 AND C_siRNA_ERK <= 100)",
+      "size" : 149184
    }
 }
 
