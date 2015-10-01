@@ -1,1 +1,1 @@
-tremppi.witness.setup = {"components": ["A", "B"], "files": ["ALL", "MIN_COST"]};
+tremppi.witness.setup = {"files": ["ALL", "MIN_COST"], "components": ["A", "B"]};

@@ -1,1 +1,1 @@
-tremppi.regulations.setup = {"components": ["A", "B"], "files": ["all", "MIN_COST"]};
+tremppi.regulations.setup = {"files": ["ALL", "MIN_COST"], "components": ["A", "B"]};
