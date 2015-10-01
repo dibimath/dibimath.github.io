@@ -18,11 +18,6 @@ tremppi.toolbarClick = function (event) {
     tremppi.editor[event.target]();
 };
 
-tremppi.editor.save = function () {
-    var data = tremppi.editor.graph.json().elements;
-    tremppi.saveData(data);
-};
-
 tremppi.editor.create = function () {
     tremppi.editor.removeAll();
     tremppi.editor.addHelpField("Click on empty space to create a COMPONENT. Click on a component to put a source of a REGULATION.");
@@ -110,7 +105,6 @@ tremppi.editor.addHelpField = function (help_text) {
 
 tremppi.editor.setBasic = function () {
     tremppi.editor.removeAll();
-    tremppi.toolbar.add({type: 'button', id: 'save', caption: 'Save', img: 'icon-page', hint: 'Save the data'});
     tremppi.toolbar.add({type: 'button', id: 'create', icon: 'w2ui-icon-plus', caption: 'Add', hint: 'click on an empty space to create a node, click on a node to start an edge'});
     tremppi.toolbar.add({type: 'button', id: 'delete', icon: 'w2ui-icon-cross', caption: 'Delete', hint: 'delete an element'});
     tremppi.editor.graph.off('tapend').on('tapend', tremppi.editor.selection);
@@ -122,6 +116,8 @@ tremppi.editor.setNode = function (node) {
     $("#Name_input").w2field('text');
     tremppi.editor.addEditField(node, "MaxActivity", "number");
     $("#MaxActivity_input").w2field('int');
+    tremppi.editor.addEditField(node, "Constraint", "text");
+    $("#Constraint_input").w2field('text');
 };
 
 tremppi.editor.setEdge = function (edge) {

@@ -1,0 +1,42 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "B",
+               "target" : "A"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.4082482904638630,
+               "id" : "A",
+               "name" : "A"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 2,
+               "Mean" : 0.50,
+               "Std" : 0.2041241452319315,
+               "id" : "B",
+               "name" : "B"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Wed Sep 30 16:50:16 2015",
+      "s_name" : "ALL",
+      "select" : " WHERE (1)",
+      "size" : 81
+   }
+}
+

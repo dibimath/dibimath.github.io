@@ -17,12 +17,13 @@ div.section {
     counter-reset: subsection;
     counter-increment: section;
 }
+
 div.section:before {
     content: counter(section) ".\0000a0\0000a0";
 }
 
 div.subsection {
-    font-size: 20pt;
+    font-size: 18pt;
     font-variant: small-caps;
     counter-increment: subsection;
 }
@@ -40,3 +41,25 @@ p.code {
     padding: 5pt 5pt 5pt 25pt;
     background-color: #DDDDDD
 }
+
+span.code {
+    font-family: monospace;
+    background-color: #DDDDDD;
+    padding: 0pt  5pt ;
+}
+
+span.math {
+    font-style: italic;
+    font-family: serif;
+}
+
+span.lelem {
+    font-weight: bold;
+}
+
+#dependencies {
+    width: 700pt;
+    margin: auto;
+    display: block;
+}
+

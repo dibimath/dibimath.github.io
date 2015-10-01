@@ -1,0 +1,137 @@
+{
+   "records" : [
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>A</sub>(B{0})"
+      },
+      {
+         "count" : 6,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>A</sub>(B{1})"
+      },
+      {
+         "count" : 6,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "K<sub>B</sub>(A{0},B{0,1})"
+      },
+      {
+         "count" : 5,
+         "max" : 2.0,
+         "mean" : 1.333333333333333,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(A{0},B{2})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(A{1,2},B{0,1})"
+      },
+      {
+         "count" : 3,
+         "max" : 2.0,
+         "mean" : 0.6666666666666666,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(A{1,2},B{2})"
+      },
+      {
+         "count" : 6,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "Impact(B,1,A)"
+      },
+      {
+         "count" : 6,
+         "max" : -0.577350,
+         "mean" : -0.7784791666666666,
+         "min" : -1.0,
+         "name" : "Impact(A,1,B)"
+      },
+      {
+         "count" : 4,
+         "max" : 0.577350,
+         "mean" : 0.0,
+         "min" : -0.577350,
+         "name" : "Impact(B,2,B)"
+      },
+      {
+         "count" : 6,
+         "max" : 0.50,
+         "mean" : 0.50,
+         "min" : 0.50,
+         "name" : "Bias(A)"
+      },
+      {
+         "count" : 6,
+         "max" : 0.750,
+         "mean" : 0.50,
+         "min" : 0.250,
+         "name" : "Bias(B)"
+      },
+      {
+         "count" : 6,
+         "max" : 0.250,
+         "mean" : 0.250,
+         "min" : 0.250,
+         "name" : "Robustness(test_ts)"
+      },
+      {
+         "count" : 6,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "Indigree(A)"
+      },
+      {
+         "count" : 6,
+         "max" : 2.0,
+         "mean" : 1.833333333333333,
+         "min" : 1.0,
+         "name" : "Indigree(B)"
+      },
+      {
+         "count" : 6,
+         "max" : 3.0,
+         "mean" : 2.833333333333333,
+         "min" : 2.0,
+         "name" : "Indigree(SUM)"
+      },
+      {
+         "count" : 6,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "Cost(test_ts)"
+      },
+      {
+         "count" : 6,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "Cost(test_cycle)"
+      },
+      {
+         "count" : 6,
+         "max" : 0.1666670,
+         "mean" : 0.1666670,
+         "min" : 0.1666670,
+         "name" : "Robustness(test_cycle)"
+      }
+   ],
+   "setup" : {
+      "date" : "Wed Sep 30 17:01:35 2015",
+      "s_name" : "MIN_COST",
+      "select" : " WHERE (C_test_cycle = 5 AND C_test_ts = 3)",
+      "size" : 6
+   }
+}
+

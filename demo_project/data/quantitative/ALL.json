@@ -1,91 +1,137 @@
 {
    "records" : [
       {
-         "count" : 36,
-         "max" : 2.0,
-         "mean" : 1.333333333333333,
+         "count" : 27,
+         "max" : 1.0,
+         "mean" : 0.3333333333333333,
          "min" : 0.0,
-         "name" : "K<sub>A</sub>(00)",
-         "portion" : 1.0
+         "name" : "K<sub>A</sub>(B{0})"
       },
       {
-         "count" : 36,
-         "max" : 2.0,
-         "mean" : 1.333333333333333,
-         "min" : 0.0,
-         "name" : "K<sub>A</sub>(01)",
-         "portion" : 1.0
-      },
-      {
-         "count" : 36,
-         "max" : 2.0,
+         "count" : 54,
+         "max" : 1.0,
          "mean" : 0.6666666666666666,
          "min" : 0.0,
-         "name" : "K<sub>A</sub>(20)",
-         "portion" : 1.0
+         "name" : "K<sub>A</sub>(B{1})"
+      },
+      {
+         "count" : 72,
+         "max" : 2.0,
+         "mean" : 1.444444444444444,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(A{0},B{0,1})"
+      },
+      {
+         "count" : 72,
+         "max" : 2.0,
+         "mean" : 1.444444444444444,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(A{0},B{2})"
       },
       {
          "count" : 36,
          "max" : 2.0,
-         "mean" : 0.6666666666666666,
+         "mean" : 0.5555555555555556,
          "min" : 0.0,
-         "name" : "K<sub>A</sub>(21)",
-         "portion" : 1.0
+         "name" : "K<sub>B</sub>(A{1,2},B{0,1})"
       },
       {
          "count" : 36,
-         "max" : 2.225073858507201e-308,
+         "max" : 2.0,
+         "mean" : 0.5555555555555556,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(A{1,2},B{2})"
+      },
+      {
+         "count" : 27,
+         "max" : 1.0,
+         "mean" : 0.3333333333333333,
+         "min" : 0.0,
+         "name" : "Impact(B,1,A)"
+      },
+      {
+         "count" : 81,
+         "max" : -0.3015110,
+         "mean" : -0.6511410370370374,
+         "min" : -1.0,
+         "name" : "Impact(A,1,B)"
+      },
+      {
+         "count" : 66,
+         "max" : 0.9045339999999999,
          "mean" : 0.0,
-         "min" : 0.0,
-         "name" : "K<sub>B</sub>(0)",
-         "portion" : 1.0
+         "min" : -0.9045339999999999,
+         "name" : "Impact(B,2,B)"
       },
       {
-         "count" : 36,
+         "count" : 54,
          "max" : 1.0,
-         "mean" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "Bias(A)"
+      },
+      {
+         "count" : 81,
+         "max" : 0.8750,
+         "mean" : 0.50,
+         "min" : 0.1250,
+         "name" : "Bias(B)"
+      },
+      {
+         "count" : 45,
+         "max" : 0.6250,
+         "mean" : 0.1944444444444444,
+         "min" : 0.0,
+         "name" : "Robustness(test_ts)"
+      },
+      {
+         "count" : 27,
+         "max" : 1.0,
+         "mean" : 0.3333333333333333,
+         "min" : 0.0,
+         "name" : "Indigree(A)"
+      },
+      {
+         "count" : 81,
+         "max" : 2.0,
+         "mean" : 1.888888888888889,
          "min" : 1.0,
-         "name" : "K<sub>B</sub>(1)",
-         "portion" : 1.0
+         "name" : "Indigree(B)"
       },
       {
-         "count" : 5,
-         "max" : 5.0,
-         "mean" : 5.0,
-         "min" : 5.0,
-         "name" : "C<sub>oscillateOnB</sub>()",
-         "portion" : 0.1388888888888889
-      },
-      {
-         "count" : 36,
-         "max" : 0.3333330,
-         "mean" : 0.03240741666666666,
-         "min" : 0.0,
-         "name" : "R<sub>oscillateOnB</sub>()",
-         "portion" : 1.0
-      },
-      {
-         "count" : 6,
+         "count" : 81,
          "max" : 3.0,
-         "mean" : 3.0,
-         "min" : 3.0,
-         "name" : "C<sub>fallOnA</sub>()",
-         "portion" : 0.1666666666666667
+         "mean" : 2.222222222222222,
+         "min" : 1.0,
+         "name" : "Indigree(SUM)"
       },
       {
-         "count" : 36,
-         "max" : 1.0,
-         "mean" : 0.1666666666666667,
+         "count" : 45,
+         "max" : 3.0,
+         "mean" : 1.666666666666667,
          "min" : 0.0,
-         "name" : "R<sub>fallOnA</sub>()",
-         "portion" : 1.0
+         "name" : "Cost(test_ts)"
+      },
+      {
+         "count" : 12,
+         "max" : 5.0,
+         "mean" : 0.7407407407407407,
+         "min" : 0.0,
+         "name" : "Cost(test_cycle)"
+      },
+      {
+         "count" : 12,
+         "max" : 0.3333330,
+         "mean" : 0.03703703703703703,
+         "min" : 0.0,
+         "name" : "Robustness(test_cycle)"
       }
    ],
    "setup" : {
-      "date" : "Sun May 31 12:51:45 2015",
+      "date" : "Wed Sep 30 16:50:17 2015",
       "s_name" : "ALL",
       "select" : " WHERE (1)",
-      "size" : 36
+      "size" : 81
    }
 }
 

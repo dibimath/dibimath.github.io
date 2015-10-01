@@ -1,1 +1,1 @@
-tremppi.quantitative.setup = {"files": ["ALL", "fall", "oscillate"]};
+tremppi.quantitative.setup = {"files": ["all", "MIN_COST"], "components": ["A", "B"]};

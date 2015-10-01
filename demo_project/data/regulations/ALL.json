@@ -1,57 +1,60 @@
 {
-      "elements" : {
-         "edges" : [
-            {
-               "data" : {
-                  "ExpectedFreq" : 0.8888888888888888,
-                  "Frequency" : 0.750,
-                  "Pearson" : -0.4883558852296089,
-                  "Threshold" : 2,
-                  "source" : "A",
-                  "target" : "A"
-               }
-            },
-            {
-               "data" : {
-                  "ExpectedFreq" : 0.8888888888888888,
-                  "Frequency" : 0.8333333333333334,
-                  "Pearson" : -1.850371707708594e-17,
-                  "Threshold" : 1,
-                  "source" : "B",
-                  "target" : "A"
-               }
-            },
-            {
-               "data" : {
-                  "ExpectedFreq" : 0.50,
-                  "Frequency" : 1.0,
-                  "Pearson" : 1.0,
-                  "Threshold" : 1,
-                  "source" : "A",
-                  "target" : "B"
-               }
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Frequency" : 0.3333333333333333,
+               "Pearson" : 0.3333333333333333,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.3333333333333333,
+               "source" : "B",
+               "target" : "A"
             }
-         ],
-         "nodes" : [
-            {
-               "data" : {
-                  "id" : "A",
-                  "name" : "A"
-               }
-            },
-            {
-               "data" : {
-                  "id" : "B",
-                  "name" : "B"
-               }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : -0.6511410370370374,
+               "Sign" : "-",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.56250,
+               "source" : "A",
+               "target" : "B"
             }
-         ]
-      },
+         },
+         {
+            "data" : {
+               "Frequency" : 0.8888888888888888,
+               "Pearson" : 0.0,
+               "Sign" : "1",
+               "Threshold" : 2,
+               "WeightedFrequency" : 0.50,
+               "source" : "B",
+               "target" : "B"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "id" : "A",
+               "name" : "A"
+            }
+         },
+         {
+            "data" : {
+               "id" : "B",
+               "name" : "B"
+            }
+         }
+      ]
+   },
    "setup" : {
-      "date" : "Sun May 31 12:51:45 2015",
+      "date" : "Wed Sep 30 16:50:18 2015",
       "s_name" : "ALL",
       "select" : " WHERE (1)",
-      "size" : 36
+      "size" : 81
    }
 }
 

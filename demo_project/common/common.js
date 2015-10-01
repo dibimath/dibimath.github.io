@@ -4,11 +4,18 @@
  * and open the template in the editor.
  */
 
-/* global tremppi */
+/* global tremppi, paper */
 
 tremppi.common = {
     compare_numbers: function (a, b) {
         return a - b;
+    },
+    setCheck: function (id) {
+        var checked = tremppi.getItem(id, tremppi.toolbar.get(id).checked) === "true";
+        if (checked) {
+            tremppi.toolbar.check(id);
+        }
+        tremppi.setItem(id, checked);
     }
 };
 tremppi.qtip = {
@@ -152,7 +159,25 @@ tremppi.w2ui = {
     }
 };
 
+tremppi.paper = {
+    makeText: function (content, position) {
+        var text = new paper.PointText(position);
+        text.fillColor = 'black';
+        text.fontSize = 20;
+        text.fontFamily = 'Courier New';
+        text.content = content;
+        return text;
+    }
+};
+
 tremppi.cytoscape = {
+    mapValue: function (type, selection, glyph, value) {
+        tremppi.widget[type].style().selector(selection).css(glyph, value).update();
+    },
+    mapRange: function (type, selection, param, glyph, min_range, max_range, min_domain, max_domain) {
+        var map = 'mapData(' + param + ', ' + min_range + ', ' + max_range + ', ' + min_domain + ', ' + max_domain + ')';
+        tremppi.widget[type].style().selector(selection).css(glyph, map).update();
+    },
     // test if nodes all have positions
     hasAllPositions: function (nodes) {
         if (typeof nodes === 'undefined')
@@ -164,21 +189,8 @@ tremppi.cytoscape = {
                 return false;
         }
         return true;
-    }
-};
-tremppi.report = {
-    panels: ['left', 'mid', 'right'],
-    selections: ['left', 'mid', 'right', 'all'],
-    addSetup: function (setup) {
-        values = ['date', 'name', 'pool_size', 'select', 'selected', 'compare', 'compared'];
-        for (var i = 0; i < values.length; i++) {
-            $('#analysis_setup').append('<div class="decription"><span class="desc_title">' +
-                    values[i] +
-                    ':</span> <span class="desc_content" id="analysis_date">' +
-                    setup[values[i]] +
-                    '</span></div>');
-        }
-    }, // Synchronization in between the graphs
+    },
+    // Synchronization in between the graphs
     synchronize: function (labelFunction) {
         var panels = tremppi.report.panels;
         var cys = [];
@@ -200,7 +212,7 @@ tremppi.report = {
         for (var j = 0; j < nodes.length; j++) {
             var id = '#' + nodes[j].id();
             for (var i = 0; i < panels.length; i++) {
-                cys[i].$(id).on('drag', moveFunction(cys[i], id));
+                cys[i].$(id).off('drag').on('drag', moveFunction(cys[i], id));
             }
         }
 
@@ -229,22 +241,34 @@ tremppi.report = {
             };
         };
         for (var i = 0; i < panels.length; i++) {
-            cys[i].on('zoom', zoomFunction(cys[i], i));
+            cys[i].off('zoom').on('zoom', zoomFunction(cys[i], i));
         }
 
         for (var i = 0; i < panels.length; i++) {
-            cys[i].on('mouseup', panFunction(cys[i], i));
+            cys[i].off('mouseup').on('mouseup', panFunction(cys[i], i));
+        }
+    }
+};
+tremppi.report = {
+    panels: ['left', 'mid', 'right'],
+    selections: ['left', 'mid', 'right', 'all'],
+    addSetup: function (setup) {
+        values = ['date', 'name', 'pool_size', 'select', 'selected', 'compare', 'compared'];
+        for (var i = 0; i < values.length; i++) {
+            $('#analysis_setup').append('<div class="decription"><span class="desc_title">' +
+                    values[i] +
+                    ':</span> <span class="desc_content" id="analysis_date">' +
+                    setup[values[i]] +
+                    '</span></div>');
         }
     },
     pickData: function (source, panel) {
         tremppi.getData(tremppi.widget.valuesSetter(source, panel), source);
     },
     createPanels: function () {
-        tremppi.toolbar.get('select').items = tremppi.widget.setup.files;
-        tremppi.toolbar.get('compare').items = tremppi.widget.setup.files;
-        $("#widget").append('<div class="container" id="container_left">left</div>');
-        $("#widget").append('<div class="container" id="container_mid">mid</div>');
-        $("#widget").append('<div class="container" id="container_right">right</div>');
+        $("#widget").append('<div class="report_container" id="container_left">left</div>');
+        $("#widget").append('<div class="report_container" id="container_mid">mid</div>');
+        $("#widget").append('<div class="report_container" id="container_right">right</div>');
     },
     initialPanel: function () {
         tremppi.widget.setPanel('left');
@@ -262,6 +286,15 @@ tremppi.report = {
         }
         if (tremppi.getItem('compared') !== null) {
             tremppi.report.pickData(tremppi.getItem('compared'), 'right');
+        }
+    },
+    setDescription: function (panel, setup) {
+        if (typeof setup.select !== 'undefined') {
+            $('#desc_' + panel).html('<p class="report_text">' + 
+                    'Date: ' + setup.date + '<br />' +
+                    'Size: ' + setup.size + '<br />' +
+                    'Condition: ' + setup.select + '<br />' +
+                    '</p>');
         }
     },
     findByName: function (list, name) {
@@ -289,12 +322,56 @@ tremppi.report = {
         tremppi.widget.left.resize();
         tremppi.widget.mid.resize();
         tremppi.widget.right.resize();
+    },
+    getBound: function (selected, param) {
+        var min = Number.POSITIVE_INFINITY;
+        var max = Number.NEGATIVE_INFINITY;
+
+        for (var ele_no = 0; ele_no < selected.length; ele_no++) {
+            var value = selected[ele_no].data(param);
+            min = Math.min(min, value);
+            max = Math.max(max, value);
+        }
+
+        return {min: min, max: max};
+    },
+    getRange: function (type, relative, selection, param) {
+        var range;
+        if (relative) {
+            var selected = tremppi.widget[type].elements(selection);
+            range = tremppi.report.getBound(selected, param);
+            if (range.min === range.max) {
+                range.min = 0;
+            }
+            if (range.min === Number.POSITIVE_INFINITY) {
+                range.min = tremppi.widget.bounds[param].min;
+            }
+            if (range.max === Number.NEGATIVE_INFINITY) {
+                range.max = tremppi.widget.bounds[param].max;
+            }
+        }
+        if (!relative || range.min === range.max) {
+            if (type === 'mid') {
+                range = {
+                    min: tremppi.widget.bounds[param].min - tremppi.widget.bounds[param].max,
+                    max: tremppi.widget.bounds[param].max - tremppi.widget.bounds[param].min
+                };
+            }
+            else {
+                range = {
+                    min: tremppi.widget.bounds[param].min,
+                    max: tremppi.widget.bounds[param].max
+                };
+            }
+        }
+        return range;
     }
 };
 
 tremppi.log = function (content, level) {
-    if (typeof level === 'undefined')
+    if (typeof level === 'undefined' || (level !== 'error' && level !== 'warning')) {
         level = 'info';
+    }
 
     var date = new Date();
     $('#log_line').html('[' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds() + '] ' + content);

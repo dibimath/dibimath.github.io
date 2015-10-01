@@ -2,10 +2,13 @@
 <head>
     <title>TREMPPI tool documentation</title>
     <link rel="stylesheet" type="text/css" href="/TREMPPI/tremppi.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
 </head>
 <body>
-    <div class="title">TREMPPI 0.4.0</div>
+    <div class="title">TREMPPI 0.6.0</div>
     <div class="subtitle">Toolkit for Reverse Engineering of Molecular Pathways through Parameter Identification </div>
+    <div class="subtitle">Last update: 30.09.2015</div>
+
     <div class ="section">Introduction</div>
     <p>
         This the homepage of TREMPPI, a systems biology toolkit for research in gene regulation and molecular signalling. 
@@ -19,6 +22,10 @@
         This is a computationally very demanding task. To this end we are employing a coarse-grained modelling framework of logical networks, focusing solely on qualitative features of a model.
         For an example of use see <a href="#thobe14a">[2]</a>.
     </p>
+    
+    <p>
+        For a better perspective, you can examine a <a href="demo_project/">toy project</a>.
+    </p>
     <div class ="section">Download & Execution</div>
     <p>
         <span class="warning">TREMPPI is currently in Alpha version and the user experience is likely to be rough. 
@@ -28,9 +35,9 @@
         The easiest way of getting TREMPPI is via pre-built packages:
     </p>   
     <ul>
-        <li><a href="/TREMPPI/build/TREMPPI_Ubuntu32.tar.gz">Ubuntu/Debian 32bit</a> (preferred for Ubuntu)</li>
-        <li><a href="/TREMPPI/build/TREMPPI_Debian64.tar.gz">Ubuntu/Debian 64bit</a> (preferred for Debian)</li>
-        <li><a href="/TREMPPI/build/TREMPPI_Windows32.zip">Windows 32bit</a>
+        <li><a href="/TREMPPI/build/TREMPPI_Ubuntu32_0.6.0.tar.gz">Ubuntu/Debian 32bit</a> (preferred for Ubuntu)</li>
+        <li><a href="/TREMPPI/build/TREMPPI_Debian64_0.6.0.tar.gz">Ubuntu/Debian 64bit</a> (preferred for Debian)</li>
+        <li><a href="/TREMPPI/build/TREMPPI_Windows32_0.6.0.zip">Windows 32bit</a>
             <ul>
                 <li>You also need the <a href="https://www.microsoft.com/en-us/download/details.aspx?id=46881">Visual Studio 2015</a> runtime, if you do not have it already.</li>
             </ul>
@@ -52,13 +59,13 @@
         set PYTHONHOME=path_to_python3<br />
         path_to_TREMPPI/tremppi
     </p>
-        <!--(if on Linux you get an error of the style "version 'LIBRARY_X.XX' not found", you can try upgrading the specified library via "apt-get install LIBRARY_X.XX").-->
+    <!--(if on Linux you get an error of the style "version 'LIBRARY_X.XX' not found", you can try upgrading the specified library via "apt-get install LIBRARY_X.XX").-->
     <p>
         If your system is not in the list, or the binary does not work 
         (in that case also please consider sharing your experience at esther<img src="/zavinac.png" width="10pt" />fi.muni.cz), 
         you can try building it from the <a href="https://github.com/xstreck1/TREMPPI">source at GITHUB</a>.
     </p>
-    <div class="section">Tutorial</div>
+    <div class="section">Usage</div>
     <p>
         TREMPPI has a fully integrated graphical user interface that displays in a browser. 
         It can be used in the same manner as any other webpage. 
@@ -66,43 +73,167 @@
         Each of the widgets provides access to some part of the functionality of TREMPPI. 
         These are illustrated in detail in the following section, before that we illustrate the general workflow of TREMPPI step by step.    
     </p>    
-    <p>
-        In this section we present a toy example to demonstrate the key concepts of TREMPPI:
-    </p>
+    <div class="subsection">Tutorial</div>
     <ol>
-        <li>START TREMPPI: The tool can be started either by double-clicking on the executable named <i>tremppi</i> or from the command line by executing the command from the directory in which it resides.
+        <li><span class="lelem">start TREMPPI</span>: The tool can be started either by double-clicking on the executable named <i>tremppi</i> or from the command line by executing the command from the directory in which it resides.
             Note that if there is an error stating that a python module is missing, the PYTHONHOME needs to be set as explained above.
         </li>
-        <li>
-            OPEN A PROJECT: TREMPPI starts with a single project opened on start, called <i>project_0</i>, residing in the list of projects on the left.
+        <li><span class="lelem">open a project</span>: 
+            TREMPPI starts with a single project opened on start, called <span class="code">project_0</span>, residing in the list of projects on the left.
             Underneath you can find a list of widgets available to each project.
             The entry point of each project is the "index" widget. 
             Open it by left-click.
             After opening, you will see a panel with description of the project, which is empty as of now.
             Write arbitrary text to this windows for now, e.g. "Hello World".
-            After writing the text, click the <i>SAVE</i> button in the bottom-left corner. 
+            After writing the text, click the <span class="code">SAVE</span> button in the bottom-left corner. 
             This will result in your text being stored within the project data files.
             On the bottom black-line you should see the text "index has saved successfully" as a confirmation.
             You can also observe that your text has been saved by pressing the reload button (usually F5). 
             After the page reloads, your text should appear again.
         </li>
-        <li>BUILD A MODEL: Open the <i>editor</i> widget. Click the <i>Add</i> button on the top and then the grey area underneath.
+        <li><span class="lelem">build a model</span>: 
+            Open the <span class="code">editor</span> widget. Click the <span class="code">Add</span> button on the top and then the grey area underneath.
             A new component will appear. 
             Repeat. 
             Once you have two components, click add again, then one component, then the other. 
             A regulation between the two appears.
             Lastly click a component. 
             Its name and maximal value appears on the top panel. 
-            Write a name instead of the generic <i>New</i> and confirm with enter.
+            Write a name instead of the generic <span class="code">New</span> and confirm with enter.
             The name in the graph changes as well.
-            Repeat also for the second component and lastly click the <i>SAVE</i> button.
+            Repeat also for the second component and lastly click the <span class="code">Save</span> button.
         </li>
-        <li>ENUMERATE PARAMETERS: Open the <i>tools</i> widged and click the <i>spawn</i> button.</li>
-        <li>GET BASIC STATISTICS: Click the <i>qualitative</i> and <i>quantitative</i> buttons.
-        <li>READ THE STATISTICS: Click the <i>qualitative</i> or <i>quantitative</i> widget on the left. 
-            A new category, called <i>files</i>, appears with a single element, called <i>all</i>.
+        <li><span class="lelem">enumerate parameters</span>: Open the <span class="code">tools</span> widged and click the <span class="code">spawn</span> button.</li>
+        <li><span class="lelem">get basic statistics</span>: Click the <span class="code">qualitative</span> and <span class="code">quantitative</span> buttons.
+        <li><span class="lelem">evaluate</span>: Click the <span class="code">qualitative</span> and <span class="code">quantitative</span> widget on the left. 
+            A new category, called <span class="code">files</span>, appears with a single element, called <span class="code">all</span>.
             Left click it to gain basic knowledge about the parametrization space, concluding your introduction to TREMPPI.
     </ol>
+
+    <div class="subsection">Control panel</div>
+    <p>
+        TREMPPI provides four control panels on the left side of its window:
+    </p>
+    <ul>
+        <li>
+            <span class="lelem">projects</span> Left-click on the name of the project to access its files.
+        </li>
+        <li>
+            <span class="lelem">widgets</span>: Left-click on the name of the widget to open the widget for the current project.
+        </li>
+        <li>
+            <span class="lelem">files</span> For the reporting widgets, a list of existing files is available.
+            Each report widget has three parts: left selection, comparison, right selection.
+            To pick the left selection, left-click the respective file.
+            To pick the right selection, right-click the respective file.
+            The comparison is generated automatically.
+        </li>
+        <li>
+            <span class="lelem">controls</span>: For each widget, all the controls that communicate to the server are available here (with the exception of the TOOLS widget). 
+            The SAVE button always saves the state of the current widget. 
+            The project management is available through the INDEX widget, as detailed in Section 4.
+
+        </li>
+    </ul>
+
+    <div class="subsection">Model creation</div>
+    <p>
+        For modelling we are using the Thomas Framework, as detailed in  <a href="#klarner12a">[3]</a>.
+    </p>
+    <p>
+        The project is composed of components (nodes) and regulations (edges).
+        Each component <span class="math">v</span> has to have assigned to it a maximum activity level value, denoted <span class="math">&rho;(v)</span>, 
+        meaning that <span class="math">v</span> can occur in a state between <span class="math">0</span> and <span class="math">&rho;(v)</span>.
+        Also each regulation takes on a value, here called threshold.
+        The regulation is then active only once the state of the component is higher or equal to the threshold.
+    </p>    
+    <p>
+        Once the network is finished, the next step is to enumerate all the models fitting the network. 
+        This is done via the <span class="code">spawn</span> tool. 
+        This tool considers all possible regulatory function for each component and enumerates all possible combinations thereof.
+    </p>
+
+    <div class="subsection">Labels</div>
+    <p>
+        After the models are enumerated, each of them can be labelled for various properties. In particular, there are the following labels:
+    </p>
+    <ul>
+        <li>
+            <span class='math'>K<sub>v</sub>(&omega;) &isin; [0,&rho;(v)]</span> 
+            is the parameter value for the component <span class='math'>v</span> in the context (a set of states fitting the configuration) <span class='math'>&omega;</span>.
+            The symbol <span class='math'>&rho;(v)</span> denotes the maximum activity of <span class='math'>v</span>.
+        </li>
+        <li>
+            <span class='math'>Bias(v) &isin; [0.0,1.0]</span> 
+            denotes how much is the component <span class='math'>v</span> biased towards the lower or higher activity levels.
+        </li>
+        <li>
+            <span class='math'>Impact(u,t,v) &isin; [-1.0,1.0]</span> 
+            denotes how prominent is the regulation <span class='math'>(u,t,v)</span>.
+            Values close to <span class='math'>-1.0</span> denote a strong inhibition, 
+            the ones close to <span class='math'>0.0</span> denote weak effect,
+            and the ones close to <span class='math'>1.0</span> denote a strong activation. 
+        </li>
+        <li>
+            <span class='math'>Sign(u,t,v) &isin; {0,+,-,1}</span> 
+            is the sign of the  <span class='math'>(u,t,v)</span>. 
+            The value <span class='math'>0</span> denotes no effect, 
+            the value <span class='math'>+</span> activation, 
+            the value <span class='math'>-</span> inhibition,
+            and the value <span class='math'>1</span> activation and inhibition at once.
+        </li>
+        <li>
+            <span class='math'>Cost(property) &isin; [0,2147483648]</span> 
+            denotes how many simulation steps it takes to satisfy the <span class='math'>property</span> (see the following section for details).
+            The lower the better, however the special value <span class='math'>0</span> means it is not possible at all.
+        </li>
+        <li>
+            <span class='math'>Robustness(property) &isin; [0.0,1.0]</span> 
+            denotes how probably it is that the <span class='math'>property</span> is satisfied.
+        </li>
+    </ul>
+
+    <div class="subsection">Model checking</div>
+    <p>
+        We employ a custom LTL model checking procedure for dynamical analysis <a href="#streck15b">[5]</a>.
+        Through the <span class='code'>properties</span> widget one can specify a list of properties, which can be tested on the parametrizations.
+        There are three model checking functions:
+    </p>
+    <ul>
+        <li><span class='lelem'>cost:</span> creates the <span class='math'>Cost(property)</span> label for each selected <span class='math'>property</span>. If the label value is non-zero, the property is satisfied.</li>
+        <li><span class='lelem'>robustness:</span> creates the <span class='math'>Robustness(property)</span> label.</li>
+        <li><span class='lelem'>trace:</span> stores the traces for satisfiable properties. There are not listed anywhere, but are used and required by the witness tool.</li>
+    </ul>
+
+    <div class="subsection">Tables</div>
+    <p>
+        Some of the widgets (select, properties) feature editable tables. 
+        There is a joint control scheme for the tables, and the following buttons are always available:
+    </p>
+    <ul>
+        <li>
+            <span class="code">&darr;</span> Currently selected row(s) is/are moved down a single row.
+        </li>
+        <li>
+            <span class="code">&uarr;</span> Currently selected row(s) is/are moved up a single row.
+        </li>
+        <li>
+            <span class="code">Add</span> Creates a new row at the end of the table.
+        </li>
+        <li>
+            <span class="code">Duplicate</span> Currently selected row(s) is/are duplicated.
+        </li>
+        <li>
+            <span class="code">Delete</span> Currently selected row(s) is/are erased.
+        </li>
+    </ul>
+    In the case there is an option to select elements, i.e. each row has a checkbox as its first element, there is an additional button:
+
+    <ul>
+        <li>
+            <span class="code">All</span> Select (click once) or deselect (click twice) all the rows.
+        </li>
+    </ul>
 
     <div class="subsection">Publishing</div>
     <p>
@@ -131,12 +262,12 @@
         If TREMPPI is started in folder of a particular project, only the <i>SAVE</i> button is available.
         If TREMPPI is started in a folder containing folders of other projects, then the following project controls are available:
     </p>
-    <ul>
-        <li><i>NAME FIELD:</i> Enter a new name into this field to rename the project.</li>
-        <li><i>CLONE:</i> Creates a new project with the exact contents of this one.</li>
-        <li><i>RENAME:</i> Changes the name of the project.</li>
-        <li><i>DELETE:</i> Removes the project and all its data.</li>
-    </ul>
+    <ol>
+        <li><span class="lelem">name field</span>:</i> Enter a new name into this field to rename the project.</li>
+        <li><span class="lelem">CLONE</span>:</i> Creates a new project with the exact contents of this one.</li>
+        <li><span class="lelem">RENAME</span>:</i> Changes the name of the project.</li>
+        <li><span class="lelem">DELETE</span>:</i> Removes the project and all its data.</li>
+    </ol>
     <div class="subsection">Editor</div>
     <p>
         The editor is used to create the regulatory network, see <a href="#klarner12a">[3]</a> for details. 
@@ -145,7 +276,7 @@
         <li>To create a component, click the <i>NEW</i> button and then empty space.</li>
         <li>To create a regulation, click the <i>NEW</i> button, then the source component and lastly the target component.</li>
         <li>The component has a Name and a Maximal Activity Level.
-        When you select a component, these appear on the top of the page, where the value can be replaced.</li>
+            When you select a component, these appear on the top of the page, where the value can be replaced.</li>
         <li>Similarly, after selecting an edge, the Threshold value and the edge Label can be selected. The meaning of the labels is explained in detail in <a href="#klarner14a">[4]</a></li>.
     </ul>
     Note that the changes are applied to graph only after the enter button is pressed.
@@ -156,101 +287,172 @@
         This is used to label/analyse only certain models in the pool, which is crucial mainly for the analysis step.
         For each label that is available in the database, there is an option to create a selection condition. 
         First, click add to create a new selection and write a new name for it.
-        Then for each field that is of an interest add the selection conditions. 
-        There are three ways of doing so:
+        Then for each label that is of an interest add the selection conditions. 
+        There are multiple different expressions one can write in a selection field. In the following we will use the symbol <span class="code">l</span> to denote a label: 
     </p>
-    <ul>
-        <li>Explicit value. By writing down an explicit number, you state that all models in the selection must have this label equal to this value.
-            Use the decimal point for the values that are expected to be floating point values.
-        </li> 
-        <li>A range, e.g. (0.0,1.0], which states that the value must be between 0 (exclusive) and 1 (inclusive).</li>
-        <li>A member of a list, for those values which provide the capability (e.g. sign). </li>   
-    </ul>
+    <ol>
+        <li> <span class="code">X</span> either an integer or a floating point number with delimited by the dot symbol (<span class="code">.</span>). 
+            In such a case, all parametrizations must have the value of the label, i.e. it is required that <span class="code">l = X</span>.
+            For example we can require that <span class="code">K<sub>A</sub>(0) = 0</span> or that <span class="code">Bias(A) = 0.5</span>.
+        </li>
+        <li> <span class="code">!X</span> is an addition to the condition (1) that states its opposite, i.e. <span class="code">l &ne; X</span> in all the parametrizations.
+        </li>
+        <li> <span class="code">(X,Y)</span> where <span class="code">X</span> and <span class="code">Y</span> are numbers as explained in (1).
+            Here we require the value to be in the given range with the boundaries not lying in the range. 
+            E.g. <span class="code">(0,1)</span> means that <span class="code">l &gt; 0</span> and <span class="code">l &lt; 0</span>.
+        </li>
+        <li> <span class="code">[X,Y)</span>, or <span class="code">(X,Y]</span>, or <span class="code">(X,Y)</span> is the same as (3) but the values after square bracket belong to the range.
+            E.g. <span class="code">[0.5,1]</span> means that <span class="code">l &ge; 0.5</span> and <span class="code">l &le; 0</span>.
+        </li>
+        <li> <span class="code">!(X,Y)</span>, or <span class="code">![X,Y)</span>, or <span class="code">!(X,Y]</span>, or <span class="code">!(X,Y)</span> negates the elements of (3) and (4).
+            E.g. <span class="code">!(4,6]</span> means that either <span class="code">l &le; 4</span> or <span class="code">l &gt; 6</span>.
+        </li>
+        <li> <span class="code">(X,)</span> and <span class="code">[X,)</span> are one-sided intervals with and without inclusion of <span class="code">X</span>, respectively.
+            E.g. <span class="code">(0,)</span> means all values greater than zero. Square bracket can be used as closing one without any change to the semantics.
+        </li>
+        <li> <span class="code">(,X)</span> and <span class="code">(,X]</span> are the right-sided equivalent of (6).
+        </li>
+        <li> The sign label is an exception and is provided with a selection of one of four elements: <span class="code">{0,+,-,1}</span>. 
+        </li>
+    </ol>
     <p>
         All the selections that are checked on the (on the left) are applied in <b>disjunction</b>, 
         i.e. a model that meets any picked selections is going to be selected.
     </p>
+
     <div class="subsection">Properties</div>
     <p>
         Properties page is used to describe discrete formulas used by the validate tool.
-        The widget is divided into two tables.
-        The bottom table is used to describe the measurements.
-        For each component, you can enter its exact value or a range of values in the given measurement.
-        The delta value states what sort of change can the component undergo, 
-        i.e. if it can go only up, down, or can not change at all in the steps from when the current measurement is entered until the next is entered.
-        Note that each measurement has a letter assigned to it.
+        The widget is divided into two tables, the top one holds the list of properties, the bottom one the details for a selected property. 
     </p>
     <p>
-        The upper table holds a list of properties.
-        Each property has following components:
+        The upper table has the following columns:
     </p>
     <ol>
-        <li>Name: this name is then referred to for the cost and robustness values.</li> 
-        <li>Ending: represents how the model should behave after the last measurement. 
-            This can be either left open (any value), or it may be required that it reaches a stable state, 
-            or it may be required that from a certain point a measurement gets repeated. </li>
-        <li>Bound: currently unused.</li>
-        <li>Name of the component: use a range or a specific value to fix this component to that value / range.</li>
+        <li><span class="lelem">Name</span>: this name is then referred to for the <span class="math">cost</span> and <span class="math">robustness</span> values.</li> 
+        <li><span class="lelem">Ending</span>: represents how the model should behave after the last measurement. 
+            This can be either left open (<span class='code'>any</span>), or it may be required that it reaches a stable state (<span class='code'>any</span>), 
+            or it may be required that from a certain point a measurement gets repeated (<span class='code'>goto x</span>),
+            where (<span class='code'>x</span>) is the letter of the measurement that should be repeated, see below.
+
+        </li>
+        <li><span class="lelem">Component setup (denoted by the name of each component):</span> use a range or a specific value to fix this component to that range or value.
+            This field is simpler than the one for the selection, in particular only integer values are allowed and only a single value or a closed range is allowed, i.e. the options 1,3,4 from Section 4.3.
+        </li>
     </ol>
-    <div class="subsection">Quantitative</div>
     <p>
-        First of the reporting tools. 
-        The select and compare buttons pick the data to load.
-        All, Left, Mid, Right select which of the reports are going to be visible at a time.
-        Each of the quantitative labels that is available at the time of creation of the report is depicted.
-        The count value states how many entries attain a non-zero value.
+        After clicking on a specific property in the upper table, its details are listed in the lower table. The columns are as follows:
     </p>
-    <div class="subsection">Qualitative</div>
-    <p>
-        Similar to the quantitative report, however it displays rather how many different qualitative values there are and how big a portion of the selection they represent.
-    </p>
-    <div class="subsection">Regulations</div>
-    <p>
-        An inferred regulatory graph, describing the mean impact in the selection,
-        together with the frequency value (how often does an edge has a non-zero sign) and the sign itself.
-        
-    </p>
-    <p>
-        The relative button changes the scale for the values to the range of the values in the selection.
-    </p>
-    <div class="subsection">Correlations</div>
-    <p>
-        Similar to the regulations graph, only with the correlation instead of impact.
-    </p>
-    
+    <ol>
+        <li><span class="lelem">Id</span>: the index of the measurement. Note that the order of measurements is enforced in the model checking and therefore the order in this table matters.</li> 
+        <li><span class="lelem">Value</span>: the level(s) of the specific component in the measurement. As with the setup, only an integer or integer range is allowed here.</li> 
+        <li><span class="lelem">Delta</span>: the monotonicity/transitivity requirement for the component. The value can be:
+            <ul>
+                <li><span class="code"></span>: no requirement,</li>
+                <li><span class="code">stay</span>: the component must not change its value until the next measurement,</li>
+                <li><span class="code">up</span>: the component must not decrease until the next measurement,</li>
+                <li><span class="code">stay</span>: the component must not increase until the next measurement.</li>
+            </ul>
+            for details see <a href="#streck15b">[5]</a>.
+        </li>
+    </ol>
+    <div class="subsection">Reporting tools:</div>
+    There are currently 5 reporting widgets available. 
+    As a reminder, each widget has a list of reports displayed in the control panel and three panes: the left selection, the comparison, and the right selection.
+    The left selection is populated by a left click, the right by a right click and the comparison is created automatically. 
+    The comparison shows the results of the difference (left - right), tailored to each of the widgets.
+    <ol>
+        <li><span class="lelem">Quantitative:</span> this report provides the basic quantitative information, i.e. summary about numerical values. In particular there are 5 fields:
+            <ol>
+                <li>Label: the label and its parameters for this row.</li>
+                <li>Count: how often, in the selection, has the label a non-zero value.</li> 
+                <li>Min: the minimal value in the selection.</li> 
+                <li>Max: the maximal value in the selection.</li> 
+                <li>Mean: the mean of the selection.</li> 
+            </ol>
+        </li>
+        <li><span class="lelem">Qualitative:</span> this report provides the basic qualitative information, i.e. summary about categorical (and sparse numerical) values. There are only three fields:
+            <ol>
+                <li>Label: the label and its parameters for this row.</li>
+                <li>#: how many distinct values appear in the selection.</li> 
+                <li>Elements: what portion of the selection each value occupies.</li> 
+            </ol>
+        </li>
+        <li><span class="lelem">Regulations:</span>  
+            this is a graph-based report which re-creates the network made in the editor.
+            The mean <span class="math">impact</span> in the selection is projected to the colour of the regulation,
+            while the width of a regulation is obtained from its <span class="math">frequency</span> (i.e. how often it takes on a non-zero value).
+            For the non-positive <span class="math">frequency</span>, the 0 value is displayed dotted and a negative value as dashed. 
+            Both the values have their legend on the bottom. 
+            Lastly, the arrow head is set as the most specific <span class="math">sign</span> fitting all the parametrizations. I.e. if all regulations are non-function, it is a circle. If none are negative,
+            it is a pointed arrow, if none are positive, it is a blunt arrow, otherwise it is combination of the two.
+            There is also an additional button:
+            <ol>
+                <li>Relative: normalize the values in the current report to the boundaries. If all the values are zero, there is no change made.</li>
+            </ol>
+        </li>
+        <li><span class="lelem">Correlations:</span>  
+            a second graph-based report. Here the <span class="math">bias</span> of a component is projected to the width of a frame, again full for positive, dotted for 0, and dashed for negative.
+            Additionally <span class="math">correlation</span> between <span class="math">bias</span> is computed and displayed as a colour gradient edge between the correlated components.
+        </li>
+        <li><span class="lelem">Witness:</span> 
+            for a parametrization to satisfy a property, it is required that there exists a path in the transition system that proves that the property is satisfiable.
+            This path is called a <span class="math">witness</span>.
+            The witness report provides all the witnesses with the minimal cost, for all the properties selected at once.
+            The witness is constituted from states, which show what is the current configuration of the components and what is the currently satisfied measurement.
+            The transitions have width dependent on how often they occur in the traces for any parametrization and any property, i.e. the value is 1 if the transition is present in
+            trace for every parametrization and every property. Additionally, each transition has a number stating what is the order of that transition in the witness. 
+            The report has again the relative button, projecting the width of the edges to normalized boundaries.
+        </li>
+    </ol>
     <div class="subsection">Tools</div>
     <p>
-        This widget provides three panels. 
+        Except for the project controls, this is the only widget that communicates with the server and is responsible for management of the individual tools. 
+        There are currently 4 classes of tools:
+    </p>
+    <ol>
+        <li><span class="lelem">Enumeration:</span> the spawn tool is necessary for all the other tools and should be called as soon as the network editing is finished.</li>
+        <li><span class="lelem">Labels:</span> the tools that label individual tools.</li>
+        <li><span class="lelem">Reports:</span> the statistical analysis tools.</li>
+        <li><span class="lelem">Utility:</span> two additional tools for maintenance. 
+            The <span class="code">update</span> tool updates the current project to the latest available version.
+            The <span class="code">configure</span> tool refreshes the configuration of the widgets, mainly the columns of the individual tables, which however should always happen automatically.
+        </li>
+    </ol>
+    <p>
+        There are execution dependences between the tools as illustrated by the following graph:
+    </p>
+    <img src="TREMPPI/assets/dependencies.png" id="dependencies" />
+    <p>
+        Additionally there are two additional panels, one for current progress and the other with log history.
     </p>
     <p>
-        The first provides the list of tools, you can start a tool by clicking on it.
+        The progress panel displays the active tool and the list of tools batched for execution across all the projects. This panel is updated every second.
+        It also allows to kill all the process at once by pressing the relevant button.
     </p>
     <p>
-        The second shows currently running processes. You can stop them by clicking "kill all".
+        The log panel displays the log history for the tools on the current project.
     </p>
-    <p>
-        The third show the log from the processes.
-    </p>
-    
-            <!--
-                <li>sign: each regulation in the network is assigned semantics - 
-                    for inactive, + for activating, - for inhibiting, 1 for ambiguous.</li>
-                <li>express: each model is expressed as a set of multi-valued logical equations in the form of Post Algebra.</li>
-                <li>bias: for each component its bias is computed.</li>
-                <li>impact: for each regulation its impact is computed.</li>
-                <li>validate: this tool is dependent on the properties. 
-                    For each selected property its Cost is computed, with optional Robustness and Witness computation.
-                    This is detailed in the description of the properties widget.</li>
-                <li>correlations: creates a graph with correlations between the individual components in the sample.</li>
-                <li>regulations: based on the impact infers a regulatory graph from the parametrizations set.</li>
-                <li>qualitative: creates a summary for the qualitative labels in the selection.</li> 
-                <li>quantitative: creates a summary for the quantitative labels in the selection.</li>
-            -->
+    <!--
+        <li>sign: each regulation in the network is assigned semantics - 
+            for inactive, + for activating, - for inhibiting, 1 for ambiguous.</li>
+        <li>express: each model is expressed as a set of multi-valued logical equations in the form of Post Algebra.</li>
+        <li>bias: for each component its bias is computed.</li>
+        <li>impact: for each regulation its impact is computed.</li>
+        <li>validate: this tool is dependent on the properties. 
+            For each selected property its Cost is computed, with optional Robustness and Witness computation.
+            This is detailed in the description of the properties widget.</li>
+        <li>correlations: creates a graph with correlations between the individual components in the sample.</li>
+        <li>regulations: based on the impact infers a regulatory graph from the parametrizations set.</li>
+        <li>qualitative: creates a summary for the qualitative labels in the selection.</li> 
+        <li>quantitative: creates a summary for the quantitative labels in the selection.</li>
+    -->
     <div class="section">Bibliography</div>
     <ol>
-        <li class="reference" id="streck15a"><a href="https://www.academia.edu/12715502/Extensions_for_LTL_model_checking_of_Thomas_networks">A. Streck and H. Siebert. Extensions for LTL model checking of Thomas networks. In: Proceedings of The Strasbourg Spring School on Advances in Systems and Synthetic Biology (2015) </a></li>
+        <li class="reference" id="streck15a"><a href="https://www.academia.edu/12715502/Extensions_for_LTL_model_checking_of_Thomas_networks">A. Streck and H. Siebert. Extensions for LTL model checking of Thomas networks. In: Proceedings of The Strasbourg Spring School on Advances in Systems and Synthetic Biology. Volume 14 (2015) </a></li>
         <li class="reference" id="thobe14a"><a href="http://link.springer.com/chapter/10.1007%2F978-3-319-12982-2_3"> K. Thobe, A. Streck, H. Klarner, H. Siebert. Model Integration and Crosstalk Analysis of Logical Regulatory Networks. In: Computational Methods in Systems Biology. Volume 8859 of Lecture Notes in Computer Science. Springer International Publishing (2014)</a></li>
         <li class="reference" id="klarner12a"><a href="http://link.springer.com/chapter/10.1007/978-3-642-33636-2_13">H. Klarner, A. Streck, D.Šafránek, J. Kolčák, H. Siebert: Parameter identification and model ranking of Thomas networks. In: Computational Methods for Systems Biology. Volume 7605 of Lecture Notes in Computer Science. Springer Berlin Heidelberg (2012)</a></li>
-        <li class="reference" id="klarner14a"><a href="http://www.diss.fu-berlin.de/diss/receive/FUDISS_thesis_000000098522?lang=en">H. Klarner. Contributions to the Analysis of Qualitative Models of Regulatory Networks. Dissertation Thesis (2014)
+        <li class="reference" id="klarner14a"><a href="http://www.diss.fu-berlin.de/diss/receive/FUDISS_thesis_000000098522?lang=en">H. Klarner. Contributions to the Analysis of Qualitative Models of Regulatory Networks. Dissertation Thesis (2014)</a></li>
+        <li class="reference" id="streck15b"><a href="http://link.springer.com/chapter/10.1007%2F978-3-319-23401-4_22"> A. Streck, K. Thobe, H. Siebert. Analysing Cell Line Specific EGFR Signalling via Optimized Automata Based Model Checking. In: Computational Methods in Systems Biology. Volume 9308 of Lecture Notes in Computer Science. Springer International Publishing (2015)</a></li>
     </ol>
 </body>

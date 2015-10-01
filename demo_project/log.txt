@@ -1,258 +1,81 @@
-[2015-May-31 11:11:22.726045] (1) <info>: ------------------------------
-[2015-May-31 11:11:22.728044] (2) <info>: tremppi_spawn started.
-[2015-May-31 11:11:22.728044] (3) <info>: Checking the JSON correctness.
-[2015-May-31 11:11:22.908630] (4) <info>: Parsing the network.
-[2015-May-31 11:11:22.909632] (5) <info>: Obtaining kinetics.
-[2015-May-31 11:11:23.022147] (6) <info>: Creating the database file.
-[2015-May-31 11:11:23.196587] (7) <info>: Writing the database file, in total 36 parametrizations.
-[2015-May-31 11:11:23.926153] (8) <info>: tremppi_spawn finished successfully.
-[2015-May-31 11:14:37.267680] (1) <info>: ------------------------------
-[2015-May-31 11:14:37.268682] (2) <info>: tremppi_validate started.
-[2015-May-31 11:14:37.268682] (3) <info>: Parsing database.
-[2015-May-31 11:14:37.383216] (4) <error>: Top level exception: Python exception encountered.
-[2015-May-31 11:14:55.418099] (1) <info>: ------------------------------
-[2015-May-31 11:14:55.418099] (2) <info>: tremppi_validate started.
-[2015-May-31 11:14:55.418099] (3) <info>: Parsing database.
-[2015-May-31 11:14:55.454610] (4) <info>: Checking the JSON correctness.
-[2015-May-31 11:14:55.454610] (5) <info>: Parsing the properties.
-[2015-May-31 11:14:55.454610] (6) <info>: Building a product with the automaton: oscillate_on_B
-[2015-May-31 11:14:55.511186] (7) <info>: Validating for an automaton: oscillate_on_B
-[2015-May-31 11:14:55.663338] (8) <info>: Building a product with the automaton: fall_on_A
-[2015-May-31 11:14:55.663338] (9) <info>: Validating for an automaton: fall_on_A
-[2015-May-31 11:14:56.015474] (10) <info>: tremppi_validate finished successfully.
-[2015-May-31 11:15:12.947802] (1) <info>: ------------------------------
-[2015-May-31 11:15:12.948803] (2) <info>: tremppi_qualitative started.
-[2015-May-31 11:15:12.948803] (3) <info>: Parsing data.
-[2015-May-31 11:15:12.984828] (4) <info>: Preparing the data.
-[2015-May-31 11:15:12.985828] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 11:15:12.988830] (6) <info>: Building the JSON file.
-[2015-May-31 11:15:12.988830] (7) <info>: Writing output.
-[2015-May-31 11:15:12.991831] (8) <info>: tremppi_qualitative finished successfully.
-[2015-May-31 11:15:17.372783] (1) <info>: ------------------------------
-[2015-May-31 11:15:17.372783] (2) <info>: tremppi_quantitative started.
-[2015-May-31 11:15:17.372783] (3) <info>: Parsing data.
-[2015-May-31 11:15:17.409056] (4) <info>: Preparing the data.
-[2015-May-31 11:15:17.409056] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 11:15:17.412058] (6) <info>: Building the JSON file.
-[2015-May-31 11:15:17.412058] (7) <info>: Writing output.
-[2015-May-31 11:15:17.458160] (8) <info>: tremppi_quantitative finished successfully.
-[2015-May-31 11:40:28.011914] (1) <info>: ------------------------------
-[2015-May-31 11:40:28.012915] (2) <info>: tremppi_quantitative started.
-[2015-May-31 11:40:28.012915] (3) <info>: Parsing data.
-[2015-May-31 11:40:28.047936] (4) <info>: Preparing the data.
-[2015-May-31 11:40:28.047936] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 11:40:28.050937] (6) <info>: Building the JSON file.
-[2015-May-31 11:40:28.050937] (7) <info>: Writing output.
-[2015-May-31 11:40:28.138184] (8) <error>: Top level exception: Python exception encountered.
-[2015-May-31 11:40:28.157199] (1) <info>: ------------------------------
-[2015-May-31 11:40:28.158200] (2) <info>: tremppi_qualitative started.
-[2015-May-31 11:40:28.158200] (3) <info>: Parsing data.
-[2015-May-31 11:40:28.192222] (4) <info>: Preparing the data.
-[2015-May-31 11:40:28.193223] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 11:40:28.196223] (6) <info>: Building the JSON file.
-[2015-May-31 11:40:28.196223] (7) <info>: Writing output.
-[2015-May-31 11:40:28.236252] (8) <info>: tremppi_qualitative finished successfully.
-[2015-May-31 11:40:59.872256] (1) <info>: ------------------------------
-[2015-May-31 11:40:59.872256] (2) <info>: tremppi_quantitative started.
-[2015-May-31 11:40:59.872256] (3) <info>: Parsing data.
-[2015-May-31 11:40:59.907455] (4) <info>: Preparing the data.
-[2015-May-31 11:40:59.907455] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 11:40:59.910455] (6) <info>: Building the JSON file.
-[2015-May-31 11:40:59.910455] (7) <info>: Writing output.
-[2015-May-31 11:40:59.959488] (8) <error>: Top level exception: Python exception encountered.
-[2015-May-31 11:41:41.968761] (1) <info>: ------------------------------
-[2015-May-31 11:41:41.969760] (2) <info>: tremppi_quantitative started.
-[2015-May-31 11:41:41.969760] (3) <info>: Parsing data.
-[2015-May-31 11:41:42.005778] (4) <info>: Preparing the data.
-[2015-May-31 11:41:42.005778] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 11:41:42.008778] (6) <info>: Building the JSON file.
-[2015-May-31 11:41:42.008778] (7) <info>: Writing output.
-[2015-May-31 11:41:42.051808] (8) <info>: tremppi_quantitative finished successfully.
-[2015-May-31 11:41:46.587113] (1) <info>: ------------------------------
-[2015-May-31 11:41:46.587113] (2) <info>: tremppi_qualitative started.
-[2015-May-31 11:41:46.587113] (3) <info>: Parsing data.
-[2015-May-31 11:41:46.622102] (4) <info>: Preparing the data.
-[2015-May-31 11:41:46.622102] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 11:41:46.626104] (6) <info>: Building the JSON file.
-[2015-May-31 11:41:46.626104] (7) <info>: Writing output.
-[2015-May-31 11:41:46.666131] (8) <info>: tremppi_qualitative finished successfully.
-[2015-May-31 12:45:24.331579] (1) <info>: ------------------------------
-[2015-May-31 12:45:24.349658] (2) <info>: tremppi_spawn started.
-[2015-May-31 12:45:24.349658] (3) <info>: Checking the JSON correctness.
-[2015-May-31 12:45:24.387622] (4) <info>: Parsing the network.
-[2015-May-31 12:45:24.387622] (5) <info>: Obtaining kinetics.
-[2015-May-31 12:45:24.389735] (6) <info>: Creating the database file.
-[2015-May-31 12:45:24.553552] (7) <info>: Writing the database file, in total 36 parametrizations.
-[2015-May-31 12:45:25.044980] (8) <info>: tremppi_spawn finished successfully.
-[2015-May-31 12:45:27.708632] (1) <info>: ------------------------------
-[2015-May-31 12:45:27.709632] (2) <info>: tremppi_validate started.
-[2015-May-31 12:45:27.709632] (3) <info>: Parsing database.
-[2015-May-31 12:45:27.758939] (4) <info>: Checking the JSON correctness.
-[2015-May-31 12:45:27.758939] (5) <info>: Parsing the properties.
-[2015-May-31 12:45:27.758939] (6) <info>: Building a product with the automaton: oscillate_on_B
-[2015-May-31 12:45:27.758939] (7) <info>: Validating for an automaton: oscillate_on_B
-[2015-May-31 12:45:28.090913] (8) <info>: Building a product with the automaton: fall_on_A
-[2015-May-31 12:45:28.090913] (9) <info>: Validating for an automaton: fall_on_A
-[2015-May-31 12:45:28.367410] (10) <info>: tremppi_validate finished successfully.
-[2015-May-31 12:45:39.127472] (1) <info>: ------------------------------
-[2015-May-31 12:45:39.128472] (2) <info>: tremppi_quantitative started.
-[2015-May-31 12:45:39.128472] (3) <info>: Parsing data.
-[2015-May-31 12:45:39.164495] (4) <info>: Preparing the data.
-[2015-May-31 12:45:39.164495] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 12:45:39.167498] (6) <info>: Building the JSON file.
-[2015-May-31 12:45:39.167498] (7) <info>: Writing output.
-[2015-May-31 12:45:39.243532] (8) <info>: tremppi_quantitative finished successfully.
-[2015-May-31 12:45:39.277348] (1) <info>: ------------------------------
-[2015-May-31 12:45:39.277348] (2) <info>: tremppi_qualitative started.
-[2015-May-31 12:45:39.277348] (3) <info>: Parsing data.
-[2015-May-31 12:45:39.312372] (4) <info>: Preparing the data.
-[2015-May-31 12:45:39.312372] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 12:45:39.316373] (6) <info>: Building the JSON file.
-[2015-May-31 12:45:39.316373] (7) <info>: Writing output.
-[2015-May-31 12:45:39.355399] (8) <info>: tremppi_qualitative finished successfully.
-[2015-May-31 12:46:23.390655] (1) <info>: ------------------------------
-[2015-May-31 12:46:23.391656] (2) <info>: tremppi_spawn started.
-[2015-May-31 12:46:23.391656] (3) <info>: Checking the JSON correctness.
-[2015-May-31 12:46:23.391656] (4) <info>: Parsing the network.
-[2015-May-31 12:46:23.391656] (5) <info>: Obtaining kinetics.
-[2015-May-31 12:46:23.392656] (6) <info>: Creating the database file.
-[2015-May-31 12:46:23.392656] (7) <warning>: Database file C:\Users\adams_000\MODELS\TREMPPI\demo_project\data\database.sqlite already exists, erasing.
-[2015-May-31 12:46:23.568158] (8) <info>: Writing the database file, in total 36 parametrizations.
-[2015-May-31 12:46:23.760832] (9) <info>: tremppi_spawn finished successfully.
-[2015-May-31 12:46:27.903632] (1) <info>: ------------------------------
-[2015-May-31 12:46:27.904632] (2) <info>: tremppi_validate started.
-[2015-May-31 12:46:27.904632] (3) <info>: Parsing database.
-[2015-May-31 12:46:27.937654] (4) <info>: Checking the JSON correctness.
-[2015-May-31 12:46:27.938655] (5) <info>: Parsing the properties.
-[2015-May-31 12:46:27.938655] (6) <info>: Building a product with the automaton: oscillateOnB
-[2015-May-31 12:46:27.938655] (7) <info>: Validating for an automaton: oscillateOnB
-[2015-May-31 12:46:28.207373] (8) <info>: Building a product with the automaton: fallOnA
-[2015-May-31 12:46:28.207373] (9) <info>: Validating for an automaton: fallOnA
-[2015-May-31 12:46:28.527364] (10) <info>: tremppi_validate finished successfully.
-[2015-May-31 12:46:31.156187] (1) <info>: ------------------------------
-[2015-May-31 12:46:31.157188] (2) <info>: tremppi_quantitative started.
-[2015-May-31 12:46:31.157188] (3) <info>: Parsing data.
-[2015-May-31 12:46:31.191211] (4) <info>: Preparing the data.
-[2015-May-31 12:46:31.191211] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 12:46:31.194211] (6) <info>: Building the JSON file.
-[2015-May-31 12:46:31.194211] (7) <info>: Writing output.
-[2015-May-31 12:46:31.234277] (8) <info>: tremppi_quantitative finished successfully.
-[2015-May-31 12:46:31.251288] (1) <info>: ------------------------------
-[2015-May-31 12:46:31.252288] (2) <info>: tremppi_qualitative started.
-[2015-May-31 12:46:31.252288] (3) <info>: Parsing data.
-[2015-May-31 12:46:31.286311] (4) <info>: Preparing the data.
-[2015-May-31 12:46:31.286311] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 12:46:31.289312] (6) <info>: Building the JSON file.
-[2015-May-31 12:46:31.289312] (7) <info>: Writing output.
-[2015-May-31 12:46:31.326337] (8) <info>: tremppi_qualitative finished successfully.
-[2015-May-31 12:47:09.987267] (1) <info>: ------------------------------
-[2015-May-31 12:47:09.988268] (2) <info>: tremppi_express started.
-[2015-May-31 12:47:10.730494] (3) <info>: tremppi_express finished successfully.
-[2015-May-31 12:47:20.521698] (1) <info>: ------------------------------
-[2015-May-31 12:47:20.522699] (2) <info>: tremppi_quantitative started.
-[2015-May-31 12:47:20.522699] (3) <info>: Parsing data.
-[2015-May-31 12:47:20.559723] (4) <info>: Preparing the data.
-[2015-May-31 12:47:20.559723] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 12:47:20.562725] (6) <info>: Building the JSON file.
-[2015-May-31 12:47:20.562725] (7) <info>: Writing output.
-[2015-May-31 12:47:20.603754] (8) <info>: tremppi_quantitative finished successfully.
-[2015-May-31 12:47:20.683829] (1) <info>: ------------------------------
-[2015-May-31 12:47:20.684830] (2) <info>: tremppi_qualitative started.
-[2015-May-31 12:47:20.684830] (3) <info>: Parsing data.
-[2015-May-31 12:47:20.719853] (4) <info>: Preparing the data.
-[2015-May-31 12:47:20.719853] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 12:47:20.721854] (6) <info>: Building the JSON file.
-[2015-May-31 12:47:20.721854] (7) <info>: Writing output.
-[2015-May-31 12:47:20.771900] (8) <info>: tremppi_qualitative finished successfully.
-[2015-May-31 12:50:53.018136] (1) <info>: ------------------------------
-[2015-May-31 12:50:53.019136] (2) <info>: tremppi_quantitative started.
-[2015-May-31 12:50:53.019136] (3) <info>: Parsing data.
-[2015-May-31 12:50:53.053682] (4) <info>: Preparing the data.
-[2015-May-31 12:50:53.053682] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 12:50:53.055683] (6) <info>: Building the JSON file.
-[2015-May-31 12:50:53.055683] (7) <info>: Writing output.
-[2015-May-31 12:50:53.108719] (8) <info>: tremppi_quantitative finished successfully.
-[2015-May-31 12:50:53.128731] (1) <info>: ------------------------------
-[2015-May-31 12:50:53.128731] (2) <info>: tremppi_qualitative started.
-[2015-May-31 12:50:53.128731] (3) <info>: Parsing data.
-[2015-May-31 12:50:53.167757] (4) <info>: Preparing the data.
-[2015-May-31 12:50:53.167757] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 12:50:53.169758] (6) <info>: Building the JSON file.
-[2015-May-31 12:50:53.169758] (7) <info>: Writing output.
-[2015-May-31 12:50:53.210785] (8) <info>: tremppi_qualitative finished successfully.
-[2015-May-31 12:50:53.227958] (1) <info>: ------------------------------
-[2015-May-31 12:50:53.228958] (2) <info>: tremppi_regulations started.
-[2015-May-31 12:50:53.228958] (3) <info>: Parsing data file.
-[2015-May-31 12:50:53.267984] (4) <info>: Computing regulationsion graph data.
-[2015-May-31 12:50:53.276033] (5) <info>: Building the JSON files.
-[2015-May-31 12:50:53.276033] (6) <info>: Writing output.
-[2015-May-31 12:50:53.325010] (7) <error>: Top level exception: Python exception encountered.
-[2015-May-31 12:51:45.251774] (1) <info>: ------------------------------
-[2015-May-31 12:51:45.252783] (2) <info>: tremppi_quantitative started.
-[2015-May-31 12:51:45.252783] (3) <info>: Parsing data.
-[2015-May-31 12:51:45.289798] (4) <info>: Preparing the data.
-[2015-May-31 12:51:45.289798] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 12:51:45.291799] (6) <info>: Building the JSON file.
-[2015-May-31 12:51:45.291799] (7) <info>: Writing output.
-[2015-May-31 12:51:45.339831] (8) <info>: tremppi_quantitative finished successfully.
-[2015-May-31 12:51:45.392157] (1) <info>: ------------------------------
-[2015-May-31 12:51:45.393157] (2) <info>: tremppi_qualitative started.
-[2015-May-31 12:51:45.393157] (3) <info>: Parsing data.
-[2015-May-31 12:51:45.427180] (4) <info>: Preparing the data.
-[2015-May-31 12:51:45.427180] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 12:51:45.430181] (6) <info>: Building the JSON file.
-[2015-May-31 12:51:45.430181] (7) <info>: Writing output.
-[2015-May-31 12:51:45.470207] (8) <info>: tremppi_qualitative finished successfully.
-[2015-May-31 12:51:45.487219] (1) <info>: ------------------------------
-[2015-May-31 12:51:45.488219] (2) <info>: tremppi_regulations started.
-[2015-May-31 12:51:45.488219] (3) <info>: Parsing data file.
-[2015-May-31 12:51:45.522242] (4) <info>: Computing regulationsion graph data.
-[2015-May-31 12:51:45.523242] (5) <info>: Building the JSON files.
-[2015-May-31 12:51:45.523242] (6) <info>: Writing output.
-[2015-May-31 12:51:45.563359] (7) <info>: tremppi_regulations finished successfully.
-[2015-May-31 12:52:29.463205] (1) <info>: ------------------------------
-[2015-May-31 12:52:29.464205] (2) <info>: tremppi_quantitative started.
-[2015-May-31 12:52:29.464205] (3) <info>: Parsing data.
-[2015-May-31 12:52:29.502231] (4) <info>: Preparing the data.
-[2015-May-31 12:52:29.502231] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 12:52:29.502231] (6) <info>: Building the JSON file.
-[2015-May-31 12:52:29.502231] (7) <info>: Writing output.
-[2015-May-31 12:52:29.583275] (8) <info>: tremppi_quantitative finished successfully.
-[2015-May-31 12:52:29.601287] (1) <info>: ------------------------------
-[2015-May-31 12:52:29.601287] (2) <info>: tremppi_qualitative started.
-[2015-May-31 12:52:29.601287] (3) <info>: Parsing data.
-[2015-May-31 12:52:29.639312] (4) <info>: Preparing the data.
-[2015-May-31 12:52:29.639312] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 12:52:29.639312] (6) <info>: Building the JSON file.
-[2015-May-31 12:52:29.639312] (7) <info>: Writing output.
-[2015-May-31 12:52:29.680341] (8) <info>: tremppi_qualitative finished successfully.
-[2015-May-31 12:52:29.698351] (1) <info>: ------------------------------
-[2015-May-31 12:52:29.699352] (2) <info>: tremppi_regulations started.
-[2015-May-31 12:52:29.699352] (3) <info>: Parsing data file.
-[2015-May-31 12:52:29.734377] (4) <info>: Computing regulationsion graph data.
-[2015-May-31 12:52:29.735378] (5) <info>: Building the JSON files.
-[2015-May-31 12:52:29.735378] (6) <info>: Writing output.
-[2015-May-31 12:52:29.775890] (7) <info>: tremppi_regulations finished successfully.
-[2015-May-31 12:52:35.994944] (1) <info>: ------------------------------
-[2015-May-31 12:52:35.995945] (2) <info>: tremppi_quantitative started.
-[2015-May-31 12:52:35.995945] (3) <info>: Parsing data.
-[2015-May-31 12:52:36.031968] (4) <info>: Preparing the data.
-[2015-May-31 12:52:36.031968] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 12:52:36.031968] (6) <info>: Building the JSON file.
-[2015-May-31 12:52:36.031968] (7) <info>: Writing output.
-[2015-May-31 12:52:36.108565] (8) <info>: tremppi_quantitative finished successfully.
-[2015-May-31 12:52:36.125576] (1) <info>: ------------------------------
-[2015-May-31 12:52:36.126576] (2) <info>: tremppi_qualitative started.
-[2015-May-31 12:52:36.126576] (3) <info>: Parsing data.
-[2015-May-31 12:52:36.161599] (4) <info>: Preparing the data.
-[2015-May-31 12:52:36.161599] (5) <info>: Reading the values, computing the statistics.
-[2015-May-31 12:52:36.162600] (6) <info>: Building the JSON file.
-[2015-May-31 12:52:36.162600] (7) <info>: Writing output.
-[2015-May-31 12:52:36.227080] (8) <info>: tremppi_qualitative finished successfully.
-[2015-May-31 12:52:36.243092] (1) <info>: ------------------------------
-[2015-May-31 12:52:36.244092] (2) <info>: tremppi_regulations started.
-[2015-May-31 12:52:36.244092] (3) <info>: Parsing data file.
-[2015-May-31 12:52:36.278053] (4) <info>: Computing regulationsion graph data.
-[2015-May-31 12:52:36.279054] (5) <info>: Building the JSON files.
-[2015-May-31 12:52:36.279054] (6) <info>: Writing output.
-[2015-May-31 12:52:36.321084] (7) <info>: tremppi_regulations finished successfully.
+ --- tremppi_spawn has started. --- 
+Wed Sep 30 15:47:02 2015 D: Checking the JSON correctness.
+Wed Sep 30 15:47:02 2015 D: Parsing the network.
+Wed Sep 30 15:47:02 2015 D: Obtaining kinetics.
+Wed Sep 30 15:47:02 2015 D: Creating the database file.
+Wed Sep 30 15:47:02 2015 W: Database file data\database.sqlite already exists, erasing.
+Wed Sep 30 15:47:02 2015 D: Writing the database file, in total 26 parametrizations.
+Wed Sep 30 15:47:03 2015 D: tremppi_spawn finished successfully.
+ --- tremppi_spawn has started. --- 
+Wed Sep 30 15:47:31 2015 D: Checking the JSON correctness.
+Wed Sep 30 15:47:31 2015 D: Parsing the network.
+Wed Sep 30 15:47:31 2015 D: Obtaining kinetics.
+Wed Sep 30 15:47:31 2015 D: Creating the database file.
+Wed Sep 30 15:47:31 2015 W: Database file data\database.sqlite already exists, erasing.
+Wed Sep 30 15:47:31 2015 D: Writing the database file, in total 26 parametrizations.
+Wed Sep 30 15:47:31 2015 D: tremppi_spawn finished successfully.
+ --- tremppi_bias has started. --- 
+Wed Sep 30 15:47:36 2015 D: Computing function graph data.
+Wed Sep 30 15:47:36 2015 D: tremppi_bias finished successfully.
+ --- tremppi_cost has started. --- 
+Wed Sep 30 15:47:37 2015 D: Parsing database.
+Wed Sep 30 15:47:37 2015 D: Checking the JSON correctness.
+Wed Sep 30 15:47:37 2015 D: Parsing the properties.
+Wed Sep 30 15:47:37 2015 D: Building a product with the automaton: test_ts
+Wed Sep 30 15:47:37 2015 D: Validating for an automaton: test_ts
+Wed Sep 30 15:47:37 2015 D: Building a product with the automaton: test_cycle
+Wed Sep 30 15:47:37 2015 D: Validating for an automaton: test_cycle
+Wed Sep 30 15:47:37 2015 D: tremppi_cost finished successfully.
+ --- tremppi_express has started. --- 
+Wed Sep 30 15:47:38 2015 D: tremppi_express finished successfully.
+ --- tremppi_impact has started. --- 
+Wed Sep 30 15:47:40 2015 D: tremppi_impact finished successfully.
+ --- tremppi_sign has started. --- 
+Wed Sep 30 15:47:42 2015 D: tremppi_sign finished successfully.
+ --- tremppi_trace has started. --- 
+Wed Sep 30 15:47:44 2015 D: Parsing database.
+Wed Sep 30 15:47:44 2015 D: Checking the JSON correctness.
+Wed Sep 30 15:47:44 2015 D: Parsing the properties.
+Wed Sep 30 15:47:44 2015 D: Building a product with the automaton: test_ts
+Wed Sep 30 15:47:44 2015 D: Validating for an automaton: test_ts
+Wed Sep 30 15:47:44 2015 D: Building a product with the automaton: test_cycle
+Wed Sep 30 15:47:44 2015 D: Validating for an automaton: test_cycle
+Wed Sep 30 15:47:44 2015 D: tremppi_trace finished successfully.
+ --- tremppi_robustness has started. --- 
+Wed Sep 30 15:47:46 2015 D: Parsing database.
+Wed Sep 30 15:47:46 2015 D: Checking the JSON correctness.
+Wed Sep 30 15:47:46 2015 D: Parsing the properties.
+Wed Sep 30 15:47:46 2015 D: Building a product with the automaton: test_ts
+Wed Sep 30 15:47:46 2015 D: Validating for an automaton: test_ts
+Wed Sep 30 15:47:46 2015 D: Building a product with the automaton: test_cycle
+Wed Sep 30 15:47:46 2015 D: Validating for an automaton: test_cycle
+Wed Sep 30 15:47:46 2015 D: tremppi_robustness finished successfully.
+ --- tremppi_correlations has started. --- 
+Wed Sep 30 15:48:13 2015 D: Parsing data file.
+Wed Sep 30 15:48:13 2015 D: Computing function graph data.
+Wed Sep 30 15:48:13 2015 D: Building the JSON.
+Wed Sep 30 15:48:13 2015 D: Writing output.
+Wed Sep 30 15:48:13 2015 D: tremppi_correlations finished successfully.
+ --- tremppi_qualitative has started. --- 
+Wed Sep 30 15:48:14 2015 D: Parsing data.
+Wed Sep 30 15:48:14 2015 D: Preparing the data.
+Wed Sep 30 15:48:14 2015 D: Reading the values, computing the statistics.
+Wed Sep 30 15:48:14 2015 D: Building the JSON file.
+Wed Sep 30 15:48:14 2015 D: Writing output.
+Wed Sep 30 15:48:14 2015 D: tremppi_qualitative finished successfully.
+ --- tremppi_quantitative has started. --- 
+Wed Sep 30 15:48:14 2015 D: Parsing data.
+Wed Sep 30 15:48:14 2015 D: Preparing the data.
+Wed Sep 30 15:48:14 2015 D: Reading the values, computing the statistics.
+Wed Sep 30 15:48:14 2015 D: Building the JSON file.
+Wed Sep 30 15:48:14 2015 D: Writing output.
+Wed Sep 30 15:48:14 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_regulations has started. --- 
+Wed Sep 30 15:48:15 2015 D: Parsing data file.
+Wed Sep 30 15:48:15 2015 D: Computing regulationsion graph data.
+Wed Sep 30 15:48:15 2015 E: Top level exception: Impact columns not available in the database --- tremppi_witness has started. --- 
+Wed Sep 30 15:48:15 2015 D: Parsing data.
+Wed Sep 30 15:48:16 2015 D: Loading witnesses.
+Wed Sep 30 15:48:16 2015 D: Converting to JSON
+Wed Sep 30 15:48:16 2015 D: Writing output.
+Wed Sep 30 15:48:16 2015 D: tremppi_witness finished successfully.

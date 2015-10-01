@@ -2,14 +2,14 @@
 	"nodes": [
 		{
 			"data": {
+				"MaxActivity": 1,
 				"Name": "A",
-				"MaxActivity": 2,
-				"Label": "A:2",
-				"id": "n0"
+				"id": "n0",
+				"Label": "A:1"
 			},
 			"position": {
-				"x": 267,
-				"y": 329
+				"x": 81.45306187120622,
+				"y": -11.18459954052384
 			},
 			"group": "nodes",
 			"removed": false,
@@ -22,14 +22,15 @@
 		},
 		{
 			"data": {
+				"MaxActivity": 2,
 				"Name": "B",
-				"MaxActivity": 1,
-				"Label": "B:1",
-				"id": "n1"
+				"id": "n1",
+				"Label": "B:2",
+				"Constraint": ""
 			},
 			"position": {
-				"x": 501.05934873067383,
-				"y": 330.94065126932617
+				"x": -83.84131918156196,
+				"y": -13.437533876727718
 			},
 			"group": "nodes",
 			"removed": false,
@@ -44,13 +45,13 @@
 	"edges": [
 		{
 			"data": {
+				"Label": "Inhibiting Only",
+				"Threshold": 1,
 				"source": "n0",
 				"target": "n1",
-				"Threshold": 1,
-				"Label": "Activating Only",
 				"line_style": "solid",
-				"line_color": "green",
-				"target_arrow_shape": "triangle",
+				"line_color": "red",
+				"target_arrow_shape": "tee",
 				"id": "e0"
 			},
 			"position": {},
@@ -65,10 +66,10 @@
 		},
 		{
 			"data": {
-				"source": "n1",
-				"target": "n0",
-				"Threshold": 1,
 				"Label": "Free",
+				"Threshold": 2,
+				"source": "n1",
+				"target": "n1",
 				"line_style": "dashed",
 				"line_color": "black",
 				"target_arrow_shape": "circle",
@@ -77,7 +78,7 @@
 			"position": {},
 			"group": "edges",
 			"removed": false,
-			"selected": false,
+			"selected": true,
 			"selectable": true,
 			"locked": false,
 			"grabbed": false,
@@ -86,12 +87,12 @@
 		},
 		{
 			"data": {
-				"source": "n0",
+				"source": "n1",
 				"target": "n0",
-				"Threshold": 2,
-				"Label": "Not Activating",
+				"Threshold": 1,
+				"Label": "Not Inhibiting",
 				"line_style": "dashed",
-				"line_color": "red",
+				"line_color": "green",
 				"target_arrow_shape": "circle",
 				"id": "e2"
 			},

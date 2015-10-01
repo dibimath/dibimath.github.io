@@ -6,20 +6,13 @@
 			"select": false
 		},
 		{
-			"name": "oscillate",
+			"name": "MIN_COST",
 			"recid": 1,
-			"R_oscillateOnB": "",
-			"C_oscillateOnB": "ANY",
-			"select": false
-		},
-		{
-			"name": "fall",
-			"recid": 2,
-			"R_oscillateOnB": "",
-			"R_fallOnA": "",
-			"C_oscillateOnB": "",
-			"C_fallOnA": "ANY",
-			"select": true
+			"select": true,
+			"R_test_ts": "",
+			"R_test_cycle": "",
+			"C_test_ts": "3",
+			"C_test_cycle": "5"
 		}
 	]
 }

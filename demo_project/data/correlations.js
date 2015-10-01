@@ -1,0 +1,1 @@
+tremppi.correlations.setup = {"files": ["ALL", "MIN_COST", "test", "time_series"], "components": ["A", "B"]};

@@ -1,0 +1,42 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "B",
+               "target" : "A"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "A",
+               "name" : "A"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 2,
+               "Mean" : 0.50,
+               "Std" : 0.1613743060919757,
+               "id" : "B",
+               "name" : "B"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Wed Sep 30 17:01:34 2015",
+      "s_name" : "MIN_COST",
+      "select" : " WHERE (C_test_cycle = 5 AND C_test_ts = 3)",
+      "size" : 6
+   }
+}
+
