@@ -3,11 +3,80 @@
     <title>TREMPPI tool documentation</title>
     <link rel="stylesheet" type="text/css" href="/TREMPPI/tremppi.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+	
+<style>
+div.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30pt;
+    counter-reset: section;
+}
+
+div.subtitle {
+    text-align: center;
+    font-size: 16pt;
+    margin-bottom: 16pt;
+}
+
+div.section {
+    font-size: 26pt;
+    font-variant: small-caps;
+    counter-reset: subsection;
+    counter-increment: section;
+}
+
+div.section:before {
+    content: counter(section) ".\0000a0\0000a0";
+}
+
+div.subsection {
+    font-size: 18pt;
+    font-variant: small-caps;
+    counter-increment: subsection;
+}
+
+div.subsection:before {
+    content: counter(section) "." counter(subsection) ".\0000a0\0000a0";
+}
+
+span.warning {
+    color: #ae2527
+}
+
+p.code {
+    font-family: monospace;
+    padding: 5pt 5pt 5pt 25pt;
+    background-color: #DDDDDD
+}
+
+span.code {
+    font-family: monospace;
+    background-color: #DDDDDD;
+    padding: 0pt  5pt ;
+}
+
+span.math {
+    font-style: italic;
+    font-family: serif;
+}
+
+span.lelem {
+    font-weight: bold;
+}
+
+#dependencies {
+    width: 700pt;
+    margin: auto;
+    display: block;
+}
+
+
+</style>
 </head>
 <body>
-    <div class="title">TREMPPI 0.6.0</div>
+    <div class="title">TREMPPI 0.6.1</div>
     <div class="subtitle">Toolkit for Reverse Engineering of Molecular Pathways through Parameter Identification </div>
-    <div class="subtitle">Last update: 30.09.2015</div>
+    <div class="subtitle">Last update: 8.10.2015</div>
 
     <div class ="section">Introduction</div>
     <p>
@@ -26,18 +95,18 @@
     <p>
         For a better perspective, you can examine a <a href="/demo_project/">toy project</a>.
     </p>
-    <div class ="section">Download & Execution</div>
+    <div class ="section">Get TREMPPI</div>
     <p>
         <span class="warning">TREMPPI is currently in Alpha version and the user experience is likely to be rough. 
             The developers bear no liability for any problems connected to using the software. </span>
     </p>
     <p>
-        The easiest way of getting TREMPPI is via pre-built packages:
+        The easiest way of getting TREMPPI is to download pre-built packages:
     </p>   
     <ul>
-        <li><a href="/TREMPPI/build/TREMPPI_Ubuntu32_0.6.0.tar.gz">Ubuntu/Debian 32bit</a> (preferred for Ubuntu)</li>
-        <li><a href="/TREMPPI/build/TREMPPI_Debian64_0.6.0.tar.gz">Ubuntu/Debian 64bit</a> (preferred for Debian)</li>
-        <li><a href="/TREMPPI/build/TREMPPI_Windows32_0.6.0.zip">Windows 32bit</a>
+        <li><a href="/TREMPPI/build/TREMPPI_Ubuntu32_0.6.1.tar.gz">Ubuntu/Debian 32bit</a> (preferred for Ubuntu)</li>
+        <li><a href="/TREMPPI/build/TREMPPI_Debian64_0.6.1.tar.gz">Ubuntu/Debian 64bit</a> (preferred for Debian)</li>
+        <li><a href="/TREMPPI/build/TREMPPI_Windows32_0.6.1.zip">Windows 32bit</a>
             <ul>
                 <li>You also need the <a href="https://www.microsoft.com/en-us/download/details.aspx?id=48145">Visual Studio 2015</a> runtime, if you do not have it already.</li>
             </ul>
@@ -64,6 +133,16 @@
         If your system is not in the list, or the binary does not work 
         (in that case also please consider sharing your experience at esther<img src="/zavinac.png" width="10pt" />fi.muni.cz), 
         you can try building it from the <a href="https://github.com/xstreck1/TREMPPI">source at GITHUB</a>.
+    </p>
+	
+    <div class ="subsection">Update</div>
+    <p>   
+		To update TREMPPI to a newer version, simply extract the package to your TREMPPI folder. It will replace source files without affecting your projects.
+	
+    </p>
+    <p>   
+		To update a project, open that project in TREMPPI and call the Update tool.
+	
     </p>
     <div class="section">Usage</div>
     <p>
