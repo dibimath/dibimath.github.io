@@ -1,18 +1,21 @@
 {
 	"records": [
 		{
-			"name": "ALL",
+			"name": "all",
 			"recid": 0,
-			"select": false
-		},
-		{
-			"name": "MIN_COST",
-			"recid": 1,
 			"select": true,
 			"R_test_ts": "",
-			"R_test_cycle": "",
-			"C_test_ts": "3",
-			"C_test_cycle": "5"
+			"C_test_ts": "",
+			"R_M": "",
+			"C_M": ""
+		},
+		{
+			"name": "selected",
+			"recid": 1,
+			"S_B_2_B": "0",
+			"C_series": "4",
+			"R_series": "1",
+			"select": true
 		}
 	]
 }

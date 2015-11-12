@@ -3,33 +3,33 @@
       "edges" : [
          {
             "data" : {
-               "Frequency" : 1.0,
-               "Pearson" : 1.0,
-               "Sign" : "+",
+               "Frequency" : 0.40,
+               "Pearson" : -0.40,
+               "Sign" : "-",
                "Threshold" : 1,
-               "WeightedFrequency" : 1.0,
+               "WeightedFrequency" : 0.40,
                "source" : "B",
                "target" : "A"
             }
          },
          {
             "data" : {
-               "Frequency" : 1.0,
-               "Pearson" : -0.7784791666666666,
+               "Frequency" : 0.60,
+               "Pearson" : -0.60,
                "Sign" : "-",
                "Threshold" : 1,
-               "WeightedFrequency" : 0.56250,
+               "WeightedFrequency" : 0.33750,
                "source" : "A",
                "target" : "B"
             }
          },
          {
             "data" : {
-               "Frequency" : 0.8333333333333334,
+               "Frequency" : 0.0,
                "Pearson" : 0.0,
-               "Sign" : "1",
+               "Sign" : "0",
                "Threshold" : 2,
-               "WeightedFrequency" : 0.4687500000000001,
+               "WeightedFrequency" : 0.0,
                "source" : "B",
                "target" : "B"
             }
@@ -51,10 +51,10 @@
       ]
    },
    "setup" : {
-      "date" : "Wed Sep 30 17:01:35 2015",
-      "s_name" : "MIN_COST",
-      "select" : " WHERE (C_test_cycle = 5 AND C_test_ts = 3)",
-      "size" : 6
+      "date" : "Wed Nov 11 16:27:15 2015",
+      "s_name" : "selected",
+      "select" : "S_B_2_B = 0 AND C_series = 4 AND R_series = 1",
+      "size" : 5
    }
 }
 

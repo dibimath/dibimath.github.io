@@ -1,1 +1,1 @@
-tremppi.correlations.setup = {"files": ["ALL", "MIN_COST"], "components": ["A", "B"]};
+tremppi.correlations.setup = {"files": ["all", "selected"], "components": ["A", "B"]};

@@ -3,7 +3,7 @@
       "edges" : [
          {
             "data" : {
-               "Frequency" : 0.1666666666666667,
+               "Frequency" : 0.60,
                "Step" : "2",
                "id" : "0",
                "source" : "00A",
@@ -12,7 +12,7 @@
          },
          {
             "data" : {
-               "Frequency" : 0.2222222222222222,
+               "Frequency" : 1.0,
                "Step" : "3",
                "id" : "1",
                "source" : "01A",
@@ -21,7 +21,7 @@
          },
          {
             "data" : {
-               "Frequency" : 0.1666666666666667,
+               "Frequency" : 0.60,
                "Step" : "1",
                "id" : "2",
                "source" : "10A",
@@ -30,7 +30,7 @@
          },
          {
             "data" : {
-               "Frequency" : 0.2222222222222222,
+               "Frequency" : 0.80,
                "Step" : "1",
                "id" : "3",
                "source" : "10A",
@@ -39,7 +39,7 @@
          },
          {
             "data" : {
-               "Frequency" : 0.1111111111111111,
+               "Frequency" : 0.80,
                "Step" : "2",
                "id" : "4",
                "source" : "11A",
@@ -48,7 +48,7 @@
          },
          {
             "data" : {
-               "Frequency" : 0.1666666666666667,
+               "Frequency" : 0.40,
                "Step" : "2",
                "id" : "5",
                "source" : "11A",
@@ -57,7 +57,7 @@
          },
          {
             "data" : {
-               "Frequency" : 0.1666666666666667,
+               "Frequency" : 0.40,
                "Step" : "3",
                "id" : "6",
                "source" : "12A",
@@ -107,9 +107,9 @@
    "setup" : {
       "date" : "Wed Nov 11 16:27:16 2015",
       "properties" : "series,",
-      "s_name" : "all",
-      "select" : "1",
-      "size" : 324
+      "s_name" : "selected",
+      "select" : "R_series = 1 AND C_series = 4 AND S_B_2_B = 0",
+      "size" : 5
    }
 }
 

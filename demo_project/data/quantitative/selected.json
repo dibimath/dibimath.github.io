@@ -1,109 +1,109 @@
 {
    "records" : [
       {
-         "count" : 162,
+         "count" : 2,
          "max" : 1.0,
-         "mean" : 0.50,
+         "mean" : 0.40,
          "min" : 0.0,
          "name" : "K<sub>A</sub>(B{0})"
       },
       {
-         "count" : 162,
-         "max" : 1.0,
-         "mean" : 0.50,
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
          "min" : 0.0,
          "name" : "K<sub>A</sub>(B{1})"
       },
       {
-         "count" : 216,
+         "count" : 5,
          "max" : 2.0,
-         "mean" : 1.0,
-         "min" : 0.0,
+         "mean" : 2.0,
+         "min" : 2.0,
          "name" : "K<sub>B</sub>(A{0},B{0,1})"
       },
       {
-         "count" : 216,
+         "count" : 5,
          "max" : 2.0,
-         "mean" : 1.0,
-         "min" : 0.0,
+         "mean" : 2.0,
+         "min" : 2.0,
          "name" : "K<sub>B</sub>(A{0},B{2})"
       },
       {
-         "count" : 216,
+         "count" : 4,
          "max" : 2.0,
-         "mean" : 1.0,
+         "mean" : 1.20,
          "min" : 0.0,
          "name" : "K<sub>B</sub>(A{1,2},B{0,1})"
       },
       {
-         "count" : 216,
+         "count" : 4,
          "max" : 2.0,
-         "mean" : 1.0,
+         "mean" : 1.20,
          "min" : 0.0,
          "name" : "K<sub>B</sub>(A{1,2},B{2})"
       },
       {
-         "count" : 108,
+         "count" : 5,
          "max" : 4.0,
-         "mean" : 1.333333333333333,
-         "min" : 0.0,
+         "mean" : 4.0,
+         "min" : 4.0,
          "name" : "Cost(series)"
       },
       {
-         "count" : 162,
-         "max" : 1.0,
-         "mean" : 0.0,
+         "count" : 2,
+         "max" : 0.0,
+         "mean" : -0.40,
          "min" : -1.0,
          "name" : "Impact(B,1,A)"
       },
       {
-         "count" : 248,
-         "max" : 1.0,
-         "mean" : 4.386066270124075e-17,
+         "count" : 3,
+         "max" : 0.0,
+         "mean" : -0.60,
          "min" : -1.0,
          "name" : "Impact(A,1,B)"
       },
       {
-         "count" : 248,
-         "max" : 1.0,
-         "mean" : 1.370645709413773e-18,
-         "min" : -1.0,
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
          "name" : "Impact(B,2,B)"
       },
       {
-         "count" : 162,
+         "count" : 2,
          "max" : 1.0,
-         "mean" : 0.50,
+         "mean" : 0.40,
          "min" : 0.0,
          "name" : "Indigree(A)"
       },
       {
-         "count" : 312,
-         "max" : 2.0,
-         "mean" : 1.777777777777778,
+         "count" : 3,
+         "max" : 1.0,
+         "mean" : 0.60,
          "min" : 0.0,
          "name" : "Indigree(B)"
       },
       {
-         "count" : 318,
-         "max" : 3.0,
-         "mean" : 2.277777777777778,
+         "count" : 4,
+         "max" : 2.0,
+         "mean" : 1.0,
          "min" : 0.0,
          "name" : "Indigree(SUM)"
       },
       {
-         "count" : 108,
+         "count" : 5,
          "max" : 1.0,
-         "mean" : 0.18750,
-         "min" : 0.0,
+         "mean" : 1.0,
+         "min" : 1.0,
          "name" : "Robustness(series)"
       }
    ],
    "setup" : {
       "date" : "Wed Nov 11 16:27:15 2015",
-      "s_name" : "all",
-      "select" : "1",
-      "size" : 324
+      "s_name" : "selected",
+      "select" : "C_series = 4 AND S_B_2_B = 0 AND R_series = 1",
+      "size" : 5
    }
 }
 

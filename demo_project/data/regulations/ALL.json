@@ -3,22 +3,22 @@
       "edges" : [
          {
             "data" : {
-               "Frequency" : 0.3333333333333333,
-               "Pearson" : 0.3333333333333333,
-               "Sign" : "+",
+               "Frequency" : 0.50,
+               "Pearson" : 0.0,
+               "Sign" : "1",
                "Threshold" : 1,
-               "WeightedFrequency" : 0.3333333333333333,
+               "WeightedFrequency" : 0.50,
                "source" : "B",
                "target" : "A"
             }
          },
          {
             "data" : {
-               "Frequency" : 1.0,
-               "Pearson" : -0.6511410370370374,
-               "Sign" : "-",
+               "Frequency" : 0.8888888888888888,
+               "Pearson" : 4.386066270124075e-17,
+               "Sign" : "1",
                "Threshold" : 1,
-               "WeightedFrequency" : 0.56250,
+               "WeightedFrequency" : 0.50,
                "source" : "A",
                "target" : "B"
             }
@@ -26,7 +26,7 @@
          {
             "data" : {
                "Frequency" : 0.8888888888888888,
-               "Pearson" : 0.0,
+               "Pearson" : 1.370645709413773e-18,
                "Sign" : "1",
                "Threshold" : 2,
                "WeightedFrequency" : 0.50,
@@ -51,10 +51,10 @@
       ]
    },
    "setup" : {
-      "date" : "Wed Sep 30 16:50:18 2015",
-      "s_name" : "ALL",
-      "select" : " WHERE (1)",
-      "size" : 81
+      "date" : "Wed Nov 11 16:27:15 2015",
+      "s_name" : "all",
+      "select" : "1",
+      "size" : 324
    }
 }
 
