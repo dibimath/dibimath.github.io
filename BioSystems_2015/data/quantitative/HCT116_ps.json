@@ -1,0 +1,1481 @@
+{
+   "records" : [
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>AKT</sub>(LY{0},PI3K{0})"
+      },
+      {
+         "count" : 70740,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>AKT</sub>(LY{0},PI3K{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>AKT</sub>(LY{1},PI3K{0})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>AKT</sub>(LY{1},PI3K{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>AZD</sub>(AZD{0})"
+      },
+      {
+         "count" : 70740,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>AZD</sub>(AZD{1})"
+      },
+      {
+         "count" : 11340,
+         "max" : 1.0,
+         "mean" : 0.1603053435114504,
+         "min" : 0.0,
+         "name" : "K<sub>EGFR</sub>(ERK{0},TGFa{0})"
+      },
+      {
+         "count" : 70740,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>EGFR</sub>(ERK{0},TGFa{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>EGFR</sub>(ERK{1},TGFa{0})"
+      },
+      {
+         "count" : 41040,
+         "max" : 1.0,
+         "mean" : 0.5801526717557252,
+         "min" : 0.0,
+         "name" : "K<sub>EGFR</sub>(ERK{1},TGFa{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>ERK</sub>(AZD{0},MEK{0})"
+      },
+      {
+         "count" : 70740,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>ERK</sub>(AZD{0},MEK{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>ERK</sub>(AZD{1},MEK{0})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>ERK</sub>(AZD{1},MEK{1})"
+      },
+      {
+         "count" : 14148,
+         "max" : 1.0,
+         "mean" : 0.20,
+         "min" : 0.0,
+         "name" : "K<sub>GSK3</sub>(AKT{0},ERK{0})"
+      },
+      {
+         "count" : 42444,
+         "max" : 1.0,
+         "mean" : 0.60,
+         "min" : 0.0,
+         "name" : "K<sub>GSK3</sub>(AKT{0},ERK{1})"
+      },
+      {
+         "count" : 42444,
+         "max" : 1.0,
+         "mean" : 0.60,
+         "min" : 0.0,
+         "name" : "K<sub>GSK3</sub>(AKT{1},ERK{0})"
+      },
+      {
+         "count" : 70740,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>GSK3</sub>(AKT{1},ERK{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>IGFIR</sub>(IGFIR{0})"
+      },
+      {
+         "count" : 70740,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>IGFIR</sub>(IGFIR{1})"
+      },
+      {
+         "count" : 53055,
+         "max" : 1.0,
+         "mean" : 0.750,
+         "min" : 0.0,
+         "name" : "K<sub>IRS1</sub>(AKT{0},ERK{0},p70S6K{0})"
+      },
+      {
+         "count" : 23580,
+         "max" : 1.0,
+         "mean" : 0.3333333333333333,
+         "min" : 0.0,
+         "name" : "K<sub>IRS1</sub>(AKT{0},ERK{0},p70S6K{1})"
+      },
+      {
+         "count" : 70740,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>IRS1</sub>(AKT{0},ERK{1},p70S6K{0})"
+      },
+      {
+         "count" : 55020,
+         "max" : 1.0,
+         "mean" : 0.7777777777777778,
+         "min" : 0.0,
+         "name" : "K<sub>IRS1</sub>(AKT{0},ERK{1},p70S6K{1})"
+      },
+      {
+         "count" : 23580,
+         "max" : 1.0,
+         "mean" : 0.3333333333333333,
+         "min" : 0.0,
+         "name" : "K<sub>IRS1</sub>(AKT{1},ERK{0},p70S6K{0})"
+      },
+      {
+         "count" : 3930,
+         "max" : 1.0,
+         "mean" : 0.05555555555555555,
+         "min" : 0.0,
+         "name" : "K<sub>IRS1</sub>(AKT{1},ERK{0},p70S6K{1})"
+      },
+      {
+         "count" : 55020,
+         "max" : 1.0,
+         "mean" : 0.7777777777777778,
+         "min" : 0.0,
+         "name" : "K<sub>IRS1</sub>(AKT{1},ERK{1},p70S6K{0})"
+      },
+      {
+         "count" : 23580,
+         "max" : 1.0,
+         "mean" : 0.3333333333333333,
+         "min" : 0.0,
+         "name" : "K<sub>IRS1</sub>(AKT{1},ERK{1},p70S6K{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>LY</sub>(LY{0})"
+      },
+      {
+         "count" : 70740,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>LY</sub>(LY{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>MEK</sub>(RAF{0})"
+      },
+      {
+         "count" : 70740,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>MEK</sub>(RAF{1})"
+      },
+      {
+         "count" : 6660,
+         "max" : 1.0,
+         "mean" : 0.09414758269720101,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(EGFR{0},IGFIR{0})"
+      },
+      {
+         "count" : 32040,
+         "max" : 1.0,
+         "mean" : 0.4529262086513995,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(EGFR{0},IGFIR{1})"
+      },
+      {
+         "count" : 30780,
+         "max" : 1.0,
+         "mean" : 0.4351145038167939,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(EGFR{1},IGFIR{0})"
+      },
+      {
+         "count" : 57420,
+         "max" : 1.0,
+         "mean" : 0.8117048346055979,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(EGFR{1},IGFIR{1})"
+      },
+      {
+         "count" : 5580,
+         "max" : 1.0,
+         "mean" : 0.07888040712468193,
+         "min" : 0.0,
+         "name" : "K<sub>RAF</sub>(EGFR{0},ERK{0},IGFIR{0})"
+      },
+      {
+         "count" : 42120,
+         "max" : 1.0,
+         "mean" : 0.5954198473282443,
+         "min" : 0.0,
+         "name" : "K<sub>RAF</sub>(EGFR{0},ERK{0},IGFIR{1})"
+      },
+      {
+         "count" : 5580,
+         "max" : 1.0,
+         "mean" : 0.07888040712468193,
+         "min" : 0.0,
+         "name" : "K<sub>RAF</sub>(EGFR{0},ERK{1},IGFIR{0})"
+      },
+      {
+         "count" : 19080,
+         "max" : 1.0,
+         "mean" : 0.2697201017811705,
+         "min" : 0.0,
+         "name" : "K<sub>RAF</sub>(EGFR{0},ERK{1},IGFIR{1})"
+      },
+      {
+         "count" : 37260,
+         "max" : 1.0,
+         "mean" : 0.5267175572519084,
+         "min" : 0.0,
+         "name" : "K<sub>RAF</sub>(EGFR{1},ERK{0},IGFIR{0})"
+      },
+      {
+         "count" : 65160,
+         "max" : 1.0,
+         "mean" : 0.9211195928753181,
+         "min" : 0.0,
+         "name" : "K<sub>RAF</sub>(EGFR{1},ERK{0},IGFIR{1})"
+      },
+      {
+         "count" : 17460,
+         "max" : 1.0,
+         "mean" : 0.2468193384223919,
+         "min" : 0.0,
+         "name" : "K<sub>RAF</sub>(EGFR{1},ERK{1},IGFIR{0})"
+      },
+      {
+         "count" : 46080,
+         "max" : 1.0,
+         "mean" : 0.6513994910941476,
+         "min" : 0.0,
+         "name" : "K<sub>RAF</sub>(EGFR{1},ERK{1},IGFIR{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>TGFa</sub>(TGFa{0})"
+      },
+      {
+         "count" : 70740,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>TGFa</sub>(TGFa{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>p70S6K</sub>(AKT{0},ERK{0})"
+      },
+      {
+         "count" : 37335,
+         "max" : 1.0,
+         "mean" : 0.5277777777777778,
+         "min" : 0.0,
+         "name" : "K<sub>p70S6K</sub>(AKT{0},ERK{1})"
+      },
+      {
+         "count" : 30780,
+         "max" : 1.0,
+         "mean" : 0.4351145038167939,
+         "min" : 0.0,
+         "name" : "K<sub>p70S6K</sub>(AKT{1},ERK{0})"
+      },
+      {
+         "count" : 70740,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>p70S6K</sub>(AKT{1},ERK{1})"
+      },
+      {
+         "count" : 70740,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "Cost(LIM1215_IGF1)"
+      },
+      {
+         "count" : 70740,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "Cost(LIM1215_IGF1_m)"
+      },
+      {
+         "count" : 11448,
+         "max" : 4.0,
+         "mean" : 0.6473282442748092,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_IGF1_s)"
+      },
+      {
+         "count" : 11448,
+         "max" : 4.0,
+         "mean" : 0.6473282442748092,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_IGF1_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "Cost(LIM1215_TGF)"
+      },
+      {
+         "count" : 70740,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "Cost(LIM1215_TGF_m)"
+      },
+      {
+         "count" : 4320,
+         "max" : 6.0,
+         "mean" : 0.3664122137404580,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_TGF_s)"
+      },
+      {
+         "count" : 4320,
+         "max" : 6.0,
+         "mean" : 0.3664122137404580,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_TGF_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "Cost(LIM1215_AZD)"
+      },
+      {
+         "count" : 70740,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "Cost(LIM1215_AZD_m)"
+      },
+      {
+         "count" : 9180,
+         "max" : 3.0,
+         "mean" : 0.3893129770992366,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_AZD_s)"
+      },
+      {
+         "count" : 9180,
+         "max" : 3.0,
+         "mean" : 0.3893129770992366,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_AZD_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "Cost(LIM1215_IGF1_AZD)"
+      },
+      {
+         "count" : 70740,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "Cost(LIM1215_IGF1_AZD_m)"
+      },
+      {
+         "count" : 2808,
+         "max" : 6.0,
+         "mean" : 0.2381679389312977,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_IGF1_AZD_s)"
+      },
+      {
+         "count" : 2808,
+         "max" : 6.0,
+         "mean" : 0.2381679389312977,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_IGF1_AZD_ms)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_TGF_AZD)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_TGF_AZD_m)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_TGF_AZD_s)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_TGF_AZD_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(LIM1215_LY)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(LIM1215_LY_m)"
+      },
+      {
+         "count" : 16380,
+         "max" : 2.0,
+         "mean" : 0.4631043256997455,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_LY_s)"
+      },
+      {
+         "count" : 16380,
+         "max" : 2.0,
+         "mean" : 0.4631043256997455,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_LY_ms)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_IGF1_LY)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_IGF1_LY_m)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_IGF1_LY_s)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_IGF1_LY_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "Cost(LIM1215_TGF_LY)"
+      },
+      {
+         "count" : 70740,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "Cost(LIM1215_TGF_LY_m)"
+      },
+      {
+         "count" : 3648,
+         "max" : 5.0,
+         "mean" : 0.2578456318914334,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_TGF_LY_s)"
+      },
+      {
+         "count" : 3648,
+         "max" : 5.0,
+         "mean" : 0.2578456318914334,
+         "min" : 0.0,
+         "name" : "Cost(LIM1215_TGF_LY_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "Cost(HCT116_IGF1)"
+      },
+      {
+         "count" : 70740,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "Cost(HCT116_IGF1_m)"
+      },
+      {
+         "count" : 11448,
+         "max" : 4.0,
+         "mean" : 0.6473282442748092,
+         "min" : 0.0,
+         "name" : "Cost(HCT116_IGF1_s)"
+      },
+      {
+         "count" : 11448,
+         "max" : 4.0,
+         "mean" : 0.6473282442748092,
+         "min" : 0.0,
+         "name" : "Cost(HCT116_IGF1_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "Cost(HCT116_TGF)"
+      },
+      {
+         "count" : 70740,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "Cost(HCT116_TGF_m)"
+      },
+      {
+         "count" : 8640,
+         "max" : 3.0,
+         "mean" : 0.3664122137404580,
+         "min" : 0.0,
+         "name" : "Cost(HCT116_TGF_s)"
+      },
+      {
+         "count" : 8640,
+         "max" : 3.0,
+         "mean" : 0.3664122137404580,
+         "min" : 0.0,
+         "name" : "Cost(HCT116_TGF_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "Cost(HCT116_AZD)"
+      },
+      {
+         "count" : 70740,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "Cost(HCT116_AZD_m)"
+      },
+      {
+         "count" : 70740,
+         "max" : 6.0,
+         "mean" : 5.842239185750636,
+         "min" : 4.0,
+         "name" : "Cost(HCT116_AZD_s)"
+      },
+      {
+         "count" : 5580,
+         "max" : 4.0,
+         "mean" : 0.3155216284987277,
+         "min" : 0.0,
+         "name" : "Cost(HCT116_AZD_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "Cost(HCT116_IGF1_AZD)"
+      },
+      {
+         "count" : 70740,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "Cost(HCT116_IGF1_AZD_m)"
+      },
+      {
+         "count" : 5184,
+         "max" : 6.0,
+         "mean" : 0.4396946564885496,
+         "min" : 0.0,
+         "name" : "Cost(HCT116_IGF1_AZD_s)"
+      },
+      {
+         "count" : 5184,
+         "max" : 6.0,
+         "mean" : 0.4396946564885496,
+         "min" : 0.0,
+         "name" : "Cost(HCT116_IGF1_AZD_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "Cost(HCT116_TGF_AZD)"
+      },
+      {
+         "count" : 70740,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "Cost(HCT116_TGF_AZD_m)"
+      },
+      {
+         "count" : 360,
+         "max" : 5.0,
+         "mean" : 0.02544529262086514,
+         "min" : 0.0,
+         "name" : "Cost(HCT116_TGF_AZD_s)"
+      },
+      {
+         "count" : 360,
+         "max" : 5.0,
+         "mean" : 0.02544529262086514,
+         "min" : 0.0,
+         "name" : "Cost(HCT116_TGF_AZD_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(HCT116_LY)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(HCT116_LY_m)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(HCT116_LY_s)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(HCT116_LY_ms)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(HCT116_IGF1_LY)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(HCT116_IGF1_LY_m)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(HCT116_IGF1_LY_s)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(HCT116_IGF1_LY_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "Cost(HCT116_TGF_LY)"
+      },
+      {
+         "count" : 70740,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "Cost(HCT116_TGF_LY_m)"
+      },
+      {
+         "count" : 2688,
+         "max" : 6.0,
+         "mean" : 0.2279898218829517,
+         "min" : 0.0,
+         "name" : "Cost(HCT116_TGF_LY_s)"
+      },
+      {
+         "count" : 2688,
+         "max" : 6.0,
+         "mean" : 0.2279898218829517,
+         "min" : 0.0,
+         "name" : "Cost(HCT116_TGF_LY_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "Cost(SW403_IGF1)"
+      },
+      {
+         "count" : 70740,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "Cost(SW403_IGF1_m)"
+      },
+      {
+         "count" : 8640,
+         "max" : 5.0,
+         "mean" : 0.6106870229007634,
+         "min" : 0.0,
+         "name" : "Cost(SW403_IGF1_s)"
+      },
+      {
+         "count" : 8640,
+         "max" : 5.0,
+         "mean" : 0.6106870229007634,
+         "min" : 0.0,
+         "name" : "Cost(SW403_IGF1_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "Cost(SW403_TGF)"
+      },
+      {
+         "count" : 70740,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "Cost(SW403_TGF_m)"
+      },
+      {
+         "count" : 4320,
+         "max" : 5.0,
+         "mean" : 0.3053435114503817,
+         "min" : 0.0,
+         "name" : "Cost(SW403_TGF_s)"
+      },
+      {
+         "count" : 4320,
+         "max" : 5.0,
+         "mean" : 0.3053435114503817,
+         "min" : 0.0,
+         "name" : "Cost(SW403_TGF_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(SW403_AZD)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(SW403_AZD_m)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(SW403_AZD_s)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(SW403_AZD_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "Cost(SW403_IGF1_AZD)"
+      },
+      {
+         "count" : 70740,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "Cost(SW403_IGF1_AZD_m)"
+      },
+      {
+         "count" : 5184,
+         "max" : 6.0,
+         "mean" : 0.4396946564885496,
+         "min" : 0.0,
+         "name" : "Cost(SW403_IGF1_AZD_s)"
+      },
+      {
+         "count" : 5184,
+         "max" : 6.0,
+         "mean" : 0.4396946564885496,
+         "min" : 0.0,
+         "name" : "Cost(SW403_IGF1_AZD_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "Cost(SW403_TGF_AZD)"
+      },
+      {
+         "count" : 70740,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "Cost(SW403_TGF_AZD_m)"
+      },
+      {
+         "count" : 6480,
+         "max" : 4.0,
+         "mean" : 0.3664122137404580,
+         "min" : 0.0,
+         "name" : "Cost(SW403_TGF_AZD_s)"
+      },
+      {
+         "count" : 6480,
+         "max" : 4.0,
+         "mean" : 0.3664122137404580,
+         "min" : 0.0,
+         "name" : "Cost(SW403_TGF_AZD_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(SW403_LY)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(SW403_LY_m)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(SW403_LY_s)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(SW403_LY_ms)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(SW403_IGF1_LY)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(SW403_IGF1_LY_m)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(SW403_IGF1_LY_s)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(SW403_IGF1_LY_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "Cost(SW403_TGF_LY)"
+      },
+      {
+         "count" : 70740,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "Cost(SW403_TGF_LY_m)"
+      },
+      {
+         "count" : 6080,
+         "max" : 5.0,
+         "mean" : 0.4297427198190557,
+         "min" : 0.0,
+         "name" : "Cost(SW403_TGF_LY_s)"
+      },
+      {
+         "count" : 6080,
+         "max" : 5.0,
+         "mean" : 0.4297427198190557,
+         "min" : 0.0,
+         "name" : "Cost(SW403_TGF_LY_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "Cost(SW480_IGF1)"
+      },
+      {
+         "count" : 70740,
+         "max" : 4.0,
+         "mean" : 4.0,
+         "min" : 4.0,
+         "name" : "Cost(SW480_IGF1_m)"
+      },
+      {
+         "count" : 11448,
+         "max" : 4.0,
+         "mean" : 0.6473282442748092,
+         "min" : 0.0,
+         "name" : "Cost(SW480_IGF1_s)"
+      },
+      {
+         "count" : 11448,
+         "max" : 4.0,
+         "mean" : 0.6473282442748092,
+         "min" : 0.0,
+         "name" : "Cost(SW480_IGF1_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 7.0,
+         "mean" : 7.0,
+         "min" : 7.0,
+         "name" : "Cost(SW480_TGF)"
+      },
+      {
+         "count" : 70740,
+         "max" : 7.0,
+         "mean" : 7.0,
+         "min" : 7.0,
+         "name" : "Cost(SW480_TGF_m)"
+      },
+      {
+         "count" : 1440,
+         "max" : 7.0,
+         "mean" : 0.1424936386768448,
+         "min" : 0.0,
+         "name" : "Cost(SW480_TGF_s)"
+      },
+      {
+         "count" : 1440,
+         "max" : 7.0,
+         "mean" : 0.1424936386768448,
+         "min" : 0.0,
+         "name" : "Cost(SW480_TGF_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(SW480_AZD)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(SW480_AZD_m)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(SW480_AZD_s)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(SW480_AZD_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "Cost(SW480_IGF1_AZD)"
+      },
+      {
+         "count" : 70740,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "Cost(SW480_IGF1_AZD_m)"
+      },
+      {
+         "count" : 21492,
+         "max" : 3.0,
+         "mean" : 0.9114503816793893,
+         "min" : 0.0,
+         "name" : "Cost(SW480_IGF1_AZD_s)"
+      },
+      {
+         "count" : 21492,
+         "max" : 3.0,
+         "mean" : 0.9114503816793893,
+         "min" : 0.0,
+         "name" : "Cost(SW480_IGF1_AZD_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "Cost(SW480_TGF_AZD)"
+      },
+      {
+         "count" : 70740,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "Cost(SW480_TGF_AZD_m)"
+      },
+      {
+         "count" : 3888,
+         "max" : 5.0,
+         "mean" : 0.2748091603053435,
+         "min" : 0.0,
+         "name" : "Cost(SW480_TGF_AZD_s)"
+      },
+      {
+         "count" : 3888,
+         "max" : 5.0,
+         "mean" : 0.2748091603053435,
+         "min" : 0.0,
+         "name" : "Cost(SW480_TGF_AZD_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(SW480_LY)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(SW480_LY_m)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(SW480_LY_s)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(SW480_LY_ms)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(SW480_IGF1_LY)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(SW480_IGF1_LY_m)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(SW480_IGF1_LY_s)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(SW480_IGF1_LY_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "Cost(SW480_TGF_LY)"
+      },
+      {
+         "count" : 70740,
+         "max" : 6.0,
+         "mean" : 6.0,
+         "min" : 6.0,
+         "name" : "Cost(SW480_TGF_LY_m)"
+      },
+      {
+         "count" : 3648,
+         "max" : 6.0,
+         "mean" : 0.3094147582697201,
+         "min" : 0.0,
+         "name" : "Cost(SW480_TGF_LY_s)"
+      },
+      {
+         "count" : 3648,
+         "max" : 6.0,
+         "mean" : 0.3094147582697201,
+         "min" : 0.0,
+         "name" : "Cost(SW480_TGF_LY_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "Cost(HT29_IGF1)"
+      },
+      {
+         "count" : 70740,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "Cost(HT29_IGF1_m)"
+      },
+      {
+         "count" : 13320,
+         "max" : 3.0,
+         "mean" : 0.5648854961832062,
+         "min" : 0.0,
+         "name" : "Cost(HT29_IGF1_s)"
+      },
+      {
+         "count" : 13320,
+         "max" : 3.0,
+         "mean" : 0.5648854961832062,
+         "min" : 0.0,
+         "name" : "Cost(HT29_IGF1_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 7.0,
+         "mean" : 7.0,
+         "min" : 7.0,
+         "name" : "Cost(HT29_TGF)"
+      },
+      {
+         "count" : 70740,
+         "max" : 7.0,
+         "mean" : 7.0,
+         "min" : 7.0,
+         "name" : "Cost(HT29_TGF_m)"
+      },
+      {
+         "count" : 1440,
+         "max" : 7.0,
+         "mean" : 0.1424936386768448,
+         "min" : 0.0,
+         "name" : "Cost(HT29_TGF_s)"
+      },
+      {
+         "count" : 1440,
+         "max" : 7.0,
+         "mean" : 0.1424936386768448,
+         "min" : 0.0,
+         "name" : "Cost(HT29_TGF_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(HT29_AZD)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(HT29_AZD_m)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(HT29_AZD_s)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(HT29_AZD_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "Cost(HT29_IGF1_AZD)"
+      },
+      {
+         "count" : 70740,
+         "max" : 5.0,
+         "mean" : 5.0,
+         "min" : 5.0,
+         "name" : "Cost(HT29_IGF1_AZD_m)"
+      },
+      {
+         "count" : 7992,
+         "max" : 5.0,
+         "mean" : 0.5648854961832062,
+         "min" : 0.0,
+         "name" : "Cost(HT29_IGF1_AZD_s)"
+      },
+      {
+         "count" : 7992,
+         "max" : 5.0,
+         "mean" : 0.5648854961832062,
+         "min" : 0.0,
+         "name" : "Cost(HT29_IGF1_AZD_ms)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(HT29_TGF_AZD)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(HT29_TGF_AZD_m)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(HT29_TGF_AZD_s)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(HT29_TGF_AZD_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(HT29_LY)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(HT29_LY_m)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(HT29_LY_s)"
+      },
+      {
+         "count" : 70740,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(HT29_LY_ms)"
+      },
+      {
+         "count" : 70740,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "Cost(HT29_IGF1_LY)"
+      },
+      {
+         "count" : 70740,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "Cost(HT29_IGF1_LY_m)"
+      },
+      {
+         "count" : 44460,
+         "max" : 1.0,
+         "mean" : 0.6284987277353690,
+         "min" : 0.0,
+         "name" : "Cost(HT29_IGF1_LY_s)"
+      },
+      {
+         "count" : 44460,
+         "max" : 1.0,
+         "mean" : 0.6284987277353690,
+         "min" : 0.0,
+         "name" : "Cost(HT29_IGF1_LY_ms)"
+      },
+      {
+         "count" : 60915,
+         "max" : 6.0,
+         "mean" : 5.166666666666667,
+         "min" : 0.0,
+         "name" : "Cost(HT29_TGF_LY)"
+      },
+      {
+         "count" : 60915,
+         "max" : 6.0,
+         "mean" : 5.166666666666667,
+         "min" : 0.0,
+         "name" : "Cost(HT29_TGF_LY_m)"
+      },
+      {
+         "count" : 2688,
+         "max" : 6.0,
+         "mean" : 0.2279898218829517,
+         "min" : 0.0,
+         "name" : "Cost(HT29_TGF_LY_s)"
+      },
+      {
+         "count" : 2688,
+         "max" : 6.0,
+         "mean" : 0.2279898218829517,
+         "min" : 0.0,
+         "name" : "Cost(HT29_TGF_LY_ms)"
+      }
+   ],
+   "setup" : {
+      "date" : "Thu Nov 12 10:40:23 2015",
+      "s_name" : "HCT116_ps",
+      "select" : "C_HCT116_TGF != 0 AND C_HCT116_AZD_s != 0 AND C_HCT116_TGF_AZD != 0 AND C_HCT116_TGF_LY != 0 AND C_HCT116_LY_s != 0 AND C_HCT116_IGF1 != 0 AND C_HCT116_IGF1_AZD != 0",
+      "size" : 70740
+   }
+}
+

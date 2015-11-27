@@ -26,7 +26,7 @@ tremppi = {
     },
     server_port: 8080,
     server_location: "localhost",
-    getServerAddress: function () {
+    getProjectAddress: function () {
         return "http://" + this.server_location + ":" + this.server_port + "/";
     },
     getDataFile: function (file) {
@@ -69,7 +69,7 @@ tremppi = {
     // Saves the variable to the respective file
     save: function () {
         var content = JSON.stringify(tremppi.data, null, '\t');
-        var url = tremppi.getServerAddress() + "?" + tremppi.data_file;
+        var url = tremppi.getProjectAddress() + "?" + tremppi.data_file;
         $.ajax({
             type: "POST",
             url: url,

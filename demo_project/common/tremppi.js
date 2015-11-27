@@ -28,7 +28,7 @@ tremppi = {
             }
         };
     },
-    getServerAddress: function () {
+    getProjectAddress: function () {
         return "http://" + tremppi.setup.server_location + ":" + tremppi.setup.server_port + "/" + tremppi.project_folder;
     },
     makeDataFilepath: function (filename) {
@@ -43,7 +43,7 @@ tremppi = {
             tremppi.log("no data specified in saveData", "error");
         }
         var content = JSON.stringify(data, null, '\t');
-        var url = tremppi.getServerAddress() + tremppi.makeDataFilepath(filename) + "?save";
+        var url = tremppi.getProjectAddress() + tremppi.makeDataFilepath(filename) + "?save";
         $.ajax({
             type: "POST",
             url: url,
@@ -105,7 +105,7 @@ tremppi = {
         }
     },
     setPage: function() {
-        var url = tremppi.getServerAddress() + tremppi.widget_name + ".html?page";
+        var url = tremppi.getProjectAddress() + tremppi.widget_name + ".html?page";
         $.ajax({
             type: "POST",
             url: url
@@ -298,7 +298,7 @@ tremppi = {
     exit: function () {
         $.ajax({
             type: "POST",
-            url: tremppi.getServerAddress() + '?exit',
+            url: tremppi.getProjectAddress() + '?exit',
             fail: tremppi.postFail,
             success: function(res) { 
                 $('body').html('TREMPPI HAS FINISHED');
@@ -309,7 +309,7 @@ tremppi = {
         var old_name = tremppi.current_object;
         $.ajax({
             type: "POST",
-            url: tremppi.getServerAddress() + tremppi.current_file + '?delete',
+            url: tremppi.getProjectAddress() + tremppi.current_file + '?delete',
             fail: tremppi.postFail,
             success: function(res) { 
                 tremppi.sidebar.remove('file+' + old_name); 
@@ -321,7 +321,7 @@ tremppi = {
         var new_name = $("#select_name").val();
         $.ajax({
             type: "POST",
-            url: tremppi.getServerAddress() + tremppi.current_file+ '?rename+' + new_name,
+            url: tremppi.getProjectAddress() + tremppi.current_file+ '?rename+' + new_name,
             fail: tremppi.postFail,
             success: function(res) { 
                 tremppi.sidebar.insert('files', 'file+' + old_name, {id: 'file+' + new_name, text: new_name}); 

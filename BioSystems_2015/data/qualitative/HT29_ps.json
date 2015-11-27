@@ -1,0 +1,2249 @@
+{
+   "setup" : {
+      "date" : "Thu Nov 12 11:07:40 2015",
+      "s_name" : "HT29_ps",
+      "select" : "C_HT29_IGF1_LY != 0 AND C_HT29_IGF1_AZD != 0 AND C_HT29_TGF != 0 AND C_HT29_AZD_s != 0 AND C_HT29_TGF_LY != 0 AND C_HT29_LY_s != 0 AND C_HT29_IGF1 != 0",
+      "size" : 87690
+   },
+   "values" : [
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>AKT</sub>(LY{0},PI3K{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>AKT</sub>(LY{0},PI3K{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>AKT</sub>(LY{1},PI3K{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>AKT</sub>(LY{1},PI3K{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>AZD</sub>(AZD{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>AZD</sub>(AZD{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.8108108108108109
+            },
+            {
+               "name" : "1",
+               "portion" : 0.1891891891891892
+            }
+         ],
+         "name" : "K<sub>EGFR</sub>(ERK{0},TGFa{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>EGFR</sub>(ERK{0},TGFa{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>EGFR</sub>(ERK{1},TGFa{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.4054054054054054
+            },
+            {
+               "name" : "1",
+               "portion" : 0.5945945945945946
+            }
+         ],
+         "name" : "K<sub>EGFR</sub>(ERK{1},TGFa{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>ERK</sub>(AZD{0},MEK{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>ERK</sub>(AZD{0},MEK{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>ERK</sub>(AZD{1},MEK{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>ERK</sub>(AZD{1},MEK{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7848101265822784
+            },
+            {
+               "name" : "1",
+               "portion" : 0.2151898734177215
+            }
+         ],
+         "name" : "K<sub>GSK3</sub>(AKT{0},ERK{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3544303797468354
+            },
+            {
+               "name" : "1",
+               "portion" : 0.6455696202531646
+            }
+         ],
+         "name" : "K<sub>GSK3</sub>(AKT{0},ERK{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3924050632911392
+            },
+            {
+               "name" : "1",
+               "portion" : 0.6075949367088608
+            }
+         ],
+         "name" : "K<sub>GSK3</sub>(AKT{1},ERK{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>GSK3</sub>(AKT{1},ERK{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>IGFIR</sub>(IGFIR{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>IGFIR</sub>(IGFIR{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.2354430379746835
+            },
+            {
+               "name" : "1",
+               "portion" : 0.7645569620253164
+            }
+         ],
+         "name" : "K<sub>IRS1</sub>(AKT{0},ERK{0},p70S6K{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.6607594936708860
+            },
+            {
+               "name" : "1",
+               "portion" : 0.3392405063291139
+            }
+         ],
+         "name" : "K<sub>IRS1</sub>(AKT{0},ERK{0},p70S6K{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>IRS1</sub>(AKT{0},ERK{1},p70S6K{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.2354430379746835
+            },
+            {
+               "name" : "1",
+               "portion" : 0.7645569620253164
+            }
+         ],
+         "name" : "K<sub>IRS1</sub>(AKT{0},ERK{1},p70S6K{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.6202531645569620
+            },
+            {
+               "name" : "1",
+               "portion" : 0.3797468354430380
+            }
+         ],
+         "name" : "K<sub>IRS1</sub>(AKT{1},ERK{0},p70S6K{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9367088607594937
+            },
+            {
+               "name" : "1",
+               "portion" : 0.06329113924050633
+            }
+         ],
+         "name" : "K<sub>IRS1</sub>(AKT{1},ERK{0},p70S6K{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.1139240506329114
+            },
+            {
+               "name" : "1",
+               "portion" : 0.8860759493670886
+            }
+         ],
+         "name" : "K<sub>IRS1</sub>(AKT{1},ERK{1},p70S6K{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.6202531645569620
+            },
+            {
+               "name" : "1",
+               "portion" : 0.3797468354430380
+            }
+         ],
+         "name" : "K<sub>IRS1</sub>(AKT{1},ERK{1},p70S6K{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>LY</sub>(LY{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>LY</sub>(LY{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>MEK</sub>(RAF{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>MEK</sub>(RAF{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.8333333333333334
+            },
+            {
+               "name" : "1",
+               "portion" : 0.1666666666666667
+            }
+         ],
+         "name" : "K<sub>PI3K</sub>(EGFR{0},IGFIR{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "K<sub>PI3K</sub>(EGFR{0},IGFIR{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "K<sub>PI3K</sub>(EGFR{1},IGFIR{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.1666666666666667
+            },
+            {
+               "name" : "1",
+               "portion" : 0.8333333333333334
+            }
+         ],
+         "name" : "K<sub>PI3K</sub>(EGFR{1},IGFIR{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9189189189189190
+            },
+            {
+               "name" : "1",
+               "portion" : 0.08108108108108109
+            }
+         ],
+         "name" : "K<sub>RAF</sub>(EGFR{0},ERK{0},IGFIR{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.4054054054054054
+            },
+            {
+               "name" : "1",
+               "portion" : 0.5945945945945946
+            }
+         ],
+         "name" : "K<sub>RAF</sub>(EGFR{0},ERK{0},IGFIR{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9189189189189190
+            },
+            {
+               "name" : "1",
+               "portion" : 0.08108108108108109
+            }
+         ],
+         "name" : "K<sub>RAF</sub>(EGFR{0},ERK{1},IGFIR{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7297297297297297
+            },
+            {
+               "name" : "1",
+               "portion" : 0.2702702702702703
+            }
+         ],
+         "name" : "K<sub>RAF</sub>(EGFR{0},ERK{1},IGFIR{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.4864864864864865
+            },
+            {
+               "name" : "1",
+               "portion" : 0.5135135135135135
+            }
+         ],
+         "name" : "K<sub>RAF</sub>(EGFR{1},ERK{0},IGFIR{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.08108108108108109
+            },
+            {
+               "name" : "1",
+               "portion" : 0.9189189189189190
+            }
+         ],
+         "name" : "K<sub>RAF</sub>(EGFR{1},ERK{0},IGFIR{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7567567567567568
+            },
+            {
+               "name" : "1",
+               "portion" : 0.2432432432432433
+            }
+         ],
+         "name" : "K<sub>RAF</sub>(EGFR{1},ERK{1},IGFIR{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3513513513513514
+            },
+            {
+               "name" : "1",
+               "portion" : 0.6486486486486487
+            }
+         ],
+         "name" : "K<sub>RAF</sub>(EGFR{1},ERK{1},IGFIR{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>TGFa</sub>(TGFa{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>TGFa</sub>(TGFa{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7848101265822784
+            },
+            {
+               "name" : "1",
+               "portion" : 0.2151898734177215
+            }
+         ],
+         "name" : "K<sub>p70S6K</sub>(AKT{0},ERK{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3544303797468354
+            },
+            {
+               "name" : "1",
+               "portion" : 0.6455696202531646
+            }
+         ],
+         "name" : "K<sub>p70S6K</sub>(AKT{0},ERK{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3924050632911392
+            },
+            {
+               "name" : "1",
+               "portion" : 0.6075949367088608
+            }
+         ],
+         "name" : "K<sub>p70S6K</sub>(AKT{1},ERK{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>p70S6K</sub>(AKT{1},ERK{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "4",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_IGF1)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "4",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_IGF1_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7966016649560953
+            },
+            {
+               "name" : "4",
+               "portion" : 0.2033983350439047
+            }
+         ],
+         "name" : "Cost(LIM1215_IGF1_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7966016649560953
+            },
+            {
+               "name" : "4",
+               "portion" : 0.2033983350439047
+            }
+         ],
+         "name" : "Cost(LIM1215_IGF1_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "6",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_TGF)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "6",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_TGF_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9279279279279279
+            },
+            {
+               "name" : "6",
+               "portion" : 0.07207207207207207
+            }
+         ],
+         "name" : "Cost(LIM1215_TGF_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9279279279279279
+            },
+            {
+               "name" : "6",
+               "portion" : 0.07207207207207207
+            }
+         ],
+         "name" : "Cost(LIM1215_TGF_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "3",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_AZD)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "3",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_AZD_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7702702702702703
+            },
+            {
+               "name" : "3",
+               "portion" : 0.2297297297297297
+            }
+         ],
+         "name" : "Cost(LIM1215_AZD_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7702702702702703
+            },
+            {
+               "name" : "3",
+               "portion" : 0.2297297297297297
+            }
+         ],
+         "name" : "Cost(LIM1215_AZD_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "6",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_IGF1_AZD)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "6",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_IGF1_AZD_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9317368000912305
+            },
+            {
+               "name" : "6",
+               "portion" : 0.06826319990876953
+            }
+         ],
+         "name" : "Cost(LIM1215_IGF1_AZD_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9317368000912305
+            },
+            {
+               "name" : "6",
+               "portion" : 0.06826319990876953
+            }
+         ],
+         "name" : "Cost(LIM1215_IGF1_AZD_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_TGF_AZD)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_TGF_AZD_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_TGF_AZD_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_TGF_AZD_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_LY)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_LY_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7499144714334588
+            },
+            {
+               "name" : "2",
+               "portion" : 0.2500855285665412
+            }
+         ],
+         "name" : "Cost(LIM1215_LY_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7499144714334588
+            },
+            {
+               "name" : "2",
+               "portion" : 0.2500855285665412
+            }
+         ],
+         "name" : "Cost(LIM1215_LY_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_IGF1_LY)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_IGF1_LY_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_IGF1_LY_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_IGF1_LY_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "5",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_TGF_LY)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "5",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(LIM1215_TGF_LY_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9297981525829627
+            },
+            {
+               "name" : "5",
+               "portion" : 0.07020184741703729
+            }
+         ],
+         "name" : "Cost(LIM1215_TGF_LY_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9297981525829627
+            },
+            {
+               "name" : "5",
+               "portion" : 0.07020184741703729
+            }
+         ],
+         "name" : "Cost(LIM1215_TGF_LY_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "4",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_IGF1)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "4",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_IGF1_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7966016649560953
+            },
+            {
+               "name" : "4",
+               "portion" : 0.2033983350439047
+            }
+         ],
+         "name" : "Cost(HCT116_IGF1_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7966016649560953
+            },
+            {
+               "name" : "4",
+               "portion" : 0.2033983350439047
+            }
+         ],
+         "name" : "Cost(HCT116_IGF1_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "3",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_TGF)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "3",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_TGF_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7801345649446916
+            },
+            {
+               "name" : "3",
+               "portion" : 0.2198654350553085
+            }
+         ],
+         "name" : "Cost(HCT116_TGF_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7801345649446916
+            },
+            {
+               "name" : "3",
+               "portion" : 0.2198654350553085
+            }
+         ],
+         "name" : "Cost(HCT116_TGF_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.2151898734177215
+            },
+            {
+               "name" : "4",
+               "portion" : 0.7848101265822784
+            }
+         ],
+         "name" : "Cost(HCT116_AZD)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.2151898734177215
+            },
+            {
+               "name" : "4",
+               "portion" : 0.7848101265822784
+            }
+         ],
+         "name" : "Cost(HCT116_AZD_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9452046983692554
+            },
+            {
+               "name" : "4",
+               "portion" : 0.05479530163074467
+            }
+         ],
+         "name" : "Cost(HCT116_AZD_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9452046983692554
+            },
+            {
+               "name" : "4",
+               "portion" : 0.05479530163074467
+            }
+         ],
+         "name" : "Cost(HCT116_AZD_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "6",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_IGF1_AZD)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "6",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_IGF1_AZD_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.8601436879917893
+            },
+            {
+               "name" : "6",
+               "portion" : 0.1398563120082107
+            }
+         ],
+         "name" : "Cost(HCT116_IGF1_AZD_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.8601436879917893
+            },
+            {
+               "name" : "6",
+               "portion" : 0.1398563120082107
+            }
+         ],
+         "name" : "Cost(HCT116_IGF1_AZD_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "5",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_TGF_AZD)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "5",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_TGF_AZD_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9886075949367089
+            },
+            {
+               "name" : "5",
+               "portion" : 0.01139240506329114
+            }
+         ],
+         "name" : "Cost(HCT116_TGF_AZD_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9886075949367089
+            },
+            {
+               "name" : "5",
+               "portion" : 0.01139240506329114
+            }
+         ],
+         "name" : "Cost(HCT116_TGF_AZD_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_LY)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_LY_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_LY_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_LY_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_IGF1_LY)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_IGF1_LY_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_IGF1_LY_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_IGF1_LY_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "6",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_TGF_LY)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "6",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HCT116_TGF_LY_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9482723229558673
+            },
+            {
+               "name" : "6",
+               "portion" : 0.05172767704413274
+            }
+         ],
+         "name" : "Cost(HCT116_TGF_LY_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9482723229558673
+            },
+            {
+               "name" : "6",
+               "portion" : 0.05172767704413274
+            }
+         ],
+         "name" : "Cost(HCT116_TGF_LY_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "5",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_IGF1)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "5",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_IGF1_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.8648648648648649
+            },
+            {
+               "name" : "5",
+               "portion" : 0.1351351351351351
+            }
+         ],
+         "name" : "Cost(SW403_IGF1_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.8648648648648649
+            },
+            {
+               "name" : "5",
+               "portion" : 0.1351351351351351
+            }
+         ],
+         "name" : "Cost(SW403_IGF1_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "5",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_TGF)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "5",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_TGF_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9279279279279279
+            },
+            {
+               "name" : "5",
+               "portion" : 0.07207207207207207
+            }
+         ],
+         "name" : "Cost(SW403_TGF_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9279279279279279
+            },
+            {
+               "name" : "5",
+               "portion" : 0.07207207207207207
+            }
+         ],
+         "name" : "Cost(SW403_TGF_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_AZD)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_AZD_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_AZD_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_AZD_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "6",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_IGF1_AZD)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "6",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_IGF1_AZD_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.8601436879917893
+            },
+            {
+               "name" : "6",
+               "portion" : 0.1398563120082107
+            }
+         ],
+         "name" : "Cost(SW403_IGF1_AZD_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.8601436879917893
+            },
+            {
+               "name" : "6",
+               "portion" : 0.1398563120082107
+            }
+         ],
+         "name" : "Cost(SW403_IGF1_AZD_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "4",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_TGF_AZD)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "4",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_TGF_AZD_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7887444406431748
+            },
+            {
+               "name" : "4",
+               "portion" : 0.2112555593568252
+            }
+         ],
+         "name" : "Cost(SW403_TGF_AZD_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7887444406431748
+            },
+            {
+               "name" : "4",
+               "portion" : 0.2112555593568252
+            }
+         ],
+         "name" : "Cost(SW403_TGF_AZD_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_LY)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_LY_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_LY_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_LY_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_IGF1_LY)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_IGF1_LY_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_IGF1_LY_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_IGF1_LY_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "5",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_TGF_LY)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "5",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW403_TGF_LY_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.8953130345535408
+            },
+            {
+               "name" : "5",
+               "portion" : 0.1046869654464591
+            }
+         ],
+         "name" : "Cost(SW403_TGF_LY_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.8953130345535408
+            },
+            {
+               "name" : "5",
+               "portion" : 0.1046869654464591
+            }
+         ],
+         "name" : "Cost(SW403_TGF_LY_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "4",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_IGF1)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "4",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_IGF1_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7966016649560953
+            },
+            {
+               "name" : "4",
+               "portion" : 0.2033983350439047
+            }
+         ],
+         "name" : "Cost(SW480_IGF1_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7966016649560953
+            },
+            {
+               "name" : "4",
+               "portion" : 0.2033983350439047
+            }
+         ],
+         "name" : "Cost(SW480_IGF1_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "7",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_TGF)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "7",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_TGF_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9726308587068081
+            },
+            {
+               "name" : "7",
+               "portion" : 0.02736914129319193
+            }
+         ],
+         "name" : "Cost(SW480_TGF_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9726308587068081
+            },
+            {
+               "name" : "7",
+               "portion" : 0.02736914129319193
+            }
+         ],
+         "name" : "Cost(SW480_TGF_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.2151898734177215
+            },
+            {
+               "name" : "2",
+               "portion" : 0.7848101265822784
+            }
+         ],
+         "name" : "Cost(SW480_AZD)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.2151898734177215
+            },
+            {
+               "name" : "2",
+               "portion" : 0.7848101265822784
+            }
+         ],
+         "name" : "Cost(SW480_AZD_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3053369825521724
+            },
+            {
+               "name" : "2",
+               "portion" : 0.6946630174478275
+            }
+         ],
+         "name" : "Cost(SW480_AZD_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3053369825521724
+            },
+            {
+               "name" : "2",
+               "portion" : 0.6946630174478275
+            }
+         ],
+         "name" : "Cost(SW480_AZD_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "3",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_IGF1_AZD)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "3",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_IGF1_AZD_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.6578857338351010
+            },
+            {
+               "name" : "3",
+               "portion" : 0.3421142661648991
+            }
+         ],
+         "name" : "Cost(SW480_IGF1_AZD_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.6578857338351010
+            },
+            {
+               "name" : "3",
+               "portion" : 0.3421142661648991
+            }
+         ],
+         "name" : "Cost(SW480_IGF1_AZD_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "5",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_TGF_AZD)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "5",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_TGF_AZD_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9050975025658570
+            },
+            {
+               "name" : "5",
+               "portion" : 0.0949024974341430
+            }
+         ],
+         "name" : "Cost(SW480_TGF_AZD_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9050975025658570
+            },
+            {
+               "name" : "5",
+               "portion" : 0.0949024974341430
+            }
+         ],
+         "name" : "Cost(SW480_TGF_AZD_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_LY)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_LY_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_LY_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_LY_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_IGF1_LY)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_IGF1_LY_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_IGF1_LY_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_IGF1_LY_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "6",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_TGF_LY)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "6",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(SW480_TGF_LY_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9297981525829627
+            },
+            {
+               "name" : "6",
+               "portion" : 0.07020184741703729
+            }
+         ],
+         "name" : "Cost(SW480_TGF_LY_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9297981525829627
+            },
+            {
+               "name" : "6",
+               "portion" : 0.07020184741703729
+            }
+         ],
+         "name" : "Cost(SW480_TGF_LY_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "3",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_IGF1)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "3",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_IGF1_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7526513855627780
+            },
+            {
+               "name" : "3",
+               "portion" : 0.2473486144372220
+            }
+         ],
+         "name" : "Cost(HT29_IGF1_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7526513855627780
+            },
+            {
+               "name" : "3",
+               "portion" : 0.2473486144372220
+            }
+         ],
+         "name" : "Cost(HT29_IGF1_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "7",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_TGF)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "7",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_TGF_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9726308587068081
+            },
+            {
+               "name" : "7",
+               "portion" : 0.02736914129319193
+            }
+         ],
+         "name" : "Cost(HT29_TGF_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9726308587068081
+            },
+            {
+               "name" : "7",
+               "portion" : 0.02736914129319193
+            }
+         ],
+         "name" : "Cost(HT29_TGF_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_AZD)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_AZD_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_AZD_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_AZD_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "5",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_IGF1_AZD)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "5",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_IGF1_AZD_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7918804880830197
+            },
+            {
+               "name" : "5",
+               "portion" : 0.2081195119169803
+            }
+         ],
+         "name" : "Cost(HT29_IGF1_AZD_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7918804880830197
+            },
+            {
+               "name" : "5",
+               "portion" : 0.2081195119169803
+            }
+         ],
+         "name" : "Cost(HT29_IGF1_AZD_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_TGF_AZD)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_TGF_AZD_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_TGF_AZD_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_TGF_AZD_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_LY)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_LY_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_LY_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_LY_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_IGF1_LY)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_IGF1_LY_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3783783783783784
+            },
+            {
+               "name" : "1",
+               "portion" : 0.6216216216216216
+            }
+         ],
+         "name" : "Cost(HT29_IGF1_LY_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3783783783783784
+            },
+            {
+               "name" : "1",
+               "portion" : 0.6216216216216216
+            }
+         ],
+         "name" : "Cost(HT29_IGF1_LY_ms)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "6",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_TGF_LY)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "6",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(HT29_TGF_LY_m)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9482723229558673
+            },
+            {
+               "name" : "6",
+               "portion" : 0.05172767704413274
+            }
+         ],
+         "name" : "Cost(HT29_TGF_LY_s)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9482723229558673
+            },
+            {
+               "name" : "6",
+               "portion" : 0.05172767704413274
+            }
+         ],
+         "name" : "Cost(HT29_TGF_LY_ms)"
+      }
+   ]
+}
+

@@ -14,7 +14,7 @@ tremppi.tools.toolbarClick = function (event) {
 };
 
 tremppi.tools.getCommands = function () {
-    var url = tremppi.getServerAddress() + "?getCommands";
+    var url = tremppi.getProjectAddress() + "?getCommands";
     $.ajax({
         type: "GET",
         url: url,
@@ -37,7 +37,7 @@ tremppi.tools.getCommands = function () {
 };
 
 tremppi.tools.killAll = function (command) {
-    var url = tremppi.getServerAddress() + "?killAll";
+    var url = tremppi.getProjectAddress() + "?killAll";
     $.ajax({
         type: "POST",
         url: url,
@@ -53,7 +53,7 @@ tremppi.tools.killAll = function (command) {
 
 
 tremppi.tools.addToQueue = function (command) {
-    var url = tremppi.getServerAddress() + "?tremppi+" + command;
+    var url = tremppi.getProjectAddress() + "?tremppi+" + command;
     $.ajax({
         type: "POST",
         url: url,
@@ -68,7 +68,7 @@ tremppi.tools.addToQueue = function (command) {
 };
 
 tremppi.tools.getProgress = function () {
-    var url = tremppi.getServerAddress() + "?getProgress";
+    var url = tremppi.getProjectAddress() + "?getProgress";
     $.ajax({
         type: "GET",
         url: url,
@@ -87,7 +87,7 @@ tremppi.tools.getProgress = function () {
 };
 
 tremppi.tools.getLog = function () {
-    var url = tremppi.getServerAddress() + "?getLog";
+    var url = tremppi.getProjectAddress() + "?getLog";
     $.ajax({
         type: "GET",
         url: url,

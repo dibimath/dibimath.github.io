@@ -27,7 +27,7 @@ tremppi = {
             }
         };
     },
-    getServerAddress: function () {
+    getProjectAddress: function () {
         return "http://" + tremppi.setup.server_location + ":" + tremppi.setup.server_port + "/";
     },
     makeDataFilepath: function (filename) {
@@ -42,7 +42,7 @@ tremppi = {
             tremppi.log("no data specified in saveData", "error");
         }
         var content = JSON.stringify(data, null, '\t');
-        var url = tremppi.getServerAddress() + "?" + tremppi.makeDataFilepath(filename);
+        var url = tremppi.getProjectAddress() + "?" + tremppi.makeDataFilepath(filename);
         $.ajax({
             type: "POST",
             url: url,
