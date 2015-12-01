@@ -1,1 +1,1 @@
-tremppi.regulations.setup = {"files": ["all", "selected"], "components": ["A", "B"]};
+tremppi.regulations.setup = {"components": ["A", "B"], "files": ["ALL", "fall", "oscillate"]};

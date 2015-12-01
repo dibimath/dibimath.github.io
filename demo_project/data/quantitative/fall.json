@@ -1,0 +1,137 @@
+{
+   "records" : [
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>A</sub>(A{0,1},B{0})"
+      },
+      {
+         "count" : 5,
+         "max" : 2.0,
+         "mean" : 1.333333333333333,
+         "min" : 0.0,
+         "name" : "K<sub>A</sub>(A{0,1},B{1,2})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>A</sub>(A{2},B{0})"
+      },
+      {
+         "count" : 3,
+         "max" : 2.0,
+         "mean" : 0.6666666666666666,
+         "min" : 0.0,
+         "name" : "K<sub>A</sub>(A{2},B{1,2})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(A{0})"
+      },
+      {
+         "count" : 6,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>B</sub>(A{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(oscillateOnB)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Robustness(oscillateOnB)"
+      },
+      {
+         "count" : 6,
+         "max" : 3.0,
+         "mean" : 3.0,
+         "min" : 3.0,
+         "name" : "Cost(fallOnA)"
+      },
+      {
+         "count" : 6,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "Robustness(fallOnA)"
+      },
+      {
+         "count" : 3,
+         "max" : 0.0,
+         "mean" : -0.2427018333333334,
+         "min" : -0.577350,
+         "name" : "Impact(A,2,A)"
+      },
+      {
+         "count" : 5,
+         "max" : 1.0,
+         "mean" : 0.6765390,
+         "min" : 0.0,
+         "name" : "Impact(B,1,A)"
+      },
+      {
+         "count" : 6,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "Impact(A,1,B)"
+      },
+      {
+         "count" : 5,
+         "max" : 0.50,
+         "mean" : 0.250,
+         "min" : 0.0,
+         "name" : "Bias(A)"
+      },
+      {
+         "count" : 6,
+         "max" : 0.50,
+         "mean" : 0.50,
+         "min" : 0.50,
+         "name" : "Bias(B)"
+      },
+      {
+         "count" : 5,
+         "max" : 2.0,
+         "mean" : 1.333333333333333,
+         "min" : 0.0,
+         "name" : "Indigree(A)"
+      },
+      {
+         "count" : 6,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "Indigree(B)"
+      },
+      {
+         "count" : 6,
+         "max" : 3.0,
+         "mean" : 2.333333333333333,
+         "min" : 1.0,
+         "name" : "Indigree(SUM)"
+      }
+   ],
+   "setup" : {
+      "date" : "Tue Dec  1 14:58:03 2015",
+      "s_name" : "fall",
+      "select" : "C_fallOnA != 0",
+      "size" : 6
+   }
+}
+

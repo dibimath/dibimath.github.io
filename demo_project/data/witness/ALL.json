@@ -3,65 +3,56 @@
       "edges" : [
          {
             "data" : {
-               "Frequency" : 0.1666666666666667,
-               "Step" : "2",
+               "Frequency" : 0.06944444444444445,
+               "Step" : "1",
                "id" : "0",
                "source" : "00A",
-               "target" : "01A"
+               "target" : "10B"
             }
          },
          {
             "data" : {
-               "Frequency" : 0.2222222222222222,
-               "Step" : "3",
+               "Frequency" : 0.06944444444444445,
+               "Step" : "4",
                "id" : "1",
                "source" : "01A",
-               "target" : "02A"
-            }
-         },
-         {
-            "data" : {
-               "Frequency" : 0.1666666666666667,
-               "Step" : "1",
-               "id" : "2",
-               "source" : "10A",
                "target" : "00A"
             }
          },
          {
             "data" : {
-               "Frequency" : 0.2222222222222222,
-               "Step" : "1",
-               "id" : "3",
+               "Frequency" : 0.08333333333333333,
+               "Step" : "2",
+               "id" : "2",
                "source" : "10A",
-               "target" : "11A"
+               "target" : "00B"
             }
          },
          {
             "data" : {
-               "Frequency" : 0.1111111111111111,
+               "Frequency" : 0.06944444444444445,
                "Step" : "2",
+               "id" : "3",
+               "source" : "10B",
+               "target" : "11B"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.06944444444444445,
+               "Step" : "3",
                "id" : "4",
-               "source" : "11A",
+               "source" : "11B",
                "target" : "01A"
             }
          },
          {
             "data" : {
-               "Frequency" : 0.1666666666666667,
-               "Step" : "2",
+               "Frequency" : 0.08333333333333333,
+               "Step" : "1",
                "id" : "5",
-               "source" : "11A",
-               "target" : "12A"
-            }
-         },
-         {
-            "data" : {
-               "Frequency" : 0.1666666666666667,
-               "Step" : "3",
-               "id" : "6",
-               "source" : "12A",
-               "target" : "02A"
+               "source" : "20A",
+               "target" : "10A"
             }
          }
       ],
@@ -74,14 +65,14 @@
          },
          {
             "data" : {
-               "Name" : "01",
-               "id" : "01A"
+               "Name" : "00",
+               "id" : "00B"
             }
          },
          {
             "data" : {
-               "Name" : "02",
-               "id" : "02A"
+               "Name" : "01",
+               "id" : "01A"
             }
          },
          {
@@ -92,24 +83,30 @@
          },
          {
             "data" : {
-               "Name" : "11",
-               "id" : "11A"
+               "Name" : "10",
+               "id" : "10B"
             }
          },
          {
             "data" : {
-               "Name" : "12",
-               "id" : "12A"
+               "Name" : "11",
+               "id" : "11B"
+            }
+         },
+         {
+            "data" : {
+               "Name" : "20",
+               "id" : "20A"
             }
          }
       ]
    },
    "setup" : {
-      "date" : "Wed Nov 11 16:27:16 2015",
-      "properties" : "series,",
-      "s_name" : "all",
+      "date" : "Tue Dec  1 14:58:04 2015",
+      "properties" : "oscillateOnB,fallOnA,",
+      "s_name" : "ALL",
       "select" : "1",
-      "size" : 324
+      "size" : 36
    }
 }
 

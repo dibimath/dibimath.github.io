@@ -3,34 +3,34 @@
       "edges" : [
          {
             "data" : {
-               "Frequency" : 0.50,
-               "Pearson" : 0.0,
+               "Frequency" : 0.750,
+               "Pearson" : -0.4883557777777778,
+               "Sign" : "-",
+               "Threshold" : 2,
+               "WeightedFrequency" : 0.4218750,
+               "source" : "A",
+               "target" : "A"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.8333333333333334,
+               "Pearson" : -2.467162276944792e-17,
                "Sign" : "1",
                "Threshold" : 1,
-               "WeightedFrequency" : 0.50,
+               "WeightedFrequency" : 0.4687500000000001,
                "source" : "B",
                "target" : "A"
             }
          },
          {
             "data" : {
-               "Frequency" : 0.8888888888888888,
-               "Pearson" : 4.386066270124075e-17,
-               "Sign" : "1",
+               "Frequency" : 1.0,
+               "Pearson" : 1.0,
+               "Sign" : "+",
                "Threshold" : 1,
-               "WeightedFrequency" : 0.50,
+               "WeightedFrequency" : 1.0,
                "source" : "A",
-               "target" : "B"
-            }
-         },
-         {
-            "data" : {
-               "Frequency" : 0.8888888888888888,
-               "Pearson" : 1.370645709413773e-18,
-               "Sign" : "1",
-               "Threshold" : 2,
-               "WeightedFrequency" : 0.50,
-               "source" : "B",
                "target" : "B"
             }
          }
@@ -51,10 +51,10 @@
       ]
    },
    "setup" : {
-      "date" : "Wed Nov 11 16:27:15 2015",
-      "s_name" : "all",
+      "date" : "Tue Dec  1 14:58:03 2015",
+      "s_name" : "ALL",
       "select" : "1",
-      "size" : 324
+      "size" : 36
    }
 }
 

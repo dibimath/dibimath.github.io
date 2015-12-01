@@ -1,1 +1,1 @@
-tremppi.witness.setup = {"files": ["all", "selected"], "components": ["A", "B"]};
+tremppi.witness.setup = {"components": ["A", "B"], "files": ["ALL", "fall", "oscillate"]};

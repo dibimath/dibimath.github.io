@@ -67,12 +67,39 @@
 			margin: auto;
 			display: block;
 		}
+                div.fifth_fig {
+                    width: calc(100%/5 - 8px);
+                    margin: 1px;
+                    padding: 0px;
+                    display: inline-block;  
+                    vertical-align:top;
+                }
+                div.quater_fig {
+                    width: calc(25% - 8px);
+                    margin: 1px;
+                    padding: 0px;
+                    display: inline-block;  
+                    vertical-align:top;
+                }
+                div.third_fig {
+                    width: calc(100%/3 - 8px);
+                    margin: 1px;
+                    padding: 0px;
+                    display: inline-block;  
+                    vertical-align:top;
+                }
+                img.fig {
+                    border: 1px solid black;
+                    width: 100%;
+                    margin: 0px;
+                    padding: 0px;
+                }
 	</style>
 </head>
 <body>
-    <div class="title">TREMPPI 0.7.0</div>
-    <div class="subtitle">Toolkit for Reverse Engineering of Molecular Pathways through Parameter Identification </div>
-    <div class="subtitle">Last update: 12.11.2015</div>
+    <div class="title">TREMPPI 0.8.0</div>
+    <div class="subtitle">Toolkit for Reverse Engineering of Molecular Pathways via Parameter Identification </div>
+    <div class="subtitle">Last update: 01.12.2015</div>
 
     <div class ="section">Introduction</div>
     <p>
@@ -93,7 +120,7 @@
     </p>
     <div class ="section">Get TREMPPI</div>
     <p>
-        <span class="warning">TREMPPI is currently in Alpha version and the user experience is likely to be rough. 
+        <span class="warning">TREMPPI is currently in Alpha and the user experience is likely to be rough. 
             The developers bear no liability for any problems connected to using the software. </span>
     </p>
     <p>
@@ -187,9 +214,12 @@
 
     <div class="subsection">Control panel</div>
     <p>
-        TREMPPI provides four control panels on the left side of its window:
+        TREMPPI provides five control panels on the left side of its window:
     </p>
     <ul>
+        <li>
+            <span class="lelem">system control</span>The main control buttons are on the top left.
+        </li>
         <li>
             <span class="lelem">projects</span> Left-click on the name of the project to access its files.
         </li>
@@ -204,9 +234,9 @@
             The comparison is generated automatically.
         </li>
         <li>
-            <span class="lelem">controls</span>: For each widget, all the controls that communicate to the server are available here (with the exception of the TOOLS widget). 
-            The SAVE button always saves the state of the current widget. 
-            The project management is available through the INDEX widget, as detailed in Section 4.
+            <span class="lelem">project control</span>: For each widget, all the controls that communicate to the server are available here. 
+            The <span class="code">save</span> button always saves the state of the current widget. 
+            The project management is available through the <span class="code">tools</span> widget, as detailed in Section 4.
 
         </li>
     </ul>
@@ -239,18 +269,18 @@
             The symbol <span class='math'>&rho;(v)</span> denotes the maximum activity of <span class='math'>v</span>.
         </li>
         <li>
-            <span class='math'>Bias(v) &isin; [0.0,1.0]</span> 
+            <span class='math'>bias(v) &isin; [0.0,1.0]</span> 
             denotes how much is the component <span class='math'>v</span> biased towards the lower or higher activity levels.
         </li>
         <li>
-            <span class='math'>Impact(u,t,v) &isin; [-1.0,1.0]</span> 
+            <span class='math'>impact(u,t,v) &isin; [-1.0,1.0]</span> 
             denotes how prominent is the regulation <span class='math'>(u,t,v)</span>.
             Values close to <span class='math'>-1.0</span> denote a strong inhibition, 
             the ones close to <span class='math'>0.0</span> denote weak effect,
             and the ones close to <span class='math'>1.0</span> denote a strong activation. 
         </li>
         <li>
-            <span class='math'>Sign(u,t,v) &isin; {0,+,-,1}</span> 
+            <span class='math'>sign(u,t,v) &isin; {0,+,-,1}</span> 
             is the sign of the  <span class='math'>(u,t,v)</span>. 
             The value <span class='math'>0</span> denotes no effect, 
             the value <span class='math'>+</span> activation, 
@@ -258,12 +288,12 @@
             and the value <span class='math'>1</span> activation and inhibition at once.
         </li>
         <li>
-            <span class='math'>Cost(property) &isin; [0,2147483648]</span> 
+            <span class='math'>cost(property) &isin; [0,2147483648]</span> 
             denotes how many simulation steps it takes to satisfy the <span class='math'>property</span> (see the following section for details).
             The lower the better, however the special value <span class='math'>0</span> means it is not possible at all.
         </li>
         <li>
-            <span class='math'>Robustness(property) &isin; [0.0,1.0]</span> 
+            <span class='math'>robustness(property) &isin; [0.0,1.0]</span> 
             denotes how probably it is that the <span class='math'>property</span> is satisfied.
         </li>
     </ul>
@@ -275,10 +305,34 @@
         There are three model checking functions:
     </p>
     <ul>
-        <li><span class='lelem'>cost:</span> creates the <span class='math'>Cost(property)</span> label for each selected <span class='math'>property</span>. If the label value is non-zero, the property is satisfied.</li>
-        <li><span class='lelem'>robustness:</span> creates the <span class='math'>Robustness(property)</span> label.</li>
+        <li><span class='lelem'>cost:</span> creates the <span class='math'>cost(property)</span> label for each selected <span class='math'>property</span>. If the label value is non-zero, the property is satisfied.</li>
+        <li><span class='lelem'>robustness:</span> creates the <span class='math'>robustness(property)</span> label.</li>
         <li><span class='lelem'>trace:</span> stores the traces for satisfiable properties. There are not listed anywhere, but are used and required by the witness tool.</li>
     </ul>
+    <div class="quater_fig">
+        <img src="/TREMPPI/assets/open_STG.png" class="fig" alt="demonstration of an open ending"/>
+        <p>A transition system of 4 Boolean components. 
+            A path of <span class='math'>cost = 3</span> for the property with <span class='math'>M1 = (1,1,1,*)</span> and <span class='math'>M2 = (*,0,0,*)</span> and <span class='math'>open</span> ending.
+        </p>
+    </div>
+    <div class="quater_fig">
+        <img src="/TREMPPI/assets/stable_STG.png" class="fig" alt="demonstration of a stable ending"/>
+        <p>The same property as on the left, however this time with the <span class='math'>stable</span> ending.
+        </p>
+    </div>
+    <div class="quater_fig">
+        <img src="/TREMPPI/assets/cyclic_STG.png" class="fig" alt="demonstration of a cyclic ending"/>
+        <p>The same property as on the left, however this time with the <span class='math'>cyclic</span> ending.
+        </p>
+    </div>
+    <div class="quater_fig">
+        <img src="/TREMPPI/assets/monotone_STG.png" class="fig" style="width: 75%; text-align: center;" alt="demonstration of monotonicity ending"/>
+        <p>The property <span class='math'>M1 = (1,1,0,1)</span>, <span class='math'>M2 = (1,0,0,*)</span>, and <span class='math'>M3 = (0,0,0,1)</span> 
+            and monotonicity in all components.
+            The red path shows a trace that will not be accepted, because the fourth component is not monotonous between <span class='math'>M2)</span> and <span class='math'>M3</span>.
+            The green path is monotonous and will be accepted.
+        </p>
+    </div>
 
     <div class="subsection">Tables</div>
     <p>
@@ -333,23 +387,14 @@
     <div class="subsection">Index</div>
     <p>
         This is the entry point of a project. 
-        The purpose of this widget is documentation and project manipulation.
-        If TREMPPI is started in folder of a particular project, only the <i>SAVE</i> button is available.
-        If TREMPPI is started in a folder containing folders of other projects, then the following project controls are available:
-    </p>
-    <ol>
-        <li><span class="lelem">name field</span>:</i> Enter a new name into this field to rename the project.</li>
-        <li><span class="lelem">CLONE</span>:</i> Creates a new project with the exact contents of this one.</li>
-        <li><span class="lelem">RENAME</span>:</i> Changes the name of the project.</li>
-        <li><span class="lelem">DELETE</span>:</i> Removes the project and all its data.</li>
-    </ol>
+        The purpose of this widget is purely for documentation. The <span class="code">save</span> button stores the current content of the editable textfield.
     <div class="subsection">Editor</div>
     <p>
         The editor is used to create the regulatory network, see <a href="#klarner12a">[3]</a> for details. 
     </p>
     <ul>
-        <li>To create a component, click the <i>NEW</i> button and then empty space.</li>
-        <li>To create a regulation, click the <i>NEW</i> button, then the source component and lastly the target component.</li>
+        <li>To create a component, click the <span class='code'>new</span> button and then empty space.</li>
+        <li>To create a regulation, click the <span class='code'>new</span> button, then the source component and lastly the target component.</li>
         <li>The component has a Name and a Maximal Activity Level.
             When you select a component, these appear on the top of the page, where the value can be replaced.</li>
         <li>Similarly, after selecting an edge, the Threshold value and the edge Label can be selected. The meaning of the labels is explained in detail in <a href="#klarner14a">[4]</a></li>.
@@ -368,7 +413,7 @@
     <ol>
         <li> <span class="code">X</span> either an integer or a floating point number with delimited by the dot symbol (<span class="code">.</span>). 
             In such a case, all parametrizations must have the value of the label, i.e. it is required that <span class="code">l = X</span>.
-            For example we can require that <span class="code">K<sub>A</sub>(0) = 0</span> or that <span class="code">Bias(A) = 0.5</span>.
+            For example we can require that <span class="code">K<sub>A</sub>(0) = 0</span> or that <span class="code">bias(A) = 0.5</span>.
         </li>
         <li> <span class="code">!X</span> is an addition to the condition (1) that states its opposite, i.e. <span class="code">l &ne; X</span> in all the parametrizations.
         </li>
@@ -431,7 +476,7 @@
             for details see <a href="#streck15b">[5]</a>.
         </li>
     </ol>
-    <div class="subsection">Reporting tools:</div>
+    <div class="subsection">Reports:</div>
     There are currently 5 reporting widgets available. 
     As a reminder, each widget has a list of reports displayed in the control panel and three panes: the left selection, the comparison, and the right selection.
     The left selection is populated by a left click, the right by a right click and the comparison is created automatically. 
@@ -480,18 +525,32 @@
             The report has again the relative button, projecting the width of the edges to normalized boundaries.
         </li>
     </ol>
-    <div class="subsection">Tools</div>
+    <div class="subsection">Tools: project control</div>
     <p>
-        Except for the project controls, this is the only widget that communicates with the server and is responsible for management of the individual tools. 
-        There are currently 4 classes of tools:
+        This widget is responsible for management of the individual tools and for the project control. 
+        The project controls are available only if TREMPPI is started from a folder that contains a subfolder with a TREMPPI project. 
+        This is true if TREMPPI is started with no parameters.
+        The project controls are:
+    </p>
+    <ol>
+        <li><span class="lelem">CLONE</span>: Creates a new project with the exact contents of this one.</li>
+        <li><span class="lelem">RENAME</span>: Changes the name of the project.</li>
+        <li><span class="lelem">DELETE</span>: Removes the project and all its data.</li>
+        <li><span class="lelem">FINALIZE</span>: Removes all control from the project and metafiles, making it suitable for distribution.</li>
+    </ol>
+    <div class="subsection">Tools: computational tools</div>
+    <p>
+        There are currently 5 classes of tools:
     </p>
     <ol>
         <li><span class="lelem">Enumeration:</span> the spawn tool is necessary for all the other tools and should be called as soon as the network editing is finished.</li>
-        <li><span class="lelem">Labels:</span> the tools that label individual tools.</li>
+        <li><span class="lelem">Static Labels:</span> the tools that label the individual models based on the parameter values. These are fast to compute.</li>
+        <li><span class="lelem">Dynamic Labels:</span> the tools that label the individual models based on the properties. These are slow to compute.</li>
         <li><span class="lelem">Reports:</span> the statistical analysis tools.</li>
-        <li><span class="lelem">Utility:</span> two additional tools for maintenance. 
+        <li><span class="lelem">Utility:</span> three additional tools for maintenance. 
             The <span class="code">update</span> tool updates the current project to the latest available version.
             The <span class="code">configure</span> tool refreshes the configuration of the widgets, mainly the columns of the individual tables, which however should always happen automatically.
+            The <span class="code">clean</span> this tool removes all the computed data.
         </li>
     </ol>
     <p>
@@ -515,7 +574,7 @@
         <li>bias: for each component its bias is computed.</li>
         <li>impact: for each regulation its impact is computed.</li>
         <li>validate: this tool is dependent on the properties. 
-            For each selected property its Cost is computed, with optional Robustness and Witness computation.
+            For each selected property its cost is computed, with optional robustness and Witness computation.
             This is detailed in the description of the properties widget.</li>
         <li>correlations: creates a graph with correlations between the individual components in the sample.</li>
         <li>regulations: based on the impact infers a regulatory graph from the parametrizations set.</li>

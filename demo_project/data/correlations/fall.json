@@ -1,0 +1,42 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "B",
+               "target" : "A"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "Bias" : 0.250,
+               "Max" : 2,
+               "Mean" : 0.250,
+               "Std" : 0.1613743060919757,
+               "id" : "A",
+               "name" : "A"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "B",
+               "name" : "B"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Tue Dec  1 14:58:02 2015",
+      "s_name" : "fall",
+      "select" : "C_fallOnA != 0",
+      "size" : 6
+   }
+}
+

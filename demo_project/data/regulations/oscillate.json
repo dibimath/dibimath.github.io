@@ -1,0 +1,60 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Frequency" : 0.60,
+               "Pearson" : -0.29124220,
+               "Sign" : "-",
+               "Threshold" : 2,
+               "WeightedFrequency" : 0.33750,
+               "source" : "A",
+               "target" : "A"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : -0.81184680,
+               "Sign" : "-",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.56250,
+               "source" : "B",
+               "target" : "A"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 1.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "A",
+               "target" : "B"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "id" : "A",
+               "name" : "A"
+            }
+         },
+         {
+            "data" : {
+               "id" : "B",
+               "name" : "B"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Tue Dec  1 14:58:03 2015",
+      "s_name" : "oscillate",
+      "select" : "C_oscillateOnB != 0",
+      "size" : 5
+   }
+}
+

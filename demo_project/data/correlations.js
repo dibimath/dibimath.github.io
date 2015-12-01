@@ -1,1 +1,1 @@
-tremppi.correlations.setup = {"files": ["all", "selected"], "components": ["A", "B"]};
+tremppi.correlations.setup = {"components": ["A", "B"], "files": ["ALL", "fall", "oscillate"]};
