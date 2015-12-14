@@ -2,104 +2,104 @@
 <head>
     <title>TREMPPI tool documentation</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
-	<style>
-		div.title {
-			text-align: center;
-			font-weight: bold;
-			font-size: 30pt;
-			counter-reset: section;
-		}
+    <style>
+        div.title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 30pt;
+            counter-reset: section;
+        }
 
-		div.subtitle {
-			text-align: center;
-			font-size: 16pt;
-			margin-bottom: 16pt;
-		}
+        div.subtitle {
+            text-align: center;
+            font-size: 16pt;
+            margin-bottom: 16pt;
+        }
 
-		div.section {
-			font-size: 26pt;
-			font-variant: small-caps;
-			counter-reset: subsection;
-			counter-increment: section;
-		}
+        div.section {
+            font-size: 26pt;
+            font-variant: small-caps;
+            counter-reset: subsection;
+            counter-increment: section;
+        }
 
-		div.section:before {
-			content: counter(section) ".\0000a0\0000a0";
-		}
+        div.section:before {
+            content: counter(section) ".\0000a0\0000a0";
+        }
 
-		div.subsection {
-			font-size: 18pt;
-			font-variant: small-caps;
-			counter-increment: subsection;
-		}
+        div.subsection {
+            font-size: 18pt;
+            font-variant: small-caps;
+            counter-increment: subsection;
+        }
 
-		div.subsection:before {
-			content: counter(section) "." counter(subsection) ".\0000a0\0000a0";
-		}
+        div.subsection:before {
+            content: counter(section) "." counter(subsection) ".\0000a0\0000a0";
+        }
 
-		span.warning {
-			color: #ae2527
-		}
+        span.warning {
+            color: #ae2527
+        }
 
-		p.code {
-			font-family: monospace;
-			padding: 5pt 5pt 5pt 25pt;
-			background-color: #DDDDDD
-		}
+        p.code {
+            font-family: monospace;
+            padding: 5pt 5pt 5pt 25pt;
+            background-color: #DDDDDD
+        }
 
-		span.code {
-			font-family: monospace;
-			background-color: #DDDDDD;
-			padding: 0pt  5pt ;
-		}
+        span.code {
+            font-family: monospace;
+            background-color: #DDDDDD;
+            padding: 0pt  5pt ;
+        }
 
-		span.math {
-			font-style: italic;
-			font-family: serif;
-		}
+        span.math {
+            font-style: italic;
+            font-family: serif;
+        }
 
-		span.lelem {
-			font-weight: bold;
-		}
+        span.lelem {
+            font-weight: bold;
+        }
 
-		#dependencies {
-			width: 700pt;
-			margin: auto;
-			display: block;
-		}
-                div.fifth_fig {
-                    width: calc(100%/5 - 8px);
-                    margin: 1px;
-                    padding: 0px;
-                    display: inline-block;  
-                    vertical-align:top;
-                }
-                div.quater_fig {
-                    width: calc(25% - 8px);
-                    margin: 1px;
-                    padding: 0px;
-                    display: inline-block;  
-                    vertical-align:top;
-                }
-                div.third_fig {
-                    width: calc(100%/3 - 8px);
-                    margin: 1px;
-                    padding: 0px;
-                    display: inline-block;  
-                    vertical-align:top;
-                }
-                img.fig {
-                    border: 1px solid black;
-                    width: 100%;
-                    margin: 0px;
-                    padding: 0px;
-                }
-	</style>
+        #dependencies {
+            width: 700pt;
+            margin: auto;
+            display: block;
+        }
+        div.fifth_fig {
+            width: calc(100%/5 - 8px);
+            margin: 1px;
+            padding: 0px;
+            display: inline-block;  
+            vertical-align:top;
+        }
+        div.quater_fig {
+            width: calc(25% - 8px);
+            margin: 1px;
+            padding: 0px;
+            display: inline-block;  
+            vertical-align:top;
+        }
+        div.third_fig {
+            width: calc(100%/3 - 8px);
+            margin: 1px;
+            padding: 0px;
+            display: inline-block;  
+            vertical-align:top;
+        }
+        img.fig {
+            border: 1px solid black;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
 </head>
 <body>
-    <div class="title">TREMPPI 0.8.0</div>
+    <div class="title">TREMPPI 1.0.0</div>
     <div class="subtitle">Toolkit for Reverse Engineering of Molecular Pathways via Parameter Identification </div>
-    <div class="subtitle">Last update: 01.12.2015</div>
+    <div class="subtitle">Last update: 14.12.2015</div>
 
     <div class ="section">Introduction</div>
     <p>
@@ -114,15 +114,11 @@
         This is a computationally very demanding task. To this end we are employing a coarse-grained modelling framework of logical networks, focusing solely on qualitative features of a model.
         For an example of use see <a href="#thobe14a">[2]</a>.
     </p>
-    
+
     <p>
-        For a better perspective, you can examine a <a href="/demo_project/">toy project</a>.
+        For a better perspective, you can examine a <a href="../demo_project/index.html">toy project</a>.
     </p>
     <div class ="section">Get TREMPPI</div>
-    <p>
-        <span class="warning">TREMPPI is currently in Alpha and the user experience is likely to be rough. 
-            The developers bear no liability for any problems connected to using the software. </span>
-    </p>
     <p>
         The easiest way of getting TREMPPI is to download pre-built packages:
     </p>   
@@ -154,18 +150,23 @@
     <!--(if on Linux you get an error of the style "version 'LIBRARY_X.XX' not found", you can try upgrading the specified library via "apt-get install LIBRARY_X.XX").-->
     <p>
         If your system is not in the list, or the binary does not work 
-        (in that case also please consider sharing your experience at esther<img src="/zavinac.png" width="10pt" />fi.muni.cz), 
+        (in that case also please consider sharing your experience at esther<img src="./zavinac.png" width="10pt" />fi.muni.cz), 
         you can try building it from the <a href="https://github.com/xstreck1/TREMPPI">source at GITHUB</a>.
     </p>
-	
-    <div class ="subsection">Update</div>
+    <div class="subsection">License and Liability</div>
+    <p>
+        TREMPPI is distributed under the <a href="http://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPL v3</a> licence. 
+    </p>
+    <p>
+        <span class="warning">TREMPPI is a free software, distributed with no warranties. The developers bear no liability for any problems connected to using the software. </span>
+    </p>
+    <div class ="subsection">Updating</div>
     <p>   
-		To update TREMPPI to a newer version, simply extract the package to your TREMPPI folder. It will replace source files without affecting your projects.
-	
+        To update TREMPPI to a newer version, simply extract the package to your TREMPPI folder. It will replace source files without affecting your projects.
+
     </p>
     <p>   
-		To update a project, open that project in TREMPPI and call the Update tool.
-	
+        To update a project, open that project in TREMPPI and call the <span class="code">update</span> tool. <span class="warning">All the existing projects retain their original version until they are individually updated.</span>
     </p>
     <div class="section">Usage</div>
     <p>
@@ -177,13 +178,13 @@
     </p>    
     <div class="subsection">Tutorial</div>
     <ol>
-        <li><span class="lelem">start TREMPPI</span>: The tool can be started either by double-clicking on the executable named <i>tremppi</i> or from the command line by executing the command from the directory in which it resides.
-            Note that if there is an error stating that a python module is missing, the PYTHONHOME needs to be set as explained above.
+        <li><span class="lelem">start TREMPPI:</span> The tool can be started either by double-clicking on the executable named <span class="code">tremppi</span> or from the command line by executing the command from the directory in which it resides.
+            Note that if there is an error stating that a python module is missing, the <span class="code">PYTHONHOME</span> needs to be set as explained above.
         </li>
-        <li><span class="lelem">open a project</span>: 
+        <li><span class="lelem">open a project:</span> 
             TREMPPI starts with a single project opened on start, called <span class="code">project_0</span>, residing in the list of projects on the left.
             Underneath you can find a list of widgets available to each project.
-            The entry point of each project is the "index" widget. 
+            The entry point of each project is the  <span class="code">index</span> widget. 
             Open it by left-click.
             After opening, you will see a panel with description of the project, which is empty as of now.
             Write arbitrary text to this windows for now, e.g. "Hello World".
@@ -193,7 +194,7 @@
             You can also observe that your text has been saved by pressing the reload button (usually F5). 
             After the page reloads, your text should appear again.
         </li>
-        <li><span class="lelem">build a model</span>: 
+        <li><span class="lelem">build a model:</span> 
             Open the <span class="code">editor</span> widget. Click the <span class="code">Add</span> button on the top and then the grey area underneath.
             A new component will appear. 
             Repeat. 
@@ -203,11 +204,11 @@
             Its name and maximal value appears on the top panel. 
             Write a name instead of the generic <span class="code">New</span> and confirm with enter.
             The name in the graph changes as well.
-            Repeat also for the second component and lastly click the <span class="code">Save</span> button.
+            Repeat also for the second component and lastly click the <span class="code">SAVE</span> button.
         </li>
-        <li><span class="lelem">enumerate parameters</span>: Open the <span class="code">tools</span> widged and click the <span class="code">spawn</span> button.</li>
-        <li><span class="lelem">get basic statistics</span>: Click the <span class="code">qualitative</span> and <span class="code">quantitative</span> buttons.
-        <li><span class="lelem">evaluate</span>: Click the <span class="code">qualitative</span> and <span class="code">quantitative</span> widget on the left. 
+        <li><span class="lelem">enumerate parameters:</span> Open the <span class="code">tools</span> widged and click the <span class="code">spawn</span> button.</li>
+        <li><span class="lelem">get basic statistics:</span> Click the <span class="code">qualitative</span> and <span class="code">quantitative</span> buttons.
+        <li><span class="lelem">evaluate:</span> Click the <span class="code">qualitative</span> and <span class="code">quantitative</span> widget on the left. 
             A new category, called <span class="code">files</span>, appears with a single element, called <span class="code">all</span>.
             Left click it to gain basic knowledge about the parametrization space, concluding your introduction to TREMPPI.
     </ol>
@@ -218,24 +219,24 @@
     </p>
     <ul>
         <li>
-            <span class="lelem">system control</span>The main control buttons are on the top left.
+            <span class="lelem">system control:</span>The main control buttons are on the top left.
         </li>
         <li>
-            <span class="lelem">projects</span> Left-click on the name of the project to access its files.
+            <span class="lelem">projects:</span> Left-click on the name of the project to access its files.
         </li>
         <li>
-            <span class="lelem">widgets</span>: Left-click on the name of the widget to open the widget for the current project.
+            <span class="lelem">widgets:</span> Left-click on the name of the widget to open the widget for the current project.
         </li>
         <li>
-            <span class="lelem">files</span> For the reporting widgets, a list of existing files is available.
+            <span class="lelem">files:</span> For the reporting widgets, a list of existing files is available.
             Each report widget has three parts: left selection, comparison, right selection.
             To pick the left selection, left-click the respective file.
             To pick the right selection, right-click the respective file.
             The comparison is generated automatically.
         </li>
         <li>
-            <span class="lelem">project control</span>: For each widget, all the controls that communicate to the server are available here. 
-            The <span class="code">save</span> button always saves the state of the current widget. 
+            <span class="lelem">project control:</span> For each widget, all the controls that communicate to the server are available here. 
+            The <span class="code">SAVE</span> button always saves the state of the current widget. 
             The project management is available through the <span class="code">tools</span> widget, as detailed in Section 4.
 
         </li>
@@ -310,29 +311,90 @@
         <li><span class='lelem'>trace:</span> stores the traces for satisfiable properties. There are not listed anywhere, but are used and required by the witness tool.</li>
     </ul>
     <div class="quater_fig">
-        <img src="/TREMPPI/assets/open_STG.png" class="fig" alt="demonstration of an open ending"/>
+        <img src="./assets/open_STG.png" class="fig" alt="demonstration of an open ending"/>
         <p>A transition system of 4 Boolean components. 
             A path of <span class='math'>cost = 3</span> for the property with <span class='math'>M1 = (1,1,1,*)</span> and <span class='math'>M2 = (*,0,0,*)</span> and <span class='math'>open</span> ending.
         </p>
     </div>
     <div class="quater_fig">
-        <img src="/TREMPPI/assets/stable_STG.png" class="fig" alt="demonstration of a stable ending"/>
+        <img src="./assets/stable_STG.png" class="fig" alt="demonstration of a stable ending"/>
         <p>The same property as on the left, however this time with the <span class='math'>stable</span> ending.
         </p>
     </div>
     <div class="quater_fig">
-        <img src="/TREMPPI/assets/cyclic_STG.png" class="fig" alt="demonstration of a cyclic ending"/>
+        <img src="./assets/cyclic_STG.png" class="fig" alt="demonstration of a cyclic ending"/>
         <p>The same property as on the left, however this time with the <span class='math'>cyclic</span> ending.
         </p>
     </div>
     <div class="quater_fig">
-        <img src="/TREMPPI/assets/monotone_STG.png" class="fig" style="width: 75%; text-align: center;" alt="demonstration of monotonicity ending"/>
+        <img src="./assets/monotone_STG.png" class="fig" style="width: 75%; text-align: center;" alt="demonstration of monotonicity ending"/>
         <p>The property <span class='math'>M1 = (1,1,0,1)</span>, <span class='math'>M2 = (1,0,0,*)</span>, and <span class='math'>M3 = (0,0,0,1)</span> 
             and monotonicity in all components.
             The red path shows a trace that will not be accepted, because the fourth component is not monotonous between <span class='math'>M2)</span> and <span class='math'>M3</span>.
             The green path is monotonous and will be accepted.
         </p>
     </div>
+    <div class="subsection">Command line</div>
+    <p>   
+        Each of the individual tools of TREMPPI can be executed from the command line. To see the available commands, call
+    </p>
+    <p class="code">tremppi --help</p>
+    <p>   
+        Each of the commands can be then executed by calling:
+    </p>
+    <p class="code">tremppi command [--path path_to_project]</p>
+    <p>   
+        where <span class="code">command</span> is the requested command, and <span class="code">path_to_project</span> is the system path to the project where the tool should be called.
+        If no path is specified, the current directory is used.
+    </p>
+    <p>   
+        Lastly to create a new project from the command line, call
+    </p>
+    <p class="code">tremppi init project_name [--path path_to_folder]</p>   
+
+    <p> 
+        where <span class="code">project_name</span> is the name of the new project and <span class="code">path_to_folder</span> is the location where the project should be created.
+    </p>
+    <div class="subsection">Project structure</div>
+    <p>
+        By default, TREMPPI uses the <span class="code">projects</span> folder in its home folder to store the projects. 
+        This is where <span class="code">project_0</span> is created upon the start of the tool and where all the project data are stored.
+    </p><p>
+        By default, the project folder also contains multiple projects. 
+        It is however possible to use and distribute projects individually. 
+        To this end, TREMPPI can be started from the command line with the command <span class="code">tremppi browse --path project_path</span> 
+        where <span class="code">project_path</span> points to the location of the project of interest.
+        In this case TREMPPI will be started in the single-project mode.
+    </p><p>   
+        If <span class="code">project_path</span> does not point to a folder with a project, but to a folder that holds at least one folder with a TREMPPI project,
+        then TREMPPI will be started in the normal mode, however <span class="code">project_path</span> will replace the default <span class="code">projects</span> folder.
+    </p>
+    <div class="subsection">Publishing</div>
+    <p>
+        Once it is finished, a project can be easily published on-line or shared without any further need for TREMPPI itself.
+        To do so, first remove unnecessary data by pressing the <span class="code">FINALIZE</span> button.
+        <span class="warning">Caution, this is an irreversible action and will make the project immutable.
+            If you want to continue to work on your project, clone it first. </span>
+        After that, navigate to the <span class="code">projects</span> folder---you can distribute the project by copying the containing folder.
+        To view the project, you do not need TREMPPI anymore, and can use one of the following approaches.
+    </p>
+    <ul>
+        <li>
+            Copy the project onto an existing HTTP server, e.g. you University homepage.
+        </li>
+        <li>
+            Start a local HTML server in the project folder. 
+            If Python 2 is available, this can be done by the command <span class="code">python -m SimpleHTTPServer 8080</span>.
+            If Python 3 is available, then by the command <span class="code">python -m http.server 8080</span>.
+        </li>
+        <li>Open the file  <span class="code">index.html</span> in a browser. 
+            This way is not supported by the Google Chrome browser, due to security restrictions. 
+            Other browsers may also cause problem.
+        </li>
+    </ul>
+    <p>
+        Note that a finalized project does not contain any project managements tools anymore, therefore, if the user wishes to remove the project, it must be erased from the system manually.
+    </p>
 
     <div class="subsection">Tables</div>
     <p>
@@ -364,22 +426,6 @@
         </li>
     </ul>
 
-    <div class="subsection">Publishing</div>
-    <p>
-        Once it is finished, a project can be easily published on-line or shared without any further need for TREMPPI itself.
-        To publish the project on a web, simply copy its folder to the target server, it will be immediately available.
-        To share the project, copy the folder too, then it can be viewed in two ways:
-    </p>
-    <ul>
-        <li>Open the file "index.html" in a browser. 
-            This way is not supported by the Google Chrome browser, due to security restrictions. 
-            Possibly some other browsers also may cause problem.
-        </li>
-        <li>
-            Start a local HTML server in the folder, e.g. if Python is available by the command "python SimpleHTTPServer".
-        </li>
-    </ul>
-
     <div class="section">Reference</div>
     <p>
         In this section we detail the individual widgets.
@@ -387,7 +433,7 @@
     <div class="subsection">Index</div>
     <p>
         This is the entry point of a project. 
-        The purpose of this widget is purely for documentation. The <span class="code">save</span> button stores the current content of the editable textfield.
+        The purpose of this widget is purely for documentation. The <span class="code">SAVE</span> button stores the current content of the editable textfield.
     <div class="subsection">Editor</div>
     <p>
         The editor is used to create the regulatory network, see <a href="#klarner12a">[3]</a> for details. 
@@ -397,7 +443,7 @@
         <li>To create a regulation, click the <span class='code'>new</span> button, then the source component and lastly the target component.</li>
         <li>The component has a Name and a Maximal Activity Level.
             When you select a component, these appear on the top of the page, where the value can be replaced.</li>
-        <li>Similarly, after selecting an edge, the Threshold value and the edge Label can be selected. The meaning of the labels is explained in detail in <a href="#klarner14a">[4]</a></li>.
+        <li>Similarly, after selecting an edge, the Threshold value and the edge Label can be selected. The meaning of the labels is explained in detail in <a href="#klarner14a">[4]</a>.</li>
     </ul>
     Note that the changes are applied to graph only after the enter button is pressed.
     <div class="subsection">Select</div>
@@ -449,8 +495,8 @@
         The upper table has the following columns:
     </p>
     <ol>
-        <li><span class="lelem">Name</span>: this name is then referred to for the <span class="math">cost</span> and <span class="math">robustness</span> values.</li> 
-        <li><span class="lelem">Ending</span>: represents how the model should behave after the last measurement. 
+        <li><span class="lelem">Name:</span> this name is then referred to for the <span class="math">cost</span> and <span class="math">robustness</span> values.</li> 
+        <li><span class="lelem">Ending:</span> represents how the model should behave after the last measurement. 
             This can be either left open (<span class='code'>any</span>), or it may be required that it reaches a stable state (<span class='code'>any</span>), 
             or it may be required that from a certain point a measurement gets repeated (<span class='code'>goto x</span>),
             where (<span class='code'>x</span>) is the letter of the measurement that should be repeated, see below.
@@ -464,16 +510,16 @@
         After clicking on a specific property in the upper table, its details are listed in the lower table. The columns are as follows:
     </p>
     <ol>
-        <li><span class="lelem">Id</span>: the index of the measurement. Note that the order of measurements is enforced in the model checking and therefore the order in this table matters.</li> 
-        <li><span class="lelem">Value</span>: the level(s) of the specific component in the measurement. As with the setup, only an integer or integer range is allowed here.</li> 
-        <li><span class="lelem">Delta</span>: the monotonicity/transitivity requirement for the component. The value can be:
+        <li><span class="lelem">Id:</span> the index of the measurement. Note that the order of measurements is enforced in the model checking and therefore the order in this table matters.</li> 
+        <li><span class="lelem">Value:</span> the level(s) of the specific component in the measurement. As with the setup, only an integer or integer range is allowed here.</li> 
+        <li><span class="lelem">Delta:</span> the monotonicity/transitivity requirement for the component. The value can be:
             <ul>
-                <li><span class="code"></span>: no requirement,</li>
-                <li><span class="code">stay</span>: the component must not change its value until the next measurement,</li>
-                <li><span class="code">up</span>: the component must not decrease until the next measurement,</li>
-                <li><span class="code">stay</span>: the component must not increase until the next measurement.</li>
+                <li><span class="code"></span> no requirement,</li>
+                <li><span class="code">stay:</span> the component must not change its value until the next measurement,</li>
+                <li><span class="code">up:</span> the component must not decrease until the next measurement,</li>
+                <li><span class="code">stay:</span> the component must not increase until the next measurement.</li>
             </ul>
-            for details see <a href="#streck15b">[5]</a>.
+            For details see <a href="#streck15b">[5]</a>.
         </li>
     </ol>
     <div class="subsection">Reports:</div>
@@ -533,10 +579,10 @@
         The project controls are:
     </p>
     <ol>
-        <li><span class="lelem">CLONE</span>: Creates a new project with the exact contents of this one.</li>
-        <li><span class="lelem">RENAME</span>: Changes the name of the project.</li>
-        <li><span class="lelem">DELETE</span>: Removes the project and all its data.</li>
-        <li><span class="lelem">FINALIZE</span>: Removes all control from the project and metafiles, making it suitable for distribution.</li>
+        <li><span class="lelem">CLONE:</span> Creates a new project with the exact contents of this one.</li>
+        <li><span class="lelem">RENAME:</span> Changes the name of the project.</li>
+        <li><span class="lelem">DELETE:</span> Removes the project and all its data.</li>
+        <li><span class="lelem">FINALIZE:</span> Removes all control from the project and metafiles, making it suitable for distribution.</li>
     </ol>
     <div class="subsection">Tools: computational tools</div>
     <p>
@@ -556,7 +602,7 @@
     <p>
         There are execution dependences between the tools as illustrated by the following graph:
     </p>
-    <img src="/TREMPPI/assets/dependencies.png" id="dependencies" />
+    <img src="./assets/dependencies.png" id="dependencies" />
     <p>
         Additionally there are two additional panels, one for current progress and the other with log history.
     </p>
@@ -585,7 +631,7 @@
     <ol>
         <li class="reference" id="streck15a"><a href="https://www.academia.edu/12715502/Extensions_for_LTL_model_checking_of_Thomas_networks">A. Streck and H. Siebert. Extensions for LTL model checking of Thomas networks. In: Proceedings of The Strasbourg Spring School on Advances in Systems and Synthetic Biology. Volume 14 (2015) </a></li>
         <li class="reference" id="thobe14a"><a href="http://link.springer.com/chapter/10.1007%2F978-3-319-12982-2_3"> K. Thobe, A. Streck, H. Klarner, H. Siebert. Model Integration and Crosstalk Analysis of Logical Regulatory Networks. In: Computational Methods in Systems Biology. Volume 8859 of Lecture Notes in Computer Science. Springer International Publishing (2014)</a></li>
-        <li class="reference" id="klarner12a"><a href="http://link.springer.com/chapter/10.1007/978-3-642-33636-2_13">H. Klarner, A. Streck, D.Šafránek, J. Kolčák, H. Siebert: Parameter identification and model ranking of Thomas networks. In: Computational Methods for Systems Biology. Volume 7605 of Lecture Notes in Computer Science. Springer Berlin Heidelberg (2012)</a></li>
+        <li class="reference" id="klarner12a"><a href="http://link.springer.com/chapter/10.1007/978-3-642-33636-2_13">H. Klarner, A. Streck, D. &#352;afr&#225;nek, J. Kol&#269;&#225;k, H. Siebert: Parameter identification and model ranking of Thomas networks. In: Computational Methods for Systems Biology. Volume 7605 of Lecture Notes in Computer Science. Springer Berlin Heidelberg (2012)</a></li>
         <li class="reference" id="klarner14a"><a href="http://www.diss.fu-berlin.de/diss/receive/FUDISS_thesis_000000098522?lang=en">H. Klarner. Contributions to the Analysis of Qualitative Models of Regulatory Networks. Dissertation Thesis (2014)</a></li>
         <li class="reference" id="streck15b"><a href="http://link.springer.com/chapter/10.1007%2F978-3-319-23401-4_22"> A. Streck, K. Thobe, H. Siebert. Analysing Cell Line Specific EGFR Signalling via Optimized Automata Based Model Checking. In: Computational Methods in Systems Biology. Volume 9308 of Lecture Notes in Computer Science. Springer International Publishing (2015)</a></li>
     </ol>
