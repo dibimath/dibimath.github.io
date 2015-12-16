@@ -1,0 +1,1 @@
+tremppi.witness.setup = {"components": ["CdiGMP", "MlrA", "YciR", "YdaM", "YegE", "YhjH"], "files": ["all", "relaxed", "strict"]};

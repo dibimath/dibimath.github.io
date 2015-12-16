@@ -1,0 +1,180 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "MlrA",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YciR",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YciR",
+               "target" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YdaM",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YdaM",
+               "target" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YdaM",
+               "target" : "YciR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YegE",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YegE",
+               "target" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YegE",
+               "target" : "YciR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YegE",
+               "target" : "YdaM"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YhjH",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YhjH",
+               "target" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YhjH",
+               "target" : "YciR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YhjH",
+               "target" : "YdaM"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YhjH",
+               "target" : "YegE"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "Bias" : 0.56250,
+               "Max" : 1,
+               "Mean" : 0.56250,
+               "Std" : 0.0,
+               "id" : "CdiGMP",
+               "name" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.3333330,
+               "Max" : 1,
+               "Mean" : 0.3333330,
+               "Std" : 0.0,
+               "id" : "MlrA",
+               "name" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.750,
+               "Max" : 2,
+               "Mean" : 0.750,
+               "Std" : 0.0,
+               "id" : "YciR",
+               "name" : "YciR"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.6666670,
+               "Max" : 1,
+               "Mean" : 0.6666670,
+               "Std" : 0.0,
+               "id" : "YdaM",
+               "name" : "YdaM"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "YegE",
+               "name" : "YegE"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "YhjH",
+               "name" : "YhjH"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Tue Nov 17 11:43:19 2015",
+      "s_name" : "strict",
+      "select" : "C_7b != 0 AND C_2a != 0 AND C_13b = 0 AND C_2b = 0 AND C_8b = 0 AND C_15b != 0 AND C_14a = 0 AND C_11b != 0 AND C_6b = 0 AND C_9a != 0 AND C_10a = 0 AND C_15a = 0 AND C_3a != 0 AND C_4a = 0 AND C_4b != 0 AND C_8a != 0 AND C_5a = 0 AND C_12b != 0 AND C_16a = 0 AND C_1a != 0 AND C_16b != 0 AND C_3b = 0 AND C_10b != 0 AND C_5b != 0 AND C_6a != 0 AND C_13a != 0 AND C_1b != 0 AND C_14b != 0 AND C_7a = 0 AND C_9b != 0 AND C_11a = 0 AND C_12a = 0",
+      "size" : 1
+   }
+}
+

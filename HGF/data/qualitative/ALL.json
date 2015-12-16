@@ -1,0 +1,714 @@
+{
+   "setup" : {
+      "date" : "Thu Oct 15 19:54:50 2015",
+      "s_name" : "ALL",
+      "select" : " WHERE (1)",
+      "size" : 223776
+   },
+   "values" : [
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>Akt</sub>(PDK1{0},PI3K{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "K<sub>Akt</sub>(PDK1{0},PI3K{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "K<sub>Akt</sub>(PDK1{1},PI3K{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>Akt</sub>(PDK1{1},PI3K{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>ERK</sub>(MEK{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>ERK</sub>(MEK{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>Gab1</sub>(Met{0},PI3K{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.6666666666666666
+            },
+            {
+               "name" : "1",
+               "portion" : 0.3333333333333333
+            }
+         ],
+         "name" : "K<sub>Gab1</sub>(Met{0},PI3K{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3333333333333333
+            },
+            {
+               "name" : "1",
+               "portion" : 0.6666666666666666
+            }
+         ],
+         "name" : "K<sub>Gab1</sub>(Met{1},PI3K{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>Gab1</sub>(Met{1},PI3K{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>HGF</sub>(HGF{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>HGF</sub>(HGF{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>MEK</sub>(PDK1{0},Raf1{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3333333333333333
+            },
+            {
+               "name" : "1",
+               "portion" : 0.6666666666666666
+            }
+         ],
+         "name" : "K<sub>MEK</sub>(PDK1{0},Raf1{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.6666666666666666
+            },
+            {
+               "name" : "1",
+               "portion" : 0.3333333333333333
+            }
+         ],
+         "name" : "K<sub>MEK</sub>(PDK1{1},Raf1{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>MEK</sub>(PDK1{1},Raf1{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>Met</sub>(HGF{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>Met</sub>(HGF{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>PAK</sub>(Rac{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>PAK</sub>(Rac{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>PDK1</sub>(PDK1{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>PDK1</sub>(PDK1{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>PI3K</sub>(ERK{0},Gab1{0},Ras{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7857142857142857
+            },
+            {
+               "name" : "1",
+               "portion" : 0.2142857142857143
+            }
+         ],
+         "name" : "K<sub>PI3K</sub>(ERK{0},Gab1{0},Ras{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.6428571428571429
+            },
+            {
+               "name" : "1",
+               "portion" : 0.3571428571428572
+            }
+         ],
+         "name" : "K<sub>PI3K</sub>(ERK{0},Gab1{1},Ras{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.2142857142857143
+            },
+            {
+               "name" : "1",
+               "portion" : 0.7857142857142857
+            }
+         ],
+         "name" : "K<sub>PI3K</sub>(ERK{0},Gab1{1},Ras{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.7857142857142857
+            },
+            {
+               "name" : "1",
+               "portion" : 0.2142857142857143
+            }
+         ],
+         "name" : "K<sub>PI3K</sub>(ERK{1},Gab1{0},Ras{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3571428571428572
+            },
+            {
+               "name" : "1",
+               "portion" : 0.6428571428571429
+            }
+         ],
+         "name" : "K<sub>PI3K</sub>(ERK{1},Gab1{0},Ras{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.2142857142857143
+            },
+            {
+               "name" : "1",
+               "portion" : 0.7857142857142857
+            }
+         ],
+         "name" : "K<sub>PI3K</sub>(ERK{1},Gab1{1},Ras{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>PI3K</sub>(ERK{1},Gab1{1},Ras{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>RSK</sub>(ERK{0},PDK1{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "K<sub>RSK</sub>(ERK{0},PDK1{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "K<sub>RSK</sub>(ERK{1},PDK1{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>RSK</sub>(ERK{1},PDK1{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>Rac</sub>(Gab1{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>Rac</sub>(Gab1{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9054054054054054
+            },
+            {
+               "name" : "1",
+               "portion" : 0.09459459459459460
+            }
+         ],
+         "name" : "K<sub>Raf1</sub>(Akt{0},ERK{0},PAK{0},Ras{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.4729729729729730
+            },
+            {
+               "name" : "1",
+               "portion" : 0.5270270270270270
+            }
+         ],
+         "name" : "K<sub>Raf1</sub>(Akt{0},ERK{0},PAK{0},Ras{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.5270270270270270
+            },
+            {
+               "name" : "1",
+               "portion" : 0.4729729729729730
+            }
+         ],
+         "name" : "K<sub>Raf1</sub>(Akt{0},ERK{0},PAK{1},Ras{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.09459459459459460
+            },
+            {
+               "name" : "1",
+               "portion" : 0.9054054054054054
+            }
+         ],
+         "name" : "K<sub>Raf1</sub>(Akt{0},ERK{0},PAK{1},Ras{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.5270270270270270
+            },
+            {
+               "name" : "1",
+               "portion" : 0.4729729729729730
+            }
+         ],
+         "name" : "K<sub>Raf1</sub>(Akt{0},ERK{1},PAK{0},Ras{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.09459459459459460
+            },
+            {
+               "name" : "1",
+               "portion" : 0.9054054054054054
+            }
+         ],
+         "name" : "K<sub>Raf1</sub>(Akt{0},ERK{1},PAK{0},Ras{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.1283783783783784
+            },
+            {
+               "name" : "1",
+               "portion" : 0.8716216216216216
+            }
+         ],
+         "name" : "K<sub>Raf1</sub>(Akt{0},ERK{1},PAK{1},Ras{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>Raf1</sub>(Akt{0},ERK{1},PAK{1},Ras{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>Raf1</sub>(Akt{1},ERK{0},PAK{0},Ras{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.8716216216216216
+            },
+            {
+               "name" : "1",
+               "portion" : 0.1283783783783784
+            }
+         ],
+         "name" : "K<sub>Raf1</sub>(Akt{1},ERK{0},PAK{0},Ras{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9054054054054054
+            },
+            {
+               "name" : "1",
+               "portion" : 0.09459459459459460
+            }
+         ],
+         "name" : "K<sub>Raf1</sub>(Akt{1},ERK{0},PAK{1},Ras{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.4729729729729730
+            },
+            {
+               "name" : "1",
+               "portion" : 0.5270270270270270
+            }
+         ],
+         "name" : "K<sub>Raf1</sub>(Akt{1},ERK{0},PAK{1},Ras{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9054054054054054
+            },
+            {
+               "name" : "1",
+               "portion" : 0.09459459459459460
+            }
+         ],
+         "name" : "K<sub>Raf1</sub>(Akt{1},ERK{1},PAK{0},Ras{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.4729729729729730
+            },
+            {
+               "name" : "1",
+               "portion" : 0.5270270270270270
+            }
+         ],
+         "name" : "K<sub>Raf1</sub>(Akt{1},ERK{1},PAK{0},Ras{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.5270270270270270
+            },
+            {
+               "name" : "1",
+               "portion" : 0.4729729729729730
+            }
+         ],
+         "name" : "K<sub>Raf1</sub>(Akt{1},ERK{1},PAK{1},Ras{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.09459459459459460
+            },
+            {
+               "name" : "1",
+               "portion" : 0.9054054054054054
+            }
+         ],
+         "name" : "K<sub>Raf1</sub>(Akt{1},ERK{1},PAK{1},Ras{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>Ras</sub>(SOS1{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>Ras</sub>(SOS1{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.6666666666666666
+            },
+            {
+               "name" : "1",
+               "portion" : 0.3333333333333333
+            }
+         ],
+         "name" : "K<sub>SOS1</sub>(Met{0},RSK{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>SOS1</sub>(Met{0},RSK{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>SOS1</sub>(Met{1},RSK{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3333333333333333
+            },
+            {
+               "name" : "1",
+               "portion" : 0.6666666666666666
+            }
+         ],
+         "name" : "K<sub>SOS1</sub>(Met{1},RSK{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(Met_inh)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(siRNA_ERK)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "4",
+               "portion" : 0.9054054054054054
+            },
+            {
+               "name" : "6",
+               "portion" : 0.09459459459459460
+            }
+         ],
+         "name" : "Cost(Mek_inh)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3333333333333333
+            },
+            {
+               "name" : "6",
+               "portion" : 0.6666666666666666
+            }
+         ],
+         "name" : "Cost(PDK1_inh)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3333333333333333
+            },
+            {
+               "name" : "4",
+               "portion" : 0.6036036036036037
+            },
+            {
+               "name" : "6",
+               "portion" : 0.06306306306306306
+            }
+         ],
+         "name" : "Cost(Mek_and_PDK1_inh)"
+      }
+   ]
+}
+

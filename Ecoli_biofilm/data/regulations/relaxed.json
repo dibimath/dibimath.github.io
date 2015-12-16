@@ -1,0 +1,183 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : -0.15079040,
+               "Sign" : "-",
+               "Threshold" : 2,
+               "WeightedFrequency" : 0.5019607843137255,
+               "source" : "YciR",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.7547431999999998,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.5019607843137255,
+               "source" : "YdaM",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.25158080,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.5019607843137255,
+               "source" : "YegE",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : -0.25158080,
+               "Sign" : "-",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.5019607843137255,
+               "source" : "YhjH",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.0,
+               "Sign" : "-",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.6666666666666666,
+               "source" : "YciR",
+               "target" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.0,
+               "Sign" : "+",
+               "Threshold" : 2,
+               "WeightedFrequency" : 0.6666666666666666,
+               "source" : "YciR",
+               "target" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.5714285714285714,
+               "source" : "YdaM",
+               "target" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.7499999999999999,
+               "source" : "CdiGMP",
+               "target" : "YciR"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.0,
+               "Sign" : "-",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "YciR",
+               "target" : "YdaM"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.0,
+               "Sign" : "+",
+               "Threshold" : 2,
+               "WeightedFrequency" : 1.0,
+               "source" : "YciR",
+               "target" : "YdaM"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "YegE",
+               "target" : "YegE"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "YhjH",
+               "target" : "YhjH"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "id" : "CdiGMP",
+               "name" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "id" : "MlrA",
+               "name" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "id" : "YciR",
+               "name" : "YciR"
+            }
+         },
+         {
+            "data" : {
+               "id" : "YdaM",
+               "name" : "YdaM"
+            }
+         },
+         {
+            "data" : {
+               "id" : "YegE",
+               "name" : "YegE"
+            }
+         },
+         {
+            "data" : {
+               "id" : "YhjH",
+               "name" : "YhjH"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Tue Nov 17 11:43:20 2015",
+      "s_name" : "relaxed",
+      "select" : "C_13a != 0 AND C_15b != 0 AND C_9a != 0 AND C_8a != 0 AND C_1a != 0 AND C_11a = 0 AND C_11b != 0 AND C_9b != 0 AND C_3a != 0 AND C_4a = 0 AND C_2a != 0 AND C_1b != 0 AND C_15a = 0 AND C_4b != 0 AND C_6a != 0",
+      "size" : 10
+   }
+}
+

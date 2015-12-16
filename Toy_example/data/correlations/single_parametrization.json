@@ -1,0 +1,42 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "B",
+               "target" : "A"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "A",
+               "name" : "A"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.3750,
+               "Max" : 2,
+               "Mean" : 0.3750,
+               "Std" : 0.0,
+               "id" : "B",
+               "name" : "B"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Wed Dec 16 22:08:53 2015",
+      "s_name" : "single_parametrization",
+      "select" : "K_B_02 = 0 AND K_A_1 = 0 AND K_A_0 = 1 AND K_B_00 = 0 AND K_B_10 = 2 AND K_B_12 = 1",
+      "size" : 1
+   }
+}
+

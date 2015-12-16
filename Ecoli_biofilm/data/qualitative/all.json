@@ -1,0 +1,1419 @@
+{
+   "setup" : {
+      "date" : "Tue Nov 17 11:43:19 2015",
+      "s_name" : "all",
+      "select" : "1",
+      "size" : 228
+   },
+   "values" : [
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "K<sub>CdiGMP</sub>(YciR{0,1},YdaM{0},YegE{0},YhjH{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9210526315789473
+            },
+            {
+               "name" : "1",
+               "portion" : 0.07894736842105263
+            }
+         ],
+         "name" : "K<sub>CdiGMP</sub>(YciR{0,1},YdaM{0},YegE{0},YhjH{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.07894736842105263
+            },
+            {
+               "name" : "1",
+               "portion" : 0.9210526315789473
+            }
+         ],
+         "name" : "K<sub>CdiGMP</sub>(YciR{0,1},YdaM{0},YegE{1},YhjH{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "K<sub>CdiGMP</sub>(YciR{0,1},YdaM{0},YegE{1},YhjH{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.07894736842105263
+            },
+            {
+               "name" : "1",
+               "portion" : 0.9210526315789473
+            }
+         ],
+         "name" : "K<sub>CdiGMP</sub>(YciR{0,1},YdaM{1},YegE{0},YhjH{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "K<sub>CdiGMP</sub>(YciR{0,1},YdaM{1},YegE{0},YhjH{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>CdiGMP</sub>(YciR{0,1},YdaM{1},YegE{1},YhjH{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.07894736842105263
+            },
+            {
+               "name" : "1",
+               "portion" : 0.9210526315789473
+            }
+         ],
+         "name" : "K<sub>CdiGMP</sub>(YciR{0,1},YdaM{1},YegE{1},YhjH{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9210526315789473
+            },
+            {
+               "name" : "1",
+               "portion" : 0.07894736842105263
+            }
+         ],
+         "name" : "K<sub>CdiGMP</sub>(YciR},YdaM{0},YegE{0},YhjH{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>CdiGMP</sub>(YciR},YdaM{0},YegE{0},YhjH{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "K<sub>CdiGMP</sub>(YciR},YdaM{0},YegE{1},YhjH{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9210526315789473
+            },
+            {
+               "name" : "1",
+               "portion" : 0.07894736842105263
+            }
+         ],
+         "name" : "K<sub>CdiGMP</sub>(YciR},YdaM{0},YegE{1},YhjH{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "K<sub>CdiGMP</sub>(YciR},YdaM{1},YegE{0},YhjH{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9210526315789473
+            },
+            {
+               "name" : "1",
+               "portion" : 0.07894736842105263
+            }
+         ],
+         "name" : "K<sub>CdiGMP</sub>(YciR},YdaM{1},YegE{0},YhjH{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.07894736842105263
+            },
+            {
+               "name" : "1",
+               "portion" : 0.9210526315789473
+            }
+         ],
+         "name" : "K<sub>CdiGMP</sub>(YciR},YdaM{1},YegE{1},YhjH{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "K<sub>CdiGMP</sub>(YciR},YdaM{1},YegE{1},YhjH{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "K<sub>MlrA</sub>(YciR{0},YdaM{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>MlrA</sub>(YciR{0},YdaM{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>MlrA</sub>(YciR{1},YdaM{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "K<sub>MlrA</sub>(YciR{1},YdaM{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "K<sub>MlrA</sub>(YciR},YdaM{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>MlrA</sub>(YciR},YdaM{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>YciR</sub>(CdiGMP{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>YciR</sub>(CdiGMP{1,2})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>YdaM</sub>(YciR{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>YdaM</sub>(YciR{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>YdaM</sub>(YciR})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>YegE</sub>(YegE{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>YegE</sub>(YegE{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>YhjH</sub>(YhjH{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>YhjH</sub>(YhjH{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(2a)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(2b)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.07894736842105263
+            },
+            {
+               "name" : "2",
+               "portion" : 0.9210526315789473
+            }
+         ],
+         "name" : "Cost(3a)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9210526315789473
+            },
+            {
+               "name" : "1",
+               "portion" : 0.07894736842105263
+            }
+         ],
+         "name" : "Cost(3b)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9605263157894737
+            },
+            {
+               "name" : "2",
+               "portion" : 0.03947368421052631
+            }
+         ],
+         "name" : "Cost(4a)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.4605263157894737
+            },
+            {
+               "name" : "1",
+               "portion" : 0.5394736842105263
+            }
+         ],
+         "name" : "Cost(4b)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9210526315789473
+            },
+            {
+               "name" : "2",
+               "portion" : 0.07894736842105263
+            }
+         ],
+         "name" : "Cost(5a)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.07894736842105263
+            },
+            {
+               "name" : "1",
+               "portion" : 0.9210526315789473
+            }
+         ],
+         "name" : "Cost(5b)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(6a)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(6b)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "2",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "Cost(7a)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "Cost(7b)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(8a)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(8b)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "2",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "Cost(9a)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "Cost(9b)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.750
+            },
+            {
+               "name" : "2",
+               "portion" : 0.250
+            }
+         ],
+         "name" : "Cost(10a)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.6710526315789473
+            },
+            {
+               "name" : "1",
+               "portion" : 0.3289473684210527
+            }
+         ],
+         "name" : "Cost(10b)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(11a)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.07894736842105263
+            },
+            {
+               "name" : "1",
+               "portion" : 0.9210526315789473
+            }
+         ],
+         "name" : "Cost(11b)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "2",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "Cost(12a)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "Cost(12b)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(13a)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(13b)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "2",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "Cost(14a)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "Cost(14b)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9605263157894737
+            },
+            {
+               "name" : "2",
+               "portion" : 0.03947368421052631
+            }
+         ],
+         "name" : "Cost(15a)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.4605263157894737
+            },
+            {
+               "name" : "1",
+               "portion" : 0.5394736842105263
+            }
+         ],
+         "name" : "Cost(15b)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "2",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "Cost(16a)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "Cost(16b)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YdaM|YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YdaM|YdaM&!YhjH|YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YdaM|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YdaM|YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YegE|YciR{01}&YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YegE|YciR{01}&YdaM|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YegE|YciR{01}&YdaM|YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YegE|YciR{01}&YdaM|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YegE|YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YegE|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YegE|YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YegE|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YegE|YegE&!YhjH|YciR{01}&YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YegE|YegE&!YhjH|YciR{01}&YdaM|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YegE|YegE&!YhjH|YciR{01}&YdaM|YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YegE|YegE&!YhjH|YciR{01}&YdaM|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YegE|YegE&!YhjH|YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YegE|YegE&!YhjH|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YegE|YegE&!YhjH|YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YciR{01}&YegE|YegE&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YdaM&!YhjH|YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YegE&!YhjH|YciR{01}&YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YegE&!YhjH|YciR{01}&YdaM|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YegE&!YhjH|YciR{01}&YdaM|YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YegE&!YhjH|YciR{01}&YdaM|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YegE&!YhjH|YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YegE&!YhjH|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YegE&!YhjH|YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YegE&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&!YhjH|YegE|YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&!YhjH|YciR{01}&YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&!YhjH|YciR{01}&YdaM&YegE|YdaM&YegE&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&!YhjH|YciR{01}&YdaM&YegE|YegE&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&!YhjH|YciR{01}&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&!YhjH|YciR{01}&YegE|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&!YhjH|YciR{01}&YegE|YegE&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&!YhjH|YciR{01}&YegE|YegE&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&!YhjH|YdaM&YegE&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&!YhjH|YdaM&YegE&!YhjH|YciR{01}&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&!YhjH|YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&!YhjH|YegE&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&!YhjH|YegE&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&YegE&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&YegE|!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&YegE|YciR{01}&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&YegE|YciR{01}&!YhjH|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&YegE|YciR{01}&!YhjH|YegE&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&YegE|YciR{01}&!YhjH|YegE&!YhjH|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&YegE|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&YegE|YdaM&YegE&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&YegE|YdaM&YegE&!YhjH|YciR{01}&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&YegE|YegE&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM&YegE|YegE&!YhjH|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM|!YhjH|YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM|YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM|YdaM&!YhjH|YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YdaM|YdaM&YegE|!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YciR{01}&YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YciR{01}&YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YciR{01}&YdaM&!YhjH|YciR{01}&YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YciR{01}&YdaM&!YhjH|YciR{01}&YdaM&YegE|YdaM&YegE&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YciR{01}&YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YciR{01}&YdaM&!YhjH|YdaM&YegE&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YciR{01}&YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YciR{01}&YdaM&YegE|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YciR{01}&YdaM&YegE|YdaM&YegE&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YciR{01}&YdaM|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YciR{01}&YdaM|YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YciR{01}&YdaM|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YdaM&YegE&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE&!YhjH|YdaM&YegE&!YhjH|YciR{01}&YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE|!YhjH|YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE|YciR{01}&YdaM|!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE|YciR{01}&YdaM|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE|YciR{01}&YdaM|YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE|YciR{01}&YdaM|YdaM&YegE|!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE|YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE|YdaM&YegE|!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE|YegE&!YhjH|YciR{01}&YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE|YegE&!YhjH|YciR{01}&YdaM|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE|YegE&!YhjH|YciR{01}&YdaM|YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE|YegE&!YhjH|YciR{01}&YdaM|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE|YegE&!YhjH|YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE|YegE&!YhjH|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE|YegE&!YhjH|YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}&YegE|YegE&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YciR{01}|!YhjH|YegE|YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YdaM&!YhjH|YciR{01}|YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YdaM&!YhjH|YdaM&YegE|YciR{01}",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YdaM&YegE&!YhjH|YciR{01}",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YdaM&YegE&!YhjH|YciR{01}&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YdaM&YegE&!YhjH|YciR{01}&!YhjH|YciR{01}&YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YdaM&YegE&!YhjH|YciR{01}&!YhjH|YciR{01}&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YdaM&YegE&!YhjH|YciR{01}&!YhjH|YciR{01}&YegE|YciR{01}&YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YdaM&YegE&!YhjH|YciR{01}&YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YdaM&YegE&!YhjH|YciR{01}&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YdaM&YegE&!YhjH|YciR{01}&YegE|YciR{01}&YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YdaM&YegE|YciR{01}|!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YegE&!YhjH|YciR{01}&YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YegE&!YhjH|YciR{01}&YdaM|YdaM&!YhjH",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YegE&!YhjH|YciR{01}&YdaM|YdaM&!YhjH|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YegE&!YhjH|YciR{01}&YdaM|YdaM&YegE",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YegE&!YhjH|YciR{01}|YdaM",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YegE&!YhjH|YdaM&!YhjH|YciR{01}",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YegE&!YhjH|YdaM&!YhjH|YdaM&YegE|YciR{01}",
+               "portion" : 0.008771929824561403
+            },
+            {
+               "name" : "YegE&!YhjH|YdaM&YegE|YciR{01}",
+               "portion" : 0.008771929824561403
+            }
+         ],
+         "name" : "F<sub>CdiGMP</sub>"
+      },
+      {
+         "data" : [
+            {
+               "name" : "YciR{02}&YdaM",
+               "portion" : 0.50
+            },
+            {
+               "name" : "YciR{02}|YdaM",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "F<sub>MlrA</sub>"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1&!CdiGMP|2&CdiGMP",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "F<sub>YciR</sub>"
+      },
+      {
+         "data" : [
+            {
+               "name" : "YciR{02}",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "F<sub>YdaM</sub>"
+      },
+      {
+         "data" : [
+            {
+               "name" : "YegE",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "F<sub>YegE</sub>"
+      },
+      {
+         "data" : [
+            {
+               "name" : "YhjH",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "F<sub>YhjH</sub>"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "2",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "Cost(1a)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.50
+            },
+            {
+               "name" : "1",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "Cost(1b)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "-",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Sign(YciR,2,CdiGMP)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "+",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Sign(YdaM,1,CdiGMP)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "+",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Sign(YegE,1,CdiGMP)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "-",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Sign(YhjH,1,CdiGMP)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "4",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Indigree(CdiGMP)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "-",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Sign(YciR,1,MlrA)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "+",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Sign(YciR,2,MlrA)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "+",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Sign(YdaM,1,MlrA)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "3",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Indigree(MlrA)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "+",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Sign(CdiGMP,1,YciR)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Indigree(YciR)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "-",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Sign(YciR,1,YdaM)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "+",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Sign(YciR,2,YdaM)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Indigree(YdaM)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "+",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Sign(YegE,1,YegE)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Indigree(YegE)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "+",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Sign(YhjH,1,YhjH)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Indigree(YhjH)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "12",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Indigree(SUM)"
+      }
+   ]
+}
+

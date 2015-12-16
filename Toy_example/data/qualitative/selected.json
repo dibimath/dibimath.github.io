@@ -1,0 +1,202 @@
+{
+   "setup" : {
+      "date" : "Wed Dec 16 22:08:54 2015",
+      "s_name" : "selected",
+      "select" : "S_B_2_B = 0 AND R_series = 1 AND C_series = 4",
+      "size" : 5
+   },
+   "values" : [
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.60
+            },
+            {
+               "name" : "1",
+               "portion" : 0.40
+            }
+         ],
+         "name" : "K<sub>A</sub>(B{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>A</sub>(B{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>B</sub>(A{0},B{0,1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>B</sub>(A{0},B{2})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.20
+            },
+            {
+               "name" : "1",
+               "portion" : 0.40
+            },
+            {
+               "name" : "2",
+               "portion" : 0.40
+            }
+         ],
+         "name" : "K<sub>B</sub>(A{1,2},B{0,1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.20
+            },
+            {
+               "name" : "1",
+               "portion" : 0.40
+            },
+            {
+               "name" : "2",
+               "portion" : 0.40
+            }
+         ],
+         "name" : "K<sub>B</sub>(A{1,2},B{2})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.60
+            },
+            {
+               "name" : "B{0}",
+               "portion" : 0.40
+            }
+         ],
+         "name" : "F<sub>A</sub>"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1&A|2&!A",
+               "portion" : 0.40
+            },
+            {
+               "name" : "2",
+               "portion" : 0.40
+            },
+            {
+               "name" : "2&!A",
+               "portion" : 0.20
+            }
+         ],
+         "name" : "F<sub>B</sub>"
+      },
+      {
+         "data" : [
+            {
+               "name" : "-",
+               "portion" : 0.40
+            },
+            {
+               "name" : "0",
+               "portion" : 0.60
+            }
+         ],
+         "name" : "Sign(B,1,A)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.60
+            },
+            {
+               "name" : "1",
+               "portion" : 0.40
+            }
+         ],
+         "name" : "Indigree(A)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "-",
+               "portion" : 0.60
+            },
+            {
+               "name" : "0",
+               "portion" : 0.40
+            }
+         ],
+         "name" : "Sign(A,1,B)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Sign(B,2,B)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.40
+            },
+            {
+               "name" : "1",
+               "portion" : 0.60
+            }
+         ],
+         "name" : "Indigree(B)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.20
+            },
+            {
+               "name" : "1",
+               "portion" : 0.60
+            },
+            {
+               "name" : "2",
+               "portion" : 0.20
+            }
+         ],
+         "name" : "Indigree(SUM)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "4",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(series)"
+      }
+   ]
+}
+

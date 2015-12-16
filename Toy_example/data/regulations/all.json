@@ -1,0 +1,60 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Frequency" : 0.50,
+               "Pearson" : 0.0,
+               "Sign" : "1",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.50,
+               "source" : "B",
+               "target" : "A"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.8888888888888888,
+               "Pearson" : 4.386066270124075e-17,
+               "Sign" : "1",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.50,
+               "source" : "A",
+               "target" : "B"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.8888888888888888,
+               "Pearson" : 1.370645709413773e-18,
+               "Sign" : "1",
+               "Threshold" : 2,
+               "WeightedFrequency" : 0.50,
+               "source" : "B",
+               "target" : "B"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "id" : "A",
+               "name" : "A"
+            }
+         },
+         {
+            "data" : {
+               "id" : "B",
+               "name" : "B"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Mon Nov 16 16:26:29 2015",
+      "s_name" : "all",
+      "select" : "1",
+      "size" : 324
+   }
+}
+

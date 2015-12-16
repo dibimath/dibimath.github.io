@@ -1,0 +1,183 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : -0.3565958771929821,
+               "Sign" : "-",
+               "Threshold" : 2,
+               "WeightedFrequency" : 0.5019607843137255,
+               "source" : "YciR",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.3565958771929824,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.5019607843137255,
+               "source" : "YdaM",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.3565958771929825,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.5019607843137255,
+               "source" : "YegE",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : -0.3565958771929826,
+               "Sign" : "-",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.5019607843137255,
+               "source" : "YhjH",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.0,
+               "Sign" : "-",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.6666666666666666,
+               "source" : "YciR",
+               "target" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.0,
+               "Sign" : "+",
+               "Threshold" : 2,
+               "WeightedFrequency" : 0.6666666666666666,
+               "source" : "YciR",
+               "target" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.5714285714285714,
+               "source" : "YdaM",
+               "target" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.7499999999999999,
+               "source" : "CdiGMP",
+               "target" : "YciR"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.0,
+               "Sign" : "-",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "YciR",
+               "target" : "YdaM"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.0,
+               "Sign" : "+",
+               "Threshold" : 2,
+               "WeightedFrequency" : 1.0,
+               "source" : "YciR",
+               "target" : "YdaM"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "YegE",
+               "target" : "YegE"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : 0.0,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 1.0,
+               "source" : "YhjH",
+               "target" : "YhjH"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "id" : "CdiGMP",
+               "name" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "id" : "MlrA",
+               "name" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "id" : "YciR",
+               "name" : "YciR"
+            }
+         },
+         {
+            "data" : {
+               "id" : "YdaM",
+               "name" : "YdaM"
+            }
+         },
+         {
+            "data" : {
+               "id" : "YegE",
+               "name" : "YegE"
+            }
+         },
+         {
+            "data" : {
+               "id" : "YhjH",
+               "name" : "YhjH"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Tue Nov 17 11:43:20 2015",
+      "s_name" : "all",
+      "select" : "1",
+      "size" : 228
+   }
+}
+

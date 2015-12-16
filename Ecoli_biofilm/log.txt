@@ -1,0 +1,3037 @@
+ --- tremppi_spawn has started. --- 
+Sun Nov  8 22:24:50 2015 D: Checking the JSON correctness.
+Sun Nov  8 22:24:50 2015 D: Parsing the network.
+Sun Nov  8 22:24:50 2015 E: Top level exception: Error while parsing the constraint: "C_di_GMP:0=1&C_di_GMP:1:2". The component "C_di_GMP" is not a regulator of "YciR"
+ --- tremppi_spawn has started. --- 
+Sun Nov  8 23:06:58 2015 D: Checking the JSON correctness.
+Sun Nov  8 23:06:58 2015 D: Parsing the network.
+Sun Nov  8 23:06:58 2015 D: Obtaining kinetics.
+Sun Nov  8 23:06:58 2015 D: Creating the database file.
+Sun Nov  8 23:06:58 2015 D: Writing the database file, in total 342 parametrizations.
+Sun Nov  8 23:06:58 2015 D: tremppi_spawn finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 00:12:57 2015 D: Parsing database.
+Mon Nov  9 00:12:57 2015 D: Checking the JSON correctness.
+Mon Nov  9 00:12:57 2015 D: Parsing the properties.
+Mon Nov  9 00:12:58 2015 D: tremppi_cost finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 00:13:12 2015 D: Parsing database.
+Mon Nov  9 00:13:12 2015 D: Checking the JSON correctness.
+Mon Nov  9 00:13:12 2015 D: Parsing the properties.
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 1a
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 1b
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 2a
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 2b
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 3a
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 3b
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 4a
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 4b
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 5a
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 5b
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 6a
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 6b
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 7a
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 7b
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 8a
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 8b
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 9a
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 9b
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 10a
+Mon Nov  9 00:13:12 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 00:13:12 2015 D: Validating for an automaton: 10b
+Mon Nov  9 00:13:13 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 00:13:13 2015 D: Validating for an automaton: 11a
+Mon Nov  9 00:13:13 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 00:13:13 2015 D: Validating for an automaton: 11b
+Mon Nov  9 00:13:13 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 00:13:13 2015 D: Validating for an automaton: 12a
+Mon Nov  9 00:13:13 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 00:13:13 2015 D: Validating for an automaton: 12b
+Mon Nov  9 00:13:13 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 00:13:13 2015 D: Validating for an automaton: 13a
+Mon Nov  9 00:13:13 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 00:13:13 2015 D: Validating for an automaton: 13b
+Mon Nov  9 00:13:13 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 00:13:13 2015 D: Validating for an automaton: 14a
+Mon Nov  9 00:13:13 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 00:13:13 2015 D: Validating for an automaton: 14b
+Mon Nov  9 00:13:13 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 00:13:13 2015 D: Validating for an automaton: 15a
+Mon Nov  9 00:13:13 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 00:13:13 2015 D: Validating for an automaton: 15b
+Mon Nov  9 00:13:13 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 00:13:13 2015 D: Validating for an automaton: 16a
+Mon Nov  9 00:13:13 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 00:13:13 2015 D: Validating for an automaton: 16b
+Mon Nov  9 00:13:13 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 00:39:20 2015 D: Reading data.
+Mon Nov  9 00:39:20 2015 D: Selection strict
+Mon Nov  9 00:39:20 2015 E: Top level exception: No models in the selection.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 00:43:34 2015 D: Parsing database.
+Mon Nov  9 00:43:34 2015 D: Checking the JSON correctness.
+Mon Nov  9 00:43:34 2015 D: Parsing the properties.
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 1a
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 1b
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 2a
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 2b
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 3a
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 3b
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 4a
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 4b
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 5a
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 5b
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 6a
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 6b
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 7a
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 7b
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 8a
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 8b
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 9a
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 9b
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 10a
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 10b
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 11a
+Mon Nov  9 00:43:34 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 00:43:34 2015 D: Validating for an automaton: 11b
+Mon Nov  9 00:43:35 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 00:43:35 2015 D: Validating for an automaton: 12a
+Mon Nov  9 00:43:35 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 00:43:35 2015 D: Validating for an automaton: 12b
+Mon Nov  9 00:43:35 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 00:43:35 2015 D: Validating for an automaton: 13a
+Mon Nov  9 00:43:35 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 00:43:35 2015 D: Validating for an automaton: 13b
+Mon Nov  9 00:43:35 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 00:43:35 2015 D: Validating for an automaton: 14a
+Mon Nov  9 00:43:35 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 00:43:35 2015 D: Validating for an automaton: 14b
+Mon Nov  9 00:43:35 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 00:43:35 2015 D: Validating for an automaton: 15a
+Mon Nov  9 00:43:35 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 00:43:35 2015 D: Validating for an automaton: 15b
+Mon Nov  9 00:43:35 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 00:43:35 2015 D: Validating for an automaton: 16a
+Mon Nov  9 00:43:35 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 00:43:35 2015 D: Validating for an automaton: 16b
+Mon Nov  9 00:43:35 2015 D: tremppi_cost finished successfully.
+ --- tremppi_qualitative has started. --- 
+Mon Nov  9 00:43:42 2015 D: Reading data.
+Mon Nov  9 00:43:42 2015 D: Selection all
+Mon Nov  9 00:43:42 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:43:42 2015 D: Writing the result to file.
+Mon Nov  9 00:43:42 2015 D: Selection strict
+Mon Nov  9 00:43:42 2015 E: Top level exception: No models in the selection.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 00:43:49 2015 D: Reading data.
+Mon Nov  9 00:43:49 2015 D: Selection all
+Mon Nov  9 00:43:49 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:43:49 2015 D: Writing results.
+Mon Nov  9 00:43:49 2015 D: Selection strict
+Mon Nov  9 00:43:49 2015 E: Top level exception: No models in the selection.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 00:46:01 2015 D: Parsing database.
+Mon Nov  9 00:46:01 2015 D: Checking the JSON correctness.
+Mon Nov  9 00:46:01 2015 D: Parsing the properties.
+Mon Nov  9 00:46:01 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 00:46:01 2015 D: Validating for an automaton: 1a
+Mon Nov  9 00:46:01 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 00:46:01 2015 D: Validating for an automaton: 1b
+Mon Nov  9 00:46:01 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 00:46:01 2015 D: Validating for an automaton: 2a
+Mon Nov  9 00:46:01 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 00:46:01 2015 D: Validating for an automaton: 2b
+Mon Nov  9 00:46:01 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 00:46:01 2015 D: Validating for an automaton: 3a
+Mon Nov  9 00:46:01 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 00:46:01 2015 D: Validating for an automaton: 3b
+Mon Nov  9 00:46:01 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 00:46:01 2015 D: Validating for an automaton: 4a
+Mon Nov  9 00:46:01 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 00:46:01 2015 D: Validating for an automaton: 4b
+Mon Nov  9 00:46:01 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 00:46:01 2015 D: Validating for an automaton: 5a
+Mon Nov  9 00:46:01 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 00:46:01 2015 D: Validating for an automaton: 5b
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 6a
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 6b
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 7a
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 7b
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 8a
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 8b
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 9a
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 9b
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 10a
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 10b
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 11a
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 11b
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 12a
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 12b
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 13a
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 13b
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 14a
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 14b
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 15a
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 15b
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 16a
+Mon Nov  9 00:46:02 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 00:46:02 2015 D: Validating for an automaton: 16b
+Mon Nov  9 00:46:02 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 00:46:05 2015 D: Reading data.
+Mon Nov  9 00:46:05 2015 D: Selection all
+Mon Nov  9 00:46:05 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:46:05 2015 D: Writing results.
+Mon Nov  9 00:46:05 2015 D: Selection strict
+Mon Nov  9 00:46:05 2015 E: Top level exception: No models in the selection.
+ --- tremppi_express has started. --- 
+Mon Nov  9 00:50:55 2015 D: tremppi_express finished successfully.
+ --- tremppi_qualitative has started. --- 
+Mon Nov  9 00:50:58 2015 D: Reading data.
+Mon Nov  9 00:50:58 2015 D: Selection all
+Mon Nov  9 00:50:58 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:50:58 2015 D: Writing the result to file.
+Mon Nov  9 00:50:58 2015 D: Selection strict
+Mon Nov  9 00:50:58 2015 E: Top level exception: No models in the selection.
+ --- tremppi_spawn has started. --- 
+Mon Nov  9 00:52:04 2015 D: Checking the JSON correctness.
+Mon Nov  9 00:52:04 2015 D: Parsing the network.
+Mon Nov  9 00:52:04 2015 D: Obtaining kinetics.
+Mon Nov  9 00:52:04 2015 D: Creating the database file.
+Mon Nov  9 00:52:04 2015 W: Database file Biofilm/data\database.sqlite already exists, erasing.
+Mon Nov  9 00:52:04 2015 D: Writing the database file, in total 342 parametrizations.
+Mon Nov  9 00:52:04 2015 D: tremppi_spawn finished successfully.
+ --- tremppi_qualitative has started. --- 
+Mon Nov  9 00:52:10 2015 D: Reading data.
+Mon Nov  9 00:52:10 2015 D: Selection all
+Mon Nov  9 00:52:10 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:52:10 2015 D: Writing the result to file.
+Mon Nov  9 00:52:10 2015 D: Selection strict
+Mon Nov  9 00:52:10 2015 E: Top level exception: no such column: C_11a
+ --- tremppi_express has started. --- 
+Mon Nov  9 00:52:22 2015 E: Top level exception: no such column: C_4a
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 00:52:23 2015 D: Reading data.
+Mon Nov  9 00:52:23 2015 D: Selection all
+Mon Nov  9 00:52:23 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:52:23 2015 D: Writing results.
+Mon Nov  9 00:52:23 2015 D: Selection strict
+Mon Nov  9 00:52:23 2015 E: Top level exception: no such column: C_8a
+ --- tremppi_qualitative has started. --- 
+Mon Nov  9 00:52:25 2015 D: Reading data.
+Mon Nov  9 00:52:25 2015 D: Selection all
+Mon Nov  9 00:52:25 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:52:25 2015 E: Top level exception: A null valued entry in the column F_CdiGMP
+ --- tremppi_spawn has started. --- 
+Mon Nov  9 00:53:05 2015 D: Checking the JSON correctness.
+Mon Nov  9 00:53:05 2015 D: Parsing the network.
+Mon Nov  9 00:53:05 2015 D: Obtaining kinetics.
+Mon Nov  9 00:53:05 2015 D: Creating the database file.
+Mon Nov  9 00:53:05 2015 W: Database file Biofilm/data\database.sqlite already exists, erasing.
+Mon Nov  9 00:53:05 2015 D: Writing the database file, in total 342 parametrizations.
+Mon Nov  9 00:53:05 2015 D: tremppi_spawn finished successfully.
+ --- tremppi_express has started. --- 
+Mon Nov  9 00:53:09 2015 E: Top level exception: no such column: C_15a
+ --- tremppi_qualitative has started. --- 
+Mon Nov  9 00:53:28 2015 D: Reading data.
+Mon Nov  9 00:53:28 2015 D: Selection all
+Mon Nov  9 00:53:28 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:53:28 2015 E: Top level exception: A null valued entry in the column F_CdiGMP
+ --- tremppi_cost has started. --- 
+Mon Nov  9 00:53:50 2015 D: Parsing database.
+Mon Nov  9 00:53:51 2015 D: Checking the JSON correctness.
+Mon Nov  9 00:53:51 2015 D: Parsing the properties.
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 1a
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 1b
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 2a
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 2b
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 3a
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 3b
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 4a
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 4b
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 5a
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 5b
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 6a
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 6b
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 7a
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 7b
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 8a
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 8b
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 9a
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 9b
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 10a
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 10b
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 11a
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 11b
+Mon Nov  9 00:53:51 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 00:53:51 2015 D: Validating for an automaton: 12a
+Mon Nov  9 00:53:52 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 00:53:52 2015 D: Validating for an automaton: 12b
+Mon Nov  9 00:53:52 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 00:53:52 2015 D: Validating for an automaton: 13a
+Mon Nov  9 00:53:52 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 00:53:52 2015 D: Validating for an automaton: 13b
+Mon Nov  9 00:53:52 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 00:53:52 2015 D: Validating for an automaton: 14a
+Mon Nov  9 00:53:52 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 00:53:52 2015 D: Validating for an automaton: 14b
+Mon Nov  9 00:53:52 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 00:53:52 2015 D: Validating for an automaton: 15a
+Mon Nov  9 00:53:52 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 00:53:52 2015 D: Validating for an automaton: 15b
+Mon Nov  9 00:53:52 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 00:53:52 2015 D: Validating for an automaton: 16a
+Mon Nov  9 00:53:52 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 00:53:52 2015 D: Validating for an automaton: 16b
+Mon Nov  9 00:53:52 2015 D: tremppi_cost finished successfully.
+ --- tremppi_qualitative has started. --- 
+Mon Nov  9 00:53:57 2015 D: Reading data.
+Mon Nov  9 00:53:57 2015 D: Selection all
+Mon Nov  9 00:53:57 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:53:57 2015 E: Top level exception: A null valued entry in the column F_CdiGMP
+ --- tremppi_express has started. --- 
+Mon Nov  9 00:54:02 2015 D: tremppi_express finished successfully.
+ --- tremppi_qualitative has started. --- 
+Mon Nov  9 00:54:04 2015 D: Reading data.
+Mon Nov  9 00:54:04 2015 D: Selection all
+Mon Nov  9 00:54:04 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:54:04 2015 D:  --- tremppi_qualitative has started. --- 
+Mon Nov  9 00:55:14 2015 D: Reading data.
+Mon Nov  9 00:55:14 2015 D: Selection all
+Mon Nov  9 00:55:14 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:55:14 2015 D:  --- tremppi_quantitative has started. --- 
+Mon Nov  9 00:55:19 2015 D: Reading data.
+Mon Nov  9 00:55:19 2015 D: Selection all
+Mon Nov  9 00:55:19 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:55:19 2015 D:  --- tremppi_quantitative has started. --- 
+Mon Nov  9 00:56:11 2015 D: Reading data.
+Mon Nov  9 00:56:11 2015 D: Selection all
+Mon Nov  9 00:56:11 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:56:11 2015 D:  --- tremppi_spawn has started. --- 
+Mon Nov  9 00:57:19 2015 D: Checking the JSON correctness.
+Mon Nov  9 00:57:19 2015 D: Parsing the network.
+Mon Nov  9 00:57:19 2015 D: Obtaining kinetics.
+Mon Nov  9 00:57:19 2015 D: Creating the database file.
+Mon Nov  9 00:57:19 2015 W: Database file Biofilm/data\database.sqlite already exists, erasing.
+Mon Nov  9 00:57:19 2015 D: Writing the database file, in total 342 parametrizations.
+Mon Nov  9 00:57:19 2015 D: tremppi_spawn finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 00:57:21 2015 D: Reading data.
+Mon Nov  9 00:57:21 2015 D: Selection all
+Mon Nov  9 00:57:21 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:57:21 2015 D:  --- tremppi_quantitative has started. --- 
+Mon Nov  9 00:57:55 2015 D: Reading data.
+Mon Nov  9 00:57:55 2015 D: Selection all
+Mon Nov  9 00:57:55 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:57:55 2015 D: Writing results.
+Mon Nov  9 00:57:55 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 00:57:58 2015 D: Parsing database.
+Mon Nov  9 00:57:58 2015 D: Checking the JSON correctness.
+Mon Nov  9 00:57:58 2015 D: Parsing the properties.
+Mon Nov  9 00:57:58 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 00:57:58 2015 D: Validating for an automaton: 1a
+Mon Nov  9 00:57:58 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 00:57:58 2015 D: Validating for an automaton: 1b
+Mon Nov  9 00:57:58 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 00:57:58 2015 D: Validating for an automaton: 2a
+Mon Nov  9 00:57:58 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 00:57:58 2015 D: Validating for an automaton: 2b
+Mon Nov  9 00:57:58 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 00:57:58 2015 D: Validating for an automaton: 3a
+Mon Nov  9 00:57:58 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 00:57:58 2015 D: Validating for an automaton: 3b
+Mon Nov  9 00:57:58 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 00:57:58 2015 D: Validating for an automaton: 4a
+Mon Nov  9 00:57:58 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 00:57:58 2015 D: Validating for an automaton: 4b
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 5a
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 5b
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 6a
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 6b
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 7a
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 7b
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 8a
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 8b
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 9a
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 9b
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 10a
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 10b
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 11a
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 11b
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 12a
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 12b
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 13a
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 13b
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 14a
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 14b
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 15a
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 15b
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 16a
+Mon Nov  9 00:57:59 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 00:57:59 2015 D: Validating for an automaton: 16b
+Mon Nov  9 00:57:59 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 00:58:07 2015 D: Reading data.
+Mon Nov  9 00:58:07 2015 D: Selection all
+Mon Nov  9 00:58:07 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:58:07 2015 D: Writing results.
+Mon Nov  9 00:58:07 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 00:58:11 2015 D: Reading data.
+Mon Nov  9 00:58:11 2015 D: Selection all
+Mon Nov  9 00:58:11 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:58:11 2015 D: Writing results.
+Mon Nov  9 00:58:11 2015 D: Selection 
+Mon Nov  9 00:58:11 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:58:11 2015 D:  --- tremppi_express has started. --- 
+Mon Nov  9 00:58:48 2015 D: tremppi_express finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 00:58:51 2015 D: Reading data.
+Mon Nov  9 00:58:51 2015 D: Selection all
+Mon Nov  9 00:58:51 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:58:51 2015 D:  --- tremppi_cost has started. --- 
+Mon Nov  9 00:59:20 2015 D: Parsing database.
+Mon Nov  9 00:59:21 2015 D: Checking the JSON correctness.
+Mon Nov  9 00:59:21 2015 D: Parsing the properties.
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 1a
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 1b
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 2a
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 2b
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 3a
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 3b
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 4a
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 4b
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 5a
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 5b
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 6a
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 6b
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 7a
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 7b
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 8a
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 8b
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 9a
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 9b
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 10a
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 10b
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 11a
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 11b
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 12a
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 12b
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 13a
+Mon Nov  9 00:59:21 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 00:59:21 2015 D: Validating for an automaton: 13b
+Mon Nov  9 00:59:22 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 00:59:22 2015 D: Validating for an automaton: 14a
+Mon Nov  9 00:59:22 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 00:59:22 2015 D: Validating for an automaton: 14b
+Mon Nov  9 00:59:22 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 00:59:22 2015 D: Validating for an automaton: 15a
+Mon Nov  9 00:59:22 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 00:59:22 2015 D: Validating for an automaton: 15b
+Mon Nov  9 00:59:22 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 00:59:22 2015 D: Validating for an automaton: 16a
+Mon Nov  9 00:59:22 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 00:59:22 2015 D: Validating for an automaton: 16b
+Mon Nov  9 00:59:22 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 00:59:25 2015 D: Reading data.
+Mon Nov  9 00:59:25 2015 D: Selection all
+Mon Nov  9 00:59:25 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 00:59:25 2015 D: Writing results.
+Mon Nov  9 00:59:25 2015 D: Selection strict
+Mon Nov  9 00:59:25 2015 E: Top level exception: No models in the selection.
+ --- tremppi_qualitative has started. --- 
+Mon Nov  9 01:02:41 2015 D: Reading data.
+Mon Nov  9 01:02:41 2015 D: Selection all
+Mon Nov  9 01:02:41 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 01:02:41 2015 D: Writing the result to file.
+Mon Nov  9 01:02:41 2015 D: Selection strict
+Mon Nov  9 01:02:41 2015 E: Top level exception: No models in the selection.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 10:36:09 2015 D: Parsing database.
+Mon Nov  9 10:36:09 2015 D: Checking the JSON correctness.
+Mon Nov  9 10:36:10 2015 D: Parsing the properties.
+Mon Nov  9 10:36:10 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 10:36:10 2015 D: Validating for an automaton: 1a
+Mon Nov  9 10:36:10 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 10:36:10 2015 D: Validating for an automaton: 1b
+Mon Nov  9 10:36:10 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 10:36:10 2015 D: Validating for an automaton: 2a
+Mon Nov  9 10:36:10 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 10:36:10 2015 D: Validating for an automaton: 2b
+Mon Nov  9 10:36:10 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 10:36:10 2015 D: Validating for an automaton: 3a
+Mon Nov  9 10:36:11 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 10:36:11 2015 D: Validating for an automaton: 3b
+Mon Nov  9 10:36:11 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 10:36:11 2015 D: Validating for an automaton: 4a
+Mon Nov  9 10:36:11 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 10:36:11 2015 D: Validating for an automaton: 4b
+Mon Nov  9 10:36:11 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 10:36:11 2015 D: Validating for an automaton: 5a
+Mon Nov  9 10:36:11 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 10:36:11 2015 D: Validating for an automaton: 5b
+Mon Nov  9 10:36:11 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 10:36:11 2015 D: Validating for an automaton: 6a
+Mon Nov  9 10:36:12 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 10:36:12 2015 D: Validating for an automaton: 6b
+Mon Nov  9 10:36:12 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 10:36:12 2015 D: Validating for an automaton: 7a
+Mon Nov  9 10:36:12 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 10:36:12 2015 D: Validating for an automaton: 7b
+Mon Nov  9 10:36:12 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 10:36:12 2015 D: Validating for an automaton: 8a
+Mon Nov  9 10:36:12 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 10:36:12 2015 D: Validating for an automaton: 8b
+Mon Nov  9 10:36:12 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 10:36:12 2015 D: Validating for an automaton: 9a
+Mon Nov  9 10:36:13 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 10:36:13 2015 D: Validating for an automaton: 9b
+Mon Nov  9 10:36:13 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 10:36:13 2015 D: Validating for an automaton: 10a
+Mon Nov  9 10:36:13 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 10:36:13 2015 D: Validating for an automaton: 10b
+Mon Nov  9 10:36:13 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 10:36:13 2015 D: Validating for an automaton: 11a
+Mon Nov  9 10:36:13 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 10:36:13 2015 D: Validating for an automaton: 11b
+Mon Nov  9 10:36:14 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 10:36:14 2015 D: Validating for an automaton: 12a
+Mon Nov  9 10:36:14 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 10:36:14 2015 D: Validating for an automaton: 12b
+Mon Nov  9 10:36:14 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 10:36:14 2015 D: Validating for an automaton: 13a
+Mon Nov  9 10:36:14 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 10:36:14 2015 D: Validating for an automaton: 13b
+Mon Nov  9 10:36:14 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 10:36:14 2015 D: Validating for an automaton: 14a
+Mon Nov  9 10:36:14 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 10:36:14 2015 D: Validating for an automaton: 14b
+Mon Nov  9 10:36:15 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 10:36:15 2015 D: Validating for an automaton: 15a
+Mon Nov  9 10:36:15 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 10:36:15 2015 D: Validating for an automaton: 15b
+Mon Nov  9 10:36:15 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 10:36:15 2015 D: Validating for an automaton: 16a
+Mon Nov  9 10:36:15 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 10:36:15 2015 D: Validating for an automaton: 16b
+Mon Nov  9 10:36:16 2015 D: tremppi_cost finished successfully.
+ --- tremppi_spawn has started. --- 
+Mon Nov  9 10:40:42 2015 D: Checking the JSON correctness.
+Mon Nov  9 10:40:42 2015 D: Parsing the network.
+Mon Nov  9 10:40:42 2015 D: Obtaining kinetics.
+Mon Nov  9 10:40:42 2015 D: Creating the database file.
+Mon Nov  9 10:40:42 2015 W: Database file Biofilm/data\database.sqlite already exists, erasing.
+Mon Nov  9 10:40:42 2015 D: Writing the database file, in total 228 parametrizations.
+Mon Nov  9 10:40:42 2015 D: tremppi_spawn finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 10:40:46 2015 D: Parsing database.
+Mon Nov  9 10:40:46 2015 D: Checking the JSON correctness.
+Mon Nov  9 10:40:46 2015 D: Parsing the properties.
+Mon Nov  9 10:40:46 2015 D:  --- tremppi_cost has started. --- 
+Mon Nov  9 10:41:45 2015 D: Parsing database.
+Mon Nov  9 10:41:45 2015 D: Checking the JSON correctness.
+Mon Nov  9 10:41:45 2015 D: Parsing the properties.
+Mon Nov  9 10:41:45 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 10:41:45 2015 D: Validating for an automaton: 2a
+Mon Nov  9 10:41:45 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 10:41:45 2015 D: Validating for an automaton: 2b
+Mon Nov  9 10:41:45 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 10:41:45 2015 D: Validating for an automaton: 3a
+Mon Nov  9 10:41:45 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 10:41:45 2015 D: Validating for an automaton: 3b
+Mon Nov  9 10:41:45 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 10:41:45 2015 D: Validating for an automaton: 4a
+Mon Nov  9 10:41:45 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 10:41:45 2015 D: Validating for an automaton: 4b
+Mon Nov  9 10:41:45 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 10:41:45 2015 D: Validating for an automaton: 5a
+Mon Nov  9 10:41:45 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 10:41:45 2015 D: Validating for an automaton: 5b
+Mon Nov  9 10:41:45 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 10:41:45 2015 D: Validating for an automaton: 6a
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 6b
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 7a
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 7b
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 8a
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 8b
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 9a
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 9b
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 10a
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 10b
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 11a
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 11b
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 12a
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 12b
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 13a
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 13b
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 14a
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 14b
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 15a
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 15b
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 16a
+Mon Nov  9 10:41:46 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 10:41:46 2015 D: Validating for an automaton: 16b
+Mon Nov  9 10:41:46 2015 D: tremppi_cost finished successfully.
+ --- tremppi_express has started. --- 
+Mon Nov  9 10:41:52 2015 D: tremppi_express finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 10:42:05 2015 D: Reading data.
+Mon Nov  9 10:42:05 2015 D: Selection all
+Mon Nov  9 10:42:05 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 10:42:05 2015 D: Writing results.
+Mon Nov  9 10:42:05 2015 D: Selection strict
+Mon Nov  9 10:42:05 2015 E: Top level exception: no such column: C_1a
+ --- tremppi_cost has started. --- 
+Mon Nov  9 10:43:07 2015 D: Parsing database.
+Mon Nov  9 10:43:07 2015 D: Checking the JSON correctness.
+Mon Nov  9 10:43:07 2015 D: Parsing the properties.
+Mon Nov  9 10:43:07 2015 D:  --- tremppi_cost has started. --- 
+Mon Nov  9 10:43:35 2015 D: Parsing database.
+Mon Nov  9 10:43:35 2015 D: Checking the JSON correctness.
+Mon Nov  9 10:43:35 2015 D: Parsing the properties.
+Mon Nov  9 10:43:35 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 10:43:35 2015 D: Validating for an automaton: 2a
+Mon Nov  9 10:43:35 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 10:43:35 2015 D: Validating for an automaton: 2b
+Mon Nov  9 10:43:36 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 10:43:36 2015 D: Validating for an automaton: 3a
+Mon Nov  9 10:43:36 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 10:43:36 2015 D: Validating for an automaton: 3b
+Mon Nov  9 10:43:36 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 10:43:36 2015 D: Validating for an automaton: 4a
+Mon Nov  9 10:43:37 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 10:43:37 2015 D:  --- tremppi_cost has started. --- 
+Mon Nov  9 10:43:46 2015 D: Parsing database.
+Mon Nov  9 10:43:46 2015 D: Checking the JSON correctness.
+Mon Nov  9 10:43:46 2015 D: Parsing the properties.
+Mon Nov  9 10:43:46 2015 D:  --- tremppi_cost has started. --- 
+Mon Nov  9 10:54:50 2015 D: Parsing database.
+Mon Nov  9 10:54:50 2015 D: Checking the JSON correctness.
+Mon Nov  9 10:54:50 2015 D: Parsing the properties.
+Mon Nov  9 10:54:50 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 10:54:50 2015 D: Validating for an automaton: 2a
+Mon Nov  9 10:54:50 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 10:54:50 2015 D: Validating for an automaton: 2b
+Mon Nov  9 10:54:50 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 10:54:50 2015 D: Validating for an automaton: 3a
+Mon Nov  9 10:54:50 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 10:54:50 2015 D: Validating for an automaton: 3b
+Mon Nov  9 10:54:50 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 10:54:50 2015 D: Validating for an automaton: 4a
+Mon Nov  9 10:54:50 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 10:54:50 2015 D: Validating for an automaton: 4b
+Mon Nov  9 10:54:50 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 10:54:50 2015 D: Validating for an automaton: 5a
+Mon Nov  9 10:54:50 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 10:54:50 2015 D: Validating for an automaton: 5b
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 6a
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 6b
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 7a
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 7b
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 8a
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 8b
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 9a
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 9b
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 10a
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 10b
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 11a
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 11b
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 12a
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 12b
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 13a
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 13b
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 14a
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 14b
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 15a
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 15b
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 16a
+Mon Nov  9 10:54:51 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 10:54:51 2015 D: Validating for an automaton: 16b
+Mon Nov  9 10:54:51 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 10:54:51 2015 D: Reading data.
+Mon Nov  9 10:54:52 2015 D: Selection all
+Mon Nov  9 10:54:52 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 10:54:52 2015 D:  --- tremppi_quantitative has started. --- 
+Mon Nov  9 10:55:00 2015 D: Reading data.
+Mon Nov  9 10:55:00 2015 D: Selection all
+Mon Nov  9 10:55:00 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 10:55:00 2015 D: Writing results.
+Mon Nov  9 10:55:00 2015 D: Selection 
+Mon Nov  9 10:55:00 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 10:55:00 2015 D:  --- tremppi_cost has started. --- 
+Mon Nov  9 10:56:21 2015 D: Parsing database.
+Mon Nov  9 10:56:21 2015 D: Checking the JSON correctness.
+Mon Nov  9 10:56:21 2015 D: Parsing the properties.
+Mon Nov  9 10:56:21 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 10:56:21 2015 D: Validating for an automaton: 2a
+Mon Nov  9 10:56:21 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 10:56:21 2015 D: Validating for an automaton: 2b
+Mon Nov  9 10:56:21 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 10:56:21 2015 D: Validating for an automaton: 3a
+Mon Nov  9 10:56:21 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 10:56:21 2015 D: Validating for an automaton: 3b
+Mon Nov  9 10:56:21 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 10:56:21 2015 D: Validating for an automaton: 4a
+Mon Nov  9 10:56:21 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 10:56:21 2015 D: Validating for an automaton: 4b
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 5a
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 5b
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 6a
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 6b
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 7a
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 7b
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 8a
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 8b
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 9a
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 9b
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 10a
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 10b
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 11a
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 11b
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 12a
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 12b
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 13a
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 13b
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 14a
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 14b
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 15a
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 15b
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 16a
+Mon Nov  9 10:56:22 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 10:56:22 2015 D: Validating for an automaton: 16b
+Mon Nov  9 10:56:22 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 10:56:26 2015 D: Reading data.
+Mon Nov  9 10:56:26 2015 D: Selection all
+Mon Nov  9 10:56:26 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 10:56:26 2015 D: Writing results.
+Mon Nov  9 10:56:26 2015 D:  --- tremppi_quantitative has started. --- 
+Mon Nov  9 10:56:37 2015 D: Reading data.
+Mon Nov  9 10:56:37 2015 D: Selection all
+Mon Nov  9 10:56:37 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 10:56:37 2015 D: Writing results.
+Mon Nov  9 10:56:37 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 11:00:03 2015 D: Parsing database.
+Mon Nov  9 11:00:03 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:00:03 2015 D: Parsing the properties.
+Mon Nov  9 11:00:03 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:00:09 2015 D:  --- tremppi_cost has started. --- 
+Mon Nov  9 11:06:48 2015 D: Parsing database.
+Mon Nov  9 11:06:48 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:06:48 2015 D: Parsing the properties.
+Mon Nov  9 11:06:49 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:06:49 2015 D:  --- tremppi_cost has started. --- 
+Mon Nov  9 11:11:32 2015 D: Parsing database.
+Mon Nov  9 11:11:32 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:11:32 2015 D: Parsing the properties.
+Mon Nov  9 11:11:32 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:11:32 2015 D:  --- tremppi_cost has started. --- 
+Mon Nov  9 11:15:55 2015 D: Parsing database.
+Mon Nov  9 11:15:55 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:15:55 2015 D: Parsing the properties.
+Mon Nov  9 11:15:55 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:15:55 2015 D:  --- tremppi_cost has started. --- 
+Mon Nov  9 11:19:09 2015 D: Parsing database.
+Mon Nov  9 11:19:09 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:19:09 2015 D: Parsing the properties.
+Mon Nov  9 11:19:09 2015 D:  --- tremppi_cost has started. --- 
+Mon Nov  9 11:23:11 2015 D: Parsing database.
+Mon Nov  9 11:23:11 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:23:11 2015 D: Parsing the properties.
+Mon Nov  9 11:23:11 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:23:11 2015 D:  --- tremppi_cost has started. --- 
+Mon Nov  9 11:26:25 2015 D: Parsing database.
+Mon Nov  9 11:26:25 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:26:25 2015 D: Parsing the properties.
+Mon Nov  9 11:26:25 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:26:25 2015 D: Validating for an automaton: 2a
+Mon Nov  9 11:26:26 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 11:26:26 2015 D: Validating for an automaton: 2b
+Mon Nov  9 11:26:26 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 11:26:26 2015 D: Validating for an automaton: 3a
+Mon Nov  9 11:26:26 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 11:26:26 2015 D: Validating for an automaton: 3b
+Mon Nov  9 11:26:27 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 11:26:27 2015 D: Validating for an automaton: 4a
+Mon Nov  9 11:26:27 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 11:26:27 2015 D: Validating for an automaton: 4b
+Mon Nov  9 11:26:28 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 11:26:28 2015 D: Validating for an automaton: 5a
+Mon Nov  9 11:26:28 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 11:26:28 2015 D: Validating for an automaton: 5b
+Mon Nov  9 11:26:28 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 11:26:28 2015 D: Validating for an automaton: 6a
+Mon Nov  9 11:26:28 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 11:26:28 2015 D: Validating for an automaton: 6b
+Mon Nov  9 11:26:29 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 11:26:29 2015 D: Validating for an automaton: 7a
+Mon Nov  9 11:26:29 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 11:26:29 2015 D: Validating for an automaton: 7b
+Mon Nov  9 11:26:29 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 11:26:29 2015 D: Validating for an automaton: 8a
+Mon Nov  9 11:26:30 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 11:26:30 2015 D: Validating for an automaton: 8b
+Mon Nov  9 11:26:30 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 11:26:30 2015 D: Validating for an automaton: 9a
+Mon Nov  9 11:26:30 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 11:26:30 2015 D: Validating for an automaton: 9b
+Mon Nov  9 11:26:30 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 11:26:31 2015 D: Validating for an automaton: 10a
+Mon Nov  9 11:26:31 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 11:26:31 2015 D: Validating for an automaton: 10b
+Mon Nov  9 11:26:31 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 11:26:31 2015 D: Validating for an automaton: 11a
+Mon Nov  9 11:26:31 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 11:26:31 2015 D: Validating for an automaton: 11b
+Mon Nov  9 11:26:32 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 11:26:32 2015 D: Validating for an automaton: 12a
+Mon Nov  9 11:26:32 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 11:26:32 2015 D: Validating for an automaton: 12b
+Mon Nov  9 11:26:32 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 11:26:32 2015 D: Validating for an automaton: 13a
+Mon Nov  9 11:26:33 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 11:26:33 2015 D: Validating for an automaton: 13b
+Mon Nov  9 11:26:33 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 11:26:33 2015 D: Validating for an automaton: 14a
+Mon Nov  9 11:26:33 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 11:26:33 2015 D: Validating for an automaton: 14b
+Mon Nov  9 11:26:34 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 11:26:34 2015 D: Validating for an automaton: 15a
+Mon Nov  9 11:26:34 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 11:26:34 2015 D: Validating for an automaton: 15b
+Mon Nov  9 11:26:34 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 11:26:34 2015 D: Validating for an automaton: 16a
+Mon Nov  9 11:26:35 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 11:26:35 2015 D: Validating for an automaton: 16b
+Mon Nov  9 11:26:35 2015 D: tremppi_cost finished successfully.
+ --- tremppi_qualitative has started. --- 
+Mon Nov  9 11:26:39 2015 D: Reading data.
+Mon Nov  9 11:26:39 2015 D: Selection all
+Mon Nov  9 11:26:39 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 11:26:39 2015 D: Writing the result to file.
+Mon Nov  9 11:26:39 2015 D: tremppi_qualitative finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 11:31:15 2015 D: Parsing database.
+Mon Nov  9 11:31:15 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:31:15 2015 D: Parsing the properties.
+Mon Nov  9 11:31:15 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 11:31:15 2015 D: Validating for an automaton: 1a
+Mon Nov  9 11:31:15 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 11:31:15 2015 D: Validating for an automaton: 1b
+Mon Nov  9 11:31:15 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:31:15 2015 D: Validating for an automaton: 2a
+Mon Nov  9 11:31:15 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 11:31:15 2015 D: Validating for an automaton: 2b
+Mon Nov  9 11:31:15 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 11:31:15 2015 D: Validating for an automaton: 3a
+Mon Nov  9 11:31:15 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 11:31:15 2015 D: Validating for an automaton: 3b
+Mon Nov  9 11:31:15 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 11:31:15 2015 D: Validating for an automaton: 4a
+Mon Nov  9 11:31:15 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 11:31:15 2015 D: Validating for an automaton: 4b
+Mon Nov  9 11:31:15 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 11:31:15 2015 D: Validating for an automaton: 5a
+Mon Nov  9 11:31:15 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 11:31:15 2015 D: Validating for an automaton: 5b
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 6a
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 6b
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 7a
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 7b
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 8a
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 8b
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 9a
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 9b
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 10a
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 10b
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 11a
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 11b
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 12a
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 12b
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 13a
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 13b
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 14a
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 14b
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 15a
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 15b
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 16a
+Mon Nov  9 11:31:16 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 11:31:16 2015 D: Validating for an automaton: 16b
+Mon Nov  9 11:31:16 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 11:31:20 2015 D: Reading data.
+Mon Nov  9 11:31:20 2015 D: Selection all
+Mon Nov  9 11:31:20 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 11:31:20 2015 D: Writing results.
+Mon Nov  9 11:31:20 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 11:32:14 2015 D: Parsing database.
+Mon Nov  9 11:32:14 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:32:14 2015 D: Parsing the properties.
+Mon Nov  9 11:32:14 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 11:32:14 2015 D: Validating for an automaton: 1a
+Mon Nov  9 11:32:14 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 11:32:14 2015 D: Validating for an automaton: 1b
+Mon Nov  9 11:32:14 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:32:14 2015 D: Validating for an automaton: 2a
+Mon Nov  9 11:32:14 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 11:32:14 2015 D: Validating for an automaton: 2b
+Mon Nov  9 11:32:14 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 11:32:14 2015 D: Validating for an automaton: 3a
+Mon Nov  9 11:32:14 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 11:32:14 2015 D: Validating for an automaton: 3b
+Mon Nov  9 11:32:14 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 11:32:14 2015 D: Validating for an automaton: 4a
+Mon Nov  9 11:32:14 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 11:32:14 2015 D: Validating for an automaton: 4b
+Mon Nov  9 11:32:14 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 11:32:14 2015 D: Validating for an automaton: 5a
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 5b
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 6a
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 6b
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 7a
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 7b
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 8a
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 8b
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 9a
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 9b
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 10a
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 10b
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 11a
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 11b
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 12a
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 12b
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 13a
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 13b
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 14a
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 14b
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 15a
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 15b
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 16a
+Mon Nov  9 11:32:15 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 11:32:15 2015 D: Validating for an automaton: 16b
+Mon Nov  9 11:32:15 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 11:32:19 2015 D: Reading data.
+Mon Nov  9 11:32:19 2015 D: Selection all
+Mon Nov  9 11:32:19 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 11:32:19 2015 D: Writing results.
+Mon Nov  9 11:32:19 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 11:33:13 2015 D: Parsing database.
+Mon Nov  9 11:33:13 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:33:13 2015 D: Parsing the properties.
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 1a
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 1b
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 2a
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 2b
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 3a
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 3b
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 4a
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 4b
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 5a
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 5b
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 6a
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 6b
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 7a
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 7b
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 8a
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 8b
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 9a
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 9b
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 10a
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 10b
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 11a
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 11b
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 12a
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 12b
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 13a
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 13b
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 14a
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 14b
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 15a
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 15b
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 16a
+Mon Nov  9 11:33:13 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 11:33:13 2015 D: Validating for an automaton: 16b
+Mon Nov  9 11:33:14 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 11:33:17 2015 D: Reading data.
+Mon Nov  9 11:33:17 2015 D: Selection all
+Mon Nov  9 11:33:17 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 11:33:17 2015 D: Writing results.
+Mon Nov  9 11:33:17 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 11:34:34 2015 D: Parsing database.
+Mon Nov  9 11:34:34 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:34:35 2015 D: Parsing the properties.
+Mon Nov  9 11:34:35 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 11:34:35 2015 D: Validating for an automaton: 1a
+Mon Nov  9 11:35:03 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 11:35:03 2015 D: Validating for an automaton: 1b
+Mon Nov  9 11:35:16 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:35:16 2015 D: Validating for an automaton: 2a
+Mon Nov  9 11:35:27 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 11:35:27 2015 D:  --- tremppi_cost has started. --- 
+Mon Nov  9 11:39:30 2015 D: Parsing database.
+Mon Nov  9 11:39:31 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:39:31 2015 D: Parsing the properties.
+Mon Nov  9 11:39:35 2015 D:  --- tremppi_cost has started. --- 
+Mon Nov  9 11:40:07 2015 D: Parsing database.
+Mon Nov  9 11:40:07 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:40:07 2015 D:  --- tremppi_cost has started. --- 
+Mon Nov  9 11:40:52 2015 D: Parsing database.
+Mon Nov  9 11:40:53 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:40:53 2015 D:  --- tremppi_cost has started. --- 
+Mon Nov  9 11:42:05 2015 D: Parsing database.
+Mon Nov  9 11:42:06 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:42:06 2015 D: Parsing the properties.
+Mon Nov  9 11:43:08 2015 D:  --- tremppi_cost has started. --- 
+Mon Nov  9 11:43:47 2015 D: Parsing database.
+Mon Nov  9 11:43:48 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:43:48 2015 D: Parsing the properties.
+Mon Nov  9 11:44:16 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 11:44:16 2015 D: Validating for an automaton: 1a
+Mon Nov  9 11:44:24 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 11:44:24 2015 D: Validating for an automaton: 1b
+Mon Nov  9 11:44:24 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:44:24 2015 D: Validating for an automaton: 2a
+Mon Nov  9 11:44:24 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 11:44:24 2015 D: Validating for an automaton: 2b
+Mon Nov  9 11:44:25 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 11:44:25 2015 D: Validating for an automaton: 3a
+Mon Nov  9 11:44:25 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 11:44:25 2015 D: Validating for an automaton: 3b
+Mon Nov  9 11:44:25 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 11:44:25 2015 D: Validating for an automaton: 4a
+Mon Nov  9 11:44:26 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 11:44:26 2015 D: Validating for an automaton: 4b
+Mon Nov  9 11:44:26 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 11:44:26 2015 D: Validating for an automaton: 5a
+Mon Nov  9 11:44:26 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 11:44:26 2015 D: Validating for an automaton: 5b
+Mon Nov  9 11:44:27 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 11:44:27 2015 D: Validating for an automaton: 6a
+Mon Nov  9 11:44:27 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 11:44:27 2015 D: Validating for an automaton: 6b
+Mon Nov  9 11:44:27 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 11:44:27 2015 D: Validating for an automaton: 7a
+Mon Nov  9 11:44:28 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 11:44:28 2015 D: Validating for an automaton: 7b
+Mon Nov  9 11:44:28 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 11:44:28 2015 D: Validating for an automaton: 8a
+Mon Nov  9 11:44:28 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 11:44:28 2015 D: Validating for an automaton: 8b
+Mon Nov  9 11:44:28 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 11:44:28 2015 D: Validating for an automaton: 9a
+Mon Nov  9 11:44:29 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 11:44:29 2015 D: Validating for an automaton: 9b
+Mon Nov  9 11:44:29 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 11:44:29 2015 D: Validating for an automaton: 10a
+Mon Nov  9 11:44:29 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 11:44:29 2015 D: Validating for an automaton: 10b
+Mon Nov  9 11:44:30 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 11:44:30 2015 D: Validating for an automaton: 11a
+Mon Nov  9 11:44:30 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 11:44:30 2015 D: Validating for an automaton: 11b
+Mon Nov  9 11:44:30 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 11:44:30 2015 D: Validating for an automaton: 12a
+Mon Nov  9 11:44:31 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 11:44:31 2015 D: Validating for an automaton: 12b
+Mon Nov  9 11:44:31 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 11:44:31 2015 D: Validating for an automaton: 13a
+Mon Nov  9 11:44:31 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 11:44:31 2015 D: Validating for an automaton: 13b
+Mon Nov  9 11:44:32 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 11:44:32 2015 D: Validating for an automaton: 14a
+Mon Nov  9 11:44:32 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 11:44:32 2015 D: Validating for an automaton: 14b
+Mon Nov  9 11:44:32 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 11:44:32 2015 D: Validating for an automaton: 15a
+Mon Nov  9 11:44:32 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 11:44:32 2015 D: Validating for an automaton: 15b
+Mon Nov  9 11:44:33 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 11:44:33 2015 D: Validating for an automaton: 16a
+Mon Nov  9 11:44:33 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 11:44:33 2015 D: Validating for an automaton: 16b
+Mon Nov  9 11:44:34 2015 D: tremppi_cost finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 11:44:40 2015 D: Parsing database.
+Mon Nov  9 11:44:40 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:44:40 2015 D: Parsing the properties.
+Mon Nov  9 11:44:40 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 11:44:40 2015 D: Validating for an automaton: 1a
+Mon Nov  9 11:44:40 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 11:44:40 2015 D: Validating for an automaton: 1b
+Mon Nov  9 11:44:40 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:44:40 2015 D: Validating for an automaton: 2a
+Mon Nov  9 11:44:40 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 11:44:40 2015 D: Validating for an automaton: 2b
+Mon Nov  9 11:44:40 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 11:44:40 2015 D: Validating for an automaton: 3a
+Mon Nov  9 11:44:40 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 11:44:40 2015 D: Validating for an automaton: 3b
+Mon Nov  9 11:44:40 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 11:44:40 2015 D: Validating for an automaton: 4a
+Mon Nov  9 11:44:40 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 11:44:40 2015 D: Validating for an automaton: 4b
+Mon Nov  9 11:44:40 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 11:44:40 2015 D: Validating for an automaton: 5a
+Mon Nov  9 11:44:40 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 11:44:40 2015 D: Validating for an automaton: 5b
+Mon Nov  9 11:44:40 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 11:44:40 2015 D: Validating for an automaton: 6a
+Mon Nov  9 11:44:40 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 11:44:40 2015 D: Validating for an automaton: 6b
+Mon Nov  9 11:44:40 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 11:44:40 2015 D: Validating for an automaton: 7a
+Mon Nov  9 11:44:40 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 11:44:40 2015 D: Validating for an automaton: 7b
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 8a
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 8b
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 9a
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 9b
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 10a
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 10b
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 11a
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 11b
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 12a
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 12b
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 13a
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 13b
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 14a
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 14b
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 15a
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 15b
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 16a
+Mon Nov  9 11:44:41 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 11:44:41 2015 D: Validating for an automaton: 16b
+Mon Nov  9 11:44:41 2015 D: tremppi_cost finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 11:44:47 2015 D: Parsing database.
+Mon Nov  9 11:44:48 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:44:48 2015 D: Parsing the properties.
+Mon Nov  9 11:44:48 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 11:44:48 2015 D: Validating for an automaton: 1a
+Mon Nov  9 11:44:48 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 11:44:48 2015 D: Validating for an automaton: 1b
+Mon Nov  9 11:44:49 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:44:49 2015 D: Validating for an automaton: 2a
+Mon Nov  9 11:44:49 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 11:44:49 2015 D: Validating for an automaton: 2b
+Mon Nov  9 11:44:49 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 11:44:49 2015 D: Validating for an automaton: 3a
+Mon Nov  9 11:44:50 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 11:44:50 2015 D: Validating for an automaton: 3b
+Mon Nov  9 11:44:50 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 11:44:50 2015 D: Validating for an automaton: 4a
+Mon Nov  9 11:44:50 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 11:44:50 2015 D: Validating for an automaton: 4b
+Mon Nov  9 11:44:51 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 11:44:51 2015 D: Validating for an automaton: 5a
+Mon Nov  9 11:44:51 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 11:44:51 2015 D: Validating for an automaton: 5b
+Mon Nov  9 11:44:52 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 11:44:52 2015 D: Validating for an automaton: 6a
+Mon Nov  9 11:44:52 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 11:44:52 2015 D: Validating for an automaton: 6b
+Mon Nov  9 11:44:52 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 11:44:52 2015 D: Validating for an automaton: 7a
+Mon Nov  9 11:44:52 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 11:44:52 2015 D: Validating for an automaton: 7b
+Mon Nov  9 11:44:53 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 11:44:53 2015 D: Validating for an automaton: 8a
+Mon Nov  9 11:44:53 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 11:44:53 2015 D: Validating for an automaton: 8b
+Mon Nov  9 11:44:53 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 11:44:53 2015 D: Validating for an automaton: 9a
+Mon Nov  9 11:44:53 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 11:44:53 2015 D: Validating for an automaton: 9b
+Mon Nov  9 11:44:54 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 11:44:54 2015 D: Validating for an automaton: 10a
+Mon Nov  9 11:44:54 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 11:44:54 2015 D: Validating for an automaton: 10b
+Mon Nov  9 11:44:54 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 11:44:55 2015 D: Validating for an automaton: 11a
+Mon Nov  9 11:44:55 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 11:44:55 2015 D: Validating for an automaton: 11b
+Mon Nov  9 11:44:55 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 11:44:55 2015 D: Validating for an automaton: 12a
+Mon Nov  9 11:44:55 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 11:44:55 2015 D: Validating for an automaton: 12b
+Mon Nov  9 11:44:56 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 11:44:56 2015 D: Validating for an automaton: 13a
+Mon Nov  9 11:44:56 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 11:44:56 2015 D: Validating for an automaton: 13b
+Mon Nov  9 11:44:56 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 11:44:56 2015 D: Validating for an automaton: 14a
+Mon Nov  9 11:44:57 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 11:44:57 2015 D: Validating for an automaton: 14b
+Mon Nov  9 11:44:57 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 11:44:57 2015 D: Validating for an automaton: 15a
+Mon Nov  9 11:44:57 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 11:44:57 2015 D: Validating for an automaton: 15b
+Mon Nov  9 11:44:58 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 11:44:58 2015 D: Validating for an automaton: 16a
+Mon Nov  9 11:44:58 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 11:44:58 2015 D: Validating for an automaton: 16b
+Mon Nov  9 11:44:58 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 11:45:01 2015 D: Reading data.
+Mon Nov  9 11:45:01 2015 D: Selection all
+Mon Nov  9 11:45:01 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 11:45:01 2015 D: Writing results.
+Mon Nov  9 11:45:01 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 11:47:45 2015 D: Parsing database.
+Mon Nov  9 11:47:45 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:47:45 2015 D: Parsing the properties.
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 1a
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 1b
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 2a
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 2b
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 3a
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 3b
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 4a
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 4b
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 5a
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 5b
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 6a
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 6b
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 7a
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 7b
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 8a
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 8b
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 9a
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 9b
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 10a
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 10b
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 11a
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 11b
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 12a
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 12b
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 13a
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 13b
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 14a
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 14b
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 15a
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 15b
+Mon Nov  9 11:47:45 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 11:47:45 2015 D: Validating for an automaton: 16a
+Mon Nov  9 11:47:46 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 11:47:46 2015 D: Validating for an automaton: 16b
+Mon Nov  9 11:47:46 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 11:47:47 2015 D: Reading data.
+Mon Nov  9 11:47:47 2015 D: Selection all
+Mon Nov  9 11:47:47 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 11:47:47 2015 D: Writing results.
+Mon Nov  9 11:47:47 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 11:48:12 2015 D: Parsing database.
+Mon Nov  9 11:48:12 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:48:12 2015 D: Parsing the properties.
+Mon Nov  9 11:48:12 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 11:48:12 2015 D: Validating for an automaton: 1a
+Mon Nov  9 11:48:12 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 11:48:12 2015 D: Validating for an automaton: 1b
+Mon Nov  9 11:48:12 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:48:12 2015 D: Validating for an automaton: 2a
+Mon Nov  9 11:48:12 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 11:48:12 2015 D: Validating for an automaton: 2b
+Mon Nov  9 11:48:12 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 11:48:12 2015 D: Validating for an automaton: 3a
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 3b
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 4a
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 4b
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 5a
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 5b
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 6a
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 6b
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 7a
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 7b
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 8a
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 8b
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 9a
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 9b
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 10a
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 10b
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 11a
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 11b
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 12a
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 12b
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 13a
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 13b
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 14a
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 14b
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 15a
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 15b
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 16a
+Mon Nov  9 11:48:13 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 11:48:13 2015 D: Validating for an automaton: 16b
+Mon Nov  9 11:48:13 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 11:48:17 2015 D: Reading data.
+Mon Nov  9 11:48:17 2015 D: Selection all
+Mon Nov  9 11:48:17 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 11:48:17 2015 D: Writing results.
+Mon Nov  9 11:48:17 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 11:48:38 2015 D: Parsing database.
+Mon Nov  9 11:48:38 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:48:38 2015 D: Parsing the properties.
+Mon Nov  9 11:48:38 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 11:48:38 2015 D: Validating for an automaton: 1a
+Mon Nov  9 11:48:39 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 11:48:39 2015 D: Validating for an automaton: 1b
+Mon Nov  9 11:48:39 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:48:39 2015 D: Validating for an automaton: 2a
+Mon Nov  9 11:48:40 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 11:48:40 2015 D: Validating for an automaton: 2b
+Mon Nov  9 11:48:40 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 11:48:40 2015 D: Validating for an automaton: 3a
+Mon Nov  9 11:48:40 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 11:48:40 2015 D: Validating for an automaton: 3b
+Mon Nov  9 11:48:41 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 11:48:41 2015 D: Validating for an automaton: 4a
+Mon Nov  9 11:48:41 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 11:48:41 2015 D: Validating for an automaton: 4b
+Mon Nov  9 11:48:41 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 11:48:41 2015 D: Validating for an automaton: 5a
+Mon Nov  9 11:48:42 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 11:48:42 2015 D: Validating for an automaton: 5b
+Mon Nov  9 11:48:42 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 11:48:42 2015 D: Validating for an automaton: 6a
+Mon Nov  9 11:48:43 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 11:48:43 2015 D: Validating for an automaton: 6b
+Mon Nov  9 11:48:43 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 11:48:43 2015 D: Validating for an automaton: 7a
+Mon Nov  9 11:48:43 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 11:48:43 2015 D: Validating for an automaton: 7b
+Mon Nov  9 11:48:44 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 11:48:44 2015 D: Validating for an automaton: 8a
+Mon Nov  9 11:48:44 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 11:48:44 2015 D: Validating for an automaton: 8b
+Mon Nov  9 11:48:44 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 11:48:44 2015 D: Validating for an automaton: 9a
+Mon Nov  9 11:48:44 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 11:48:44 2015 D: Validating for an automaton: 9b
+Mon Nov  9 11:48:45 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 11:48:45 2015 D: Validating for an automaton: 10a
+Mon Nov  9 11:48:45 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 11:48:45 2015 D: Validating for an automaton: 10b
+Mon Nov  9 11:48:45 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 11:48:45 2015 D: Validating for an automaton: 11a
+Mon Nov  9 11:48:46 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 11:48:46 2015 D: Validating for an automaton: 11b
+Mon Nov  9 11:48:46 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 11:48:46 2015 D: Validating for an automaton: 12a
+Mon Nov  9 11:48:46 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 11:48:46 2015 D: Validating for an automaton: 12b
+Mon Nov  9 11:48:47 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 11:48:47 2015 D: Validating for an automaton: 13a
+Mon Nov  9 11:48:47 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 11:48:47 2015 D: Validating for an automaton: 13b
+Mon Nov  9 11:48:47 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 11:48:47 2015 D: Validating for an automaton: 14a
+Mon Nov  9 11:48:48 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 11:48:48 2015 D: Validating for an automaton: 14b
+Mon Nov  9 11:48:48 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 11:48:48 2015 D: Validating for an automaton: 15a
+Mon Nov  9 11:48:48 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 11:48:48 2015 D: Validating for an automaton: 15b
+Mon Nov  9 11:48:49 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 11:48:49 2015 D: Validating for an automaton: 16a
+Mon Nov  9 11:48:49 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 11:48:49 2015 D: Validating for an automaton: 16b
+Mon Nov  9 11:48:49 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 11:49:15 2015 D: Reading data.
+Mon Nov  9 11:49:15 2015 D: Selection all
+Mon Nov  9 11:49:15 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 11:49:15 2015 D: Writing results.
+Mon Nov  9 11:49:15 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 11:50:31 2015 D: Parsing database.
+Mon Nov  9 11:50:31 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:50:31 2015 D: Parsing the properties.
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 1a
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 1b
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 2a
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 2b
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 3a
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 3b
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 4a
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 4b
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 5a
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 5b
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 6a
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 6b
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 7a
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 7b
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 8a
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 8b
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 9a
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 9b
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 10a
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 10b
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 11a
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 11b
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 12a
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 12b
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 13a
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 13b
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 14a
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 14b
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 15a
+Mon Nov  9 11:50:31 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 11:50:31 2015 D: Validating for an automaton: 15b
+Mon Nov  9 11:50:32 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 11:50:32 2015 D: Validating for an automaton: 16a
+Mon Nov  9 11:50:32 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 11:50:32 2015 D: Validating for an automaton: 16b
+Mon Nov  9 11:50:32 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 11:50:33 2015 D: Reading data.
+Mon Nov  9 11:50:33 2015 D: Selection all
+Mon Nov  9 11:50:33 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 11:50:33 2015 D: Writing results.
+Mon Nov  9 11:50:33 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 11:52:00 2015 D: Parsing database.
+Mon Nov  9 11:52:00 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:52:00 2015 D: Parsing the properties.
+Mon Nov  9 11:52:00 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 11:52:00 2015 D: Validating for an automaton: 1a
+Mon Nov  9 11:52:00 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 11:52:00 2015 D: Validating for an automaton: 1b
+Mon Nov  9 11:52:00 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:52:00 2015 D: Validating for an automaton: 2a
+Mon Nov  9 11:52:00 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 11:52:00 2015 D: Validating for an automaton: 2b
+Mon Nov  9 11:52:00 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 11:52:00 2015 D: Validating for an automaton: 3a
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 3b
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 4a
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 4b
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 5a
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 5b
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 6a
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 6b
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 7a
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 7b
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 8a
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 8b
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 9a
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 9b
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 10a
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 10b
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 11a
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 11b
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 12a
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 12b
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 13a
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 13b
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 14a
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 14b
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 15a
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 15b
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 16a
+Mon Nov  9 11:52:01 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 11:52:01 2015 D: Validating for an automaton: 16b
+Mon Nov  9 11:52:01 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 11:52:03 2015 D: Reading data.
+Mon Nov  9 11:52:03 2015 D: Selection all
+Mon Nov  9 11:52:03 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 11:52:03 2015 D: Writing results.
+Mon Nov  9 11:52:03 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 11:57:10 2015 D: Parsing database.
+Mon Nov  9 11:57:11 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:57:11 2015 D: Parsing the properties.
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 1a
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 1b
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 2a
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 2b
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 3a
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 3b
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 4a
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 4b
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 5a
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 5b
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 6a
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 6b
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 7a
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 7b
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 8a
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 8b
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 9a
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 9b
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 10a
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 10b
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 11a
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 11b
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 12a
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 12b
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 13a
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 13b
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 14a
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 14b
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 15a
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 15b
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 16a
+Mon Nov  9 11:57:11 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 11:57:11 2015 D: Validating for an automaton: 16b
+Mon Nov  9 11:57:11 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 11:57:12 2015 D: Reading data.
+Mon Nov  9 11:57:12 2015 D: Selection all
+Mon Nov  9 11:57:12 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 11:57:12 2015 D: Writing results.
+Mon Nov  9 11:57:12 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 11:57:47 2015 D: Parsing database.
+Mon Nov  9 11:57:47 2015 D: Checking the JSON correctness.
+Mon Nov  9 11:57:47 2015 D: Parsing the properties.
+Mon Nov  9 11:57:47 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 11:57:47 2015 D: Validating for an automaton: 1a
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 1b
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 2a
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 2b
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 3a
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 3b
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 4a
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 4b
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 5a
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 5b
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 6a
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 6b
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 7a
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 7b
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 8a
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 8b
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 9a
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 9b
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 10a
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 10b
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 11a
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 11b
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 12a
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 12b
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 13a
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 13b
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 14a
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 14b
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 15a
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 15b
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 16a
+Mon Nov  9 11:57:48 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 11:57:48 2015 D: Validating for an automaton: 16b
+Mon Nov  9 11:57:48 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 11:57:49 2015 D: Reading data.
+Mon Nov  9 11:57:50 2015 D: Selection all
+Mon Nov  9 11:57:50 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 11:57:50 2015 D: Writing results.
+Mon Nov  9 11:57:50 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 12:12:16 2015 D: Reading data.
+Mon Nov  9 12:12:17 2015 D: Selection all
+Mon Nov  9 12:12:17 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 12:12:17 2015 D: Writing results.
+Mon Nov  9 12:12:17 2015 D: Selection strict
+Mon Nov  9 12:12:17 2015 E: Top level exception: No models in the selection.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 12:13:15 2015 D: Reading data.
+Mon Nov  9 12:13:15 2015 D: Selection all
+Mon Nov  9 12:13:15 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 12:13:15 2015 D: Writing results.
+Mon Nov  9 12:13:15 2015 D: Selection relaxed
+Mon Nov  9 12:13:15 2015 E: Top level exception: No models in the selection.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 12:21:10 2015 D: Parsing database.
+Mon Nov  9 12:21:10 2015 D: Checking the JSON correctness.
+Mon Nov  9 12:21:10 2015 D: Parsing the properties.
+Mon Nov  9 12:21:10 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 12:21:10 2015 D: Validating for an automaton: 1a
+Mon Nov  9 12:21:10 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 12:21:10 2015 D: Validating for an automaton: 1b
+Mon Nov  9 12:21:10 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 12:21:10 2015 D: Validating for an automaton: 2a
+Mon Nov  9 12:21:10 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 12:21:10 2015 D: Validating for an automaton: 2b
+Mon Nov  9 12:21:10 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 12:21:10 2015 D: Validating for an automaton: 3a
+Mon Nov  9 12:21:10 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 12:21:10 2015 D: Validating for an automaton: 3b
+Mon Nov  9 12:21:10 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 4a
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 4b
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 5a
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 5b
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 6a
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 6b
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 7a
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 7b
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 8a
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 8b
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 9a
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 9b
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 10a
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 10b
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 11a
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 11b
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 12a
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 12b
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 13a
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 13b
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 14a
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 14b
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 15a
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 15b
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 16a
+Mon Nov  9 12:21:11 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 12:21:11 2015 D: Validating for an automaton: 16b
+Mon Nov  9 12:21:11 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 12:21:14 2015 D: Reading data.
+Mon Nov  9 12:21:14 2015 D: Selection all
+Mon Nov  9 12:21:14 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 12:21:14 2015 D: Writing results.
+Mon Nov  9 12:21:14 2015 D: Selection relaxed
+Mon Nov  9 12:21:14 2015 E: Top level exception: No models in the selection.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 12:21:28 2015 D: Parsing database.
+Mon Nov  9 12:21:28 2015 D: Checking the JSON correctness.
+Mon Nov  9 12:21:28 2015 D: Parsing the properties.
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 1a
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 1b
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 2a
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 2b
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 3a
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 3b
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 4a
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 4b
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 5a
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 5b
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 6a
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 6b
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 7a
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 7b
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 8a
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 8b
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 9a
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 9b
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 10a
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 10b
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 11a
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 11b
+Mon Nov  9 12:21:28 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 12:21:28 2015 D: Validating for an automaton: 12a
+Mon Nov  9 12:21:29 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 12:21:29 2015 D: Validating for an automaton: 12b
+Mon Nov  9 12:21:29 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 12:21:29 2015 D: Validating for an automaton: 13a
+Mon Nov  9 12:21:29 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 12:21:29 2015 D: Validating for an automaton: 13b
+Mon Nov  9 12:21:29 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 12:21:29 2015 D: Validating for an automaton: 14a
+Mon Nov  9 12:21:29 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 12:21:29 2015 D: Validating for an automaton: 14b
+Mon Nov  9 12:21:29 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 12:21:29 2015 D: Validating for an automaton: 15a
+Mon Nov  9 12:21:29 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 12:21:29 2015 D: Validating for an automaton: 15b
+Mon Nov  9 12:21:29 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 12:21:29 2015 D: Validating for an automaton: 16a
+Mon Nov  9 12:21:29 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 12:21:29 2015 D: Validating for an automaton: 16b
+Mon Nov  9 12:21:29 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 12:21:32 2015 D: Reading data.
+Mon Nov  9 12:21:32 2015 D: Selection all
+Mon Nov  9 12:21:32 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 12:21:32 2015 D: Writing results.
+Mon Nov  9 12:21:32 2015 D: Selection relaxed
+Mon Nov  9 12:21:32 2015 E: Top level exception: No models in the selection.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 12:23:01 2015 D: Parsing database.
+Mon Nov  9 12:23:01 2015 D: Checking the JSON correctness.
+Mon Nov  9 12:23:01 2015 D: Parsing the properties.
+Mon Nov  9 12:23:01 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 12:23:01 2015 D: Validating for an automaton: 1a
+Mon Nov  9 12:23:01 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 12:23:01 2015 D: Validating for an automaton: 1b
+Mon Nov  9 12:23:01 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 12:23:01 2015 D: Validating for an automaton: 2a
+Mon Nov  9 12:23:01 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 12:23:01 2015 D: Validating for an automaton: 2b
+Mon Nov  9 12:23:01 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 12:23:01 2015 D: Validating for an automaton: 3a
+Mon Nov  9 12:23:01 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 12:23:01 2015 D: Validating for an automaton: 3b
+Mon Nov  9 12:23:01 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 12:23:01 2015 D: Validating for an automaton: 4a
+Mon Nov  9 12:23:01 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 12:23:01 2015 D: Validating for an automaton: 4b
+Mon Nov  9 12:23:01 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 12:23:01 2015 D: Validating for an automaton: 5a
+Mon Nov  9 12:23:01 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 12:23:01 2015 D: Validating for an automaton: 5b
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 6a
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 6b
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 7a
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 7b
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 8a
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 8b
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 9a
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 9b
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 10a
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 10b
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 11a
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 11b
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 12a
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 12b
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 13a
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 13b
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 14a
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 14b
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 15a
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 15b
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 16a
+Mon Nov  9 12:23:02 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 12:23:02 2015 D: Validating for an automaton: 16b
+Mon Nov  9 12:23:02 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 12:23:03 2015 D: Reading data.
+Mon Nov  9 12:23:03 2015 D: Selection all
+Mon Nov  9 12:23:03 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 12:23:03 2015 D: Writing results.
+Mon Nov  9 12:23:03 2015 D: Selection relaxed
+Mon Nov  9 12:23:03 2015 E: Top level exception: No models in the selection.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 12:23:23 2015 D: Parsing database.
+Mon Nov  9 12:23:23 2015 D: Checking the JSON correctness.
+Mon Nov  9 12:23:23 2015 D: Parsing the properties.
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 1a
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 1b
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 2a
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 2b
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 3a
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 3b
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 4a
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 4b
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 5a
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 5b
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 6a
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 6b
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 7a
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 7b
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 8a
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 8b
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 9a
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 9b
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 10a
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 10b
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 11a
+Mon Nov  9 12:23:23 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 12:23:23 2015 D: Validating for an automaton: 11b
+Mon Nov  9 12:23:24 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 12:23:24 2015 D: Validating for an automaton: 12a
+Mon Nov  9 12:23:24 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 12:23:24 2015 D: Validating for an automaton: 12b
+Mon Nov  9 12:23:24 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 12:23:24 2015 D: Validating for an automaton: 13a
+Mon Nov  9 12:23:24 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 12:23:24 2015 D: Validating for an automaton: 13b
+Mon Nov  9 12:23:24 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 12:23:24 2015 D: Validating for an automaton: 14a
+Mon Nov  9 12:23:24 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 12:23:24 2015 D: Validating for an automaton: 14b
+Mon Nov  9 12:23:24 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 12:23:24 2015 D: Validating for an automaton: 15a
+Mon Nov  9 12:23:24 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 12:23:24 2015 D: Validating for an automaton: 15b
+Mon Nov  9 12:23:24 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 12:23:24 2015 D: Validating for an automaton: 16a
+Mon Nov  9 12:23:24 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 12:23:24 2015 D: Validating for an automaton: 16b
+Mon Nov  9 12:23:24 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 12:23:24 2015 D: Reading data.
+Mon Nov  9 12:23:24 2015 D: Selection all
+Mon Nov  9 12:23:24 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 12:23:24 2015 D: Writing results.
+Mon Nov  9 12:23:24 2015 D: Selection relaxed
+Mon Nov  9 12:23:24 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 12:23:24 2015 D: Writing results.
+Mon Nov  9 12:23:24 2015 D: Selection strict
+Mon Nov  9 12:23:24 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 12:23:24 2015 D: Writing results.
+Mon Nov  9 12:23:24 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_correlations has started. --- 
+Mon Nov  9 14:24:39 2015 D: Parsing data file.
+Mon Nov  9 14:24:39 2015 D: Selection all
+Mon Nov  9 14:24:39 2015 E: Top level exception: did not find the column B_CdiGMP
+ --- tremppi_bias has started. --- 
+Mon Nov  9 14:24:45 2015 D: Computing function graph data.
+Mon Nov  9 14:24:45 2015 D: tremppi_bias finished successfully.
+ --- tremppi_impact has started. --- 
+Mon Nov  9 14:24:48 2015 E: Top level exception: no such column: ind
+ --- tremppi_sign has started. --- 
+Mon Nov  9 14:24:50 2015 D: tremppi_sign finished successfully.
+ --- tremppi_trace has started. --- 
+Mon Nov  9 14:24:52 2015 D: Parsing database.
+Mon Nov  9 14:24:52 2015 D: Checking the JSON correctness.
+Mon Nov  9 14:24:52 2015 D: Parsing the properties.
+Mon Nov  9 14:24:52 2015 D: Building a product with the automaton: 1a
+Mon Nov  9 14:24:52 2015 D: Validating for an automaton: 1a
+Mon Nov  9 14:24:52 2015 D: Building a product with the automaton: 1b
+Mon Nov  9 14:24:52 2015 D: Validating for an automaton: 1b
+Mon Nov  9 14:24:52 2015 D: Building a product with the automaton: 2a
+Mon Nov  9 14:24:52 2015 D: Validating for an automaton: 2a
+Mon Nov  9 14:24:52 2015 D: Building a product with the automaton: 2b
+Mon Nov  9 14:24:52 2015 D: Validating for an automaton: 2b
+Mon Nov  9 14:24:52 2015 D: Building a product with the automaton: 3a
+Mon Nov  9 14:24:52 2015 D: Validating for an automaton: 3a
+Mon Nov  9 14:24:52 2015 D: Building a product with the automaton: 3b
+Mon Nov  9 14:24:52 2015 D: Validating for an automaton: 3b
+Mon Nov  9 14:24:52 2015 D: Building a product with the automaton: 4a
+Mon Nov  9 14:24:52 2015 D: Validating for an automaton: 4a
+Mon Nov  9 14:24:53 2015 D: Building a product with the automaton: 4b
+Mon Nov  9 14:24:53 2015 D: Validating for an automaton: 4b
+Mon Nov  9 14:24:53 2015 D: Building a product with the automaton: 5a
+Mon Nov  9 14:24:53 2015 D: Validating for an automaton: 5a
+Mon Nov  9 14:24:53 2015 D: Building a product with the automaton: 5b
+Mon Nov  9 14:24:53 2015 D: Validating for an automaton: 5b
+Mon Nov  9 14:24:53 2015 D: Building a product with the automaton: 6a
+Mon Nov  9 14:24:53 2015 D: Validating for an automaton: 6a
+Mon Nov  9 14:24:53 2015 D: Building a product with the automaton: 6b
+Mon Nov  9 14:24:53 2015 D: Validating for an automaton: 6b
+Mon Nov  9 14:24:53 2015 D: Building a product with the automaton: 7a
+Mon Nov  9 14:24:53 2015 D: Validating for an automaton: 7a
+Mon Nov  9 14:24:53 2015 D: Building a product with the automaton: 7b
+Mon Nov  9 14:24:53 2015 D: Validating for an automaton: 7b
+Mon Nov  9 14:24:53 2015 D: Building a product with the automaton: 8a
+Mon Nov  9 14:24:53 2015 D: Validating for an automaton: 8a
+Mon Nov  9 14:24:53 2015 D: Building a product with the automaton: 8b
+Mon Nov  9 14:24:53 2015 D: Validating for an automaton: 8b
+Mon Nov  9 14:24:53 2015 D: Building a product with the automaton: 9a
+Mon Nov  9 14:24:53 2015 D: Validating for an automaton: 9a
+Mon Nov  9 14:24:53 2015 D: Building a product with the automaton: 9b
+Mon Nov  9 14:24:53 2015 D: Validating for an automaton: 9b
+Mon Nov  9 14:24:53 2015 D: Building a product with the automaton: 10a
+Mon Nov  9 14:24:53 2015 D: Validating for an automaton: 10a
+Mon Nov  9 14:24:53 2015 D: Building a product with the automaton: 10b
+Mon Nov  9 14:24:53 2015 D: Validating for an automaton: 10b
+Mon Nov  9 14:24:53 2015 D: Building a product with the automaton: 11a
+Mon Nov  9 14:24:53 2015 D: Validating for an automaton: 11a
+Mon Nov  9 14:24:53 2015 D: Building a product with the automaton: 11b
+Mon Nov  9 14:24:53 2015 D: Validating for an automaton: 11b
+Mon Nov  9 14:24:53 2015 D: Building a product with the automaton: 12a
+Mon Nov  9 14:24:53 2015 D: Validating for an automaton: 12a
+Mon Nov  9 14:24:53 2015 D: Building a product with the automaton: 12b
+Mon Nov  9 14:24:53 2015 D: Validating for an automaton: 12b
+Mon Nov  9 14:24:54 2015 D: Building a product with the automaton: 13a
+Mon Nov  9 14:24:54 2015 D: Validating for an automaton: 13a
+Mon Nov  9 14:24:54 2015 D: Building a product with the automaton: 13b
+Mon Nov  9 14:24:54 2015 D: Validating for an automaton: 13b
+Mon Nov  9 14:24:54 2015 D: Building a product with the automaton: 14a
+Mon Nov  9 14:24:54 2015 D: Validating for an automaton: 14a
+Mon Nov  9 14:24:54 2015 D: Building a product with the automaton: 14b
+Mon Nov  9 14:24:54 2015 D: Validating for an automaton: 14b
+Mon Nov  9 14:24:54 2015 D: Building a product with the automaton: 15a
+Mon Nov  9 14:24:54 2015 D: Validating for an automaton: 15a
+Mon Nov  9 14:24:54 2015 D: Building a product with the automaton: 15b
+Mon Nov  9 14:24:54 2015 D: Validating for an automaton: 15b
+Mon Nov  9 14:24:54 2015 D: Building a product with the automaton: 16a
+Mon Nov  9 14:24:54 2015 D: Validating for an automaton: 16a
+Mon Nov  9 14:24:54 2015 D: Building a product with the automaton: 16b
+Mon Nov  9 14:24:54 2015 D: Validating for an automaton: 16b
+Mon Nov  9 14:24:54 2015 D: tremppi_trace finished successfully.
+ --- tremppi_correlations has started. --- 
+Mon Nov  9 14:24:56 2015 D: Parsing data file.
+Mon Nov  9 14:24:56 2015 D: Selection all
+Mon Nov  9 14:24:56 2015 D: Computing function graph data.
+Mon Nov  9 14:24:56 2015 D: Writing output.
+Mon Nov  9 14:24:56 2015 D: Selection relaxed
+Mon Nov  9 14:24:56 2015 D: Computing function graph data.
+Mon Nov  9 14:24:56 2015 D: Writing output.
+Mon Nov  9 14:24:56 2015 D: Selection strict
+Mon Nov  9 14:24:56 2015 D: Computing function graph data.
+Mon Nov  9 14:24:56 2015 D: Writing output.
+Mon Nov  9 14:24:56 2015 D: tremppi_correlations finished successfully.
+ --- tremppi_qualitative has started. --- 
+Mon Nov  9 14:24:56 2015 D: Reading data.
+Mon Nov  9 14:24:56 2015 D: Selection all
+Mon Nov  9 14:24:56 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 14:24:56 2015 D: Writing the result to file.
+Mon Nov  9 14:24:56 2015 D: Selection relaxed
+Mon Nov  9 14:24:56 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 14:24:56 2015 D: Writing the result to file.
+Mon Nov  9 14:24:56 2015 D: Selection strict
+Mon Nov  9 14:24:56 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 14:24:56 2015 D: Writing the result to file.
+Mon Nov  9 14:24:57 2015 D: tremppi_qualitative finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov  9 14:24:57 2015 D: Reading data.
+Mon Nov  9 14:24:57 2015 D: Selection all
+Mon Nov  9 14:24:57 2015 D: Reading the values, computing the statistics.
+Mon Nov  9 14:24:57 2015 E: Top level exception: A null valued entry in the column I_YciR_1_MlrA
+ --- tremppi_regulations has started. --- 
+Mon Nov  9 14:24:57 2015 D: Reading data.
+Mon Nov  9 14:24:57 2015 D: Selection all
+Mon Nov  9 14:24:57 2015 D: Computing regulationsion graph data.
+Mon Nov  9 14:24:57 2015 D: Writing results.
+Mon Nov  9 14:24:57 2015 D: Selection relaxed
+Mon Nov  9 14:24:57 2015 D: Computing regulationsion graph data.
+Mon Nov  9 14:24:57 2015 D: Writing results.
+Mon Nov  9 14:24:57 2015 D: Selection strict
+Mon Nov  9 14:24:57 2015 D: Computing regulationsion graph data.
+Mon Nov  9 14:24:57 2015 D: Writing results.
+Mon Nov  9 14:24:57 2015 D: tremppi_regulations finished successfully.
+ --- tremppi_witness has started. --- 
+Mon Nov  9 14:24:57 2015 D: Reading data.
+Mon Nov  9 14:24:57 2015 D: Selection all
+Mon Nov  9 14:24:57 2015 D: Reading data.
+Mon Nov  9 14:24:57 2015 D: Writing data.
+Mon Nov  9 14:24:57 2015 D: Selection relaxed
+Mon Nov  9 14:24:57 2015 D: Reading data.
+Mon Nov  9 14:24:58 2015 D: Writing data.
+Mon Nov  9 14:24:58 2015 D: Selection strict
+Mon Nov  9 14:24:58 2015 D: Reading data.
+Mon Nov  9 14:24:58 2015 D: Writing data.
+Mon Nov  9 14:24:58 2015 D: tremppi_witness finished successfully.
+ --- tremppi_trace has started. --- 
+Mon Nov 16 17:18:02 2015 D: Parsing database.
+Mon Nov 16 17:18:02 2015 D: Checking the JSON correctness.
+Mon Nov 16 17:18:02 2015 D: Parsing the properties.
+Mon Nov 16 17:18:02 2015 D: Building a product with the automaton: 1a
+Mon Nov 16 17:18:02 2015 D: Validating for an automaton: 1a
+Mon Nov 16 17:18:02 2015 D: Building a product with the automaton: 1b
+Mon Nov 16 17:18:02 2015 D: Validating for an automaton: 1b
+Mon Nov 16 17:18:02 2015 D: Building a product with the automaton: 2a
+Mon Nov 16 17:18:02 2015 D: Validating for an automaton: 2a
+Mon Nov 16 17:18:02 2015 D: Building a product with the automaton: 2b
+Mon Nov 16 17:18:02 2015 D: Validating for an automaton: 2b
+Mon Nov 16 17:18:02 2015 D: Building a product with the automaton: 3a
+Mon Nov 16 17:18:02 2015 D: Validating for an automaton: 3a
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 3b
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 3b
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 4a
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 4a
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 4b
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 4b
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 5a
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 5a
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 5b
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 5b
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 6a
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 6a
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 6b
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 6b
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 7a
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 7a
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 7b
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 7b
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 8a
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 8a
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 8b
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 8b
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 9a
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 9a
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 9b
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 9b
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 10a
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 10a
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 10b
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 10b
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 11a
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 11a
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 11b
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 11b
+Mon Nov 16 17:18:03 2015 D: Building a product with the automaton: 12a
+Mon Nov 16 17:18:03 2015 D: Validating for an automaton: 12a
+Mon Nov 16 17:18:04 2015 D: Building a product with the automaton: 12b
+Mon Nov 16 17:18:04 2015 D: Validating for an automaton: 12b
+Mon Nov 16 17:18:04 2015 D: Building a product with the automaton: 13a
+Mon Nov 16 17:18:04 2015 D: Validating for an automaton: 13a
+Mon Nov 16 17:18:04 2015 D: Building a product with the automaton: 13b
+Mon Nov 16 17:18:04 2015 D: Validating for an automaton: 13b
+Mon Nov 16 17:18:04 2015 D: Building a product with the automaton: 14a
+Mon Nov 16 17:18:04 2015 D: Validating for an automaton: 14a
+Mon Nov 16 17:18:04 2015 D: Building a product with the automaton: 14b
+Mon Nov 16 17:18:04 2015 D: Validating for an automaton: 14b
+Mon Nov 16 17:18:04 2015 D: Building a product with the automaton: 15a
+Mon Nov 16 17:18:04 2015 D: Validating for an automaton: 15a
+Mon Nov 16 17:18:04 2015 D: Building a product with the automaton: 15b
+Mon Nov 16 17:18:04 2015 D: Validating for an automaton: 15b
+Mon Nov 16 17:18:04 2015 D: Building a product with the automaton: 16a
+Mon Nov 16 17:18:04 2015 D: Validating for an automaton: 16a
+Mon Nov 16 17:18:04 2015 D: Building a product with the automaton: 16b
+Mon Nov 16 17:18:04 2015 D: Validating for an automaton: 16b
+Mon Nov 16 17:18:04 2015 D: tremppi_trace finished successfully.
+ --- tremppi_witness has started. --- 
+Mon Nov 16 17:18:14 2015 D: Reading data.
+Mon Nov 16 17:18:14 2015 D: Selection all
+Mon Nov 16 17:18:14 2015 D: Reading data.
+Mon Nov 16 17:18:14 2015 D: Writing data.
+Mon Nov 16 17:18:14 2015 D: Selection relaxed
+Mon Nov 16 17:18:14 2015 D: Reading data.
+Mon Nov 16 17:18:14 2015 D: Writing data.
+Mon Nov 16 17:18:14 2015 D: Selection strict
+Mon Nov 16 17:18:15 2015 D: Reading data.
+Mon Nov 16 17:18:15 2015 D: Writing data.
+Mon Nov 16 17:18:15 2015 D: tremppi_witness finished successfully.
+ --- tremppi_witness has started. --- 
+Mon Nov 16 17:19:09 2015 D: Reading data.
+Mon Nov 16 17:19:09 2015 D: Selection all
+Mon Nov 16 17:19:09 2015 D: Reading data.
+Mon Nov 16 17:19:09 2015 D: Writing data.
+Mon Nov 16 17:19:09 2015 D: Selection relaxed
+Mon Nov 16 17:19:09 2015 D: Reading data.
+Mon Nov 16 17:19:09 2015 D: Writing data.
+Mon Nov 16 17:19:09 2015 D: Selection strict
+Mon Nov 16 17:19:09 2015 D: Reading data.
+Mon Nov 16 17:19:09 2015 D: Writing data.
+Mon Nov 16 17:19:09 2015 D: tremppi_witness finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov 16 17:24:22 2015 D: Parsing database.
+Mon Nov 16 17:24:22 2015 D: Checking the JSON correctness.
+Mon Nov 16 17:24:22 2015 D: Parsing the properties.
+Mon Nov 16 17:24:22 2015 D: Building a product with the automaton: 1a
+Mon Nov 16 17:24:22 2015 D: Validating for an automaton: 1a
+Mon Nov 16 17:24:22 2015 D: Building a product with the automaton: 1b
+Mon Nov 16 17:24:22 2015 D: Validating for an automaton: 1b
+Mon Nov 16 17:24:22 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov 16 17:24:22 2015 D: Reading data.
+Mon Nov 16 17:24:22 2015 D: Selection all
+Mon Nov 16 17:24:22 2015 D: Reading the values, computing the statistics.
+Mon Nov 16 17:24:22 2015 E: Top level exception: A null valued entry in the column I_YciR_1_MlrA
+ --- tremppi_cost has started. --- 
+Mon Nov 16 17:24:30 2015 D: Parsing database.
+Mon Nov 16 17:24:30 2015 D: Checking the JSON correctness.
+Mon Nov 16 17:24:30 2015 D: Parsing the properties.
+Mon Nov 16 17:24:30 2015 D: Building a product with the automaton: 1a
+Mon Nov 16 17:24:30 2015 D: Validating for an automaton: 1a
+Mon Nov 16 17:24:30 2015 D: Building a product with the automaton: 1b
+Mon Nov 16 17:24:30 2015 D: Validating for an automaton: 1b
+Mon Nov 16 17:24:30 2015 D: Building a product with the automaton: 2a
+Mon Nov 16 17:24:30 2015 D: Validating for an automaton: 2a
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 2b
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 2b
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 3a
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 3a
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 3b
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 3b
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 4a
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 4a
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 4b
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 4b
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 5a
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 5a
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 5b
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 5b
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 6a
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 6a
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 6b
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 6b
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 7a
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 7a
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 7b
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 7b
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 8a
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 8a
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 8b
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 8b
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 9a
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 9a
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 9b
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 9b
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 10a
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 10a
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 10b
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 10b
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 11a
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 11a
+Mon Nov 16 17:24:31 2015 D: Building a product with the automaton: 11b
+Mon Nov 16 17:24:31 2015 D: Validating for an automaton: 11b
+Mon Nov 16 17:24:32 2015 D: Building a product with the automaton: 12a
+Mon Nov 16 17:24:32 2015 D: Validating for an automaton: 12a
+Mon Nov 16 17:24:32 2015 D: Building a product with the automaton: 12b
+Mon Nov 16 17:24:32 2015 D: Validating for an automaton: 12b
+Mon Nov 16 17:24:32 2015 D: Building a product with the automaton: 13a
+Mon Nov 16 17:24:32 2015 D: Validating for an automaton: 13a
+Mon Nov 16 17:24:32 2015 D: Building a product with the automaton: 13b
+Mon Nov 16 17:24:32 2015 D: Validating for an automaton: 13b
+Mon Nov 16 17:24:32 2015 D: Building a product with the automaton: 14a
+Mon Nov 16 17:24:32 2015 D: Validating for an automaton: 14a
+Mon Nov 16 17:24:32 2015 D: Building a product with the automaton: 14b
+Mon Nov 16 17:24:32 2015 D: Validating for an automaton: 14b
+Mon Nov 16 17:24:32 2015 D: Building a product with the automaton: 15a
+Mon Nov 16 17:24:32 2015 D: Validating for an automaton: 15a
+Mon Nov 16 17:24:32 2015 D: Building a product with the automaton: 15b
+Mon Nov 16 17:24:32 2015 D: Validating for an automaton: 15b
+Mon Nov 16 17:24:32 2015 D: Building a product with the automaton: 16a
+Mon Nov 16 17:24:32 2015 D: Validating for an automaton: 16a
+Mon Nov 16 17:24:32 2015 D: Building a product with the automaton: 16b
+Mon Nov 16 17:24:32 2015 D: Validating for an automaton: 16b
+Mon Nov 16 17:24:32 2015 D: tremppi_cost finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov 16 17:24:33 2015 D: Reading data.
+Mon Nov 16 17:24:33 2015 D: Selection all
+Mon Nov 16 17:24:33 2015 D: Reading the values, computing the statistics.
+Mon Nov 16 17:24:33 2015 E: Top level exception: A null valued entry in the column I_YciR_1_MlrA
+ --- tremppi_witness has started. --- 
+Mon Nov 16 17:25:18 2015 D: Reading data.
+Mon Nov 16 17:25:18 2015 D: Selection all
+Mon Nov 16 17:25:18 2015 D: Reading data.
+Mon Nov 16 17:25:18 2015 D: Writing data.
+Mon Nov 16 17:25:18 2015 D: Selection relaxed
+Mon Nov 16 17:25:18 2015 D: Reading data.
+Mon Nov 16 17:25:18 2015 D: Writing data.
+Mon Nov 16 17:25:18 2015 D: Selection strict
+Mon Nov 16 17:25:18 2015 D: Reading data.
+Mon Nov 16 17:25:18 2015 D: Writing data.
+Mon Nov 16 17:25:18 2015 D: tremppi_witness finished successfully.
+ --- tremppi_trace has started. --- 
+Mon Nov 16 17:25:19 2015 D: Parsing database.
+Mon Nov 16 17:25:19 2015 D: Checking the JSON correctness.
+Mon Nov 16 17:25:19 2015 D: Parsing the properties.
+Mon Nov 16 17:25:19 2015 D: Building a product with the automaton: 1a
+Mon Nov 16 17:25:19 2015 D: Validating for an automaton: 1a
+Mon Nov 16 17:25:19 2015 D: Building a product with the automaton: 1b
+Mon Nov 16 17:25:19 2015 D: Validating for an automaton: 1b
+Mon Nov 16 17:25:20 2015 D: tremppi_trace finished successfully.
+ --- tremppi_witness has started. --- 
+Mon Nov 16 17:25:21 2015 D: Reading data.
+Mon Nov 16 17:25:21 2015 D: Selection all
+Mon Nov 16 17:25:21 2015 D: Reading data.
+Mon Nov 16 17:25:21 2015 D: Writing data.
+Mon Nov 16 17:25:21 2015 D: Selection relaxed
+Mon Nov 16 17:25:21 2015 D: Reading data.
+Mon Nov 16 17:25:21 2015 D: Writing data.
+Mon Nov 16 17:25:21 2015 D: Selection strict
+Mon Nov 16 17:25:21 2015 D: Reading data.
+Mon Nov 16 17:25:21 2015 D: Writing data.
+Mon Nov 16 17:25:21 2015 D: tremppi_witness finished successfully.
+ --- tremppi_trace has started. --- 
+Mon Nov 16 17:26:27 2015 D: Parsing database.
+Mon Nov 16 17:26:28 2015 D: Checking the JSON correctness.
+Mon Nov 16 17:26:28 2015 D: Parsing the properties.
+Mon Nov 16 17:26:28 2015 D: Building a product with the automaton: 1a
+Mon Nov 16 17:26:28 2015 D: Validating for an automaton: 1a
+Mon Nov 16 17:26:28 2015 D: Building a product with the automaton: 1b
+Mon Nov 16 17:26:28 2015 D: Validating for an automaton: 1b
+Mon Nov 16 17:26:28 2015 D: tremppi_trace finished successfully.
+ --- tremppi_witness has started. --- 
+Mon Nov 16 17:26:28 2015 D: Reading data.
+Mon Nov 16 17:26:29 2015 D: Selection all
+Mon Nov 16 17:26:29 2015 D: Reading data.
+Mon Nov 16 17:26:29 2015 D: Writing data.
+Mon Nov 16 17:26:29 2015 D: Selection relaxed
+Mon Nov 16 17:26:29 2015 D: Reading data.
+Mon Nov 16 17:26:29 2015 D: Writing data.
+Mon Nov 16 17:26:29 2015 D: Selection strict
+Mon Nov 16 17:26:29 2015 D: Reading data.
+Mon Nov 16 17:26:29 2015 D: Writing data.
+Mon Nov 16 17:26:29 2015 D: tremppi_witness finished successfully.
+ --- tremppi_witness has started. --- 
+Tue Nov 17 10:48:17 2015 D: Reading data.
+Tue Nov 17 10:48:17 2015 D: Selection all
+Tue Nov 17 10:48:17 2015 D: Reading data.
+Tue Nov 17 10:48:17 2015 D: Writing data.
+Tue Nov 17 10:48:17 2015 D: Selection relaxed
+Tue Nov 17 10:48:17 2015 D: Reading data.
+Tue Nov 17 10:48:17 2015 D: Writing data.
+Tue Nov 17 10:48:17 2015 D: Selection strict
+Tue Nov 17 10:48:17 2015 D: Reading data.
+Tue Nov 17 10:48:17 2015 D: Writing data.
+Tue Nov 17 10:48:17 2015 D: tremppi_witness finished successfully.
+ --- tremppi_trace has started. --- 
+Tue Nov 17 10:52:58 2015 I: Parsing database.
+Tue Nov 17 10:52:58 2015 I: Checking the JSON correctness.
+Tue Nov 17 10:52:58 2015 I: Parsing the properties.
+Tue Nov 17 10:52:58 2015 I: Building a product with the automaton: 1a
+ --- tremppi_trace has started. --- 
+Tue Nov 17 11:20:12 2015 I: Parsing database.
+Tue Nov 17 11:20:12 2015 I: Checking the JSON correctness.
+Tue Nov 17 11:20:12 2015 I: Parsing the properties.
+Tue Nov 17 11:20:12 2015 I: Building a product with the automaton: 1a
+ --- tremppi_trace has started. --- 
+Tue Nov 17 11:20:43 2015 I: Parsing database.
+Tue Nov 17 11:20:43 2015 I: Checking the JSON correctness.
+Tue Nov 17 11:20:43 2015 I: Parsing the properties.
+Tue Nov 17 11:20:43 2015 I: Building a product with the automaton: 1a
+ --- tremppi_trace has started. --- 
+Tue Nov 17 11:21:43 2015 I: Parsing database.
+Tue Nov 17 11:21:43 2015 I: Checking the JSON correctness.
+Tue Nov 17 11:21:43 2015 I: Parsing the properties.
+Tue Nov 17 11:21:43 2015 I: Building a product with the automaton: 1a
+ --- tremppi_trace has started. --- 
+Tue Nov 17 11:23:10 2015 I: Parsing database.
+Tue Nov 17 11:23:10 2015 I: Checking the JSON correctness.
+Tue Nov 17 11:23:10 2015 I: Parsing the properties.
+Tue Nov 17 11:23:10 2015 I: Building a product with the automaton: 1a
+ --- tremppi_trace has started. --- 
+Tue Nov 17 11:39:21 2015 D: Parsing database.
+Tue Nov 17 11:39:21 2015 D: Checking the JSON correctness.
+Tue Nov 17 11:39:21 2015 D: Parsing the properties.
+Tue Nov 17 11:39:21 2015 D: Building a product with the automaton: 1a
+Tue Nov 17 11:39:21 2015 D: Validating for an automaton: 1a
+Tue Nov 17 11:39:21 2015 D: tremppi_trace finished successfully.
+ --- tremppi_witness has started. --- 
+Tue Nov 17 11:39:23 2015 D: Reading data.
+Tue Nov 17 11:39:23 2015 D: Selection strict
+Tue Nov 17 11:39:23 2015 D: Reading data.
+Tue Nov 17 11:39:23 2015 D: Writing data.
+Tue Nov 17 11:39:23 2015 D: tremppi_witness finished successfully.
+ --- tremppi_trace has started. --- 
+Tue Nov 17 11:39:44 2015 D: Parsing database.
+Tue Nov 17 11:39:44 2015 D: Checking the JSON correctness.
+Tue Nov 17 11:39:44 2015 D: Parsing the properties.
+Tue Nov 17 11:39:44 2015 D: Building a product with the automaton: 1a
+Tue Nov 17 11:39:44 2015 D: Validating for an automaton: 1a
+Tue Nov 17 11:39:44 2015 D: tremppi_trace finished successfully.
+ --- tremppi_trace has started. --- 
+Tue Nov 17 11:41:30 2015 I: Parsing database.
+Tue Nov 17 11:41:31 2015 I: Checking the JSON correctness.
+Tue Nov 17 11:41:31 2015 I: Parsing the properties.
+Tue Nov 17 11:41:31 2015 I: Building a product with the automaton: 1a
+Tue Nov 17 11:41:31 2015 I: Validating for an automaton: 1a
+Tue Nov 17 11:41:40 2015 I: tremppi_trace finished successfully.
+ --- tremppi_spawn has started. --- 
+Tue Nov 17 11:43:07 2015 I: Checking the JSON correctness.
+Tue Nov 17 11:43:07 2015 I: Parsing the network.
+Tue Nov 17 11:43:07 2015 I: Obtaining kinetics.
+Tue Nov 17 11:43:07 2015 I: Creating the database file.
+Tue Nov 17 11:43:07 2015 W: Database file Biofilm/data\database.sqlite already exists, erasing.
+Tue Nov 17 11:43:07 2015 E: Top level exception: boost::filesystem::remove: The process cannot access the file because it is being used by another process: "Biofilm/data\database.sqlite"
+ --- tremppi_bias has started. --- 
+Tue Nov 17 11:43:11 2015 I: Computing function graph data.
+Tue Nov 17 11:43:11 2015 I: tremppi_bias finished successfully.
+ --- tremppi_cost has started. --- 
+Tue Nov 17 11:43:11 2015 I: Parsing database.
+Tue Nov 17 11:43:12 2015 I: Checking the JSON correctness.
+Tue Nov 17 11:43:12 2015 I: Parsing the properties.
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 1a
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 1a
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 1b
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 1b
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 2a
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 2a
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 2b
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 2b
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 3a
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 3a
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 3b
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 3b
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 4a
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 4a
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 4b
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 4b
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 5a
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 5a
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 5b
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 5b
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 6a
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 6a
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 6b
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 6b
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 7a
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 7a
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 7b
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 7b
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 8a
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 8a
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 8b
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 8b
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 9a
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 9a
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 9b
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 9b
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 10a
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 10a
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 10b
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 10b
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 11a
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 11a
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 11b
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 11b
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 12a
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 12a
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 12b
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 12b
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 13a
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 13a
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 13b
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 13b
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 14a
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 14a
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 14b
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 14b
+Tue Nov 17 11:43:12 2015 I: Building a product with the automaton: 15a
+Tue Nov 17 11:43:12 2015 I: Validating for an automaton: 15a
+Tue Nov 17 11:43:13 2015 I: Building a product with the automaton: 15b
+Tue Nov 17 11:43:13 2015 I: Validating for an automaton: 15b
+Tue Nov 17 11:43:13 2015 I: Building a product with the automaton: 16a
+Tue Nov 17 11:43:13 2015 I: Validating for an automaton: 16a
+Tue Nov 17 11:43:13 2015 I: Building a product with the automaton: 16b
+Tue Nov 17 11:43:13 2015 I: Validating for an automaton: 16b
+Tue Nov 17 11:43:13 2015 I: tremppi_cost finished successfully.
+ --- tremppi_impact has started. --- 
+Tue Nov 17 11:43:13 2015 E: Top level exception: no such column: ind
+ --- tremppi_express has started. --- 
+Tue Nov 17 11:43:13 2015 I: tremppi_express finished successfully.
+ --- tremppi_sign has started. --- 
+Tue Nov 17 11:43:14 2015 I: tremppi_sign finished successfully.
+ --- tremppi_trace has started. --- 
+Tue Nov 17 11:43:14 2015 I: Parsing database.
+Tue Nov 17 11:43:14 2015 I: Checking the JSON correctness.
+Tue Nov 17 11:43:14 2015 I: Parsing the properties.
+Tue Nov 17 11:43:14 2015 I: Building a product with the automaton: 1a
+Tue Nov 17 11:43:14 2015 I: Validating for an automaton: 1a
+Tue Nov 17 11:43:14 2015 I: Building a product with the automaton: 1b
+Tue Nov 17 11:43:14 2015 I: Validating for an automaton: 1b
+Tue Nov 17 11:43:14 2015 I: Building a product with the automaton: 2a
+Tue Nov 17 11:43:14 2015 I: Validating for an automaton: 2a
+Tue Nov 17 11:43:14 2015 I: Building a product with the automaton: 2b
+Tue Nov 17 11:43:14 2015 I: Validating for an automaton: 2b
+Tue Nov 17 11:43:14 2015 I: Building a product with the automaton: 3a
+Tue Nov 17 11:43:14 2015 I: Validating for an automaton: 3a
+Tue Nov 17 11:43:14 2015 I: Building a product with the automaton: 3b
+Tue Nov 17 11:43:14 2015 I: Validating for an automaton: 3b
+Tue Nov 17 11:43:14 2015 I: Building a product with the automaton: 4a
+Tue Nov 17 11:43:14 2015 I: Validating for an automaton: 4a
+Tue Nov 17 11:43:14 2015 I: Building a product with the automaton: 4b
+Tue Nov 17 11:43:14 2015 I: Validating for an automaton: 4b
+Tue Nov 17 11:43:14 2015 I: Building a product with the automaton: 5a
+Tue Nov 17 11:43:14 2015 I: Validating for an automaton: 5a
+Tue Nov 17 11:43:14 2015 I: Building a product with the automaton: 5b
+Tue Nov 17 11:43:14 2015 I: Validating for an automaton: 5b
+Tue Nov 17 11:43:14 2015 I: Building a product with the automaton: 6a
+Tue Nov 17 11:43:14 2015 I: Validating for an automaton: 6a
+Tue Nov 17 11:43:14 2015 I: Building a product with the automaton: 6b
+Tue Nov 17 11:43:14 2015 I: Validating for an automaton: 6b
+Tue Nov 17 11:43:14 2015 I: Building a product with the automaton: 7a
+Tue Nov 17 11:43:14 2015 I: Validating for an automaton: 7a
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 7b
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 7b
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 8a
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 8a
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 8b
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 8b
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 9a
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 9a
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 9b
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 9b
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 10a
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 10a
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 10b
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 10b
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 11a
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 11a
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 11b
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 11b
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 12a
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 12a
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 12b
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 12b
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 13a
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 13a
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 13b
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 13b
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 14a
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 14a
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 14b
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 14b
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 15a
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 15a
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 15b
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 15b
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 16a
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 16a
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 16b
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 16b
+Tue Nov 17 11:43:15 2015 I: tremppi_trace finished successfully.
+ --- tremppi_robustness has started. --- 
+Tue Nov 17 11:43:15 2015 I: Parsing database.
+Tue Nov 17 11:43:15 2015 I: Checking the JSON correctness.
+Tue Nov 17 11:43:15 2015 I: Parsing the properties.
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 1a
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 1a
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 1b
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 1b
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 2a
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 2a
+Tue Nov 17 11:43:15 2015 I: Building a product with the automaton: 2b
+Tue Nov 17 11:43:15 2015 I: Validating for an automaton: 2b
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 3a
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 3a
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 3b
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 3b
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 4a
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 4a
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 4b
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 4b
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 5a
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 5a
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 5b
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 5b
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 6a
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 6a
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 6b
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 6b
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 7a
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 7a
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 7b
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 7b
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 8a
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 8a
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 8b
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 8b
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 9a
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 9a
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 9b
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 9b
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 10a
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 10a
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 10b
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 10b
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 11a
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 11a
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 11b
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 11b
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 12a
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 12a
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 12b
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 12b
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 13a
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 13a
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 13b
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 13b
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 14a
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 14a
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 14b
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 14b
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 15a
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 15a
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 15b
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 15b
+Tue Nov 17 11:43:16 2015 I: Building a product with the automaton: 16a
+Tue Nov 17 11:43:16 2015 I: Validating for an automaton: 16a
+Tue Nov 17 11:43:17 2015 I: Building a product with the automaton: 16b
+Tue Nov 17 11:43:17 2015 I: Validating for an automaton: 16b
+Tue Nov 17 11:43:17 2015 I: tremppi_robustness finished successfully.
+ --- tremppi_correlations has started. --- 
+Tue Nov 17 11:43:19 2015 I: Parsing data file.
+Tue Nov 17 11:43:19 2015 I: Selection all
+Tue Nov 17 11:43:19 2015 I: Computing function graph data.
+Tue Nov 17 11:43:19 2015 I: Writing output.
+Tue Nov 17 11:43:19 2015 I: Selection relaxed
+Tue Nov 17 11:43:19 2015 I: Computing function graph data.
+Tue Nov 17 11:43:19 2015 I: Writing output.
+Tue Nov 17 11:43:19 2015 I: Selection strict
+Tue Nov 17 11:43:19 2015 I: Computing function graph data.
+Tue Nov 17 11:43:19 2015 I: Writing output.
+Tue Nov 17 11:43:19 2015 I: tremppi_correlations finished successfully.
+ --- tremppi_qualitative has started. --- 
+Tue Nov 17 11:43:19 2015 I: Reading data.
+Tue Nov 17 11:43:19 2015 I: Selection all
+Tue Nov 17 11:43:19 2015 I: Reading the values, computing the statistics.
+Tue Nov 17 11:43:19 2015 I: Writing the result to file.
+Tue Nov 17 11:43:19 2015 I: Selection relaxed
+Tue Nov 17 11:43:19 2015 I: Reading the values, computing the statistics.
+Tue Nov 17 11:43:19 2015 I: Writing the result to file.
+Tue Nov 17 11:43:19 2015 I: Selection strict
+Tue Nov 17 11:43:19 2015 I: Reading the values, computing the statistics.
+Tue Nov 17 11:43:19 2015 I: Writing the result to file.
+Tue Nov 17 11:43:19 2015 I: tremppi_qualitative finished successfully.
+ --- tremppi_quantitative has started. --- 
+Tue Nov 17 11:43:20 2015 I: Reading data.
+Tue Nov 17 11:43:20 2015 I: Selection all
+Tue Nov 17 11:43:20 2015 I: Reading the values, computing the statistics.
+Tue Nov 17 11:43:20 2015 E: Top level exception: A null valued entry in the column I_YciR_1_MlrA
+ --- tremppi_regulations has started. --- 
+Tue Nov 17 11:43:20 2015 I: Reading data.
+Tue Nov 17 11:43:20 2015 I: Selection all
+Tue Nov 17 11:43:20 2015 I: Computing regulationsion graph data.
+Tue Nov 17 11:43:20 2015 I: Writing results.
+Tue Nov 17 11:43:20 2015 I: Selection relaxed
+Tue Nov 17 11:43:20 2015 I: Computing regulationsion graph data.
+Tue Nov 17 11:43:20 2015 I: Writing results.
+Tue Nov 17 11:43:20 2015 I: Selection strict
+Tue Nov 17 11:43:20 2015 I: Computing regulationsion graph data.
+Tue Nov 17 11:43:20 2015 I: Writing results.
+Tue Nov 17 11:43:21 2015 I: tremppi_regulations finished successfully.
+ --- tremppi_witness has started. --- 
+Tue Nov 17 11:43:21 2015 I: Reading data.
+Tue Nov 17 11:43:21 2015 I: Selection all
+Tue Nov 17 11:43:21 2015 I: Reading data.
+Tue Nov 17 11:43:21 2015 I: Writing data.
+Tue Nov 17 11:43:21 2015 I: Selection relaxed
+Tue Nov 17 11:43:21 2015 I: Reading data.
+Tue Nov 17 11:43:21 2015 I: Writing data.
+Tue Nov 17 11:43:21 2015 I: Selection strict
+Tue Nov 17 11:43:21 2015 I: Reading data.
+Tue Nov 17 11:43:21 2015 I: Writing data.
+Tue Nov 17 11:43:21 2015 I: tremppi_witness finished successfully.
+ --- tremppi_update has started. --- 
+Tue Dec  1 12:16:14 2015 I: tremppi_update finished successfully.
+ --- tremppi_update has started. --- 
+Wed Dec 16 16:21:20 2015 I: tremppi_update finished successfully.
+ --- tremppi_update has started. --- 
+Wed Dec 16 17:53:33 2015 I: tremppi_update finished successfully.

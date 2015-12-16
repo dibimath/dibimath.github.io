@@ -1,0 +1,123 @@
+{
+   "records" : [
+      {
+         "count" : 72,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "K<sub>A</sub>(B{0})"
+      },
+      {
+         "count" : 72,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "K<sub>A</sub>(B{1})"
+      },
+      {
+         "count" : 96,
+         "max" : 2.0,
+         "mean" : 1.0,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(A{0},B{0,1})"
+      },
+      {
+         "count" : 120,
+         "max" : 2.0,
+         "mean" : 1.333333333333333,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(A{0},B{2})"
+      },
+      {
+         "count" : 96,
+         "max" : 2.0,
+         "mean" : 1.0,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(A{1,2},B{0,1})"
+      },
+      {
+         "count" : 120,
+         "max" : 2.0,
+         "mean" : 1.333333333333333,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(A{1,2},B{2})"
+      },
+      {
+         "count" : 108,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "Bias(A)"
+      },
+      {
+         "count" : 140,
+         "max" : 1.0,
+         "mean" : 0.5833333333333334,
+         "min" : 0.0,
+         "name" : "Bias(B)"
+      },
+      {
+         "count" : 72,
+         "max" : 1.0,
+         "mean" : 0.0,
+         "min" : -1.0,
+         "name" : "Impact(B,1,A)"
+      },
+      {
+         "count" : 104,
+         "max" : 1.0,
+         "mean" : -9.251858538542971e-18,
+         "min" : -1.0,
+         "name" : "Impact(A,1,B)"
+      },
+      {
+         "count" : 100,
+         "max" : 1.0,
+         "mean" : 0.1982140,
+         "min" : -1.0,
+         "name" : "Impact(B,2,B)"
+      },
+      {
+         "count" : 72,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "Indigree(A)"
+      },
+      {
+         "count" : 132,
+         "max" : 2.0,
+         "mean" : 1.583333333333333,
+         "min" : 0.0,
+         "name" : "Indigree(B)"
+      },
+      {
+         "count" : 138,
+         "max" : 3.0,
+         "mean" : 2.083333333333333,
+         "min" : 0.0,
+         "name" : "Indigree(SUM)"
+      },
+      {
+         "count" : 48,
+         "max" : 4.0,
+         "mean" : 1.333333333333333,
+         "min" : 0.0,
+         "name" : "Cost(series)"
+      },
+      {
+         "count" : 48,
+         "max" : 1.0,
+         "mean" : 0.1927083333333333,
+         "min" : 0.0,
+         "name" : "Robustness(series)"
+      }
+   ],
+   "setup" : {
+      "date" : "Wed Dec 16 22:13:11 2015",
+      "s_name" : "normalized",
+      "select" : "1",
+      "size" : 144
+   }
+}
+

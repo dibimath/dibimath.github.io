@@ -1,0 +1,109 @@
+{
+   "records" : [
+      {
+         "count" : 162,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "K<sub>A</sub>(B{0})"
+      },
+      {
+         "count" : 162,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "K<sub>A</sub>(B{1})"
+      },
+      {
+         "count" : 216,
+         "max" : 2.0,
+         "mean" : 1.0,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(A{0},B{0,1})"
+      },
+      {
+         "count" : 216,
+         "max" : 2.0,
+         "mean" : 1.0,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(A{0},B{2})"
+      },
+      {
+         "count" : 216,
+         "max" : 2.0,
+         "mean" : 1.0,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(A{1,2},B{0,1})"
+      },
+      {
+         "count" : 216,
+         "max" : 2.0,
+         "mean" : 1.0,
+         "min" : 0.0,
+         "name" : "K<sub>B</sub>(A{1,2},B{2})"
+      },
+      {
+         "count" : 108,
+         "max" : 4.0,
+         "mean" : 1.333333333333333,
+         "min" : 0.0,
+         "name" : "Cost(series)"
+      },
+      {
+         "count" : 162,
+         "max" : 1.0,
+         "mean" : 0.0,
+         "min" : -1.0,
+         "name" : "Impact(B,1,A)"
+      },
+      {
+         "count" : 248,
+         "max" : 1.0,
+         "mean" : 4.386066270124075e-17,
+         "min" : -1.0,
+         "name" : "Impact(A,1,B)"
+      },
+      {
+         "count" : 248,
+         "max" : 1.0,
+         "mean" : 1.370645709413773e-18,
+         "min" : -1.0,
+         "name" : "Impact(B,2,B)"
+      },
+      {
+         "count" : 162,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "Indigree(A)"
+      },
+      {
+         "count" : 312,
+         "max" : 2.0,
+         "mean" : 1.777777777777778,
+         "min" : 0.0,
+         "name" : "Indigree(B)"
+      },
+      {
+         "count" : 318,
+         "max" : 3.0,
+         "mean" : 2.277777777777778,
+         "min" : 0.0,
+         "name" : "Indigree(SUM)"
+      },
+      {
+         "count" : 108,
+         "max" : 1.0,
+         "mean" : 0.18750,
+         "min" : 0.0,
+         "name" : "Robustness(series)"
+      }
+   ],
+   "setup" : {
+      "date" : "Mon Nov 16 16:26:28 2015",
+      "s_name" : "all",
+      "select" : "1",
+      "size" : 324
+   }
+}
+

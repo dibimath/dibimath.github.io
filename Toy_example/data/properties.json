@@ -1,0 +1,30 @@
+{
+	"records": [
+		{
+			"recid": 0,
+			"E_A": "",
+			"E_B": "",
+			"ending": "open",
+			"name": "series",
+			"records": [
+				{
+					"recid": 0,
+					"id": "A",
+					"V_B": "0",
+					"V_A": "1"
+				},
+				{
+					"recid": 1,
+					"id": "B",
+					"V_B": "2",
+					"V_A": "0"
+				}
+			],
+			"robustness": true,
+			"validate": true,
+			"witness": false,
+			"bound": "",
+			"select": true
+		}
+	]
+}

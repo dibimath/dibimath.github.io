@@ -1,0 +1,1 @@
+tremppi.regulations.setup = {"files": ["all", "relaxed", "strict"], "components": ["CdiGMP", "MlrA", "YciR", "YdaM", "YegE", "YhjH"]};

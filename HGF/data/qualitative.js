@@ -1,0 +1,1 @@
+tremppi.qualitative.setup = {"components": ["Akt", "ERK", "Gab1", "HGF", "MEK", "Met", "PAK", "PDK1", "PI3K", "RSK", "Rac", "Raf1", "Ras", "SOS1"], "files": ["ALL", "MIN_COST", "VALID"]};

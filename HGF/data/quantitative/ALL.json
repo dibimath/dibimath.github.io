@@ -1,0 +1,452 @@
+{
+   "records" : [
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>Akt</sub>(PDK1{0},PI3K{0})"
+      },
+      {
+         "count" : 111888,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "K<sub>Akt</sub>(PDK1{0},PI3K{1})"
+      },
+      {
+         "count" : 111888,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "K<sub>Akt</sub>(PDK1{1},PI3K{0})"
+      },
+      {
+         "count" : 223776,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>Akt</sub>(PDK1{1},PI3K{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>ERK</sub>(MEK{0})"
+      },
+      {
+         "count" : 223776,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>ERK</sub>(MEK{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>Gab1</sub>(Met{0},PI3K{0})"
+      },
+      {
+         "count" : 74592,
+         "max" : 1.0,
+         "mean" : 0.3333333333333333,
+         "min" : 0.0,
+         "name" : "K<sub>Gab1</sub>(Met{0},PI3K{1})"
+      },
+      {
+         "count" : 149184,
+         "max" : 1.0,
+         "mean" : 0.6666666666666666,
+         "min" : 0.0,
+         "name" : "K<sub>Gab1</sub>(Met{1},PI3K{0})"
+      },
+      {
+         "count" : 223776,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>Gab1</sub>(Met{1},PI3K{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>HGF</sub>(HGF{0})"
+      },
+      {
+         "count" : 223776,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>HGF</sub>(HGF{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>MEK</sub>(PDK1{0},Raf1{0})"
+      },
+      {
+         "count" : 149184,
+         "max" : 1.0,
+         "mean" : 0.6666666666666666,
+         "min" : 0.0,
+         "name" : "K<sub>MEK</sub>(PDK1{0},Raf1{1})"
+      },
+      {
+         "count" : 74592,
+         "max" : 1.0,
+         "mean" : 0.3333333333333333,
+         "min" : 0.0,
+         "name" : "K<sub>MEK</sub>(PDK1{1},Raf1{0})"
+      },
+      {
+         "count" : 223776,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>MEK</sub>(PDK1{1},Raf1{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>Met</sub>(HGF{0})"
+      },
+      {
+         "count" : 223776,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>Met</sub>(HGF{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>PAK</sub>(Rac{0})"
+      },
+      {
+         "count" : 223776,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>PAK</sub>(Rac{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>PDK1</sub>(PDK1{0})"
+      },
+      {
+         "count" : 223776,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>PDK1</sub>(PDK1{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(ERK{0},Gab1{0},Ras{0})"
+      },
+      {
+         "count" : 47952,
+         "max" : 1.0,
+         "mean" : 0.2142857142857143,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(ERK{0},Gab1{0},Ras{1})"
+      },
+      {
+         "count" : 79920,
+         "max" : 1.0,
+         "mean" : 0.3571428571428572,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(ERK{0},Gab1{1},Ras{0})"
+      },
+      {
+         "count" : 175824,
+         "max" : 1.0,
+         "mean" : 0.7857142857142857,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(ERK{0},Gab1{1},Ras{1})"
+      },
+      {
+         "count" : 47952,
+         "max" : 1.0,
+         "mean" : 0.2142857142857143,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(ERK{1},Gab1{0},Ras{0})"
+      },
+      {
+         "count" : 143856,
+         "max" : 1.0,
+         "mean" : 0.6428571428571429,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(ERK{1},Gab1{0},Ras{1})"
+      },
+      {
+         "count" : 175824,
+         "max" : 1.0,
+         "mean" : 0.7857142857142857,
+         "min" : 0.0,
+         "name" : "K<sub>PI3K</sub>(ERK{1},Gab1{1},Ras{0})"
+      },
+      {
+         "count" : 223776,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>PI3K</sub>(ERK{1},Gab1{1},Ras{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>RSK</sub>(ERK{0},PDK1{0})"
+      },
+      {
+         "count" : 111888,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "K<sub>RSK</sub>(ERK{0},PDK1{1})"
+      },
+      {
+         "count" : 111888,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "K<sub>RSK</sub>(ERK{1},PDK1{0})"
+      },
+      {
+         "count" : 223776,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>RSK</sub>(ERK{1},PDK1{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>Rac</sub>(Gab1{0})"
+      },
+      {
+         "count" : 223776,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>Rac</sub>(Gab1{1})"
+      },
+      {
+         "count" : 21168,
+         "max" : 1.0,
+         "mean" : 0.09459459459459460,
+         "min" : 0.0,
+         "name" : "K<sub>Raf1</sub>(Akt{0},ERK{0},PAK{0},Ras{0})"
+      },
+      {
+         "count" : 117936,
+         "max" : 1.0,
+         "mean" : 0.5270270270270270,
+         "min" : 0.0,
+         "name" : "K<sub>Raf1</sub>(Akt{0},ERK{0},PAK{0},Ras{1})"
+      },
+      {
+         "count" : 105840,
+         "max" : 1.0,
+         "mean" : 0.4729729729729730,
+         "min" : 0.0,
+         "name" : "K<sub>Raf1</sub>(Akt{0},ERK{0},PAK{1},Ras{0})"
+      },
+      {
+         "count" : 202608,
+         "max" : 1.0,
+         "mean" : 0.9054054054054054,
+         "min" : 0.0,
+         "name" : "K<sub>Raf1</sub>(Akt{0},ERK{0},PAK{1},Ras{1})"
+      },
+      {
+         "count" : 105840,
+         "max" : 1.0,
+         "mean" : 0.4729729729729730,
+         "min" : 0.0,
+         "name" : "K<sub>Raf1</sub>(Akt{0},ERK{1},PAK{0},Ras{0})"
+      },
+      {
+         "count" : 202608,
+         "max" : 1.0,
+         "mean" : 0.9054054054054054,
+         "min" : 0.0,
+         "name" : "K<sub>Raf1</sub>(Akt{0},ERK{1},PAK{0},Ras{1})"
+      },
+      {
+         "count" : 195048,
+         "max" : 1.0,
+         "mean" : 0.8716216216216216,
+         "min" : 0.0,
+         "name" : "K<sub>Raf1</sub>(Akt{0},ERK{1},PAK{1},Ras{0})"
+      },
+      {
+         "count" : 223776,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>Raf1</sub>(Akt{0},ERK{1},PAK{1},Ras{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>Raf1</sub>(Akt{1},ERK{0},PAK{0},Ras{0})"
+      },
+      {
+         "count" : 28728,
+         "max" : 1.0,
+         "mean" : 0.1283783783783784,
+         "min" : 0.0,
+         "name" : "K<sub>Raf1</sub>(Akt{1},ERK{0},PAK{0},Ras{1})"
+      },
+      {
+         "count" : 21168,
+         "max" : 1.0,
+         "mean" : 0.09459459459459460,
+         "min" : 0.0,
+         "name" : "K<sub>Raf1</sub>(Akt{1},ERK{0},PAK{1},Ras{0})"
+      },
+      {
+         "count" : 117936,
+         "max" : 1.0,
+         "mean" : 0.5270270270270270,
+         "min" : 0.0,
+         "name" : "K<sub>Raf1</sub>(Akt{1},ERK{0},PAK{1},Ras{1})"
+      },
+      {
+         "count" : 21168,
+         "max" : 1.0,
+         "mean" : 0.09459459459459460,
+         "min" : 0.0,
+         "name" : "K<sub>Raf1</sub>(Akt{1},ERK{1},PAK{0},Ras{0})"
+      },
+      {
+         "count" : 117936,
+         "max" : 1.0,
+         "mean" : 0.5270270270270270,
+         "min" : 0.0,
+         "name" : "K<sub>Raf1</sub>(Akt{1},ERK{1},PAK{0},Ras{1})"
+      },
+      {
+         "count" : 105840,
+         "max" : 1.0,
+         "mean" : 0.4729729729729730,
+         "min" : 0.0,
+         "name" : "K<sub>Raf1</sub>(Akt{1},ERK{1},PAK{1},Ras{0})"
+      },
+      {
+         "count" : 202608,
+         "max" : 1.0,
+         "mean" : 0.9054054054054054,
+         "min" : 0.0,
+         "name" : "K<sub>Raf1</sub>(Akt{1},ERK{1},PAK{1},Ras{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>Ras</sub>(SOS1{0})"
+      },
+      {
+         "count" : 223776,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>Ras</sub>(SOS1{1})"
+      },
+      {
+         "count" : 74592,
+         "max" : 1.0,
+         "mean" : 0.3333333333333333,
+         "min" : 0.0,
+         "name" : "K<sub>SOS1</sub>(Met{0},RSK{0})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>SOS1</sub>(Met{0},RSK{1})"
+      },
+      {
+         "count" : 223776,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>SOS1</sub>(Met{1},RSK{0})"
+      },
+      {
+         "count" : 149184,
+         "max" : 1.0,
+         "mean" : 0.6666666666666666,
+         "min" : 0.0,
+         "name" : "K<sub>SOS1</sub>(Met{1},RSK{1})"
+      },
+      {
+         "count" : 223776,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "Cost(Met_inh)"
+      },
+      {
+         "count" : 223776,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "Cost(siRNA_ERK)"
+      },
+      {
+         "count" : 223776,
+         "max" : 6.0,
+         "mean" : 4.189189189189189,
+         "min" : 4.0,
+         "name" : "Cost(Mek_inh)"
+      },
+      {
+         "count" : 149184,
+         "max" : 6.0,
+         "mean" : 4.0,
+         "min" : 0.0,
+         "name" : "Cost(PDK1_inh)"
+      },
+      {
+         "count" : 149184,
+         "max" : 6.0,
+         "mean" : 2.792792792792793,
+         "min" : 0.0,
+         "name" : "Cost(Mek_and_PDK1_inh)"
+      }
+   ],
+   "setup" : {
+      "date" : "Sun Nov  1 14:07:49 2015",
+      "s_name" : "ALL",
+      "select" : "1",
+      "size" : 223776
+   }
+}
+

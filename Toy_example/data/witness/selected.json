@@ -1,0 +1,115 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Frequency" : 0.60,
+               "Step" : "2",
+               "id" : "0",
+               "source" : "00A",
+               "target" : "01A"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Step" : "3",
+               "id" : "1",
+               "source" : "01A",
+               "target" : "02A"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.60,
+               "Step" : "1",
+               "id" : "2",
+               "source" : "10A",
+               "target" : "00A"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.80,
+               "Step" : "1",
+               "id" : "3",
+               "source" : "10A",
+               "target" : "11A"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.80,
+               "Step" : "2",
+               "id" : "4",
+               "source" : "11A",
+               "target" : "01A"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.40,
+               "Step" : "2",
+               "id" : "5",
+               "source" : "11A",
+               "target" : "12A"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.40,
+               "Step" : "3",
+               "id" : "6",
+               "source" : "12A",
+               "target" : "02A"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "Name" : "00",
+               "id" : "00A"
+            }
+         },
+         {
+            "data" : {
+               "Name" : "01",
+               "id" : "01A"
+            }
+         },
+         {
+            "data" : {
+               "Name" : "02",
+               "id" : "02A"
+            }
+         },
+         {
+            "data" : {
+               "Name" : "10",
+               "id" : "10A"
+            }
+         },
+         {
+            "data" : {
+               "Name" : "11",
+               "id" : "11A"
+            }
+         },
+         {
+            "data" : {
+               "Name" : "12",
+               "id" : "12A"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Mon Nov 16 16:26:29 2015",
+      "properties" : "series,",
+      "s_name" : "selected",
+      "select" : "C_series = 4 AND R_series = 1 AND S_B_2_B = 0",
+      "size" : 5
+   }
+}
+

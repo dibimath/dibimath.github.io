@@ -1,0 +1,180 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "MlrA",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YciR",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YciR",
+               "target" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YdaM",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 3.197442310920451e-15,
+               "source" : "YdaM",
+               "target" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YdaM",
+               "target" : "YciR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YegE",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YegE",
+               "target" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YegE",
+               "target" : "YciR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YegE",
+               "target" : "YdaM"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YhjH",
+               "target" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YhjH",
+               "target" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YhjH",
+               "target" : "YciR"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YhjH",
+               "target" : "YdaM"
+            }
+         },
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "YhjH",
+               "target" : "YegE"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.1702600565079939,
+               "id" : "CdiGMP",
+               "name" : "CdiGMP"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.5833329999999992,
+               "Max" : 1,
+               "Mean" : 0.5833329999999992,
+               "Std" : 0.250,
+               "id" : "MlrA",
+               "name" : "MlrA"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.750,
+               "Max" : 2,
+               "Mean" : 0.750,
+               "Std" : 0.0,
+               "id" : "YciR",
+               "name" : "YciR"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.6666669999999995,
+               "Max" : 1,
+               "Mean" : 0.6666669999999995,
+               "Std" : 5.551115123125783e-16,
+               "id" : "YdaM",
+               "name" : "YdaM"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "YegE",
+               "name" : "YegE"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.50,
+               "Max" : 1,
+               "Mean" : 0.50,
+               "Std" : 0.0,
+               "id" : "YhjH",
+               "name" : "YhjH"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Tue Nov 17 11:43:19 2015",
+      "s_name" : "all",
+      "select" : "1",
+      "size" : 228
+   }
+}
+

@@ -1,0 +1,2125 @@
+[2015-May-27 14:49:16.202574] (1) <info>: ------------------------------
+[2015-May-27 14:49:16.204577] (2) <info>: tremppi_qualitative started.
+[2015-May-27 14:49:16.204577] (3) <info>: Parsing data.
+[2015-May-27 14:49:16.260614] (4) <info>: Preparing the data.
+[2015-May-27 14:49:16.261615] (5) <info>: Reading the values, computing the statistics.
+[2015-May-27 14:49:16.264616] (6) <info>: Building the JSON file.
+[2015-May-27 14:49:16.265616] (7) <info>: Writing output.
+[2015-May-27 14:49:16.271620] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-09 15:14:43.713147] (1) <info>: ------------------------------
+[2015-Jun-09 15:14:43.714147] (2) <info>: tremppi_spawn started.
+[2015-Jun-09 15:14:43.714147] (3) <info>: Checking the JSON correctness.
+[2015-Jun-09 15:14:43.714147] (4) <info>: Parsing the network.
+[2015-Jun-09 15:14:43.714147] (5) <info>: Obtaining kinetics.
+[2015-Jun-09 15:14:43.716149] (6) <info>: Creating the database file.
+[2015-Jun-09 15:14:43.716149] (7) <warning>: Database file C:\Users\adams_000\TREMPPI\projects\HSB_2015\data\database.sqlite already exists, erasing.
+[2015-Jun-09 15:14:43.878263] (8) <info>: Writing the database file, in total 56 parametrizations.
+[2015-Jun-09 15:14:44.103497] (9) <info>: tremppi_spawn finished successfully.
+[2015-Jun-09 15:20:49.868553] (1) <info>: ------------------------------
+[2015-Jun-09 15:20:49.871558] (2) <info>: tremppi_validate started.
+[2015-Jun-09 15:20:49.871558] (3) <info>: Parsing database.
+[2015-Jun-09 15:20:50.042753] (4) <info>: Checking the JSON correctness.
+[2015-Jun-09 15:20:50.042753] (5) <info>: Parsing the properties.
+[2015-Jun-09 15:20:50.042753] (6) <info>: Building a product with the automaton: test_ts
+[2015-Jun-09 15:20:50.043755] (7) <info>: Validating for an automaton: test_ts
+[2015-Jun-09 15:20:50.368313] (8) <info>: Building a product with the automaton: test_cycle
+[2015-Jun-09 15:20:50.368313] (9) <info>: Validating for an automaton: test_cycle
+[2015-Jun-09 15:20:50.721423] (10) <info>: tremppi_validate finished successfully.
+[2015-Jun-09 15:51:29.244726] (1) <info>: ------------------------------
+[2015-Jun-09 15:51:29.245727] (2) <info>: tremppi_label started.
+[2015-Jun-09 15:51:30.296447] (3) <info>: tremppi_label finished successfully.
+[2015-Jun-09 15:52:18.240305] (1) <info>: ------------------------------
+[2015-Jun-09 15:52:18.241304] (2) <info>: tremppi_express started.
+[2015-Jun-09 15:52:18.784357] (3) <info>: tremppi_express finished successfully.
+[2015-Jun-09 15:52:25.196634] (1) <info>: ------------------------------
+[2015-Jun-09 15:52:25.197634] (2) <info>: tremppi_qualitative started.
+[2015-Jun-09 15:52:25.197634] (3) <info>: Parsing data.
+[2015-Jun-09 15:52:25.252670] (4) <info>: Preparing the data.
+[2015-Jun-09 15:52:25.252670] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-09 15:52:25.258673] (6) <info>: Building the JSON file.
+[2015-Jun-09 15:52:25.259673] (7) <info>: Writing output.
+[2015-Jun-09 15:52:25.462706] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-09 15:52:30.956805] (1) <info>: ------------------------------
+[2015-Jun-09 15:52:30.957806] (2) <info>: tremppi_quantitative started.
+[2015-Jun-09 15:52:30.957806] (3) <info>: Parsing data.
+[2015-Jun-09 15:52:31.032663] (4) <info>: Preparing the data.
+[2015-Jun-09 15:52:31.033664] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-09 15:52:31.038665] (6) <info>: Building the JSON file.
+[2015-Jun-09 15:52:31.038665] (7) <info>: Writing output.
+[2015-Jun-09 15:52:31.104708] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-09 15:52:36.925335] (1) <info>: ------------------------------
+[2015-Jun-09 15:52:36.926335] (2) <info>: tremppi_regulations started.
+[2015-Jun-09 15:52:36.926335] (3) <info>: Parsing data file.
+[2015-Jun-09 15:52:36.979374] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-09 15:52:37.006372] (5) <info>: Building the JSON files.
+[2015-Jun-09 15:52:37.006372] (6) <info>: Writing output.
+[2015-Jun-09 15:52:37.067415] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-09 15:52:39.980748] (1) <info>: ------------------------------
+[2015-Jun-09 15:52:39.981748] (2) <info>: tremppi_bias started.
+[2015-Jun-09 15:52:39.981748] (3) <info>: Parsing data file.
+[2015-Jun-09 15:52:40.034784] (4) <info>: Computing function graph data.
+[2015-Jun-09 15:52:40.036785] (5) <info>: Building the JSON.
+[2015-Jun-09 15:52:40.036785] (6) <info>: Writing output.
+[2015-Jun-09 15:52:40.096822] (7) <info>: tremppi_bias finished successfully.
+[2015-Jun-09 15:53:43.292301] (1) <info>: ------------------------------
+[2015-Jun-09 15:53:43.294300] (2) <info>: tremppi_bias started.
+[2015-Jun-09 15:53:43.294300] (3) <info>: Parsing data file.
+[2015-Jun-09 15:53:43.352339] (4) <info>: Computing function graph data.
+[2015-Jun-09 15:53:43.354338] (5) <info>: Building the JSON.
+[2015-Jun-09 15:53:43.354338] (6) <info>: Writing output.
+[2015-Jun-09 15:53:43.419382] (7) <info>: tremppi_bias finished successfully.
+[2015-Jun-09 15:53:58.172463] (1) <info>: ------------------------------
+[2015-Jun-09 15:53:58.173464] (2) <info>: tremppi_regulations started.
+[2015-Jun-09 15:53:58.174465] (3) <info>: Parsing data file.
+[2015-Jun-09 15:53:58.228500] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-09 15:53:58.230501] (5) <info>: Building the JSON files.
+[2015-Jun-09 15:53:58.230501] (6) <info>: Writing output.
+[2015-Jun-09 15:53:58.313556] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-11 18:54:23.207703] (1) <info>: ------------------------------
+[2015-Jun-11 18:54:23.237771] (2) <info>: tremppi_regulations started.
+[2015-Jun-11 18:54:23.237771] (3) <info>: Parsing data file.
+[2015-Jun-11 18:54:23.354873] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-11 18:54:23.386756] (5) <info>: Building the JSON files.
+[2015-Jun-11 18:54:23.386756] (6) <info>: Writing output.
+[2015-Jun-11 18:54:23.934611] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-11 18:54:23.978638] (1) <info>: ------------------------------
+[2015-Jun-11 18:54:23.979638] (2) <info>: tremppi_bias started.
+[2015-Jun-11 18:54:23.979638] (3) <info>: Parsing data file.
+[2015-Jun-11 18:54:24.014659] (4) <info>: Computing function graph data.
+[2015-Jun-11 18:54:24.015661] (5) <info>: Building the JSON.
+[2015-Jun-11 18:54:24.015661] (6) <info>: Writing output.
+[2015-Jun-11 18:54:24.055687] (7) <info>: tremppi_bias finished successfully.
+[2015-Jun-11 18:54:24.071698] (1) <info>: ------------------------------
+[2015-Jun-11 18:54:24.072700] (2) <info>: tremppi_qualitative started.
+[2015-Jun-11 18:54:24.072700] (3) <info>: Parsing data.
+[2015-Jun-11 18:54:24.108722] (4) <info>: Preparing the data.
+[2015-Jun-11 18:54:24.108722] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-11 18:54:24.112795] (6) <info>: Building the JSON file.
+[2015-Jun-11 18:54:24.112795] (7) <info>: Writing output.
+[2015-Jun-11 18:54:24.153825] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-11 18:54:24.171836] (1) <info>: ------------------------------
+[2015-Jun-11 18:54:24.171836] (2) <info>: tremppi_quantitative started.
+[2015-Jun-11 18:54:24.172837] (3) <info>: Parsing data.
+[2015-Jun-11 18:54:24.206859] (4) <info>: Preparing the data.
+[2015-Jun-11 18:54:24.206859] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-11 18:54:24.209864] (6) <info>: Building the JSON file.
+[2015-Jun-11 18:54:24.210862] (7) <info>: Writing output.
+[2015-Jun-11 18:54:24.250329] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-11 18:54:33.065156] (1) <info>: ------------------------------
+[2015-Jun-11 18:54:33.066156] (2) <info>: tremppi_regulations started.
+[2015-Jun-11 18:54:33.066156] (3) <info>: Parsing data file.
+[2015-Jun-11 18:54:33.103444] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-11 18:54:33.104445] (5) <info>: Building the JSON files.
+[2015-Jun-11 18:54:33.104445] (6) <info>: Writing output.
+[2015-Jun-11 18:54:33.157492] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-11 18:54:33.174501] (1) <info>: ------------------------------
+[2015-Jun-11 18:54:33.175504] (2) <info>: tremppi_bias started.
+[2015-Jun-11 18:54:33.175504] (3) <info>: Parsing data file.
+[2015-Jun-11 18:54:33.210527] (4) <info>: Computing function graph data.
+[2015-Jun-11 18:54:33.211528] (5) <info>: Building the JSON.
+[2015-Jun-11 18:54:33.211528] (6) <info>: Writing output.
+[2015-Jun-11 18:54:33.251554] (7) <info>: tremppi_bias finished successfully.
+[2015-Jun-11 18:54:33.268483] (1) <info>: ------------------------------
+[2015-Jun-11 18:54:33.269483] (2) <info>: tremppi_qualitative started.
+[2015-Jun-11 18:54:33.269483] (3) <info>: Parsing data.
+[2015-Jun-11 18:54:33.303271] (4) <info>: Preparing the data.
+[2015-Jun-11 18:54:33.304271] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-11 18:54:33.304271] (6) <info>: Building the JSON file.
+[2015-Jun-11 18:54:33.305272] (7) <info>: Writing output.
+[2015-Jun-11 18:54:33.346300] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-11 18:54:33.363311] (1) <info>: ------------------------------
+[2015-Jun-11 18:54:33.364311] (2) <info>: tremppi_quantitative started.
+[2015-Jun-11 18:54:33.364311] (3) <info>: Parsing data.
+[2015-Jun-11 18:54:33.398981] (4) <info>: Preparing the data.
+[2015-Jun-11 18:54:33.398981] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-11 18:54:33.399982] (6) <info>: Building the JSON file.
+[2015-Jun-11 18:54:33.399982] (7) <info>: Writing output.
+[2015-Jun-11 18:54:33.441010] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-11 18:57:12.527850] (1) <info>: ------------------------------
+[2015-Jun-11 18:57:12.528852] (2) <info>: tremppi_spawn started.
+[2015-Jun-11 18:57:12.528852] (3) <info>: Checking the JSON correctness.
+[2015-Jun-11 18:57:12.707449] (4) <info>: Parsing the network.
+[2015-Jun-11 18:57:12.707449] (5) <info>: Obtaining kinetics.
+[2015-Jun-11 18:57:12.759075] (6) <info>: Creating the database file.
+[2015-Jun-11 18:57:12.900266] (7) <info>: Writing the database file, in total 56 parametrizations.
+[2015-Jun-11 18:57:13.130666] (8) <info>: tremppi_spawn finished successfully.
+[2015-Jun-11 18:57:18.587982] (1) <info>: ------------------------------
+[2015-Jun-11 18:57:18.588983] (2) <info>: tremppi_validate started.
+[2015-Jun-11 18:57:18.588983] (3) <info>: Parsing database.
+[2015-Jun-11 18:57:18.621920] (4) <info>: Checking the JSON correctness.
+[2015-Jun-11 18:57:18.621920] (5) <info>: Parsing the properties.
+[2015-Jun-11 18:57:18.621920] (6) <info>: Building a product with the automaton: phi
+[2015-Jun-11 18:57:33.348494] (1) <info>: ------------------------------
+[2015-Jun-11 18:57:33.349495] (2) <info>: tremppi_validate started.
+[2015-Jun-11 18:57:33.349495] (3) <info>: Parsing database.
+[2015-Jun-11 18:57:33.384609] (4) <info>: Checking the JSON correctness.
+[2015-Jun-11 18:57:33.384609] (5) <info>: Parsing the properties.
+[2015-Jun-11 18:57:33.384609] (6) <info>: Building a product with the automaton: phi
+[2015-Jun-11 18:58:10.583497] (1) <info>: ------------------------------
+[2015-Jun-11 18:58:10.584498] (2) <info>: tremppi_spawn started.
+[2015-Jun-11 18:58:10.584498] (3) <info>: Checking the JSON correctness.
+[2015-Jun-11 18:58:10.585499] (4) <info>: Parsing the network.
+[2015-Jun-11 18:58:10.585499] (5) <info>: Obtaining kinetics.
+[2015-Jun-11 18:58:10.585499] (6) <info>: Creating the database file.
+[2015-Jun-11 18:58:10.585499] (7) <warning>: Database file C:\Users\adams_000\TREMPPI\projects\HSB_2015\data\database.sqlite already exists, erasing.
+[2015-Jun-11 18:58:10.782042] (8) <info>: Writing the database file, in total 324 parametrizations.
+[2015-Jun-11 18:58:10.964047] (9) <info>: tremppi_spawn finished successfully.
+[2015-Jun-11 18:58:14.486927] (1) <info>: ------------------------------
+[2015-Jun-11 18:58:14.486927] (2) <info>: tremppi_validate started.
+[2015-Jun-11 18:58:14.486927] (3) <info>: Parsing database.
+[2015-Jun-11 18:58:14.520949] (4) <info>: Checking the JSON correctness.
+[2015-Jun-11 18:58:14.520949] (5) <info>: Parsing the properties.
+[2015-Jun-11 18:58:14.520949] (6) <info>: Building a product with the automaton: phi
+[2015-Jun-12 14:00:30.921043] (1) <info>: ------------------------------
+[2015-Jun-12 14:00:30.961068] (2) <info>: tremppi_validate started.
+[2015-Jun-12 14:00:30.962069] (3) <info>: Parsing database.
+[2015-Jun-12 14:00:31.810632] (4) <info>: Checking the JSON correctness.
+[2015-Jun-12 14:00:31.900692] (5) <info>: Parsing the properties.
+[2015-Jun-12 14:00:31.934715] (6) <info>: Building a product with the automaton: phi
+[2015-Jun-14 16:43:46.896803] (1) <info>: ------------------------------
+[2015-Jun-14 16:43:46.896803] (2) <info>: tremppi_bias started.
+[2015-Jun-14 16:43:46.900803] (3) <info>: Parsing data file.
+[2015-Jun-14 16:43:47.248815] (4) <error>: Top level exception: Python exception encountered.
+[2015-Jun-14 16:44:39.751712] (1) <info>: ------------------------------
+[2015-Jun-14 16:44:39.755709] (2) <info>: tremppi_bias started.
+[2015-Jun-14 16:44:39.755709] (3) <info>: Parsing data file.
+[2015-Jun-14 16:44:39.931739] (4) <error>: Top level exception: no such column: C_psi
+[2015-Jun-14 16:45:08.360202] (1) <info>: ------------------------------
+[2015-Jun-14 16:45:08.404213] (2) <info>: tremppi_label started.
+[2015-Jun-14 16:45:08.932208] (3) <error>: Top level exception: no such column: C_psi
+[2015-Jun-14 16:45:26.186866] (1) <info>: ------------------------------
+[2015-Jun-14 16:45:26.186866] (2) <info>: tremppi_label started.
+[2015-Jun-14 16:45:26.218867] (3) <error>: Top level exception: Python exception encountered.
+[2015-Jun-14 16:45:43.870131] (1) <info>: ------------------------------
+[2015-Jun-14 16:45:43.874132] (2) <info>: tremppi_label started.
+[2015-Jun-14 16:45:44.499424] (3) <info>: tremppi_label finished successfully.
+[2015-Jun-14 16:46:05.378208] (1) <info>: ------------------------------
+[2015-Jun-14 16:46:05.378208] (2) <info>: tremppi_express started.
+[2015-Jun-14 16:46:06.232298] (3) <info>: tremppi_express finished successfully.
+[2015-Jun-14 16:46:10.212431] (1) <info>: ------------------------------
+[2015-Jun-14 16:46:10.212431] (2) <info>: tremppi_validate started.
+[2015-Jun-14 16:46:10.212431] (3) <info>: Parsing database.
+[2015-Jun-14 16:46:10.248432] (4) <info>: Checking the JSON correctness.
+[2015-Jun-14 16:46:10.248432] (5) <info>: Parsing the properties.
+[2015-Jun-14 16:46:10.248432] (6) <info>: Building a product with the automaton: phi
+[2015-Jun-14 16:46:10.248432] (7) <info>: Validating for an automaton: phi
+[2015-Jun-14 16:46:10.538949] (8) <info>: Building a product with the automaton: psi
+[2015-Jun-14 16:46:10.538949] (9) <info>: Validating for an automaton: psi
+[2015-Jun-14 16:46:11.230096] (10) <info>: tremppi_validate finished successfully.
+[2015-Jun-14 16:46:24.951302] (1) <info>: ------------------------------
+[2015-Jun-14 16:46:24.955303] (2) <info>: tremppi_bias started.
+[2015-Jun-14 16:46:24.955303] (3) <info>: Parsing data file.
+[2015-Jun-14 16:46:24.987304] (4) <info>: Computing function graph data.
+[2015-Jun-14 16:46:25.031330] (5) <info>: Building the JSON.
+[2015-Jun-14 16:46:25.031330] (6) <info>: Writing output.
+[2015-Jun-14 16:46:25.031330] (7) <error>: Top level exception: Could not open C:\Users\adams_000\TREMPPI\projects\HSB_2015\data\bias\all|phi.json
+[2015-Jun-14 16:46:37.831501] (1) <info>: ------------------------------
+[2015-Jun-14 16:46:37.835497] (2) <info>: tremppi_bias started.
+[2015-Jun-14 16:46:37.835497] (3) <info>: Parsing data file.
+[2015-Jun-14 16:46:37.867498] (4) <info>: Computing function graph data.
+[2015-Jun-14 16:46:37.871498] (5) <info>: Building the JSON.
+[2015-Jun-14 16:46:37.871498] (6) <info>: Writing output.
+[2015-Jun-14 16:46:37.912762] (7) <info>: tremppi_bias finished successfully.
+[2015-Jun-14 16:46:49.601749] (1) <info>: ------------------------------
+[2015-Jun-14 16:46:49.605749] (2) <info>: tremppi_bias started.
+[2015-Jun-14 16:46:49.605749] (3) <info>: Parsing data file.
+[2015-Jun-14 16:46:49.637750] (4) <info>: Computing function graph data.
+[2015-Jun-14 16:46:49.641750] (5) <info>: Building the JSON.
+[2015-Jun-14 16:46:49.641750] (6) <info>: Writing output.
+[2015-Jun-14 16:46:49.736607] (7) <info>: tremppi_bias finished successfully.
+[2015-Jun-14 16:47:52.905099] (1) <info>: ------------------------------
+[2015-Jun-14 16:47:52.909096] (2) <info>: tremppi_bias started.
+[2015-Jun-14 16:47:52.909096] (3) <info>: Parsing data file.
+[2015-Jun-14 16:47:52.965098] (4) <info>: Computing function graph data.
+[2015-Jun-14 16:47:52.969098] (5) <info>: Building the JSON.
+[2015-Jun-14 16:48:55.313180] (1) <info>: ------------------------------
+[2015-Jun-14 16:48:55.317155] (2) <info>: tremppi_bias started.
+[2015-Jun-14 16:48:55.317155] (3) <info>: Parsing data file.
+[2015-Jun-14 16:48:55.373156] (4) <info>: Computing function graph data.
+[2015-Jun-14 16:50:15.793875] (1) <info>: ------------------------------
+[2015-Jun-14 16:50:15.797871] (2) <info>: tremppi_bias started.
+[2015-Jun-14 16:50:15.797871] (3) <info>: Parsing data file.
+[2015-Jun-14 16:50:15.853870] (4) <info>: Computing function graph data.
+[2015-Jun-14 16:50:42.737007] (1) <info>: ------------------------------
+[2015-Jun-14 16:50:42.740982] (2) <info>: tremppi_bias started.
+[2015-Jun-14 16:50:42.740982] (3) <info>: Parsing data file.
+[2015-Jun-14 16:50:42.792987] (4) <info>: Computing function graph data.
+[2015-Jun-14 18:13:00.856316] (1) <info>: ------------------------------
+[2015-Jun-14 18:13:00.875327] (2) <info>: tremppi_bias started.
+[2015-Jun-14 18:13:00.875327] (3) <info>: Parsing data file.
+[2015-Jun-14 18:13:00.980396] (4) <info>: Computing function graph data.
+[2015-Jun-14 18:13:08.161368] (5) <info>: Building the JSON.
+[2015-Jun-14 18:13:08.164370] (6) <info>: Writing output.
+[2015-Jun-14 18:13:08.747758] (7) <info>: tremppi_bias finished successfully.
+[2015-Jun-15 10:43:41.391209] (1) <info>: ------------------------------
+[2015-Jun-15 10:43:41.482936] (2) <info>: tremppi_qualitative started.
+[2015-Jun-15 10:43:41.482936] (3) <info>: Parsing data.
+[2015-Jun-15 10:43:41.608396] (4) <info>: Preparing the data.
+[2015-Jun-15 10:43:41.609397] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-15 10:43:41.637100] (6) <info>: Building the JSON file.
+[2015-Jun-15 10:43:41.638101] (7) <info>: Writing output.
+[2015-Jun-15 10:43:42.128648] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-15 10:44:20.094398] (1) <info>: ------------------------------
+[2015-Jun-15 10:44:20.095399] (2) <info>: tremppi_qualitative started.
+[2015-Jun-15 10:44:20.095399] (3) <info>: Parsing data.
+[2015-Jun-15 10:44:20.150435] (4) <info>: Preparing the data.
+[2015-Jun-15 10:44:20.150435] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-15 10:44:20.158391] (6) <info>: Building the JSON file.
+[2015-Jun-15 10:44:20.159393] (7) <info>: Writing output.
+[2015-Jun-15 10:44:20.217919] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-15 10:44:20.243939] (1) <info>: ------------------------------
+[2015-Jun-15 10:44:20.244940] (2) <info>: tremppi_quantitative started.
+[2015-Jun-15 10:44:20.244940] (3) <info>: Parsing data.
+[2015-Jun-15 10:44:20.297881] (4) <info>: Preparing the data.
+[2015-Jun-15 10:44:20.298881] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-15 10:44:20.305886] (6) <info>: Building the JSON file.
+[2015-Jun-15 10:44:20.305886] (7) <info>: Writing output.
+[2015-Jun-15 10:44:20.362924] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-15 10:44:20.387942] (1) <info>: ------------------------------
+[2015-Jun-15 10:44:20.388943] (2) <info>: tremppi_regulations started.
+[2015-Jun-15 10:44:20.388943] (3) <info>: Parsing data file.
+[2015-Jun-15 10:44:20.440977] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-15 10:44:20.483999] (5) <info>: Building the JSON files.
+[2015-Jun-15 10:44:20.483999] (6) <info>: Writing output.
+[2015-Jun-15 10:44:20.607537] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-15 10:44:20.632010] (1) <info>: ------------------------------
+[2015-Jun-15 10:44:20.633011] (2) <info>: tremppi_bias started.
+[2015-Jun-15 10:44:20.633011] (3) <info>: Parsing data file.
+[2015-Jun-15 10:44:20.685047] (4) <info>: Computing function graph data.
+[2015-Jun-15 10:44:20.688049] (5) <info>: Building the JSON.
+[2015-Jun-15 10:44:20.688049] (6) <info>: Writing output.
+[2015-Jun-15 10:44:20.746085] (7) <info>: tremppi_bias finished successfully.
+[2015-Jun-15 10:44:28.845186] (1) <info>: ------------------------------
+[2015-Jun-15 10:44:28.847187] (2) <info>: tremppi_qualitative started.
+[2015-Jun-15 10:44:28.847187] (3) <info>: Parsing data.
+[2015-Jun-15 10:44:28.900223] (4) <info>: Preparing the data.
+[2015-Jun-15 10:44:28.900223] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-15 10:44:28.903224] (6) <info>: Building the JSON file.
+[2015-Jun-15 10:44:28.904225] (7) <info>: Writing output.
+[2015-Jun-15 10:44:28.962290] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-15 10:44:28.987304] (1) <info>: ------------------------------
+[2015-Jun-15 10:44:28.988305] (2) <info>: tremppi_quantitative started.
+[2015-Jun-15 10:44:28.988305] (3) <info>: Parsing data.
+[2015-Jun-15 10:44:29.041061] (4) <info>: Preparing the data.
+[2015-Jun-15 10:44:29.041061] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-15 10:44:29.044062] (6) <info>: Building the JSON file.
+[2015-Jun-15 10:44:29.044062] (7) <info>: Writing output.
+[2015-Jun-15 10:44:29.100100] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-15 10:44:29.125117] (1) <info>: ------------------------------
+[2015-Jun-15 10:44:29.126118] (2) <info>: tremppi_regulations started.
+[2015-Jun-15 10:44:29.126118] (3) <info>: Parsing data file.
+[2015-Jun-15 10:44:29.179052] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-15 10:44:29.181054] (5) <info>: Building the JSON files.
+[2015-Jun-15 10:44:29.181054] (6) <info>: Writing output.
+[2015-Jun-15 10:44:29.299160] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-15 10:44:29.324060] (1) <info>: ------------------------------
+[2015-Jun-15 10:44:29.325061] (2) <info>: tremppi_bias started.
+[2015-Jun-15 10:44:29.325061] (3) <info>: Parsing data file.
+[2015-Jun-15 10:44:29.378099] (4) <info>: Computing function graph data.
+[2015-Jun-15 10:44:29.380100] (5) <info>: Building the JSON.
+[2015-Jun-15 10:44:29.380100] (6) <info>: Writing output.
+[2015-Jun-15 10:44:29.437139] (7) <info>: tremppi_bias finished successfully.
+[2015-Jun-15 10:50:09.994875] (1) <info>: ------------------------------
+[2015-Jun-15 10:50:09.996877] (2) <info>: tremppi_qualitative started.
+[2015-Jun-15 10:50:09.996877] (3) <info>: Parsing data.
+[2015-Jun-15 10:50:10.079247] (4) <error>: Top level exception: Python exception encountered.
+[2015-Jun-15 10:50:10.107265] (1) <info>: ------------------------------
+[2015-Jun-15 10:50:10.108266] (2) <info>: tremppi_quantitative started.
+[2015-Jun-15 10:50:10.108266] (3) <info>: Parsing data.
+[2015-Jun-15 10:50:10.163232] (4) <error>: Top level exception: Python exception encountered.
+[2015-Jun-15 10:50:10.190252] (1) <info>: ------------------------------
+[2015-Jun-15 10:50:10.192253] (2) <info>: tremppi_regulations started.
+[2015-Jun-15 10:50:10.192253] (3) <info>: Parsing data file.
+[2015-Jun-15 10:50:10.245288] (4) <error>: Top level exception: Python exception encountered.
+[2015-Jun-15 10:50:10.271123] (1) <info>: ------------------------------
+[2015-Jun-15 10:50:10.272123] (2) <info>: tremppi_bias started.
+[2015-Jun-15 10:50:10.272123] (3) <info>: Parsing data file.
+[2015-Jun-15 10:50:10.327029] (4) <error>: Top level exception: Python exception encountered.
+[2015-Jun-15 10:50:33.866444] (1) <info>: ------------------------------
+[2015-Jun-15 10:50:33.867444] (2) <info>: tremppi_qualitative started.
+[2015-Jun-15 10:50:33.867444] (3) <info>: Parsing data.
+[2015-Jun-15 10:50:33.922479] (4) <info>: Preparing the data.
+[2015-Jun-15 10:50:33.922479] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-15 10:50:33.923480] (6) <info>: Building the JSON file.
+[2015-Jun-15 10:50:33.923480] (7) <info>: Writing output.
+[2015-Jun-15 10:50:33.984520] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-15 10:50:34.008536] (1) <info>: ------------------------------
+[2015-Jun-15 10:50:34.009537] (2) <info>: tremppi_quantitative started.
+[2015-Jun-15 10:50:34.009537] (3) <info>: Parsing data.
+[2015-Jun-15 10:50:34.061572] (4) <info>: Preparing the data.
+[2015-Jun-15 10:50:34.062572] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-15 10:50:34.062572] (6) <info>: Building the JSON file.
+[2015-Jun-15 10:50:34.062572] (7) <info>: Writing output.
+[2015-Jun-15 10:50:34.121610] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-15 10:50:34.145992] (1) <info>: ------------------------------
+[2015-Jun-15 10:50:34.146993] (2) <info>: tremppi_regulations started.
+[2015-Jun-15 10:50:34.146993] (3) <info>: Parsing data file.
+[2015-Jun-15 10:50:34.199029] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-15 10:50:34.201030] (5) <info>: Building the JSON files.
+[2015-Jun-15 10:50:34.201030] (6) <info>: Writing output.
+[2015-Jun-15 10:50:34.258068] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-15 10:50:34.283084] (1) <info>: ------------------------------
+[2015-Jun-15 10:50:34.284084] (2) <info>: tremppi_bias started.
+[2015-Jun-15 10:50:34.284084] (3) <info>: Parsing data file.
+[2015-Jun-15 10:50:34.336120] (4) <info>: Computing function graph data.
+[2015-Jun-15 10:50:34.386096] (5) <info>: Building the JSON.
+[2015-Jun-15 10:50:34.386096] (6) <info>: Writing output.
+[2015-Jun-15 10:50:34.443136] (7) <info>: tremppi_bias finished successfully.
+[2015-Jun-15 10:55:54.119691] (1) <info>: ------------------------------
+[2015-Jun-15 10:55:54.120691] (2) <info>: tremppi_qualitative started.
+[2015-Jun-15 10:55:54.120691] (3) <info>: Parsing data.
+[2015-Jun-15 10:55:54.177728] (4) <info>: Preparing the data.
+[2015-Jun-15 10:55:54.178727] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-15 10:55:54.178727] (6) <info>: Building the JSON file.
+[2015-Jun-15 10:55:54.178727] (7) <info>: Writing output.
+[2015-Jun-15 10:55:54.239769] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-15 10:55:54.265785] (1) <info>: ------------------------------
+[2015-Jun-15 10:55:54.266785] (2) <info>: tremppi_quantitative started.
+[2015-Jun-15 10:55:54.266785] (3) <info>: Parsing data.
+[2015-Jun-15 10:55:54.320821] (4) <info>: Preparing the data.
+[2015-Jun-15 10:55:54.320821] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-15 10:55:54.320821] (6) <info>: Building the JSON file.
+[2015-Jun-15 10:55:54.321824] (7) <info>: Writing output.
+[2015-Jun-15 10:55:54.378861] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-15 10:55:54.403199] (1) <info>: ------------------------------
+[2015-Jun-15 10:55:54.404200] (2) <info>: tremppi_regulations started.
+[2015-Jun-15 10:55:54.404200] (3) <info>: Parsing data file.
+[2015-Jun-15 10:55:54.458235] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-15 10:55:54.460237] (5) <info>: Building the JSON files.
+[2015-Jun-15 10:55:54.460237] (6) <info>: Writing output.
+[2015-Jun-15 10:55:54.517973] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-15 10:55:54.543994] (1) <info>: ------------------------------
+[2015-Jun-15 10:55:54.544993] (2) <info>: tremppi_bias started.
+[2015-Jun-15 10:55:54.544993] (3) <info>: Parsing data file.
+[2015-Jun-15 10:55:54.598031] (4) <info>: Computing function graph data.
+[2015-Jun-15 10:55:54.601032] (5) <info>: Building the JSON.
+[2015-Jun-15 10:55:54.601032] (6) <info>: Writing output.
+[2015-Jun-15 10:55:54.658069] (7) <info>: tremppi_bias finished successfully.
+[2015-Jun-15 11:02:08.821564] (1) <info>: ------------------------------
+[2015-Jun-15 11:02:08.823566] (2) <info>: tremppi_qualitative started.
+[2015-Jun-15 11:02:08.823566] (3) <info>: Parsing data.
+[2015-Jun-15 11:02:08.888223] (4) <info>: Preparing the data.
+[2015-Jun-15 11:02:08.889225] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-15 11:02:08.890113] (6) <info>: Building the JSON file.
+[2015-Jun-15 11:02:08.890113] (7) <info>: Writing output.
+[2015-Jun-15 11:02:08.958160] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-15 11:02:08.982176] (1) <info>: ------------------------------
+[2015-Jun-15 11:02:08.984177] (2) <info>: tremppi_quantitative started.
+[2015-Jun-15 11:02:08.984177] (3) <info>: Parsing data.
+[2015-Jun-15 11:02:09.038216] (4) <info>: Preparing the data.
+[2015-Jun-15 11:02:09.038216] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-15 11:02:09.039217] (6) <info>: Building the JSON file.
+[2015-Jun-15 11:02:09.039217] (7) <info>: Writing output.
+[2015-Jun-15 11:02:09.096467] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-15 11:02:09.121487] (1) <info>: ------------------------------
+[2015-Jun-15 11:02:09.123489] (2) <info>: tremppi_regulations started.
+[2015-Jun-15 11:02:09.123489] (3) <info>: Parsing data file.
+[2015-Jun-15 11:02:09.177523] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-15 11:02:09.179524] (5) <info>: Building the JSON files.
+[2015-Jun-15 11:02:09.179524] (6) <info>: Writing output.
+[2015-Jun-15 11:02:09.237561] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-15 11:02:09.261578] (1) <info>: ------------------------------
+[2015-Jun-15 11:02:09.263579] (2) <info>: tremppi_bias started.
+[2015-Jun-15 11:02:09.263579] (3) <info>: Parsing data file.
+[2015-Jun-15 11:02:09.316910] (4) <info>: Computing function graph data.
+[2015-Jun-15 11:02:09.318912] (5) <info>: Building the JSON.
+[2015-Jun-15 11:02:09.318912] (6) <info>: Writing output.
+[2015-Jun-15 11:02:09.376950] (7) <info>: tremppi_bias finished successfully.
+[2015-Jun-16 14:56:52.893844] (1) <info>: ------------------------------
+[2015-Jun-16 14:56:52.957939] (2) <info>: tremppi_spawn started.
+[2015-Jun-16 14:56:52.957939] (3) <info>: Checking the JSON correctness.
+[2015-Jun-16 14:56:52.978660] (4) <info>: Parsing the network.
+[2015-Jun-16 14:56:52.978660] (5) <info>: Obtaining kinetics.
+[2015-Jun-16 14:56:52.979609] (6) <info>: Creating the database file.
+[2015-Jun-16 14:56:53.169980] (7) <info>: Writing the database file, in total 324 parametrizations.
+[2015-Jun-16 14:56:53.640847] (8) <info>: tremppi_spawn finished successfully.
+[2015-Jun-16 14:56:58.829232] (1) <info>: ------------------------------
+[2015-Jun-16 14:56:58.830232] (2) <info>: tremppi_sign started.
+[2015-Jun-16 14:56:59.697829] (3) <error>: Top level exception: no such column: C_psi
+[2015-Jun-16 14:57:26.190734] (1) <info>: ------------------------------
+[2015-Jun-16 14:57:26.191735] (2) <info>: tremppi_sign started.
+[2015-Jun-16 14:57:26.345603] (3) <error>: Top level exception: Python exception encountered.
+[2015-Jun-16 14:57:35.908837] (1) <info>: ------------------------------
+[2015-Jun-16 14:57:35.909836] (2) <info>: tremppi_sign started.
+[2015-Jun-16 14:57:36.370560] (3) <info>: tremppi_sign finished successfully.
+[2015-Jun-16 14:57:44.484539] (1) <info>: ------------------------------
+[2015-Jun-16 14:57:44.485539] (2) <info>: tremppi_bias started.
+[2015-Jun-16 14:57:44.520561] (3) <info>: Computing function graph data.
+[2015-Jun-16 14:57:44.964288] (4) <info>: tremppi_bias finished successfully.
+[2015-Jun-16 14:57:55.485246] (1) <info>: ------------------------------
+[2015-Jun-16 14:57:55.486247] (2) <info>: tremppi_impact started.
+[2015-Jun-16 14:57:56.213175] (3) <info>: tremppi_impact finished successfully.
+[2015-Jun-16 14:57:58.996666] (1) <info>: ------------------------------
+[2015-Jun-16 14:57:58.997667] (2) <info>: tremppi_express started.
+[2015-Jun-16 14:57:59.636820] (3) <info>: tremppi_express finished successfully.
+[2015-Jun-16 14:58:03.141154] (1) <info>: ------------------------------
+[2015-Jun-16 14:58:03.142154] (2) <info>: tremppi_validate started.
+[2015-Jun-16 14:58:03.142154] (3) <info>: Parsing database.
+[2015-Jun-16 14:58:03.176689] (4) <info>: Checking the JSON correctness.
+[2015-Jun-16 14:58:03.176689] (5) <info>: Parsing the properties.
+[2015-Jun-16 14:58:03.177690] (6) <info>: Building a product with the automaton: time_series
+[2015-Jun-16 14:58:03.177690] (7) <info>: Validating for an automaton: time_series
+[2015-Jun-16 15:05:00.236158] (1) <info>: ------------------------------
+[2015-Jun-16 15:05:00.238159] (2) <info>: tremppi_validate started.
+[2015-Jun-16 15:05:00.238159] (3) <info>: Parsing database.
+[2015-Jun-16 15:05:00.288194] (4) <info>: Checking the JSON correctness.
+[2015-Jun-16 15:05:00.367224] (5) <info>: Parsing the properties.
+[2015-Jun-16 15:05:00.491153] (6) <info>: Building a product with the automaton: time_series
+[2015-Jun-16 15:05:00.492153] (7) <info>: Validating for an automaton: time_series
+[2015-Jun-16 15:05:37.282934] (1) <info>: ------------------------------
+[2015-Jun-16 15:05:37.284934] (2) <info>: tremppi_validate started.
+[2015-Jun-16 15:05:37.284934] (3) <info>: Parsing database.
+[2015-Jun-16 15:05:37.340972] (4) <info>: Checking the JSON correctness.
+[2015-Jun-16 15:05:37.342973] (5) <info>: Parsing the properties.
+[2015-Jun-16 15:05:37.344975] (6) <info>: Building a product with the automaton: time_series
+[2015-Jun-16 15:05:37.346975] (7) <info>: Validating for an automaton: time_series
+[2015-Jun-16 15:05:37.802860] (8) <info>: tremppi_validate finished successfully.
+[2015-Jun-16 15:11:08.989958] (1) <info>: ------------------------------
+[2015-Jun-16 15:11:08.990958] (2) <info>: tremppi_sign started.
+[2015-Jun-16 15:11:09.781378] (3) <info>: tremppi_sign finished successfully.
+[2015-Jun-16 15:15:04.242641] (1) <info>: ------------------------------
+[2015-Jun-16 15:15:04.242641] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 15:15:04.242641] (3) <info>: Parsing data.
+[2015-Jun-16 15:15:04.280665] (4) <info>: Preparing the data.
+[2015-Jun-16 15:15:04.280665] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:15:04.290677] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:15:04.291673] (7) <info>: Writing output.
+[2015-Jun-16 15:15:04.357716] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 15:15:04.375728] (1) <info>: ------------------------------
+[2015-Jun-16 15:15:04.376729] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 15:15:04.376729] (3) <info>: Parsing data.
+[2015-Jun-16 15:15:04.411754] (4) <info>: Preparing the data.
+[2015-Jun-16 15:15:04.411754] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:15:04.423761] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:15:04.423761] (7) <info>: Writing output.
+[2015-Jun-16 15:15:04.467789] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 15:15:04.484801] (1) <info>: ------------------------------
+[2015-Jun-16 15:15:04.485802] (2) <info>: tremppi_bias started.
+[2015-Jun-16 15:15:04.518824] (3) <info>: Computing function graph data.
+[2015-Jun-16 15:15:04.935392] (4) <info>: tremppi_bias finished successfully.
+[2015-Jun-16 15:15:04.952404] (1) <info>: ------------------------------
+[2015-Jun-16 15:15:04.953405] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 15:15:04.953405] (3) <info>: Parsing data file.
+[2015-Jun-16 15:15:04.987427] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 15:15:04.988428] (5) <info>: Building the JSON files.
+[2015-Jun-16 15:15:04.988428] (6) <info>: Writing output.
+[2015-Jun-16 15:15:05.028453] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 15:15:10.642940] (1) <info>: ------------------------------
+[2015-Jun-16 15:15:10.643941] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 15:15:10.643941] (3) <info>: Parsing data.
+[2015-Jun-16 15:15:10.679964] (4) <info>: Preparing the data.
+[2015-Jun-16 15:15:10.679964] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:15:10.679964] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:15:10.679964] (7) <info>: Writing output.
+[2015-Jun-16 15:15:10.731722] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 15:15:10.757740] (1) <info>: ------------------------------
+[2015-Jun-16 15:15:10.758741] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 15:15:10.758741] (3) <info>: Parsing data.
+[2015-Jun-16 15:15:10.793763] (4) <info>: Preparing the data.
+[2015-Jun-16 15:15:10.793763] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:15:10.793763] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:15:10.794763] (7) <info>: Writing output.
+[2015-Jun-16 15:15:10.834791] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 15:15:10.852802] (1) <info>: ------------------------------
+[2015-Jun-16 15:15:10.852802] (2) <info>: tremppi_bias started.
+[2015-Jun-16 15:15:10.886825] (3) <info>: Computing function graph data.
+[2015-Jun-16 15:15:10.930855] (4) <info>: tremppi_bias finished successfully.
+[2015-Jun-16 15:15:10.947866] (1) <info>: ------------------------------
+[2015-Jun-16 15:15:10.948867] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 15:15:10.948867] (3) <info>: Parsing data file.
+[2015-Jun-16 15:15:10.983890] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 15:15:10.983890] (5) <info>: Building the JSON files.
+[2015-Jun-16 15:15:10.984890] (6) <info>: Writing output.
+[2015-Jun-16 15:15:11.024916] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 15:15:51.817813] (1) <info>: ------------------------------
+[2015-Jun-16 15:15:51.818814] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 15:15:51.818814] (3) <info>: Parsing data file.
+[2015-Jun-16 15:15:51.854837] (4) <info>: Computing function graph data.
+[2015-Jun-16 15:15:51.856838] (5) <info>: Building the JSON.
+[2015-Jun-16 15:15:51.856838] (6) <info>: Writing output.
+[2015-Jun-16 15:15:51.897866] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 15:16:05.954247] (1) <info>: ------------------------------
+[2015-Jun-16 15:16:05.955247] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 15:16:05.955247] (3) <info>: Parsing data file.
+[2015-Jun-16 15:16:05.994272] (4) <info>: Computing function graph data.
+[2015-Jun-16 15:16:05.995464] (5) <info>: Building the JSON.
+[2015-Jun-16 15:16:05.995464] (6) <info>: Writing output.
+[2015-Jun-16 15:16:06.053307] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 15:16:53.425377] (1) <info>: ------------------------------
+[2015-Jun-16 15:16:53.426378] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 15:16:53.426378] (3) <info>: Parsing data.
+[2015-Jun-16 15:16:53.465403] (4) <info>: Preparing the data.
+[2015-Jun-16 15:16:53.466404] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:16:53.468405] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:16:53.468405] (7) <info>: Writing output.
+[2015-Jun-16 15:16:53.512435] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 15:16:53.530447] (1) <info>: ------------------------------
+[2015-Jun-16 15:16:53.531447] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 15:16:53.531447] (3) <info>: Parsing data.
+[2015-Jun-16 15:16:53.566470] (4) <info>: Preparing the data.
+[2015-Jun-16 15:16:53.567471] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:16:53.569472] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:16:53.570474] (7) <info>: Writing output.
+[2015-Jun-16 15:16:53.630529] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 15:16:53.647540] (1) <info>: ------------------------------
+[2015-Jun-16 15:16:53.648541] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 15:16:53.648541] (3) <info>: Parsing data file.
+[2015-Jun-16 15:16:53.684565] (4) <info>: Computing function graph data.
+[2015-Jun-16 15:16:53.685565] (5) <info>: Building the JSON.
+[2015-Jun-16 15:16:53.685565] (6) <info>: Writing output.
+[2015-Jun-16 15:16:53.725699] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 15:16:53.743714] (1) <info>: ------------------------------
+[2015-Jun-16 15:16:53.743714] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 15:16:53.743714] (3) <info>: Parsing data file.
+[2015-Jun-16 15:16:53.781122] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 15:16:53.782122] (5) <info>: Building the JSON files.
+[2015-Jun-16 15:16:53.782122] (6) <info>: Writing output.
+[2015-Jun-16 15:16:53.823152] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 15:18:31.080923] (1) <info>: ------------------------------
+[2015-Jun-16 15:18:31.081928] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 15:18:31.081928] (3) <info>: Parsing data.
+[2015-Jun-16 15:18:31.119950] (4) <info>: Preparing the data.
+[2015-Jun-16 15:18:31.120950] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:18:31.123952] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:18:31.123952] (7) <info>: Writing output.
+[2015-Jun-16 15:18:31.166981] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 15:18:31.185995] (1) <info>: ------------------------------
+[2015-Jun-16 15:18:31.185995] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 15:18:31.185995] (3) <info>: Parsing data.
+[2015-Jun-16 15:18:31.223019] (4) <info>: Preparing the data.
+[2015-Jun-16 15:18:31.224020] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:18:31.227020] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:18:31.227020] (7) <info>: Writing output.
+[2015-Jun-16 15:18:31.269048] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 15:18:31.287061] (1) <info>: ------------------------------
+[2015-Jun-16 15:18:31.288061] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 15:18:31.288061] (3) <info>: Parsing data file.
+[2015-Jun-16 15:18:31.324085] (4) <info>: Computing function graph data.
+[2015-Jun-16 15:18:31.326086] (5) <info>: Building the JSON.
+[2015-Jun-16 15:18:31.326086] (6) <info>: Writing output.
+[2015-Jun-16 15:18:31.366113] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 15:18:31.431912] (1) <info>: ------------------------------
+[2015-Jun-16 15:18:31.432913] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 15:18:31.432913] (3) <info>: Parsing data file.
+[2015-Jun-16 15:18:31.468936] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 15:18:31.469938] (5) <info>: Building the JSON files.
+[2015-Jun-16 15:18:31.469938] (6) <info>: Writing output.
+[2015-Jun-16 15:18:31.509963] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 15:22:08.122004] (1) <info>: ------------------------------
+[2015-Jun-16 15:22:08.126006] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 15:22:08.126006] (3) <info>: Parsing data file.
+[2015-Jun-16 15:22:08.183042] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 15:22:08.188046] (5) <error>: Top level exception: did not find the regulation L_B_1_A in the database
+[2015-Jun-16 15:22:58.241091] (1) <info>: ------------------------------
+[2015-Jun-16 15:22:58.243092] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 15:22:58.243092] (3) <info>: Parsing data file.
+[2015-Jun-16 15:22:58.306134] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 15:22:58.316142] (5) <info>: Building the JSON files.
+[2015-Jun-16 15:22:58.330150] (6) <info>: Writing output.
+[2015-Jun-16 15:22:58.415207] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 15:23:38.168667] (1) <info>: ------------------------------
+[2015-Jun-16 15:23:38.169668] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 15:23:38.169668] (3) <info>: Parsing data.
+[2015-Jun-16 15:23:38.207693] (4) <info>: Preparing the data.
+[2015-Jun-16 15:23:38.207693] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:23:38.217700] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:23:38.217700] (7) <info>: Writing output.
+[2015-Jun-16 15:23:38.261730] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 15:23:38.279943] (1) <info>: ------------------------------
+[2015-Jun-16 15:23:38.280943] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 15:23:38.280943] (3) <info>: Parsing data.
+[2015-Jun-16 15:23:38.316967] (4) <info>: Preparing the data.
+[2015-Jun-16 15:23:38.316967] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:23:38.327974] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:23:38.328976] (7) <info>: Writing output.
+[2015-Jun-16 15:23:38.370003] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 15:23:38.387929] (1) <info>: ------------------------------
+[2015-Jun-16 15:23:38.388930] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 15:23:38.388930] (3) <info>: Parsing data file.
+[2015-Jun-16 15:23:38.422954] (4) <info>: Computing function graph data.
+[2015-Jun-16 15:23:38.424954] (5) <info>: Building the JSON.
+[2015-Jun-16 15:23:38.424954] (6) <info>: Writing output.
+[2015-Jun-16 15:23:38.463979] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 15:23:38.481990] (1) <info>: ------------------------------
+[2015-Jun-16 15:23:38.482991] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 15:23:38.482991] (3) <info>: Parsing data file.
+[2015-Jun-16 15:23:38.517520] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 15:23:38.518521] (5) <info>: Building the JSON files.
+[2015-Jun-16 15:23:38.518521] (6) <info>: Writing output.
+[2015-Jun-16 15:23:38.557547] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 15:23:43.428715] (1) <info>: ------------------------------
+[2015-Jun-16 15:23:43.429716] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 15:23:43.429716] (3) <info>: Parsing data.
+[2015-Jun-16 15:23:43.466742] (4) <info>: Preparing the data.
+[2015-Jun-16 15:23:43.466742] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:23:43.473747] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:23:43.474747] (7) <info>: Writing output.
+[2015-Jun-16 15:23:43.514772] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 15:23:43.532785] (1) <info>: ------------------------------
+[2015-Jun-16 15:23:43.533786] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 15:23:43.533786] (3) <info>: Parsing data.
+[2015-Jun-16 15:23:43.568809] (4) <info>: Preparing the data.
+[2015-Jun-16 15:23:43.569809] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:23:43.574813] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:23:43.575815] (7) <info>: Writing output.
+[2015-Jun-16 15:23:43.616842] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 15:23:43.634853] (1) <info>: ------------------------------
+[2015-Jun-16 15:23:43.635855] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 15:23:43.635855] (3) <info>: Parsing data file.
+[2015-Jun-16 15:23:43.670878] (4) <info>: Computing function graph data.
+[2015-Jun-16 15:23:43.672879] (5) <info>: Building the JSON.
+[2015-Jun-16 15:23:43.672879] (6) <info>: Writing output.
+[2015-Jun-16 15:23:43.710904] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 15:23:43.729915] (1) <info>: ------------------------------
+[2015-Jun-16 15:23:43.729915] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 15:23:43.730916] (3) <info>: Parsing data file.
+[2015-Jun-16 15:23:43.764938] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 15:23:43.765939] (5) <info>: Building the JSON files.
+[2015-Jun-16 15:23:43.766942] (6) <info>: Writing output.
+[2015-Jun-16 15:23:43.805970] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 15:24:01.164857] (1) <info>: ------------------------------
+[2015-Jun-16 15:24:01.165857] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 15:24:01.165857] (3) <info>: Parsing data.
+[2015-Jun-16 15:24:01.202882] (4) <info>: Preparing the data.
+[2015-Jun-16 15:24:01.202882] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:24:01.207031] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:24:01.208031] (7) <info>: Writing output.
+[2015-Jun-16 15:24:01.250060] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 15:24:01.286064] (1) <info>: ------------------------------
+[2015-Jun-16 15:24:01.286064] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 15:24:01.286064] (3) <info>: Parsing data.
+[2015-Jun-16 15:24:01.323089] (4) <info>: Preparing the data.
+[2015-Jun-16 15:24:01.323089] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:24:01.328091] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:24:01.328091] (7) <info>: Writing output.
+[2015-Jun-16 15:24:01.379125] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 15:24:01.397138] (1) <info>: ------------------------------
+[2015-Jun-16 15:24:01.397138] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 15:24:01.397138] (3) <info>: Parsing data file.
+[2015-Jun-16 15:24:01.432161] (4) <info>: Computing function graph data.
+[2015-Jun-16 15:24:01.434162] (5) <info>: Building the JSON.
+[2015-Jun-16 15:24:01.434162] (6) <info>: Writing output.
+[2015-Jun-16 15:24:01.472187] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 15:24:01.490199] (1) <info>: ------------------------------
+[2015-Jun-16 15:24:01.490199] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 15:24:01.490199] (3) <info>: Parsing data file.
+[2015-Jun-16 15:24:01.525223] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 15:24:01.526223] (5) <info>: Building the JSON files.
+[2015-Jun-16 15:24:01.526223] (6) <info>: Writing output.
+[2015-Jun-16 15:24:01.565248] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 15:24:17.028006] (1) <info>: ------------------------------
+[2015-Jun-16 15:24:17.029006] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 15:24:17.029006] (3) <info>: Parsing data.
+[2015-Jun-16 15:24:17.066031] (4) <info>: Preparing the data.
+[2015-Jun-16 15:24:17.066031] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:24:17.069032] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:24:17.070034] (7) <info>: Writing output.
+[2015-Jun-16 15:24:17.112062] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 15:24:17.131073] (1) <info>: ------------------------------
+[2015-Jun-16 15:24:17.131073] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 15:24:17.131073] (3) <info>: Parsing data.
+[2015-Jun-16 15:24:17.168098] (4) <info>: Preparing the data.
+[2015-Jun-16 15:24:17.168098] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:24:17.171100] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:24:17.172101] (7) <info>: Writing output.
+[2015-Jun-16 15:24:17.212128] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 15:24:17.229138] (1) <info>: ------------------------------
+[2015-Jun-16 15:24:17.230140] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 15:24:17.230140] (3) <info>: Parsing data file.
+[2015-Jun-16 15:24:17.265163] (4) <info>: Computing function graph data.
+[2015-Jun-16 15:24:17.267164] (5) <info>: Building the JSON.
+[2015-Jun-16 15:24:17.267164] (6) <info>: Writing output.
+[2015-Jun-16 15:24:17.306190] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 15:24:17.324523] (1) <info>: ------------------------------
+[2015-Jun-16 15:24:17.324523] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 15:24:17.324523] (3) <info>: Parsing data file.
+[2015-Jun-16 15:24:17.360547] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 15:24:17.361548] (5) <info>: Building the JSON files.
+[2015-Jun-16 15:24:17.361548] (6) <info>: Writing output.
+[2015-Jun-16 15:24:17.406333] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 15:26:11.290026] (1) <info>: ------------------------------
+[2015-Jun-16 15:26:11.291031] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 15:26:11.291031] (3) <info>: Parsing data.
+[2015-Jun-16 15:26:11.334089] (4) <info>: Preparing the data.
+[2015-Jun-16 15:26:11.334089] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:26:11.338394] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:26:11.339404] (7) <info>: Writing output.
+[2015-Jun-16 15:26:11.404443] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 15:26:11.428465] (1) <info>: ------------------------------
+[2015-Jun-16 15:26:11.430462] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 15:26:11.430462] (3) <info>: Parsing data.
+[2015-Jun-16 15:26:11.479492] (4) <info>: Preparing the data.
+[2015-Jun-16 15:26:11.479492] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:26:11.483496] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:26:11.483496] (7) <info>: Writing output.
+[2015-Jun-16 15:26:11.554542] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 15:26:11.573556] (1) <info>: ------------------------------
+[2015-Jun-16 15:26:11.574556] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 15:26:11.574556] (3) <info>: Parsing data file.
+[2015-Jun-16 15:26:11.609579] (4) <info>: Computing function graph data.
+[2015-Jun-16 15:26:11.611581] (5) <info>: Building the JSON.
+[2015-Jun-16 15:26:11.611581] (6) <info>: Writing output.
+[2015-Jun-16 15:26:11.649605] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 15:26:11.666617] (1) <info>: ------------------------------
+[2015-Jun-16 15:26:11.667618] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 15:26:11.667618] (3) <info>: Parsing data file.
+[2015-Jun-16 15:26:11.702642] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 15:26:11.703643] (5) <info>: Building the JSON files.
+[2015-Jun-16 15:26:11.703643] (6) <info>: Writing output.
+[2015-Jun-16 15:26:11.741676] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 15:26:18.803360] (1) <info>: ------------------------------
+[2015-Jun-16 15:26:18.804360] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 15:26:18.804360] (3) <info>: Parsing data.
+[2015-Jun-16 15:26:18.839384] (4) <info>: Preparing the data.
+[2015-Jun-16 15:26:18.839384] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:26:18.849835] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:26:18.849835] (7) <info>: Writing output.
+[2015-Jun-16 15:26:18.889861] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 15:26:18.908873] (1) <info>: ------------------------------
+[2015-Jun-16 15:26:18.909874] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 15:26:18.909874] (3) <info>: Parsing data.
+[2015-Jun-16 15:26:18.943897] (4) <info>: Preparing the data.
+[2015-Jun-16 15:26:18.944897] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 15:26:18.955905] (6) <info>: Building the JSON file.
+[2015-Jun-16 15:26:18.956905] (7) <info>: Writing output.
+[2015-Jun-16 15:26:18.998934] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 15:26:19.018947] (1) <info>: ------------------------------
+[2015-Jun-16 15:26:19.018947] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 15:26:19.018947] (3) <info>: Parsing data file.
+[2015-Jun-16 15:26:19.054970] (4) <info>: Computing function graph data.
+[2015-Jun-16 15:26:19.056312] (5) <info>: Building the JSON.
+[2015-Jun-16 15:26:19.056312] (6) <info>: Writing output.
+[2015-Jun-16 15:26:19.095339] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 15:26:19.115353] (1) <info>: ------------------------------
+[2015-Jun-16 15:26:19.116354] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 15:26:19.116354] (3) <info>: Parsing data file.
+[2015-Jun-16 15:26:19.153380] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 15:26:19.155381] (5) <info>: Building the JSON files.
+[2015-Jun-16 15:26:19.155381] (6) <info>: Writing output.
+[2015-Jun-16 15:26:19.193405] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 17:41:43.746216] (1) <info>: ------------------------------
+[2015-Jun-16 17:41:43.747215] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 17:41:43.747215] (3) <info>: Parsing data.
+[2015-Jun-16 17:41:43.806875] (4) <info>: Preparing the data.
+[2015-Jun-16 17:41:43.806875] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 17:41:43.816883] (6) <info>: Building the JSON file.
+[2015-Jun-16 17:41:43.817882] (7) <info>: Writing output.
+[2015-Jun-16 17:41:43.895935] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 17:41:43.913946] (1) <info>: ------------------------------
+[2015-Jun-16 17:41:43.914946] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 17:41:43.914946] (3) <info>: Parsing data.
+[2015-Jun-16 17:41:43.950970] (4) <info>: Preparing the data.
+[2015-Jun-16 17:41:43.951971] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 17:41:43.962979] (6) <info>: Building the JSON file.
+[2015-Jun-16 17:41:43.963979] (7) <info>: Writing output.
+[2015-Jun-16 17:41:44.010009] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 17:41:44.028021] (1) <info>: ------------------------------
+[2015-Jun-16 17:41:44.029022] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 17:41:44.029022] (3) <info>: Parsing data file.
+[2015-Jun-16 17:41:44.064045] (4) <info>: Computing function graph data.
+[2015-Jun-16 17:41:44.065046] (5) <info>: Building the JSON.
+[2015-Jun-16 17:41:44.065046] (6) <info>: Writing output.
+[2015-Jun-16 17:41:44.126076] (7) <error>: Top level exception: Could not open C:\Users\adams_000\TREMPPI\projects\HSB_2015\data\bias\all.json
+[2015-Jun-16 17:41:44.160161] (1) <info>: ------------------------------
+[2015-Jun-16 17:41:44.161162] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 17:41:44.161162] (3) <info>: Parsing data file.
+[2015-Jun-16 17:41:44.196066] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 17:41:44.197066] (5) <info>: Building the JSON files.
+[2015-Jun-16 17:41:44.197066] (6) <info>: Writing output.
+[2015-Jun-16 17:41:44.237092] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 17:48:08.430554] (1) <info>: ------------------------------
+[2015-Jun-16 17:48:08.431555] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 17:48:08.431555] (3) <info>: Parsing data.
+[2015-Jun-16 17:48:08.468579] (4) <info>: Preparing the data.
+[2015-Jun-16 17:48:08.468579] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 17:48:08.475582] (6) <info>: Building the JSON file.
+[2015-Jun-16 17:48:08.475582] (7) <info>: Writing output.
+[2015-Jun-16 17:48:08.519611] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 17:48:08.538624] (1) <info>: ------------------------------
+[2015-Jun-16 17:48:08.538624] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 17:48:08.538624] (3) <info>: Parsing data.
+[2015-Jun-16 17:48:08.575648] (4) <info>: Preparing the data.
+[2015-Jun-16 17:48:08.575648] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 17:48:08.583653] (6) <info>: Building the JSON file.
+[2015-Jun-16 17:48:08.584655] (7) <info>: Writing output.
+[2015-Jun-16 17:48:08.625683] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 17:48:08.643531] (1) <info>: ------------------------------
+[2015-Jun-16 17:48:08.644531] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 17:48:08.644531] (3) <info>: Parsing data file.
+[2015-Jun-16 17:48:08.678553] (4) <info>: Computing function graph data.
+[2015-Jun-16 17:48:08.680649] (5) <info>: Building the JSON.
+[2015-Jun-16 17:48:08.680649] (6) <info>: Writing output.
+[2015-Jun-16 17:48:08.721681] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 17:48:08.739409] (1) <info>: ------------------------------
+[2015-Jun-16 17:48:08.740409] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 17:48:08.740409] (3) <info>: Parsing data file.
+[2015-Jun-16 17:48:08.775434] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 17:48:08.776433] (5) <info>: Building the JSON files.
+[2015-Jun-16 17:48:08.776433] (6) <info>: Writing output.
+[2015-Jun-16 17:48:08.817461] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 17:48:36.382840] (1) <info>: ------------------------------
+[2015-Jun-16 17:48:36.383840] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 17:48:36.383840] (3) <info>: Parsing data.
+[2015-Jun-16 17:48:36.422866] (4) <info>: Preparing the data.
+[2015-Jun-16 17:48:36.422866] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 17:48:36.433874] (6) <info>: Building the JSON file.
+[2015-Jun-16 17:48:36.433874] (7) <info>: Writing output.
+[2015-Jun-16 17:48:36.478520] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 17:48:36.497533] (1) <info>: ------------------------------
+[2015-Jun-16 17:48:36.498535] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 17:48:36.498535] (3) <info>: Parsing data.
+[2015-Jun-16 17:48:36.534558] (4) <info>: Preparing the data.
+[2015-Jun-16 17:48:36.535559] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 17:48:36.546566] (6) <info>: Building the JSON file.
+[2015-Jun-16 17:48:36.547568] (7) <info>: Writing output.
+[2015-Jun-16 17:48:36.591597] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 17:48:36.609608] (1) <info>: ------------------------------
+[2015-Jun-16 17:48:36.610609] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 17:48:36.610609] (3) <info>: Parsing data file.
+[2015-Jun-16 17:48:36.644634] (4) <info>: Computing function graph data.
+[2015-Jun-16 17:48:36.646633] (5) <info>: Building the JSON.
+[2015-Jun-16 17:48:36.646633] (6) <info>: Writing output.
+[2015-Jun-16 17:48:36.685659] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 17:48:36.703671] (1) <info>: ------------------------------
+[2015-Jun-16 17:48:36.704672] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 17:48:36.704672] (3) <info>: Parsing data file.
+[2015-Jun-16 17:48:36.739695] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 17:48:36.740696] (5) <info>: Building the JSON files.
+[2015-Jun-16 17:48:36.740696] (6) <info>: Writing output.
+[2015-Jun-16 17:48:36.778722] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 17:55:47.059794] (1) <info>: ------------------------------
+[2015-Jun-16 17:55:47.061796] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 17:55:47.061796] (3) <info>: Parsing data file.
+[2015-Jun-16 17:55:47.121836] (4) <info>: Computing function graph data.
+[2015-Jun-16 17:56:30.190004] (1) <info>: ------------------------------
+[2015-Jun-16 17:56:30.192006] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 17:56:30.193007] (3) <info>: Parsing data file.
+[2015-Jun-16 17:56:30.257050] (4) <info>: Computing function graph data.
+[2015-Jun-16 17:56:30.297075] (5) <info>: Building the JSON.
+[2015-Jun-16 17:56:30.298076] (6) <info>: Writing output.
+[2015-Jun-16 17:56:30.373126] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 17:58:17.963729] (1) <info>: ------------------------------
+[2015-Jun-16 17:58:17.964729] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 17:58:17.964729] (3) <info>: Parsing data.
+[2015-Jun-16 17:58:18.004485] (4) <info>: Preparing the data.
+[2015-Jun-16 17:58:18.005486] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 17:58:18.005486] (6) <info>: Building the JSON file.
+[2015-Jun-16 17:58:18.005486] (7) <info>: Writing output.
+[2015-Jun-16 17:58:18.048516] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 17:58:18.066730] (1) <info>: ------------------------------
+[2015-Jun-16 17:58:18.067731] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 17:58:18.067731] (3) <info>: Parsing data.
+[2015-Jun-16 17:58:18.105756] (4) <info>: Preparing the data.
+[2015-Jun-16 17:58:18.105756] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 17:58:18.105756] (6) <info>: Building the JSON file.
+[2015-Jun-16 17:58:18.106757] (7) <info>: Writing output.
+[2015-Jun-16 17:58:18.146784] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 17:58:18.164795] (1) <info>: ------------------------------
+[2015-Jun-16 17:58:18.165796] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 17:58:18.165796] (3) <info>: Parsing data file.
+[2015-Jun-16 17:58:18.200685] (4) <info>: Computing function graph data.
+[2015-Jun-16 17:58:18.207690] (5) <info>: Building the JSON.
+[2015-Jun-16 17:58:18.207690] (6) <info>: Writing output.
+[2015-Jun-16 17:58:18.246715] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 17:58:18.265728] (1) <info>: ------------------------------
+[2015-Jun-16 17:58:18.266729] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 17:58:18.266729] (3) <info>: Parsing data file.
+[2015-Jun-16 17:58:18.301751] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 17:58:18.302753] (5) <info>: Building the JSON files.
+[2015-Jun-16 17:58:18.302753] (6) <info>: Writing output.
+[2015-Jun-16 17:58:18.342796] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 17:58:55.792747] (1) <info>: ------------------------------
+[2015-Jun-16 17:58:55.793748] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 17:58:55.793748] (3) <info>: Parsing data.
+[2015-Jun-16 17:58:55.832774] (4) <info>: Preparing the data.
+[2015-Jun-16 17:58:55.833774] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 17:58:55.841779] (6) <info>: Building the JSON file.
+[2015-Jun-16 17:58:55.841779] (7) <info>: Writing output.
+[2015-Jun-16 17:58:55.886809] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 17:58:55.905822] (1) <info>: ------------------------------
+[2015-Jun-16 17:58:55.906822] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 17:58:55.906822] (3) <info>: Parsing data.
+[2015-Jun-16 17:58:55.942846] (4) <info>: Preparing the data.
+[2015-Jun-16 17:58:55.942846] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 17:58:55.950851] (6) <info>: Building the JSON file.
+[2015-Jun-16 17:58:55.951853] (7) <info>: Writing output.
+[2015-Jun-16 17:58:55.994880] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 17:58:56.013368] (1) <info>: ------------------------------
+[2015-Jun-16 17:58:56.013368] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 17:58:56.013368] (3) <info>: Parsing data file.
+[2015-Jun-16 17:58:56.049890] (4) <info>: Computing function graph data.
+[2015-Jun-16 17:58:56.050890] (5) <info>: Building the JSON.
+[2015-Jun-16 17:58:56.050890] (6) <info>: Writing output.
+[2015-Jun-16 17:58:56.090917] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 17:58:56.109930] (1) <info>: ------------------------------
+[2015-Jun-16 17:58:56.109930] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 17:58:56.109930] (3) <info>: Parsing data file.
+[2015-Jun-16 17:58:56.145068] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 17:58:56.146067] (5) <info>: Building the JSON files.
+[2015-Jun-16 17:58:56.146067] (6) <info>: Writing output.
+[2015-Jun-16 17:58:56.186361] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 17:59:41.903845] (1) <info>: ------------------------------
+[2015-Jun-16 17:59:41.905847] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 17:59:41.905847] (3) <info>: Parsing data.
+[2015-Jun-16 17:59:41.976895] (4) <info>: Preparing the data.
+[2015-Jun-16 17:59:41.977898] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 17:59:41.993905] (6) <info>: Building the JSON file.
+[2015-Jun-16 17:59:41.994913] (7) <info>: Writing output.
+[2015-Jun-16 17:59:42.089969] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 17:59:42.118989] (1) <info>: ------------------------------
+[2015-Jun-16 17:59:42.120991] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 17:59:42.120991] (3) <info>: Parsing data.
+[2015-Jun-16 17:59:42.158016] (4) <info>: Preparing the data.
+[2015-Jun-16 17:59:42.159016] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 17:59:42.166020] (6) <info>: Building the JSON file.
+[2015-Jun-16 17:59:42.166020] (7) <info>: Writing output.
+[2015-Jun-16 17:59:42.211051] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 17:59:42.229062] (1) <info>: ------------------------------
+[2015-Jun-16 17:59:42.230063] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 17:59:42.230063] (3) <info>: Parsing data file.
+[2015-Jun-16 17:59:42.267088] (4) <info>: Computing function graph data.
+[2015-Jun-16 17:59:42.268088] (5) <info>: Building the JSON.
+[2015-Jun-16 17:59:42.268088] (6) <info>: Writing output.
+[2015-Jun-16 17:59:42.308115] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 17:59:42.325126] (1) <info>: ------------------------------
+[2015-Jun-16 17:59:42.326127] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 17:59:42.326127] (3) <info>: Parsing data file.
+[2015-Jun-16 17:59:42.361150] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 17:59:42.363151] (5) <info>: Building the JSON files.
+[2015-Jun-16 17:59:42.363151] (6) <info>: Writing output.
+[2015-Jun-16 17:59:42.402177] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:00:07.526802] (1) <info>: ------------------------------
+[2015-Jun-16 18:00:07.526802] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:00:07.527802] (3) <info>: Parsing data.
+[2015-Jun-16 18:00:07.564043] (4) <info>: Preparing the data.
+[2015-Jun-16 18:00:07.564043] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:00:07.568045] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:00:07.568045] (7) <info>: Writing output.
+[2015-Jun-16 18:00:07.612074] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:00:07.631087] (1) <info>: ------------------------------
+[2015-Jun-16 18:00:07.632088] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:00:07.632088] (3) <info>: Parsing data.
+[2015-Jun-16 18:00:07.668113] (4) <info>: Preparing the data.
+[2015-Jun-16 18:00:07.668113] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:00:07.672114] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:00:07.673116] (7) <info>: Writing output.
+[2015-Jun-16 18:00:07.713141] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:00:07.730536] (1) <info>: ------------------------------
+[2015-Jun-16 18:00:07.731536] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:00:07.731536] (3) <info>: Parsing data file.
+[2015-Jun-16 18:00:07.766559] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:00:07.767144] (5) <info>: Building the JSON.
+[2015-Jun-16 18:00:07.767144] (6) <info>: Writing output.
+[2015-Jun-16 18:00:07.806172] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:00:07.824184] (1) <info>: ------------------------------
+[2015-Jun-16 18:00:07.824184] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:00:07.825184] (3) <info>: Parsing data file.
+[2015-Jun-16 18:00:07.860208] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:00:07.861209] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:00:07.861209] (6) <info>: Writing output.
+[2015-Jun-16 18:00:07.900234] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:00:42.285531] (1) <info>: ------------------------------
+[2015-Jun-16 18:00:42.286532] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:00:42.286532] (3) <info>: Parsing data.
+[2015-Jun-16 18:00:42.323267] (4) <info>: Preparing the data.
+[2015-Jun-16 18:00:42.323267] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:00:42.327270] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:00:42.327270] (7) <info>: Writing output.
+[2015-Jun-16 18:00:42.368298] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:00:42.387311] (1) <info>: ------------------------------
+[2015-Jun-16 18:00:42.388316] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:00:42.388316] (3) <info>: Parsing data.
+[2015-Jun-16 18:00:42.424337] (4) <info>: Preparing the data.
+[2015-Jun-16 18:00:42.424337] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:00:42.428338] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:00:42.429339] (7) <info>: Writing output.
+[2015-Jun-16 18:00:42.469365] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:00:42.487378] (1) <info>: ------------------------------
+[2015-Jun-16 18:00:42.488378] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:00:42.488378] (3) <info>: Parsing data file.
+[2015-Jun-16 18:00:42.523402] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:00:42.525403] (5) <info>: Building the JSON.
+[2015-Jun-16 18:00:42.525403] (6) <info>: Writing output.
+[2015-Jun-16 18:00:42.564220] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:00:42.582233] (1) <info>: ------------------------------
+[2015-Jun-16 18:00:42.582233] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:00:42.582233] (3) <info>: Parsing data file.
+[2015-Jun-16 18:00:42.617257] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:00:42.619258] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:00:42.619258] (6) <info>: Writing output.
+[2015-Jun-16 18:00:42.657283] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:01:27.421750] (1) <info>: ------------------------------
+[2015-Jun-16 18:01:27.422751] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:01:27.422751] (3) <info>: Parsing data.
+[2015-Jun-16 18:01:27.459774] (4) <info>: Preparing the data.
+[2015-Jun-16 18:01:27.459774] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:01:27.463179] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:01:27.463179] (7) <info>: Writing output.
+[2015-Jun-16 18:01:27.505127] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:01:27.524141] (1) <info>: ------------------------------
+[2015-Jun-16 18:01:27.525142] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:01:27.525142] (3) <info>: Parsing data.
+[2015-Jun-16 18:01:27.562167] (4) <info>: Preparing the data.
+[2015-Jun-16 18:01:27.562167] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:01:27.565169] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:01:27.565169] (7) <info>: Writing output.
+[2015-Jun-16 18:01:27.606196] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:01:27.624208] (1) <info>: ------------------------------
+[2015-Jun-16 18:01:27.625208] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:01:27.625208] (3) <info>: Parsing data file.
+[2015-Jun-16 18:01:27.660532] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:01:27.661532] (5) <info>: Building the JSON.
+[2015-Jun-16 18:01:27.661532] (6) <info>: Writing output.
+[2015-Jun-16 18:01:27.700559] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:01:27.718569] (1) <info>: ------------------------------
+[2015-Jun-16 18:01:27.719574] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:01:27.719574] (3) <info>: Parsing data file.
+[2015-Jun-16 18:01:27.754593] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:01:27.756595] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:01:27.756595] (6) <info>: Writing output.
+[2015-Jun-16 18:01:27.795621] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:01:58.949545] (1) <info>: ------------------------------
+[2015-Jun-16 18:01:58.950545] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:01:58.950545] (3) <info>: Parsing data.
+[2015-Jun-16 18:01:58.990572] (4) <info>: Preparing the data.
+[2015-Jun-16 18:01:58.991572] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:01:58.992574] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:01:58.992574] (7) <info>: Writing output.
+[2015-Jun-16 18:01:59.036602] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:01:59.059618] (1) <info>: ------------------------------
+[2015-Jun-16 18:01:59.060618] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:01:59.060618] (3) <info>: Parsing data.
+[2015-Jun-16 18:01:59.099644] (4) <info>: Preparing the data.
+[2015-Jun-16 18:01:59.099644] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:01:59.100644] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:01:59.101645] (7) <info>: Writing output.
+[2015-Jun-16 18:01:59.142672] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:01:59.160684] (1) <info>: ------------------------------
+[2015-Jun-16 18:01:59.161685] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:01:59.161685] (3) <info>: Parsing data file.
+[2015-Jun-16 18:01:59.197710] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:01:59.198709] (5) <info>: Building the JSON.
+[2015-Jun-16 18:01:59.198709] (6) <info>: Writing output.
+[2015-Jun-16 18:01:59.237737] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:01:59.255749] (1) <info>: ------------------------------
+[2015-Jun-16 18:01:59.256750] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:01:59.256750] (3) <info>: Parsing data file.
+[2015-Jun-16 18:01:59.292774] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:01:59.293774] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:01:59.293774] (6) <info>: Writing output.
+[2015-Jun-16 18:01:59.332800] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:02:23.702549] (1) <info>: ------------------------------
+[2015-Jun-16 18:02:23.702549] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:02:23.702549] (3) <info>: Parsing data.
+[2015-Jun-16 18:02:23.742576] (4) <info>: Preparing the data.
+[2015-Jun-16 18:02:23.742576] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:02:23.744576] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:02:23.744576] (7) <info>: Writing output.
+[2015-Jun-16 18:02:23.787606] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:02:23.807619] (1) <info>: ------------------------------
+[2015-Jun-16 18:02:23.807619] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:02:23.807619] (3) <info>: Parsing data.
+[2015-Jun-16 18:02:23.845644] (4) <info>: Preparing the data.
+[2015-Jun-16 18:02:23.845644] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:02:23.847645] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:02:23.847645] (7) <info>: Writing output.
+[2015-Jun-16 18:02:23.888673] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:02:23.906684] (1) <info>: ------------------------------
+[2015-Jun-16 18:02:23.907685] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:02:23.907685] (3) <info>: Parsing data file.
+[2015-Jun-16 18:02:23.943708] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:02:23.944709] (5) <info>: Building the JSON.
+[2015-Jun-16 18:02:23.944709] (6) <info>: Writing output.
+[2015-Jun-16 18:02:23.984736] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:02:24.001747] (1) <info>: ------------------------------
+[2015-Jun-16 18:02:24.002748] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:02:24.002748] (3) <info>: Parsing data file.
+[2015-Jun-16 18:02:24.038134] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:02:24.039135] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:02:24.040135] (6) <info>: Writing output.
+[2015-Jun-16 18:02:24.079161] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:02:40.980523] (1) <info>: ------------------------------
+[2015-Jun-16 18:02:40.981524] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:02:40.981524] (3) <info>: Parsing data.
+[2015-Jun-16 18:02:41.020594] (4) <info>: Preparing the data.
+[2015-Jun-16 18:02:41.020594] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:02:41.022595] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:02:41.022595] (7) <info>: Writing output.
+[2015-Jun-16 18:02:41.065623] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:02:41.084636] (1) <info>: ------------------------------
+[2015-Jun-16 18:02:41.085637] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:02:41.085637] (3) <info>: Parsing data.
+[2015-Jun-16 18:02:41.122661] (4) <info>: Preparing the data.
+[2015-Jun-16 18:02:41.122661] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:02:41.124664] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:02:41.125663] (7) <info>: Writing output.
+[2015-Jun-16 18:02:41.166691] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:02:41.183702] (1) <info>: ------------------------------
+[2015-Jun-16 18:02:41.184702] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:02:41.184702] (3) <info>: Parsing data file.
+[2015-Jun-16 18:02:41.219726] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:02:41.220726] (5) <info>: Building the JSON.
+[2015-Jun-16 18:02:41.220726] (6) <info>: Writing output.
+[2015-Jun-16 18:02:41.258751] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:02:41.276763] (1) <info>: ------------------------------
+[2015-Jun-16 18:02:41.277765] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:02:41.277765] (3) <info>: Parsing data file.
+[2015-Jun-16 18:02:41.311516] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:02:41.313510] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:02:41.313510] (6) <info>: Writing output.
+[2015-Jun-16 18:02:41.351347] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:02:57.676537] (1) <info>: ------------------------------
+[2015-Jun-16 18:02:57.677539] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:02:57.677539] (3) <info>: Parsing data.
+[2015-Jun-16 18:02:57.713562] (4) <info>: Preparing the data.
+[2015-Jun-16 18:02:57.713562] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:02:57.714937] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:02:57.715940] (7) <info>: Writing output.
+[2015-Jun-16 18:02:57.756968] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:02:57.774980] (1) <info>: ------------------------------
+[2015-Jun-16 18:02:57.775980] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:02:57.775980] (3) <info>: Parsing data.
+[2015-Jun-16 18:02:57.812004] (4) <info>: Preparing the data.
+[2015-Jun-16 18:02:57.813005] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:02:57.814005] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:02:57.814005] (7) <info>: Writing output.
+[2015-Jun-16 18:02:57.856034] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:02:57.874046] (1) <info>: ------------------------------
+[2015-Jun-16 18:02:57.874046] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:02:57.874046] (3) <info>: Parsing data file.
+[2015-Jun-16 18:02:57.909068] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:02:57.911069] (5) <info>: Building the JSON.
+[2015-Jun-16 18:02:57.911069] (6) <info>: Writing output.
+[2015-Jun-16 18:02:57.949095] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:02:57.967106] (1) <info>: ------------------------------
+[2015-Jun-16 18:02:57.967106] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:02:57.967106] (3) <info>: Parsing data file.
+[2015-Jun-16 18:02:58.002129] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:02:58.003151] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:02:58.003151] (6) <info>: Writing output.
+[2015-Jun-16 18:02:58.041178] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:03:12.636533] (1) <info>: ------------------------------
+[2015-Jun-16 18:03:12.637534] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:03:12.637534] (3) <info>: Parsing data.
+[2015-Jun-16 18:03:12.674559] (4) <info>: Preparing the data.
+[2015-Jun-16 18:03:12.675559] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:03:12.676949] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:03:12.676949] (7) <info>: Writing output.
+[2015-Jun-16 18:03:12.717978] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:03:12.735989] (1) <info>: ------------------------------
+[2015-Jun-16 18:03:12.736989] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:03:12.736989] (3) <info>: Parsing data.
+[2015-Jun-16 18:03:12.773014] (4) <info>: Preparing the data.
+[2015-Jun-16 18:03:12.773014] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:03:12.774015] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:03:12.774015] (7) <info>: Writing output.
+[2015-Jun-16 18:03:12.813989] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:03:12.832003] (1) <info>: ------------------------------
+[2015-Jun-16 18:03:12.833004] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:03:12.833004] (3) <info>: Parsing data file.
+[2015-Jun-16 18:03:12.871030] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:03:12.872030] (5) <info>: Building the JSON.
+[2015-Jun-16 18:03:12.872030] (6) <info>: Writing output.
+[2015-Jun-16 18:03:12.911057] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:03:12.928067] (1) <info>: ------------------------------
+[2015-Jun-16 18:03:12.929068] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:03:12.929068] (3) <info>: Parsing data file.
+[2015-Jun-16 18:03:12.964091] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:03:12.965092] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:03:12.965092] (6) <info>: Writing output.
+[2015-Jun-16 18:03:13.004118] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:04:21.355877] (1) <info>: ------------------------------
+[2015-Jun-16 18:04:21.355877] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:04:21.355877] (3) <info>: Parsing data.
+[2015-Jun-16 18:04:21.393903] (4) <info>: Preparing the data.
+[2015-Jun-16 18:04:21.393903] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:04:21.394903] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:04:21.394903] (7) <info>: Writing output.
+[2015-Jun-16 18:04:21.436931] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:04:21.456945] (1) <info>: ------------------------------
+[2015-Jun-16 18:04:21.457945] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:04:21.457945] (3) <info>: Parsing data.
+[2015-Jun-16 18:04:21.493969] (4) <info>: Preparing the data.
+[2015-Jun-16 18:04:21.493969] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:04:21.494970] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:04:21.494970] (7) <info>: Writing output.
+[2015-Jun-16 18:04:21.533995] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:04:21.551006] (1) <info>: ------------------------------
+[2015-Jun-16 18:04:21.552007] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:04:21.552007] (3) <info>: Parsing data file.
+[2015-Jun-16 18:04:21.586029] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:04:21.588031] (5) <info>: Building the JSON.
+[2015-Jun-16 18:04:21.588031] (6) <info>: Writing output.
+[2015-Jun-16 18:04:21.626056] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:04:21.645069] (1) <info>: ------------------------------
+[2015-Jun-16 18:04:21.645069] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:04:21.645069] (3) <info>: Parsing data file.
+[2015-Jun-16 18:04:21.680093] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:04:21.681093] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:04:21.681093] (6) <info>: Writing output.
+[2015-Jun-16 18:04:21.720119] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:04:42.884089] (1) <info>: ------------------------------
+[2015-Jun-16 18:04:42.885089] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:04:42.885089] (3) <info>: Parsing data.
+[2015-Jun-16 18:04:42.924927] (4) <info>: Preparing the data.
+[2015-Jun-16 18:04:42.924927] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:04:42.925928] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:04:42.925928] (7) <info>: Writing output.
+[2015-Jun-16 18:04:42.968957] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:04:42.986969] (1) <info>: ------------------------------
+[2015-Jun-16 18:04:42.987969] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:04:42.987969] (3) <info>: Parsing data.
+[2015-Jun-16 18:04:43.023993] (4) <info>: Preparing the data.
+[2015-Jun-16 18:04:43.023993] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:04:43.025994] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:04:43.025994] (7) <info>: Writing output.
+[2015-Jun-16 18:04:43.065024] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:04:43.083034] (1) <info>: ------------------------------
+[2015-Jun-16 18:04:43.084033] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:04:43.084033] (3) <info>: Parsing data file.
+[2015-Jun-16 18:04:43.119057] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:04:43.121057] (5) <info>: Building the JSON.
+[2015-Jun-16 18:04:43.121057] (6) <info>: Writing output.
+[2015-Jun-16 18:04:43.160085] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:04:43.178096] (1) <info>: ------------------------------
+[2015-Jun-16 18:04:43.178096] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:04:43.179097] (3) <info>: Parsing data file.
+[2015-Jun-16 18:04:43.213740] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:04:43.214740] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:04:43.214740] (6) <info>: Writing output.
+[2015-Jun-16 18:04:43.252764] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:04:59.851993] (1) <info>: ------------------------------
+[2015-Jun-16 18:04:59.852993] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:04:59.852993] (3) <info>: Parsing data.
+[2015-Jun-16 18:04:59.890019] (4) <info>: Preparing the data.
+[2015-Jun-16 18:04:59.891019] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:04:59.893020] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:04:59.894021] (7) <info>: Writing output.
+[2015-Jun-16 18:04:59.936048] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:04:59.954060] (1) <info>: ------------------------------
+[2015-Jun-16 18:04:59.955061] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:04:59.955061] (3) <info>: Parsing data.
+[2015-Jun-16 18:04:59.990084] (4) <info>: Preparing the data.
+[2015-Jun-16 18:04:59.991085] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:04:59.993086] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:04:59.993086] (7) <info>: Writing output.
+[2015-Jun-16 18:05:00.042119] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:05:00.060130] (1) <info>: ------------------------------
+[2015-Jun-16 18:05:00.061131] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:05:00.061131] (3) <info>: Parsing data file.
+[2015-Jun-16 18:05:00.098157] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:05:00.099158] (5) <info>: Building the JSON.
+[2015-Jun-16 18:05:00.099158] (6) <info>: Writing output.
+[2015-Jun-16 18:05:00.138886] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:05:00.156899] (1) <info>: ------------------------------
+[2015-Jun-16 18:05:00.156899] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:05:00.156899] (3) <info>: Parsing data file.
+[2015-Jun-16 18:05:00.191922] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:05:00.192923] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:05:00.192923] (6) <info>: Writing output.
+[2015-Jun-16 18:05:00.235553] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:05:21.300524] (1) <info>: ------------------------------
+[2015-Jun-16 18:05:21.301523] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:05:21.301523] (3) <info>: Parsing data.
+[2015-Jun-16 18:05:21.339548] (4) <info>: Preparing the data.
+[2015-Jun-16 18:05:21.339548] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:05:21.342551] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:05:21.342551] (7) <info>: Writing output.
+[2015-Jun-16 18:05:21.383578] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:05:21.401589] (1) <info>: ------------------------------
+[2015-Jun-16 18:05:21.402591] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:05:21.402591] (3) <info>: Parsing data.
+[2015-Jun-16 18:05:21.438615] (4) <info>: Preparing the data.
+[2015-Jun-16 18:05:21.438615] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:05:21.441617] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:05:21.442618] (7) <info>: Writing output.
+[2015-Jun-16 18:05:21.483646] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:05:21.500656] (1) <info>: ------------------------------
+[2015-Jun-16 18:05:21.501657] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:05:21.501657] (3) <info>: Parsing data file.
+[2015-Jun-16 18:05:21.535680] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:05:21.537681] (5) <info>: Building the JSON.
+[2015-Jun-16 18:05:21.537681] (6) <info>: Writing output.
+[2015-Jun-16 18:05:21.575711] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:05:21.593718] (1) <info>: ------------------------------
+[2015-Jun-16 18:05:21.594718] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:05:21.594718] (3) <info>: Parsing data file.
+[2015-Jun-16 18:05:21.628742] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:05:21.629744] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:05:21.629744] (6) <info>: Writing output.
+[2015-Jun-16 18:05:21.668767] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:06:02.339331] (1) <info>: ------------------------------
+[2015-Jun-16 18:06:02.340331] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:06:02.340331] (3) <info>: Parsing data.
+[2015-Jun-16 18:06:02.378800] (4) <info>: Preparing the data.
+[2015-Jun-16 18:06:02.379801] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:06:02.379801] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:06:02.380802] (7) <info>: Writing output.
+[2015-Jun-16 18:06:02.421829] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:06:02.439841] (1) <info>: ------------------------------
+[2015-Jun-16 18:06:02.440842] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:06:02.440842] (3) <info>: Parsing data.
+[2015-Jun-16 18:06:02.478867] (4) <info>: Preparing the data.
+[2015-Jun-16 18:06:02.478867] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:06:02.479867] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:06:02.479867] (7) <info>: Writing output.
+[2015-Jun-16 18:06:02.520896] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:06:02.538907] (1) <info>: ------------------------------
+[2015-Jun-16 18:06:02.538907] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:06:02.539909] (3) <info>: Parsing data file.
+[2015-Jun-16 18:06:02.573932] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:06:02.575932] (5) <info>: Building the JSON.
+[2015-Jun-16 18:06:02.575932] (6) <info>: Writing output.
+[2015-Jun-16 18:06:02.674871] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:06:02.692884] (1) <info>: ------------------------------
+[2015-Jun-16 18:06:02.692884] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:06:02.692884] (3) <info>: Parsing data file.
+[2015-Jun-16 18:06:02.728907] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:06:02.729908] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:06:02.729908] (6) <info>: Writing output.
+[2015-Jun-16 18:06:02.768934] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:06:40.508041] (1) <info>: ------------------------------
+[2015-Jun-16 18:06:40.508041] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:06:40.509041] (3) <info>: Parsing data.
+[2015-Jun-16 18:06:40.547065] (4) <info>: Preparing the data.
+[2015-Jun-16 18:06:40.548066] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:06:40.548066] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:06:40.548066] (7) <info>: Writing output.
+[2015-Jun-16 18:06:40.591096] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:06:40.609106] (1) <info>: ------------------------------
+[2015-Jun-16 18:06:40.610107] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:06:40.610107] (3) <info>: Parsing data.
+[2015-Jun-16 18:06:40.646132] (4) <info>: Preparing the data.
+[2015-Jun-16 18:06:40.646132] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:06:40.646132] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:06:40.646132] (7) <info>: Writing output.
+[2015-Jun-16 18:06:40.686159] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:06:40.705170] (1) <info>: ------------------------------
+[2015-Jun-16 18:06:40.705170] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:06:40.705170] (3) <info>: Parsing data file.
+[2015-Jun-16 18:06:40.741196] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:06:40.742744] (5) <info>: Building the JSON.
+[2015-Jun-16 18:06:40.742744] (6) <info>: Writing output.
+[2015-Jun-16 18:06:40.781772] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:06:40.798785] (1) <info>: ------------------------------
+[2015-Jun-16 18:06:40.799785] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:06:40.799785] (3) <info>: Parsing data file.
+[2015-Jun-16 18:06:40.833808] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:06:40.834809] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:06:40.835808] (6) <info>: Writing output.
+[2015-Jun-16 18:06:40.873834] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:06:58.273505] (1) <info>: ------------------------------
+[2015-Jun-16 18:06:58.274506] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:06:58.274506] (3) <info>: Parsing data.
+[2015-Jun-16 18:06:58.313533] (4) <info>: Preparing the data.
+[2015-Jun-16 18:06:58.313533] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:06:58.314534] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:06:58.314534] (7) <info>: Writing output.
+[2015-Jun-16 18:06:58.356561] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:06:58.375578] (1) <info>: ------------------------------
+[2015-Jun-16 18:06:58.376575] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:06:58.376575] (3) <info>: Parsing data.
+[2015-Jun-16 18:06:58.415600] (4) <info>: Preparing the data.
+[2015-Jun-16 18:06:58.415600] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:06:58.416601] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:06:58.416601] (7) <info>: Writing output.
+[2015-Jun-16 18:06:58.457629] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:06:58.475640] (1) <info>: ------------------------------
+[2015-Jun-16 18:06:58.476641] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:06:58.476641] (3) <info>: Parsing data file.
+[2015-Jun-16 18:06:58.511665] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:06:58.512665] (5) <info>: Building the JSON.
+[2015-Jun-16 18:06:58.512665] (6) <info>: Writing output.
+[2015-Jun-16 18:06:58.552691] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:06:58.570704] (1) <info>: ------------------------------
+[2015-Jun-16 18:06:58.571704] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:06:58.571704] (3) <info>: Parsing data file.
+[2015-Jun-16 18:06:58.606726] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:06:58.607727] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:06:58.607727] (6) <info>: Writing output.
+[2015-Jun-16 18:06:58.647757] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:32:38.939764] (1) <info>: ------------------------------
+[2015-Jun-16 18:32:38.940765] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:32:38.940765] (3) <info>: Parsing data.
+[2015-Jun-16 18:32:39.040830] (4) <info>: Preparing the data.
+[2015-Jun-16 18:32:39.040830] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:32:39.052840] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:32:39.053839] (7) <info>: Writing output.
+[2015-Jun-16 18:32:39.238962] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:32:39.283992] (1) <info>: ------------------------------
+[2015-Jun-16 18:32:39.284994] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:32:39.284994] (3) <info>: Parsing data.
+[2015-Jun-16 18:32:39.351037] (4) <info>: Preparing the data.
+[2015-Jun-16 18:32:39.351037] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:32:39.354038] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:32:39.354038] (7) <info>: Writing output.
+[2015-Jun-16 18:32:39.443099] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:32:39.488128] (1) <info>: ------------------------------
+[2015-Jun-16 18:32:39.489129] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:32:39.489129] (3) <info>: Parsing data file.
+[2015-Jun-16 18:32:39.553170] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:32:39.554171] (5) <info>: Building the JSON.
+[2015-Jun-16 18:32:39.554171] (6) <info>: Writing output.
+[2015-Jun-16 18:32:39.636226] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:32:39.670248] (1) <info>: ------------------------------
+[2015-Jun-16 18:32:39.671249] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:32:39.671249] (3) <info>: Parsing data file.
+[2015-Jun-16 18:32:39.722283] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:32:39.724287] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:32:39.724287] (6) <info>: Writing output.
+[2015-Jun-16 18:32:39.802336] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:32:48.833145] (1) <info>: ------------------------------
+[2015-Jun-16 18:32:48.834146] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:32:48.835150] (3) <info>: Parsing data.
+[2015-Jun-16 18:32:48.929211] (4) <info>: Preparing the data.
+[2015-Jun-16 18:32:48.930210] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:32:49.137646] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:32:49.138645] (7) <info>: Writing output.
+[2015-Jun-16 18:32:49.244715] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:32:49.283744] (1) <info>: ------------------------------
+[2015-Jun-16 18:32:49.285748] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:32:49.285748] (3) <info>: Parsing data.
+[2015-Jun-16 18:32:49.360791] (4) <info>: Preparing the data.
+[2015-Jun-16 18:32:49.361792] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:32:49.381806] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:32:49.382810] (7) <info>: Writing output.
+[2015-Jun-16 18:32:49.474874] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:32:49.509895] (1) <info>: ------------------------------
+[2015-Jun-16 18:32:49.510893] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:32:49.510893] (3) <info>: Parsing data file.
+[2015-Jun-16 18:32:49.571945] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:32:49.576935] (5) <info>: Building the JSON.
+[2015-Jun-16 18:32:49.576935] (6) <info>: Writing output.
+[2015-Jun-16 18:32:49.715744] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:32:49.747765] (1) <info>: ------------------------------
+[2015-Jun-16 18:32:49.748766] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:32:49.748766] (3) <info>: Parsing data file.
+[2015-Jun-16 18:32:49.802803] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:32:49.806807] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:32:49.806807] (6) <info>: Writing output.
+[2015-Jun-16 18:32:49.880853] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-16 18:33:03.962123] (1) <info>: ------------------------------
+[2015-Jun-16 18:33:03.963124] (2) <info>: tremppi_quantitative started.
+[2015-Jun-16 18:33:03.963124] (3) <info>: Parsing data.
+[2015-Jun-16 18:33:04.042176] (4) <info>: Preparing the data.
+[2015-Jun-16 18:33:04.043177] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:33:04.044178] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:33:04.044178] (7) <info>: Writing output.
+[2015-Jun-16 18:33:04.192277] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-16 18:33:04.232304] (1) <info>: ------------------------------
+[2015-Jun-16 18:33:04.236307] (2) <info>: tremppi_qualitative started.
+[2015-Jun-16 18:33:04.236307] (3) <info>: Parsing data.
+[2015-Jun-16 18:33:04.319363] (4) <info>: Preparing the data.
+[2015-Jun-16 18:33:04.320362] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-16 18:33:04.327367] (6) <info>: Building the JSON file.
+[2015-Jun-16 18:33:04.327367] (7) <info>: Writing output.
+[2015-Jun-16 18:33:04.443443] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-16 18:33:04.478466] (1) <info>: ------------------------------
+[2015-Jun-16 18:33:04.479467] (2) <info>: tremppi_correlations started.
+[2015-Jun-16 18:33:04.479467] (3) <info>: Parsing data file.
+[2015-Jun-16 18:33:04.547517] (4) <info>: Computing function graph data.
+[2015-Jun-16 18:33:04.550516] (5) <info>: Building the JSON.
+[2015-Jun-16 18:33:04.550516] (6) <info>: Writing output.
+[2015-Jun-16 18:33:04.675597] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-16 18:33:04.708620] (1) <info>: ------------------------------
+[2015-Jun-16 18:33:04.709621] (2) <info>: tremppi_regulations started.
+[2015-Jun-16 18:33:04.709621] (3) <info>: Parsing data file.
+[2015-Jun-16 18:33:04.776664] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-16 18:33:04.777665] (5) <info>: Building the JSON files.
+[2015-Jun-16 18:33:04.777665] (6) <info>: Writing output.
+[2015-Jun-16 18:33:04.855717] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-17 10:20:27.858022] (1) <info>: ------------------------------
+[2015-Jun-17 10:20:27.877601] (2) <info>: tremppi_quantitative started.
+[2015-Jun-17 10:20:27.877601] (3) <info>: Parsing data.
+[2015-Jun-17 10:20:27.944759] (4) <info>: Preparing the data.
+[2015-Jun-17 10:20:27.945760] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:20:27.989332] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:20:27.990337] (7) <info>: Writing output.
+[2015-Jun-17 10:20:28.177735] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-17 10:20:36.085824] (1) <info>: ------------------------------
+[2015-Jun-17 10:20:36.086822] (2) <info>: tremppi_quantitative started.
+[2015-Jun-17 10:20:36.086822] (3) <info>: Parsing data.
+[2015-Jun-17 10:20:36.124848] (4) <info>: Preparing the data.
+[2015-Jun-17 10:20:36.125849] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:20:36.135679] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:20:36.135679] (7) <info>: Writing output.
+[2015-Jun-17 10:20:36.176706] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-17 10:23:05.355898] (1) <info>: ------------------------------
+[2015-Jun-17 10:23:05.356899] (2) <info>: tremppi_quantitative started.
+[2015-Jun-17 10:23:05.356899] (3) <info>: Parsing data.
+[2015-Jun-17 10:23:05.392452] (4) <info>: Preparing the data.
+[2015-Jun-17 10:23:05.392452] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:23:05.405974] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:23:05.405974] (7) <info>: Writing output.
+[2015-Jun-17 10:23:05.447192] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-17 10:23:10.829499] (1) <info>: ------------------------------
+[2015-Jun-17 10:23:10.830500] (2) <info>: tremppi_quantitative started.
+[2015-Jun-17 10:23:10.830500] (3) <info>: Parsing data.
+[2015-Jun-17 10:23:10.865793] (4) <info>: Preparing the data.
+[2015-Jun-17 10:23:10.865793] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:23:10.866793] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:23:10.866793] (7) <info>: Writing output.
+[2015-Jun-17 10:23:10.906820] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-17 10:24:16.028933] (1) <info>: ------------------------------
+[2015-Jun-17 10:24:16.029934] (2) <info>: tremppi_quantitative started.
+[2015-Jun-17 10:24:16.029934] (3) <info>: Parsing data.
+[2015-Jun-17 10:24:16.065060] (4) <info>: Preparing the data.
+[2015-Jun-17 10:24:16.065060] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:24:16.066060] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:24:16.066060] (7) <info>: Writing output.
+[2015-Jun-17 10:24:16.158004] (8) <error>: Top level exception: Could not open C:\Users\adams_000\TREMPPI\projects\HSB_2015\data\quantitative\selected.json
+[2015-Jun-17 10:24:16.180022] (1) <info>: ------------------------------
+[2015-Jun-17 10:24:16.180022] (2) <info>: tremppi_qualitative started.
+[2015-Jun-17 10:24:16.181021] (3) <info>: Parsing data.
+[2015-Jun-17 10:24:16.216046] (4) <info>: Preparing the data.
+[2015-Jun-17 10:24:16.221048] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:24:16.221048] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:24:16.222049] (7) <info>: Writing output.
+[2015-Jun-17 10:24:16.223050] (8) <error>: Top level exception: Could not open C:\Users\adams_000\TREMPPI\projects\HSB_2015\data\qualitative\selected.json
+[2015-Jun-17 10:24:16.253071] (1) <info>: ------------------------------
+[2015-Jun-17 10:24:16.254072] (2) <info>: tremppi_correlations started.
+[2015-Jun-17 10:24:16.254072] (3) <info>: Parsing data file.
+[2015-Jun-17 10:24:16.289094] (4) <info>: Computing function graph data.
+[2015-Jun-17 10:24:16.305861] (5) <info>: Building the JSON.
+[2015-Jun-17 10:24:16.305861] (6) <info>: Writing output.
+[2015-Jun-17 10:24:16.305861] (7) <error>: Top level exception: Could not open C:\Users\adams_000\TREMPPI\projects\HSB_2015\data\correlations\selected.json
+[2015-Jun-17 10:24:16.327878] (1) <info>: ------------------------------
+[2015-Jun-17 10:24:16.328878] (2) <info>: tremppi_regulations started.
+[2015-Jun-17 10:24:16.328878] (3) <info>: Parsing data file.
+[2015-Jun-17 10:24:16.366466] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-17 10:24:16.367467] (5) <info>: Building the JSON files.
+[2015-Jun-17 10:24:16.367467] (6) <info>: Writing output.
+[2015-Jun-17 10:24:16.368476] (7) <error>: Top level exception: Could not open C:\Users\adams_000\TREMPPI\projects\HSB_2015\data\regulations\selected.json
+[2015-Jun-17 10:24:49.491822] (1) <info>: ------------------------------
+[2015-Jun-17 10:24:49.492823] (2) <info>: tremppi_quantitative started.
+[2015-Jun-17 10:24:49.492823] (3) <info>: Parsing data.
+[2015-Jun-17 10:24:49.527824] (4) <info>: Preparing the data.
+[2015-Jun-17 10:24:49.527824] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:24:49.529694] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:24:49.529694] (7) <info>: Writing output.
+[2015-Jun-17 10:24:49.570642] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-17 10:24:49.587654] (1) <info>: ------------------------------
+[2015-Jun-17 10:24:49.588655] (2) <info>: tremppi_qualitative started.
+[2015-Jun-17 10:24:49.588655] (3) <info>: Parsing data.
+[2015-Jun-17 10:24:49.626682] (4) <info>: Preparing the data.
+[2015-Jun-17 10:24:49.627680] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:24:49.627680] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:24:49.628681] (7) <info>: Writing output.
+[2015-Jun-17 10:24:49.668708] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-17 10:24:49.684719] (1) <info>: ------------------------------
+[2015-Jun-17 10:24:49.685720] (2) <info>: tremppi_correlations started.
+[2015-Jun-17 10:24:49.685720] (3) <info>: Parsing data file.
+[2015-Jun-17 10:24:49.720743] (4) <info>: Computing function graph data.
+[2015-Jun-17 10:24:49.721464] (5) <info>: Building the JSON.
+[2015-Jun-17 10:24:49.721464] (6) <info>: Writing output.
+[2015-Jun-17 10:24:49.761491] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-17 10:24:49.778504] (1) <info>: ------------------------------
+[2015-Jun-17 10:24:49.779505] (2) <info>: tremppi_regulations started.
+[2015-Jun-17 10:24:49.779505] (3) <info>: Parsing data file.
+[2015-Jun-17 10:24:49.821533] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-17 10:24:49.823535] (5) <info>: Building the JSON files.
+[2015-Jun-17 10:24:49.823535] (6) <info>: Writing output.
+[2015-Jun-17 10:24:49.862561] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-17 10:24:58.780066] (1) <info>: ------------------------------
+[2015-Jun-17 10:24:58.781066] (2) <info>: tremppi_quantitative started.
+[2015-Jun-17 10:24:58.781066] (3) <info>: Parsing data.
+[2015-Jun-17 10:24:58.815435] (4) <info>: Preparing the data.
+[2015-Jun-17 10:24:58.816436] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:24:58.830125] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:24:58.830125] (7) <info>: Writing output.
+[2015-Jun-17 10:24:58.872152] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-17 10:24:58.891164] (1) <info>: ------------------------------
+[2015-Jun-17 10:24:58.891164] (2) <info>: tremppi_qualitative started.
+[2015-Jun-17 10:24:58.891164] (3) <info>: Parsing data.
+[2015-Jun-17 10:24:58.927188] (4) <info>: Preparing the data.
+[2015-Jun-17 10:24:58.927188] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:24:58.940198] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:24:58.941198] (7) <info>: Writing output.
+[2015-Jun-17 10:24:58.985228] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-17 10:24:59.002238] (1) <info>: ------------------------------
+[2015-Jun-17 10:24:59.003239] (2) <info>: tremppi_correlations started.
+[2015-Jun-17 10:24:59.003239] (3) <info>: Parsing data file.
+[2015-Jun-17 10:24:59.040263] (4) <info>: Computing function graph data.
+[2015-Jun-17 10:24:59.041264] (5) <info>: Building the JSON.
+[2015-Jun-17 10:24:59.041264] (6) <info>: Writing output.
+[2015-Jun-17 10:24:59.080291] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-17 10:24:59.097301] (1) <info>: ------------------------------
+[2015-Jun-17 10:24:59.098301] (2) <info>: tremppi_regulations started.
+[2015-Jun-17 10:24:59.098301] (3) <info>: Parsing data file.
+[2015-Jun-17 10:24:59.132326] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-17 10:24:59.134325] (5) <info>: Building the JSON files.
+[2015-Jun-17 10:24:59.134325] (6) <info>: Writing output.
+[2015-Jun-17 10:24:59.174353] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-17 10:34:25.229419] (1) <info>: ------------------------------
+[2015-Jun-17 10:34:25.230420] (2) <info>: tremppi_quantitative started.
+[2015-Jun-17 10:34:25.230420] (3) <info>: Parsing data.
+[2015-Jun-17 10:34:25.266752] (4) <info>: Preparing the data.
+[2015-Jun-17 10:34:25.267753] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:34:25.277760] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:34:25.277760] (7) <info>: Writing output.
+[2015-Jun-17 10:34:25.321789] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-17 10:34:25.432812] (1) <info>: ------------------------------
+[2015-Jun-17 10:34:25.433812] (2) <info>: tremppi_qualitative started.
+[2015-Jun-17 10:34:25.433812] (3) <info>: Parsing data.
+[2015-Jun-17 10:34:25.469240] (4) <info>: Preparing the data.
+[2015-Jun-17 10:34:25.470240] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:34:25.481844] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:34:25.482843] (7) <info>: Writing output.
+[2015-Jun-17 10:34:25.542998] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-17 10:34:25.601040] (1) <info>: ------------------------------
+[2015-Jun-17 10:34:25.601040] (2) <info>: tremppi_correlations started.
+[2015-Jun-17 10:34:25.601040] (3) <info>: Parsing data file.
+[2015-Jun-17 10:34:25.636063] (4) <info>: Computing function graph data.
+[2015-Jun-17 10:34:25.637067] (5) <info>: Building the JSON.
+[2015-Jun-17 10:34:25.637067] (6) <info>: Writing output.
+[2015-Jun-17 10:34:25.682763] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-17 10:34:25.699774] (1) <info>: ------------------------------
+[2015-Jun-17 10:34:25.700775] (2) <info>: tremppi_regulations started.
+[2015-Jun-17 10:34:25.700775] (3) <info>: Parsing data file.
+[2015-Jun-17 10:34:25.735872] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-17 10:34:25.736872] (5) <info>: Building the JSON files.
+[2015-Jun-17 10:34:25.736872] (6) <info>: Writing output.
+[2015-Jun-17 10:34:25.784906] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-17 10:34:31.422288] (1) <info>: ------------------------------
+[2015-Jun-17 10:34:31.422288] (2) <info>: tremppi_quantitative started.
+[2015-Jun-17 10:34:31.422288] (3) <info>: Parsing data.
+[2015-Jun-17 10:34:31.460313] (4) <info>: Preparing the data.
+[2015-Jun-17 10:34:31.460313] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:34:31.461313] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:34:31.461313] (7) <info>: Writing output.
+[2015-Jun-17 10:34:31.502342] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-17 10:34:31.521354] (1) <info>: ------------------------------
+[2015-Jun-17 10:34:31.522354] (2) <info>: tremppi_qualitative started.
+[2015-Jun-17 10:34:31.522354] (3) <info>: Parsing data.
+[2015-Jun-17 10:34:31.558379] (4) <info>: Preparing the data.
+[2015-Jun-17 10:34:31.559379] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:34:31.560380] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:34:31.560380] (7) <info>: Writing output.
+[2015-Jun-17 10:34:31.600405] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-17 10:34:31.617418] (1) <info>: ------------------------------
+[2015-Jun-17 10:34:31.618419] (2) <info>: tremppi_correlations started.
+[2015-Jun-17 10:34:31.618419] (3) <info>: Parsing data file.
+[2015-Jun-17 10:34:31.654442] (4) <info>: Computing function graph data.
+[2015-Jun-17 10:34:31.655442] (5) <info>: Building the JSON.
+[2015-Jun-17 10:34:31.655442] (6) <info>: Writing output.
+[2015-Jun-17 10:34:31.694468] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-17 10:34:31.711480] (1) <info>: ------------------------------
+[2015-Jun-17 10:34:31.712481] (2) <info>: tremppi_regulations started.
+[2015-Jun-17 10:34:31.712481] (3) <info>: Parsing data file.
+[2015-Jun-17 10:34:31.747503] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-17 10:34:31.749504] (5) <info>: Building the JSON files.
+[2015-Jun-17 10:34:31.749504] (6) <info>: Writing output.
+[2015-Jun-17 10:34:31.788530] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-17 10:41:02.138153] (1) <info>: ------------------------------
+[2015-Jun-17 10:41:02.139154] (2) <info>: tremppi_quantitative started.
+[2015-Jun-17 10:41:02.139154] (3) <info>: Parsing data.
+[2015-Jun-17 10:41:02.176181] (4) <info>: Preparing the data.
+[2015-Jun-17 10:41:02.176181] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:41:02.177189] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:41:02.177189] (7) <info>: Writing output.
+[2015-Jun-17 10:41:02.219219] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-17 10:41:02.334269] (1) <info>: ------------------------------
+[2015-Jun-17 10:41:02.335259] (2) <info>: tremppi_qualitative started.
+[2015-Jun-17 10:41:02.335259] (3) <info>: Parsing data.
+[2015-Jun-17 10:41:02.372283] (4) <info>: Preparing the data.
+[2015-Jun-17 10:41:02.372283] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:41:02.373789] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:41:02.373789] (7) <info>: Writing output.
+[2015-Jun-17 10:41:02.413132] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-17 10:41:02.430143] (1) <info>: ------------------------------
+[2015-Jun-17 10:41:02.431145] (2) <info>: tremppi_correlations started.
+[2015-Jun-17 10:41:02.431145] (3) <info>: Parsing data file.
+[2015-Jun-17 10:41:02.466225] (4) <info>: Computing function graph data.
+[2015-Jun-17 10:41:02.467228] (5) <info>: Building the JSON.
+[2015-Jun-17 10:41:02.467228] (6) <info>: Writing output.
+[2015-Jun-17 10:41:02.508253] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-17 10:41:02.525265] (1) <info>: ------------------------------
+[2015-Jun-17 10:41:02.525265] (2) <info>: tremppi_regulations started.
+[2015-Jun-17 10:41:02.525265] (3) <info>: Parsing data file.
+[2015-Jun-17 10:41:02.559449] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-17 10:41:02.561450] (5) <info>: Building the JSON files.
+[2015-Jun-17 10:41:02.561450] (6) <info>: Writing output.
+[2015-Jun-17 10:41:02.598483] (7) <info>: tremppi_regulations finished successfully.
+[2015-Jun-17 10:41:10.803079] (1) <info>: ------------------------------
+[2015-Jun-17 10:41:10.803079] (2) <info>: tremppi_quantitative started.
+[2015-Jun-17 10:41:10.803079] (3) <info>: Parsing data.
+[2015-Jun-17 10:41:10.842104] (4) <info>: Preparing the data.
+[2015-Jun-17 10:41:10.842104] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:41:10.853885] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:41:10.853885] (7) <info>: Writing output.
+[2015-Jun-17 10:41:10.896914] (8) <info>: tremppi_quantitative finished successfully.
+[2015-Jun-17 10:41:10.915927] (1) <info>: ------------------------------
+[2015-Jun-17 10:41:10.915927] (2) <info>: tremppi_qualitative started.
+[2015-Jun-17 10:41:10.915927] (3) <info>: Parsing data.
+[2015-Jun-17 10:41:10.952953] (4) <info>: Preparing the data.
+[2015-Jun-17 10:41:10.953951] (5) <info>: Reading the values, computing the statistics.
+[2015-Jun-17 10:41:10.965958] (6) <info>: Building the JSON file.
+[2015-Jun-17 10:41:10.966960] (7) <info>: Writing output.
+[2015-Jun-17 10:41:11.008987] (8) <info>: tremppi_qualitative finished successfully.
+[2015-Jun-17 10:41:11.026999] (1) <info>: ------------------------------
+[2015-Jun-17 10:41:11.027999] (2) <info>: tremppi_correlations started.
+[2015-Jun-17 10:41:11.027999] (3) <info>: Parsing data file.
+[2015-Jun-17 10:41:11.062022] (4) <info>: Computing function graph data.
+[2015-Jun-17 10:41:11.063024] (5) <info>: Building the JSON.
+[2015-Jun-17 10:41:11.063024] (6) <info>: Writing output.
+[2015-Jun-17 10:41:11.102049] (7) <info>: tremppi_correlations finished successfully.
+[2015-Jun-17 10:41:11.120062] (1) <info>: ------------------------------
+[2015-Jun-17 10:41:11.121062] (2) <info>: tremppi_regulations started.
+[2015-Jun-17 10:41:11.121062] (3) <info>: Parsing data file.
+[2015-Jun-17 10:41:11.154983] (4) <info>: Computing regulationsion graph data.
+[2015-Jun-17 10:41:11.156984] (5) <info>: Building the JSON files.
+[2015-Jun-17 10:41:11.156984] (6) <info>: Writing output.
+[2015-Jun-17 10:41:11.197012] (7) <info>: tremppi_regulations finished successfully.
+ --- tremppi_cost has started. --- 
+Fri Aug 28 14:25:12 2015 D: Parsing database.
+Fri Aug 28 14:25:12 2015 D: Checking the JSON correctness.
+Fri Aug 28 14:25:12 2015 D: Parsing the properties.
+Fri Aug 28 14:25:12 2015 D: Building a product with the automaton: series
+Fri Aug 28 14:25:12 2015 D: Validating for an automaton: series
+Fri Aug 28 14:25:12 2015 D: Building a product with the automaton: oscillation
+Fri Aug 28 14:25:12 2015 D: Validating for an automaton: oscillation
+Fri Aug 28 14:25:13 2015 D: tremppi_cost finished successfully.
+ --- tremppi_trace has started. --- 
+Fri Aug 28 14:25:14 2015 D: Parsing database.
+Fri Aug 28 14:25:14 2015 D: Checking the JSON correctness.
+Fri Aug 28 14:25:14 2015 D: Parsing the properties.
+Fri Aug 28 14:25:14 2015 D: Building a product with the automaton: series
+Fri Aug 28 14:25:14 2015 D: Validating for an automaton: series
+Fri Aug 28 14:25:14 2015 D: Building a product with the automaton: oscillation
+Fri Aug 28 14:25:14 2015 D: Validating for an automaton: oscillation
+Fri Aug 28 14:25:14 2015 D: tremppi_trace finished successfully.
+ --- tremppi_robustness has started. --- 
+Fri Aug 28 14:25:15 2015 D: Parsing database.
+Fri Aug 28 14:25:15 2015 D: Checking the JSON correctness.
+Fri Aug 28 14:25:15 2015 D: Parsing the properties.
+Fri Aug 28 14:25:15 2015 D: Building a product with the automaton: series
+Fri Aug 28 14:25:15 2015 D: Validating for an automaton: series
+Fri Aug 28 14:25:15 2015 D: Building a product with the automaton: oscillation
+Fri Aug 28 14:25:15 2015 D: Validating for an automaton: oscillation
+Fri Aug 28 14:25:15 2015 D: tremppi_robustness finished successfully.
+ --- tremppi_trace has started. --- 
+Fri Aug 28 14:54:23 2015 D: Parsing database.
+Fri Aug 28 14:54:23 2015 D: Checking the JSON correctness.
+Fri Aug 28 14:54:23 2015 D: Parsing the properties.
+Fri Aug 28 14:54:23 2015 D: Building a product with the automaton: series
+Fri Aug 28 14:54:23 2015 D: Validating for an automaton: series
+Fri Aug 28 14:54:24 2015 D: Building a product with the automaton: oscillation
+Fri Aug 28 14:54:24 2015 D: Validating for an automaton: oscillation
+Fri Aug 28 14:54:24 2015 D: tremppi_trace finished successfully.
+ --- tremppi_witness has started. --- 
+Fri Aug 28 14:54:36 2015 D: Parsing data.
+Fri Aug 28 14:54:36 2015 D: Loading witnesses.
+Fri Aug 28 14:54:36 2015 D: Converting to JSON
+Fri Aug 28 14:54:36 2015 D: Writing output.
+Fri Aug 28 14:54:36 2015 D: tremppi_witness finished successfully.
+ --- tremppi_witness has started. --- 
+Fri Aug 28 16:01:34 2015 D: Parsing data.
+Fri Aug 28 16:01:34 2015 D: Loading witnesses.
+Fri Aug 28 16:01:34 2015 D: Converting to JSON
+Fri Aug 28 16:01:34 2015 D: Writing output.
+Fri Aug 28 16:01:34 2015 D: tremppi_witness finished successfully.
+ --- tremppi_trace has started. --- 
+Fri Aug 28 16:01:47 2015 D: Parsing database.
+Fri Aug 28 16:01:47 2015 D: Checking the JSON correctness.
+Fri Aug 28 16:01:47 2015 D: Parsing the properties.
+Fri Aug 28 16:01:47 2015 D: Building a product with the automaton: oscillation
+Fri Aug 28 16:01:47 2015 D: Validating for an automaton: oscillation
+Fri Aug 28 16:01:47 2015 D: tremppi_trace finished successfully.
+ --- tremppi_witness has started. --- 
+Fri Aug 28 16:01:58 2015 D: Parsing data.
+Fri Aug 28 16:01:58 2015 D: Loading witnesses.
+Fri Aug 28 16:01:58 2015 D: Converting to JSON
+Fri Aug 28 16:01:58 2015 D: Writing output.
+Fri Aug 28 16:01:58 2015 D: tremppi_witness finished successfully.
+ --- tremppi_witness has started. --- 
+Fri Aug 28 16:02:12 2015 D: Parsing data.
+Fri Aug 28 16:02:12 2015 D: Loading witnesses.
+Fri Aug 28 16:02:12 2015 D: Converting to JSON
+Fri Aug 28 16:02:12 2015 D: Writing output.
+Fri Aug 28 16:02:12 2015 D: tremppi_witness finished successfully.
+ --- tremppi_quantitative has started. --- 
+Wed Sep  2 10:39:47 2015 D: Parsing data.
+Wed Sep  2 10:39:47 2015 D: Preparing the data.
+Wed Sep  2 10:39:47 2015 D: Reading the values, computing the statistics.
+Wed Sep  2 10:39:47 2015 D: Building the JSON file.
+Wed Sep  2 10:39:47 2015 D: Writing output.
+Wed Sep  2 10:39:47 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_quantitative has started. --- 
+Wed Sep  2 10:39:58 2015 D: Parsing data.
+Wed Sep  2 10:39:58 2015 D: Preparing the data.
+Wed Sep  2 10:39:58 2015 D: Reading the values, computing the statistics.
+Wed Sep  2 10:39:58 2015 D: Building the JSON file.
+Wed Sep  2 10:39:58 2015 D: Writing output.
+Wed Sep  2 10:39:58 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_quantitative has started. --- 
+Thu Sep 10 13:45:15 2015 D: Parsing data.
+Thu Sep 10 13:45:16 2015 D: Preparing the data.
+Thu Sep 10 13:45:16 2015 D: Reading the values, computing the statistics.
+Thu Sep 10 13:45:16 2015 D: Building the JSON file.
+Thu Sep 10 13:45:16 2015 D: Writing output.
+Thu Sep 10 13:45:16 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_qualitative has started. --- 
+Thu Sep 10 13:45:16 2015 D: Parsing data.
+Thu Sep 10 13:45:16 2015 D: Preparing the data.
+Thu Sep 10 13:45:16 2015 D: Reading the values, computing the statistics.
+Thu Sep 10 13:45:16 2015 D: Building the JSON file.
+Thu Sep 10 13:45:16 2015 D: Writing output.
+Thu Sep 10 13:45:16 2015 D: tremppi_qualitative finished successfully.
+ --- tremppi_qualitative has started. --- 
+Thu Sep 10 13:45:29 2015 D: Parsing data.
+Thu Sep 10 13:45:29 2015 D: Preparing the data.
+Thu Sep 10 13:45:29 2015 D: Reading the values, computing the statistics.
+Thu Sep 10 13:45:29 2015 D: Building the JSON file.
+Thu Sep 10 13:45:29 2015 D: Writing output.
+Thu Sep 10 13:45:29 2015 D: tremppi_qualitative finished successfully.
+ --- tremppi_quantitative has started. --- 
+Thu Sep 10 13:45:29 2015 D: Parsing data.
+Thu Sep 10 13:45:29 2015 D: Preparing the data.
+Thu Sep 10 13:45:29 2015 D: Reading the values, computing the statistics.
+Thu Sep 10 13:45:29 2015 D: Building the JSON file.
+Thu Sep 10 13:45:29 2015 D: Writing output.
+Thu Sep 10 13:45:30 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_cost has started. --- 
+Thu Sep 10 14:12:22 2015 D: Parsing database.
+Thu Sep 10 14:12:22 2015 D: Checking the JSON correctness.
+Thu Sep 10 14:12:22 2015 D: Parsing the properties.
+Thu Sep 10 14:12:22 2015 D: Building a product with the automaton: M
+Thu Sep 10 14:12:22 2015 D: Validating for an automaton: M
+Thu Sep 10 14:12:23 2015 D: tremppi_cost finished successfully.
+ --- tremppi_qualitative has started. --- 
+Thu Sep 10 14:12:37 2015 D: Parsing data.
+Thu Sep 10 14:12:37 2015 D: Preparing the data.
+Thu Sep 10 14:12:37 2015 D: Reading the values, computing the statistics.
+Thu Sep 10 14:12:37 2015 D: Building the JSON file.
+Thu Sep 10 14:12:37 2015 D: Writing output.
+Thu Sep 10 14:12:37 2015 D: tremppi_qualitative finished successfully.
+ --- tremppi_quantitative has started. --- 
+Thu Sep 10 14:12:38 2015 D: Parsing data.
+Thu Sep 10 14:12:38 2015 D: Preparing the data.
+Thu Sep 10 14:12:38 2015 D: Reading the values, computing the statistics.
+Thu Sep 10 14:12:38 2015 D: Building the JSON file.
+Thu Sep 10 14:12:38 2015 D: Writing output.
+Thu Sep 10 14:12:38 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_robustness has started. --- 
+Thu Sep 10 14:14:47 2015 D: Parsing database.
+Thu Sep 10 14:14:47 2015 D: Checking the JSON correctness.
+Thu Sep 10 14:14:47 2015 D: Parsing the properties.
+Thu Sep 10 14:14:47 2015 D: Building a product with the automaton: M
+Thu Sep 10 14:14:47 2015 D: Validating for an automaton: M
+Thu Sep 10 14:14:48 2015 D: tremppi_robustness finished successfully.
+ --- tremppi_cost has started. --- 
+Thu Sep 10 14:15:21 2015 D: Parsing database.
+Thu Sep 10 14:15:21 2015 D: Checking the JSON correctness.
+Thu Sep 10 14:15:21 2015 D: Parsing the properties.
+Thu Sep 10 14:15:21 2015 D: Building a product with the automaton: M
+Thu Sep 10 14:15:21 2015 D: Validating for an automaton: M
+Thu Sep 10 14:15:21 2015 D: tremppi_cost finished successfully.
+ --- tremppi_robustness has started. --- 
+Thu Sep 10 14:15:22 2015 D: Parsing database.
+Thu Sep 10 14:15:22 2015 D: Checking the JSON correctness.
+Thu Sep 10 14:15:22 2015 D: Parsing the properties.
+Thu Sep 10 14:15:22 2015 D: Building a product with the automaton: M
+Thu Sep 10 14:15:22 2015 D: Validating for an automaton: M
+Thu Sep 10 14:15:22 2015 D: tremppi_robustness finished successfully.
+ --- tremppi_qualitative has started. --- 
+Thu Sep 10 14:15:27 2015 D: Parsing data.
+Thu Sep 10 14:15:27 2015 D: Preparing the data.
+Thu Sep 10 14:15:27 2015 D: Reading the values, computing the statistics.
+Thu Sep 10 14:15:27 2015 D: Building the JSON file.
+Thu Sep 10 14:15:27 2015 D: Writing output.
+Thu Sep 10 14:15:27 2015 D: tremppi_qualitative finished successfully.
+ --- tremppi_quantitative has started. --- 
+Thu Sep 10 14:15:29 2015 D: Parsing data.
+Thu Sep 10 14:15:29 2015 D: Preparing the data.
+Thu Sep 10 14:15:29 2015 D: Reading the values, computing the statistics.
+Thu Sep 10 14:15:29 2015 D: Building the JSON file.
+Thu Sep 10 14:15:29 2015 D: Writing output.
+Thu Sep 10 14:15:29 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_qualitative has started. --- 
+Thu Sep 10 14:15:39 2015 D: Parsing data.
+Thu Sep 10 14:15:39 2015 D: Preparing the data.
+Thu Sep 10 14:15:39 2015 D: Reading the values, computing the statistics.
+Thu Sep 10 14:15:39 2015 D: Building the JSON file.
+Thu Sep 10 14:15:39 2015 D: Writing output.
+Thu Sep 10 14:15:39 2015 D: tremppi_qualitative finished successfully.
+ --- tremppi_quantitative has started. --- 
+Thu Sep 10 14:15:40 2015 D: Parsing data.
+Thu Sep 10 14:15:40 2015 D: Preparing the data.
+Thu Sep 10 14:15:40 2015 D: Reading the values, computing the statistics.
+Thu Sep 10 14:15:40 2015 D: Building the JSON file.
+Thu Sep 10 14:15:40 2015 D: Writing output.
+Thu Sep 10 14:15:40 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_qualitative has started. --- 
+Thu Sep 10 14:16:05 2015 D: Parsing data.
+Thu Sep 10 14:16:05 2015 D: Preparing the data.
+Thu Sep 10 14:16:05 2015 D: Reading the values, computing the statistics.
+Thu Sep 10 14:16:05 2015 D: Building the JSON file.
+Thu Sep 10 14:16:05 2015 D: Writing output.
+Thu Sep 10 14:16:05 2015 D: tremppi_qualitative finished successfully.
+ --- tremppi_quantitative has started. --- 
+Thu Sep 10 14:16:06 2015 D: Parsing data.
+Thu Sep 10 14:16:06 2015 D: Preparing the data.
+Thu Sep 10 14:16:06 2015 D: Reading the values, computing the statistics.
+Thu Sep 10 14:16:06 2015 D: Building the JSON file.
+Thu Sep 10 14:16:06 2015 D: Writing output.
+Thu Sep 10 14:16:06 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_cost has started. --- 
+Mon Nov  9 19:47:47 2015 D: Parsing database.
+Mon Nov  9 19:47:47 2015 D: Checking the JSON correctness.
+Mon Nov  9 19:47:47 2015 D: Parsing the properties.
+Mon Nov  9 19:47:47 2015 D: Building a product with the automaton: M
+Mon Nov  9 19:47:47 2015 E: Top level exception: Unknown property type any of the property M
+ --- tremppi_spawn has started. --- 
+Wed Nov 11 16:24:26 2015 D: Checking the JSON correctness.
+Wed Nov 11 16:24:26 2015 D: Parsing the network.
+Wed Nov 11 16:24:26 2015 D: Obtaining kinetics.
+Wed Nov 11 16:24:26 2015 D: Creating the database file.
+Wed Nov 11 16:24:26 2015 W: Database file Toy_Example/data\database.sqlite already exists, erasing.
+Wed Nov 11 16:24:26 2015 D: Writing the database file, in total 324 parametrizations.
+Wed Nov 11 16:24:26 2015 D: tremppi_spawn finished successfully.
+ --- tremppi_cost has started. --- 
+Wed Nov 11 16:25:24 2015 D: Parsing database.
+Wed Nov 11 16:25:24 2015 D: Checking the JSON correctness.
+Wed Nov 11 16:25:24 2015 D: Parsing the properties.
+Wed Nov 11 16:25:24 2015 D: Building a product with the automaton: series
+Wed Nov 11 16:25:24 2015 E: Top level exception: Unknown property type any of the property series
+ --- tremppi_cost has started. --- 
+Wed Nov 11 16:25:36 2015 D: Parsing database.
+Wed Nov 11 16:25:36 2015 D: Checking the JSON correctness.
+Wed Nov 11 16:25:36 2015 D: Parsing the properties.
+Wed Nov 11 16:25:36 2015 D: Building a product with the automaton: series
+Wed Nov 11 16:25:36 2015 D: Validating for an automaton: series
+Wed Nov 11 16:25:36 2015 D: tremppi_cost finished successfully.
+ --- tremppi_express has started. --- 
+Wed Nov 11 16:25:43 2015 D: tremppi_express finished successfully.
+ --- tremppi_impact has started. --- 
+Wed Nov 11 16:25:44 2015 D: tremppi_impact finished successfully.
+ --- tremppi_sign has started. --- 
+Wed Nov 11 16:25:45 2015 D: tremppi_sign finished successfully.
+ --- tremppi_trace has started. --- 
+Wed Nov 11 16:25:47 2015 D: Parsing database.
+Wed Nov 11 16:25:47 2015 D: Checking the JSON correctness.
+Wed Nov 11 16:25:47 2015 D: Parsing the properties.
+Wed Nov 11 16:25:47 2015 D: Building a product with the automaton: series
+Wed Nov 11 16:25:47 2015 D: Validating for an automaton: series
+Wed Nov 11 16:25:47 2015 D: tremppi_trace finished successfully.
+ --- tremppi_robustness has started. --- 
+Wed Nov 11 16:25:52 2015 D: Parsing database.
+Wed Nov 11 16:25:52 2015 D: Checking the JSON correctness.
+Wed Nov 11 16:25:52 2015 D: Parsing the properties.
+Wed Nov 11 16:25:52 2015 D: Building a product with the automaton: series
+Wed Nov 11 16:25:52 2015 D: Validating for an automaton: series
+Wed Nov 11 16:25:52 2015 D: tremppi_robustness finished successfully.
+ --- tremppi_quantitative has started. --- 
+Wed Nov 11 16:26:55 2015 D: Reading data.
+Wed Nov 11 16:26:55 2015 D: Selection all
+Wed Nov 11 16:26:55 2015 D: Reading the values, computing the statistics.
+Wed Nov 11 16:26:55 2015 D: Writing results.
+Wed Nov 11 16:26:55 2015 D: Selection selected
+Wed Nov 11 16:26:55 2015 D: Reading the values, computing the statistics.
+Wed Nov 11 16:26:55 2015 D: Writing results.
+Wed Nov 11 16:26:55 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_correlations has started. --- 
+Wed Nov 11 16:27:13 2015 D: Parsing data file.
+Wed Nov 11 16:27:13 2015 D: Selection all
+Wed Nov 11 16:27:13 2015 E: Top level exception: did not find the column B_A
+ --- tremppi_qualitative has started. --- 
+Wed Nov 11 16:27:14 2015 D: Reading data.
+Wed Nov 11 16:27:14 2015 D: Selection all
+Wed Nov 11 16:27:14 2015 D: Reading the values, computing the statistics.
+Wed Nov 11 16:27:14 2015 D: Writing the result to file.
+Wed Nov 11 16:27:14 2015 D: Selection selected
+Wed Nov 11 16:27:14 2015 D: Reading the values, computing the statistics.
+Wed Nov 11 16:27:14 2015 D: Writing the result to file.
+Wed Nov 11 16:27:14 2015 D: tremppi_qualitative finished successfully.
+ --- tremppi_quantitative has started. --- 
+Wed Nov 11 16:27:15 2015 D: Reading data.
+Wed Nov 11 16:27:15 2015 D: Selection all
+Wed Nov 11 16:27:15 2015 D: Reading the values, computing the statistics.
+Wed Nov 11 16:27:15 2015 D: Writing results.
+Wed Nov 11 16:27:15 2015 D: Selection selected
+Wed Nov 11 16:27:15 2015 D: Reading the values, computing the statistics.
+Wed Nov 11 16:27:15 2015 D: Writing results.
+Wed Nov 11 16:27:15 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_regulations has started. --- 
+Wed Nov 11 16:27:15 2015 D: Reading data.
+Wed Nov 11 16:27:15 2015 D: Selection all
+Wed Nov 11 16:27:15 2015 D: Computing regulationsion graph data.
+Wed Nov 11 16:27:15 2015 D: Writing results.
+Wed Nov 11 16:27:15 2015 D: Selection selected
+Wed Nov 11 16:27:15 2015 D: Computing regulationsion graph data.
+Wed Nov 11 16:27:15 2015 D: Writing results.
+Wed Nov 11 16:27:15 2015 D: tremppi_regulations finished successfully.
+ --- tremppi_witness has started. --- 
+Wed Nov 11 16:27:16 2015 D: Reading data.
+Wed Nov 11 16:27:16 2015 D: Selection all
+Wed Nov 11 16:27:16 2015 D: Reading data.
+Wed Nov 11 16:27:16 2015 D: Writing data.
+Wed Nov 11 16:27:16 2015 D: Selection selected
+Wed Nov 11 16:27:16 2015 D: Reading data.
+Wed Nov 11 16:27:16 2015 D: Writing data.
+Wed Nov 11 16:27:16 2015 D: tremppi_witness finished successfully.
+ --- tremppi_correlations has started. --- 
+Mon Nov 16 16:26:28 2015 D: Parsing data file.
+Mon Nov 16 16:26:28 2015 D: Selection all
+Mon Nov 16 16:26:28 2015 E: Top level exception: did not find the column B_A
+ --- tremppi_qualitative has started. --- 
+Mon Nov 16 16:26:28 2015 D: Reading data.
+Mon Nov 16 16:26:28 2015 D: Selection all
+Mon Nov 16 16:26:28 2015 D: Reading the values, computing the statistics.
+Mon Nov 16 16:26:28 2015 D: Writing the result to file.
+Mon Nov 16 16:26:28 2015 D: Selection selected
+Mon Nov 16 16:26:28 2015 D: Reading the values, computing the statistics.
+Mon Nov 16 16:26:28 2015 D: Writing the result to file.
+Mon Nov 16 16:26:28 2015 D: Selection single_parametrization
+Mon Nov 16 16:26:28 2015 D: Reading the values, computing the statistics.
+Mon Nov 16 16:26:28 2015 D: Writing the result to file.
+Mon Nov 16 16:26:28 2015 D: tremppi_qualitative finished successfully.
+ --- tremppi_quantitative has started. --- 
+Mon Nov 16 16:26:28 2015 D: Reading data.
+Mon Nov 16 16:26:28 2015 D: Selection all
+Mon Nov 16 16:26:28 2015 D: Reading the values, computing the statistics.
+Mon Nov 16 16:26:28 2015 D: Writing results.
+Mon Nov 16 16:26:28 2015 D: Selection selected
+Mon Nov 16 16:26:28 2015 D: Reading the values, computing the statistics.
+Mon Nov 16 16:26:28 2015 D: Writing results.
+Mon Nov 16 16:26:28 2015 D: Selection single_parametrization
+Mon Nov 16 16:26:28 2015 D: Reading the values, computing the statistics.
+Mon Nov 16 16:26:28 2015 D: Writing results.
+Mon Nov 16 16:26:28 2015 D: tremppi_quantitative finished successfully.
+ --- tremppi_regulations has started. --- 
+Mon Nov 16 16:26:29 2015 D: Reading data.
+Mon Nov 16 16:26:29 2015 D: Selection all
+Mon Nov 16 16:26:29 2015 D: Computing regulationsion graph data.
+Mon Nov 16 16:26:29 2015 D: Writing results.
+Mon Nov 16 16:26:29 2015 D: Selection selected
+Mon Nov 16 16:26:29 2015 D: Computing regulationsion graph data.
+Mon Nov 16 16:26:29 2015 D: Writing results.
+Mon Nov 16 16:26:29 2015 D: Selection single_parametrization
+Mon Nov 16 16:26:29 2015 D: Computing regulationsion graph data.
+Mon Nov 16 16:26:29 2015 D: Writing results.
+Mon Nov 16 16:26:29 2015 D: tremppi_regulations finished successfully.
+ --- tremppi_witness has started. --- 
+Mon Nov 16 16:26:29 2015 D: Reading data.
+Mon Nov 16 16:26:29 2015 D: Selection all
+Mon Nov 16 16:26:29 2015 D: Reading data.
+Mon Nov 16 16:26:29 2015 D: Writing data.
+Mon Nov 16 16:26:29 2015 D: Selection selected
+Mon Nov 16 16:26:29 2015 D: Reading data.
+Mon Nov 16 16:26:29 2015 D: Writing data.
+Mon Nov 16 16:26:29 2015 D: Selection single_parametrization
+Mon Nov 16 16:26:29 2015 D: Reading data.
+Mon Nov 16 16:26:29 2015 D: Writing data.
+Mon Nov 16 16:26:29 2015 D: tremppi_witness finished successfully.
+ --- tremppi_update has started. --- 
+Mon Nov 30 10:27:43 2015 I: tremppi_update finished successfully.
+ --- tremppi_update has started. --- 
+Mon Nov 30 10:52:49 2015 I: tremppi_update finished successfully.
+ --- tremppi_update has started. --- 
+Wed Dec 16 16:41:59 2015 I: tremppi_update finished successfully.
+ --- tremppi_update has started. --- 
+Wed Dec 16 16:56:13 2015 I: tremppi_update finished successfully.
+ --- tremppi_update has started. --- 
+Wed Dec 16 16:56:26 2015 I: tremppi_update finished successfully.
+ --- tremppi_configure has started. --- 
+Wed Dec 16 22:15:45 2015 I: tremppi_configure finished successfully.

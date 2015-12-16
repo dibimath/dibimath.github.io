@@ -1,1 +1,0 @@
-tremppi.qualitative.setup = {"components": ["AKT", "AZD", "EGFR", "ERK", "GSK3", "IGFIR", "IRS1", "LY", "MEK", "PI3K", "RAF", "TGFa", "p70S6K"], "files": []};

@@ -1,0 +1,60 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Frequency" : 0.50,
+               "Pearson" : 0.0,
+               "Sign" : "1",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.50,
+               "source" : "B",
+               "target" : "A"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.8333333333333334,
+               "Pearson" : -9.251858538542971e-18,
+               "Sign" : "1",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.4687500000000001,
+               "source" : "A",
+               "target" : "B"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.750,
+               "Pearson" : 0.1982140,
+               "Sign" : "1",
+               "Threshold" : 2,
+               "WeightedFrequency" : 0.4218750,
+               "source" : "B",
+               "target" : "B"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "id" : "A",
+               "name" : "A"
+            }
+         },
+         {
+            "data" : {
+               "id" : "B",
+               "name" : "B"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Wed Dec 16 22:13:11 2015",
+      "s_name" : "normalized",
+      "select" : "1",
+      "size" : 144
+   }
+}
+

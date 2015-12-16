@@ -641,4 +641,4 @@ Tue Dec  1 14:58:04 2015 I: Reading data.
 Tue Dec  1 14:58:04 2015 I: Writing data.
 Tue Dec  1 14:58:04 2015 I: tremppi_witness finished successfully.
  --- tremppi_update has started. --- 
-Mon Dec 14 22:13:59 2015 I: tremppi_update finished successfully.
+Wed Dec 16 17:54:19 2015 I: tremppi_update finished successfully.

@@ -1,0 +1,452 @@
+{
+   "records" : [
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>CdiGMP</sub>(YciR{0,1},YdaM{0},YegE{0},YhjH{0})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>CdiGMP</sub>(YciR{0,1},YdaM{0},YegE{0},YhjH{1})"
+      },
+      {
+         "count" : 8,
+         "max" : 1.0,
+         "mean" : 0.80,
+         "min" : 0.0,
+         "name" : "K<sub>CdiGMP</sub>(YciR{0,1},YdaM{0},YegE{1},YhjH{0})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>CdiGMP</sub>(YciR{0,1},YdaM{0},YegE{1},YhjH{1})"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>CdiGMP</sub>(YciR{0,1},YdaM{1},YegE{0},YhjH{0})"
+      },
+      {
+         "count" : 8,
+         "max" : 1.0,
+         "mean" : 0.80,
+         "min" : 0.0,
+         "name" : "K<sub>CdiGMP</sub>(YciR{0,1},YdaM{1},YegE{0},YhjH{1})"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>CdiGMP</sub>(YciR{0,1},YdaM{1},YegE{1},YhjH{0})"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>CdiGMP</sub>(YciR{0,1},YdaM{1},YegE{1},YhjH{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>CdiGMP</sub>(YciR},YdaM{0},YegE{0},YhjH{0})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>CdiGMP</sub>(YciR},YdaM{0},YegE{0},YhjH{1})"
+      },
+      {
+         "count" : 2,
+         "max" : 1.0,
+         "mean" : 0.20,
+         "min" : 0.0,
+         "name" : "K<sub>CdiGMP</sub>(YciR},YdaM{0},YegE{1},YhjH{0})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>CdiGMP</sub>(YciR},YdaM{0},YegE{1},YhjH{1})"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>CdiGMP</sub>(YciR},YdaM{1},YegE{0},YhjH{0})"
+      },
+      {
+         "count" : 2,
+         "max" : 1.0,
+         "mean" : 0.20,
+         "min" : 0.0,
+         "name" : "K<sub>CdiGMP</sub>(YciR},YdaM{1},YegE{0},YhjH{1})"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>CdiGMP</sub>(YciR},YdaM{1},YegE{1},YhjH{0})"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>CdiGMP</sub>(YciR},YdaM{1},YegE{1},YhjH{1})"
+      },
+      {
+         "count" : 5,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "K<sub>MlrA</sub>(YciR{0},YdaM{0})"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>MlrA</sub>(YciR{0},YdaM{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>MlrA</sub>(YciR{1},YdaM{0})"
+      },
+      {
+         "count" : 5,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "K<sub>MlrA</sub>(YciR{1},YdaM{1})"
+      },
+      {
+         "count" : 5,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "K<sub>MlrA</sub>(YciR},YdaM{0})"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>MlrA</sub>(YciR},YdaM{1})"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>YciR</sub>(CdiGMP{0})"
+      },
+      {
+         "count" : 10,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "K<sub>YciR</sub>(CdiGMP{1,2})"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>YdaM</sub>(YciR{0})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>YdaM</sub>(YciR{1})"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>YdaM</sub>(YciR})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>YegE</sub>(YegE{0})"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>YegE</sub>(YegE{1})"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "K<sub>YhjH</sub>(YhjH{0})"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "K<sub>YhjH</sub>(YhjH{1})"
+      },
+      {
+         "count" : 10,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(2a)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(2b)"
+      },
+      {
+         "count" : 10,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(3a)"
+      },
+      {
+         "count" : 2,
+         "max" : 1.0,
+         "mean" : 0.20,
+         "min" : 0.0,
+         "name" : "Cost(3b)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(4a)"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "Cost(4b)"
+      },
+      {
+         "count" : 2,
+         "max" : 2.0,
+         "mean" : 0.40,
+         "min" : 0.0,
+         "name" : "Cost(5a)"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "Cost(5b)"
+      },
+      {
+         "count" : 10,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(6a)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(6b)"
+      },
+      {
+         "count" : 5,
+         "max" : 2.0,
+         "mean" : 1.0,
+         "min" : 0.0,
+         "name" : "Cost(7a)"
+      },
+      {
+         "count" : 5,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "Cost(7b)"
+      },
+      {
+         "count" : 10,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(8a)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(8b)"
+      },
+      {
+         "count" : 10,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(9a)"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "Cost(9b)"
+      },
+      {
+         "count" : 1,
+         "max" : 2.0,
+         "mean" : 0.20,
+         "min" : 0.0,
+         "name" : "Cost(10a)"
+      },
+      {
+         "count" : 3,
+         "max" : 1.0,
+         "mean" : 0.30,
+         "min" : 0.0,
+         "name" : "Cost(10b)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(11a)"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "Cost(11b)"
+      },
+      {
+         "count" : 5,
+         "max" : 2.0,
+         "mean" : 1.0,
+         "min" : 0.0,
+         "name" : "Cost(12a)"
+      },
+      {
+         "count" : 5,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "Cost(12b)"
+      },
+      {
+         "count" : 10,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(13a)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(13b)"
+      },
+      {
+         "count" : 5,
+         "max" : 2.0,
+         "mean" : 1.0,
+         "min" : 0.0,
+         "name" : "Cost(14a)"
+      },
+      {
+         "count" : 5,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "Cost(14b)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(15a)"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "Cost(15b)"
+      },
+      {
+         "count" : 5,
+         "max" : 2.0,
+         "mean" : 1.0,
+         "min" : 0.0,
+         "name" : "Cost(16a)"
+      },
+      {
+         "count" : 5,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "Cost(16b)"
+      },
+      {
+         "count" : 10,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "Cost(1a)"
+      },
+      {
+         "count" : 10,
+         "max" : 1.0,
+         "mean" : 1.0,
+         "min" : 1.0,
+         "name" : "Cost(1b)"
+      }
+   ],
+   "setup" : {
+      "date" : "Mon Nov  9 12:23:24 2015",
+      "s_name" : "relaxed",
+      "select" : "C_1b != 0 AND C_15b != 0 AND C_15a = 0 AND C_2a != 0 AND C_9b != 0 AND C_8a != 0 AND C_11b != 0 AND C_4a = 0 AND C_13a != 0 AND C_3a != 0 AND C_11a = 0 AND C_1a != 0 AND C_6a != 0 AND C_9a != 0 AND C_4b != 0",
+      "size" : 10
+   }
+}
+

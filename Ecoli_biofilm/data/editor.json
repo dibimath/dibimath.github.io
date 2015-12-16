@@ -1,0 +1,381 @@
+{
+	"nodes": [
+		{
+			"data": {
+				"Name": "CdiGMP",
+				"MaxActivity": 1,
+				"Label": "CdiGMP:1",
+				"id": "n0"
+			},
+			"position": {
+				"x": 187.9949101610074,
+				"y": 186.0225689284108
+			},
+			"group": "nodes",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		},
+		{
+			"data": {
+				"Name": "MlrA",
+				"MaxActivity": 1,
+				"Label": "MlrA:1",
+				"id": "n1",
+				"Constraint": "YciR:0,YdaM:0 = YciR:2,YdaM:0 & YciR:0,YdaM:1 = YciR:2,YdaM:1"
+			},
+			"position": {
+				"x": 347.8060054513666,
+				"y": 268.58623631246803
+			},
+			"group": "nodes",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		},
+		{
+			"data": {
+				"Name": "YegE",
+				"MaxActivity": 1,
+				"Label": "YegE:1",
+				"id": "n2"
+			},
+			"position": {
+				"x": 184.4228894945963,
+				"y": 120.64481729063624
+			},
+			"group": "nodes",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		},
+		{
+			"data": {
+				"Name": "YhjH",
+				"MaxActivity": 1,
+				"Label": "YhjH:1",
+				"id": "n3"
+			},
+			"position": {
+				"x": 316.4244923255236,
+				"y": 121.64105580256779
+			},
+			"group": "nodes",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		},
+		{
+			"data": {
+				"Name": "YciR",
+				"MaxActivity": 2,
+				"Label": "YciR:2",
+				"id": "n4",
+				"Constraint": "CdiGMP:0=1&CdiGMP:1=2"
+			},
+			"position": {
+				"x": 384.16871113686744,
+				"y": 185.40032056618546
+			},
+			"group": "nodes",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		},
+		{
+			"data": {
+				"Name": "YdaM",
+				"MaxActivity": 1,
+				"Label": "YdaM:1",
+				"id": "n5",
+				"Constraint": "YciR:0 = YciR:2"
+			},
+			"position": {
+				"x": 206.8382560130557,
+				"y": 267.58999780053625
+			},
+			"group": "nodes",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		}
+	],
+	"edges": [
+		{
+			"data": {
+				"source": "n2",
+				"target": "n0",
+				"Threshold": 1,
+				"Label": "Activating Only",
+				"line_style": "solid",
+				"line_color": "green",
+				"target_arrow_shape": "triangle",
+				"id": "e0"
+			},
+			"position": {},
+			"group": "edges",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		},
+		{
+			"data": {
+				"source": "n3",
+				"target": "n0",
+				"Threshold": 1,
+				"Label": "Inhibiting Only",
+				"line_style": "solid",
+				"line_color": "red",
+				"target_arrow_shape": "tee",
+				"id": "e1"
+			},
+			"position": {},
+			"group": "edges",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		},
+		{
+			"data": {
+				"source": "n4",
+				"target": "n0",
+				"Threshold": 2,
+				"Label": "Inhibiting Only",
+				"line_style": "solid",
+				"line_color": "red",
+				"target_arrow_shape": "tee",
+				"id": "e2"
+			},
+			"position": {},
+			"group": "edges",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		},
+		{
+			"data": {
+				"source": "n5",
+				"target": "n0",
+				"Threshold": 1,
+				"Label": "Activating Only",
+				"line_style": "solid",
+				"line_color": "green",
+				"target_arrow_shape": "triangle",
+				"id": "e3"
+			},
+			"position": {},
+			"group": "edges",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		},
+		{
+			"data": {
+				"source": "n4",
+				"target": "n1",
+				"Threshold": 1,
+				"Label": "Inhibiting Only",
+				"line_style": "solid",
+				"line_color": "red",
+				"target_arrow_shape": "tee",
+				"id": "e4"
+			},
+			"position": {},
+			"group": "edges",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		},
+		{
+			"data": {
+				"source": "n4",
+				"target": "n1",
+				"Threshold": 2,
+				"Label": "Free",
+				"line_style": "dashed",
+				"line_color": "black",
+				"target_arrow_shape": "circle",
+				"id": "e5"
+			},
+			"position": {},
+			"group": "edges",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		},
+		{
+			"data": {
+				"source": "n5",
+				"target": "n1",
+				"Threshold": 1,
+				"Label": "Activating Only",
+				"line_style": "solid",
+				"line_color": "green",
+				"target_arrow_shape": "triangle",
+				"id": "e7"
+			},
+			"position": {},
+			"group": "edges",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		},
+		{
+			"data": {
+				"source": "n0",
+				"target": "n4",
+				"Threshold": 1,
+				"Label": "Free",
+				"line_style": "dashed",
+				"line_color": "black",
+				"target_arrow_shape": "circle",
+				"id": "e8"
+			},
+			"position": {},
+			"group": "edges",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		},
+		{
+			"data": {
+				"source": "n4",
+				"target": "n5",
+				"Threshold": 2,
+				"Label": "Free",
+				"line_style": "dashed",
+				"line_color": "black",
+				"target_arrow_shape": "circle",
+				"id": "e9"
+			},
+			"position": {},
+			"group": "edges",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		},
+		{
+			"data": {
+				"source": "n4",
+				"target": "n5",
+				"Threshold": 1,
+				"Label": "Inhibiting Only",
+				"line_style": "solid",
+				"line_color": "red",
+				"target_arrow_shape": "tee",
+				"id": "e10"
+			},
+			"position": {},
+			"group": "edges",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		},
+		{
+			"data": {
+				"source": "n2",
+				"target": "n2",
+				"Threshold": 1,
+				"Label": "Activating Only",
+				"line_style": "solid",
+				"line_color": "green",
+				"target_arrow_shape": "triangle",
+				"id": "e11"
+			},
+			"position": {},
+			"group": "edges",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		},
+		{
+			"data": {
+				"source": "n3",
+				"target": "n3",
+				"Threshold": 1,
+				"Label": "Activating Only",
+				"line_style": "solid",
+				"line_color": "green",
+				"target_arrow_shape": "triangle",
+				"id": "e12"
+			},
+			"position": {},
+			"group": "edges",
+			"removed": false,
+			"selected": false,
+			"selectable": true,
+			"locked": false,
+			"grabbed": false,
+			"grabbable": true,
+			"classes": ""
+		}
+	]
+}

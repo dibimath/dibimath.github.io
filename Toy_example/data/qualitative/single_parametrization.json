@@ -1,0 +1,146 @@
+{
+   "setup" : {
+      "date" : "Wed Dec 16 22:08:54 2015",
+      "s_name" : "single_parametrization",
+      "select" : "K_B_10 = 2 AND K_B_12 = 1 AND K_B_02 = 0 AND K_B_00 = 0 AND K_A_1 = 0 AND K_A_0 = 1",
+      "size" : 1
+   },
+   "values" : [
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>A</sub>(B{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>A</sub>(B{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>B</sub>(A{0},B{0,1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>B</sub>(A{0},B{2})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>B</sub>(A{1,2},B{0,1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>B</sub>(A{1,2},B{2})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "B{0}",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "F<sub>A</sub>"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1&A&B{2}|2&A&B{01}",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "F<sub>B</sub>"
+      },
+      {
+         "data" : [
+            {
+               "name" : "-",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Sign(B,1,A)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Indigree(A)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "+",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Sign(A,1,B)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "-",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Sign(B,2,B)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Indigree(B)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "3",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Indigree(SUM)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "4",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Cost(series)"
+      }
+   ]
+}
+
