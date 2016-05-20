@@ -139,7 +139,9 @@ tremppi = {
         document.title = tremppi.widget_name;
     },
     configure: function () {
-        if (typeof tremppi.projects === 'undefined') {
+		// Projects override
+		
+        if (true) {
             tremppi.project_name = tremppi.setup.project_name;
             tremppi.projects = [tremppi.setup.project_name];
             tremppi.project_folder = "";
