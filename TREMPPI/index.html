@@ -62,8 +62,10 @@
             font-weight: bold;
         }
 
-        #dependencies {
-            width: 700pt;
+        img.full_panel {
+            width: 80%;
+            min-width: 400pt;
+            max-width: 1000pt;
             margin: auto;
             display: block;
         }
@@ -97,9 +99,9 @@
     </style>
 </head>
 <body>
-    <div class="title">TREMPPI 1.0.0</div>
+    <div class="title">TREMPPI 1.1.0</div>
     <div class="subtitle">Toolkit for Reverse Engineering of Molecular Pathways via Parameter Identification </div>
-    <div class="subtitle">Last update: 30.3.2016</div>
+    <div class="subtitle">Last update: 05.9.2016</div>
 
     <div class ="section">Introduction</div>
     <p>
@@ -132,7 +134,9 @@
         </li>
     </ul>
     <p>        
-        For all systems you need the <a href="https://www.python.org/downloads/">Python 3</a>. 
+        For all systems you need the <a href="https://www.python.org/downloads/">Python 3</a> 
+        and the <a href="TODO">Flask-user</a> package, which you can install via the <a href="TODO">PIP</a> package manage.
+        <br />
         On Windows (also on Linux if it is in a non-standard location, the environment points to Python 2, etc.) <span class="warning">PYTHONHOME must point to Python 3 location</span>. 
         This can be achieved temporarily from a Unix terminal by calling:
     </p>
@@ -145,12 +149,12 @@
     </p>
     <p class="code">
         set PYTHONHOME=path_to_python3<br />
-        path_to_TREMPPI/tremppi
+        path_to_TREMPPI\tremppi.exe
     </p>
     <!--(if on Linux you get an error of the style "version 'LIBRARY_X.XX' not found", you can try upgrading the specified library via "apt-get install LIBRARY_X.XX").-->
     <p>
         If your system is not in the list, or the binary does not work 
-        (in that case also please consider sharing your experience at esther<img src="./assets/zavinac.png" width="10pt" />fi.muni.cz), 
+        (in that case also please consider sharing your experience at tremppi.server<img src="./assets/zavinac.png" width="10pt" />gmail.com), 
         you can try building it from the <a href="https://github.com/xstreck1/TREMPPI">source at GITHUB</a>.
     </p>
     <div class="subsection">License and Liability</div>
@@ -169,76 +173,28 @@
         To update a project, open that project in TREMPPI and call the <span class="code">update</span> tool. <span class="warning">All the existing projects retain their original version until they are individually updated.</span>
     </p>
     <div class="section">Usage</div>
+    In this section we go through some usage topics of TREMPPI. The complete reference is in the following section.
+
+    <div class="subsection">Visual interface</div>
     <p>
         TREMPPI has a fully integrated graphical user interface that displays in a browser. 
-        It can be used in the same manner as any other webpage. 
-        Once the GUI is started, a project is opened and the list of widgets is available. 
-        Each of the widgets provides access to some part of the functionality of TREMPPI. 
-        These are illustrated in detail in the following section, before that we illustrate the general workflow of TREMPPI step by step.    
-    </p>    
-    <div class="subsection">Tutorial</div>
-    <ol>
-        <li><span class="lelem">start TREMPPI:</span> The tool can be started either by double-clicking on the executable named <span class="code">tremppi</span> or from the command line by executing the command from the directory in which it resides.
-            Note that if there is an error stating that a python module is missing, the <span class="code">PYTHONHOME</span> needs to be set as explained above.
-        </li>
-        <li><span class="lelem">open a project:</span> 
-            TREMPPI starts with a single project opened on start, called <span class="code">project_0</span>, residing in the list of projects on the left.
-            Underneath you can find a list of widgets available to each project.
-            The entry point of each project is the  <span class="code">index</span> widget. 
-            Open it by left-click.
-            After opening, you will see a panel with description of the project, which is empty as of now.
-            Write arbitrary text to this windows for now, e.g. "Hello World".
-            After writing the text, click the <span class="code">SAVE</span> button in the bottom-left corner. 
-            This will result in your text being stored within the project data files.
-            On the bottom black-line you should see the text "index has saved successfully" as a confirmation.
-            You can also observe that your text has been saved by pressing the reload button (usually F5). 
-            After the page reloads, your text should appear again.
-        </li>
-        <li><span class="lelem">build a model:</span> 
-            Open the <span class="code">editor</span> widget. Click the <span class="code">Add</span> button on the top and then the grey area underneath.
-            A new component will appear. 
-            Repeat. 
-            Once you have two components, click add again, then one component, then the other. 
-            A regulation between the two appears.
-            Lastly click a component. 
-            Its name and maximal value appears on the top panel. 
-            Write a name instead of the generic <span class="code">New</span> and confirm with enter.
-            The name in the graph changes as well.
-            Repeat also for the second component and lastly click the <span class="code">SAVE</span> button.
-        </li>
-        <li><span class="lelem">enumerate parameters:</span> Open the <span class="code">tools</span> widged and click the <span class="code">spawn</span> button.</li>
-        <li><span class="lelem">get basic statistics:</span> Click the <span class="code">qualitative</span> and <span class="code">quantitative</span> buttons.
-        <li><span class="lelem">evaluate:</span> Click the <span class="code">qualitative</span> and <span class="code">quantitative</span> widget on the left. 
-            A new category, called <span class="code">files</span>, appears with a single element, called <span class="code">all</span>.
-            Left click it to gain basic knowledge about the parametrization space, concluding your introduction to TREMPPI.
-    </ol>
-
-    <div class="subsection">Control panel</div>
-    <p>
-        TREMPPI provides five control panels on the left side of its window:
+        The tool is split into individual webpages, each providing access to a part of functionality of TREMPPI, however each of the pages is divided in the following four parts:
+        <img src="./assets/UI.jpg" class="full_panel" alt="separation of the TREMPPI interface"/>
     </p>
     <ul>
         <li>
-            <span class="lelem">system control:</span>The main control buttons are on the top left.
+            <span class="lelem">MENU PANEL:</span> this panel provides user controls and top-level navigation.
         </li>
         <li>
-            <span class="lelem">projects:</span> Left-click on the name of the project to access its files.
+            <span class="lelem">PROJECT TREE:</span> shows the existing projects and their widgets and sub-files. 
+            A left-click opens a project or widget, while a right-click provides a context menu that provides file-system like functions, like deletion, copying etc.
         </li>
         <li>
-            <span class="lelem">widgets:</span> Left-click on the name of the widget to open the widget for the current project.
+            <span class="lelem">WIDGET:</span> Widgets connect to TREMPPI directly, show the data and provide the analytical and statistical tools.
         </li>
         <li>
-            <span class="lelem">files:</span> For the reporting widgets, a list of existing files is available.
-            Each report widget has three parts: left selection, comparison, right selection.
-            To pick the left selection, left-click the respective file.
-            To pick the right selection, right-click the respective file.
-            The comparison is generated automatically.
-        </li>
-        <li>
-            <span class="lelem">project control:</span> For each widget, all the controls that communicate to the server are available here. 
-            The <span class="code">SAVE</span> button always saves the state of the current widget. 
-            The project management is available through the <span class="code">tools</span> widget, as detailed in Section 4.
-
+            <span class="lelem">LOG PANEL:</span> The bottom log panel displays the immediate info from TREMPPI and is related only to the web-page itself. 
+            A green text shows info, an orange one warnings, and a red one errors.
         </li>
     </ul>
 
@@ -327,7 +283,7 @@
         </p>
     </div>
     <div class="quater_fig">
-        <img src="./assets/monotone_STG.png" class="fig" style="width: 75%; text-align: center;" alt="demonstration of monotonicity ending"/>
+        <img src="./assets/monotone_STG.png" class="fig" alt="demonstration of monotonicity ending"/>
         <p>The property <span class='math'>M1 = (1,1,0,1)</span>, <span class='math'>M2 = (1,0,0,*)</span>, and <span class='math'>M3 = (0,0,0,1)</span> 
             and monotonicity in all components.
             The red path shows a trace that will not be accepted, because the fourth component is not monotonous between <span class='math'>M2)</span> and <span class='math'>M3</span>.
@@ -428,12 +384,58 @@
 
     <div class="section">Reference</div>
     <p>
-        In this section we detail the individual widgets.
     </p>
+    
+    <div class="subsection">Project tree</div>
+    <p>
+        Project Tree has four levels of depth, each with it's unique features:
+    </p>
+    <ol>
+        <li><span class="lelem">Projects:</span>The top-level tab is called projects and is used for creation of new projects. It has two options:
+            <ul>
+                <li><span class="lelem">new project: </span>Creates a new project from scratch. Will be called <span class="code">project_0</span> or a higher index if this is taken.</li>
+                <li><span class="lelem">upload: </span>Allows to upload a project in the <span class="code">.zip</span> format.</li>
+            </ul>
+        </li>
+        <li><span class="lelem">Project:</span>The individual project's folder. In here all the data relating to a single project are stored. It has multiple options:
+            <ul>
+                <li><span class="lelem">open: </span>Opens the project in the current widget.</li>
+                <li><span class="lelem">clone: </span>Creates a deep copy of the project named <span class="code">project(clone)</span></li>
+                <li><span class="lelem">rename: </span>Assigns a new name to the project.</li>
+                <li><span class="lelem">delete: </span>Removes the project.</li>
+                <li><span class="lelem">finalize: </span>Removes the background (not visible to user) data from the project and prohibits further analyses. The reports stay untouched. This usually reduced the size of the project to a fraction and is useful when you want to distribute your results.</li>
+                <li><span class="lelem">download: </span>Makes a zip archive that can be uploaded to another instance of TREMPPI.</li>
+            </ul>
+        </li>
+        <li><span class="lelem">Widget:</span>A specific project widget. This can be either a single page, or a collection of files.
+            <ul>
+                <li><span class="lelem">open: </span>Opens the selected widget for the current project.</li>
+                <li><span class="lelem">save: </span>
+                    TREMPPI saves files automatically when exiting current widget. 
+                    However to be secure against e.g. system crash, you can call that manually. 
+                    Available only on the currently open widget.
+                </li>
+                <li><span class="lelem">save: </span>
+                    TREMPPI saves files automatically when exiting current widget. 
+                    However to be secure against e.g. system crash, you can call that manually. 
+                    Available only on the currently open widget.
+                </li>
+            </ul>
+        </li>
+        <li><span class="lelem">Report file:</span>For reporting widgets, like <span class="code">qualitative</span> these are the specific report files.
+            <ul>
+                <li><span class="lelem">open: </span>Opens the selected file.</li>
+                <li><span class="lelem">compare: </span>Creates a report comparison between the opened file and the selected file.</li>
+                <li><span class="lelem">rename: </span>Assigns a new name to the file.</li>
+                <li><span class="lelem">delete: </span>Removes the file.</li>
+            </ul>
+        </li>
+    </ol>
+    
     <div class="subsection">Index</div>
     <p>
         This is the entry point of a project. 
-        The purpose of this widget is purely for documentation. The <span class="code">SAVE</span> button stores the current content of the editable textfield.
+        The purpose of this widget is purely for documentation.
     <div class="subsection">Editor</div>
     <p>
         The editor is used to create the regulatory network, see <a href="#klarner12a">[3]</a> for details. 
@@ -561,6 +563,21 @@
             a second graph-based report. Here the <span class="math">bias</span> of a component is projected to the width of a frame, again full for positive, dotted for 0, and dashed for negative.
             Additionally <span class="math">correlation</span> between <span class="math">bias</span> is computed and displayed as a colour gradient edge between the correlated components.
         </li>
+        <li><span class="lelem">Group:</span> 
+            The Group feature is another tool to examine groups of parametrizations. 
+            The group feature creates mutually disjoint sets of parametrizations that match on all they features.
+            The two parametrizations are considered matching if and only if:
+            <ol>
+                <li>For each two corresponding regulations those are either <span class="code">0</span> or <span class="code">!0</span>.</li>
+                <li>For each of the currently selected properties, the <span class="math">cost</span> is either  <span class="code">0</span> or <span class="code">!0</span>.</li>              
+            </ol>
+            For each of the sets, the values of all of these features are displayed.
+            The value <span class="code">!0</span> is displayed as <span class="code">1</span>.
+            If the value is completely absent, it is displayed as <span class="code">*</span>.
+            Lastly, the user can turn features on or off. 
+            If a feature is of, the groups that differ only in this feature will be merged.
+
+        </li>
         <li><span class="lelem">Witness:</span> 
             for a parametrization to satisfy a property, it is required that there exists a path in the transition system that proves that the property is satisfiable.
             This path is called a <span class="math">witness</span>.
@@ -570,19 +587,6 @@
             trace for every parametrization and every property. Additionally, each transition has a number stating what is the order of that transition in the witness. 
             The report has again the relative button, projecting the width of the edges to normalized boundaries.
         </li>
-    </ol>
-    <div class="subsection">Tools: project control</div>
-    <p>
-        This widget is responsible for management of the individual tools and for the project control. 
-        The project controls are available only if TREMPPI is started from a folder that contains a subfolder with a TREMPPI project. 
-        This is true if TREMPPI is started with no parameters.
-        The project controls are:
-    </p>
-    <ol>
-        <li><span class="lelem">CLONE:</span> Creates a new project with the exact contents of this one.</li>
-        <li><span class="lelem">RENAME:</span> Changes the name of the project.</li>
-        <li><span class="lelem">DELETE:</span> Removes the project and all its data.</li>
-        <li><span class="lelem">FINALIZE:</span> Removes all control from the project and metafiles, making it suitable for distribution.</li>
     </ol>
     <div class="subsection">Tools: computational tools</div>
     <p>
@@ -602,7 +606,7 @@
     <p>
         There are execution dependences between the tools as illustrated by the following graph:
     </p>
-    <img src="./assets/dependencies.png" id="dependencies" />
+    <img src="./assets/dependencies.png" class="full_panel" src="dependency graph of the tools" />
     <p>
         Additionally there are two additional panels, one for current progress and the other with log history.
     </p>
