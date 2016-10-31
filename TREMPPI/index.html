@@ -99,9 +99,9 @@
     </style>
 </head>
 <body>
-    <div class="title">TREMPPI 1.1.0</div>
+    <div class="title">TREMPPI 1.3.0</div>
     <div class="subtitle">Toolkit for Reverse Engineering of Molecular Pathways via Parameter Identification </div>
-    <div class="subtitle">Last update: 05.9.2016</div>
+    <div class="subtitle">Last update: 31.10.2016</div>
 
     <div class ="section">Introduction</div>
     <p>
@@ -125,9 +125,8 @@
         The easiest way of getting TREMPPI is to download pre-built packages:
     </p>   
     <ul>
-        <li><a href="./build/TREMPPI_Ubuntu32.tar.gz">Ubuntu/Debian 32bit</a> (preferred for Ubuntu)</li>
-        <li><a href="./build/TREMPPI_Debian64.tar.gz">Ubuntu/Debian 64bit</a> (preferred for Debian)</li>
-        <li><a href="./build/TREMPPI_Windows32.zip">Windows 32bit</a>
+        <li><a href="https://github.com/xstreck1/TREMPPI/archive/v1.3.0.tar.gz">Ubuntu/Debian 32bit</a> (preferred for Ubuntu)</li>
+        <li><a href="http://github.com/xstreck1/TREMPPI/files/562247/TREMPPI.zip">Windows 32bit</a>
             <ul>
                 <li>You also need the <a href="https://www.microsoft.com/en-us/download/details.aspx?id=48145">Visual Studio 2015</a> runtime, if you do not have it already.</li>
             </ul>
@@ -593,8 +592,15 @@
         There are currently 5 classes of tools:
     </p>
     <ol>
-        <li><span class="lelem">Enumeration:</span> the spawn tool is necessary for all the other tools and should be called as soon as the network editing is finished.</li>
+        <li><span class="lelem">Enumeration:</span>
+            The <span class="code">enumerate</span> tool takes the network definition from the <span class="code">editor</span> and creates the model pool necessary for all the following tools.
+            The <span class="code">erase</span> erases the model pool, also erasing also the labels, properties, selections, and the follow-up data. Makes the editor interactive again.
+        </li>
         <li><span class="lelem">Static Labels:</span> the tools that label the individual models based on the parameter values. These are fast to compute.</li>
+        <li><span class="lelem">Properties:</span>
+            The <span class="code">freeze</span> tool finalises the definition of the properties and enables the selection tool.
+            The <span class="code">unfreeze</span> tool enables editing of the properties, also erasing the selections, dynamic lables, and the follow-up data.
+        </li>
         <li><span class="lelem">Dynamic Labels:</span> the tools that label the individual models based on the properties. These are slow to compute.</li>
         <li><span class="lelem">Reports:</span> the statistical analysis tools.</li>
         <li><span class="lelem">Utility:</span> three additional tools for maintenance. 
@@ -606,7 +612,7 @@
     <p>
         There are execution dependences between the tools as illustrated by the following graph:
     </p>
-    <img src="./assets/dependencies.png" class="full_panel" src="dependency graph of the tools" />
+    <img src="./assets/dependencies.png" class="full_panel" alt="dependency graph of the tools" />
     <p>
         Additionally there are two additional panels, one for current progress and the other with log history.
     </p>
