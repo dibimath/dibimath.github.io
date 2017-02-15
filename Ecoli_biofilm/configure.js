@@ -1,1 +1,1 @@
-tremppi.setup = {"project_name": "Ecoli_biofilm", "version": "1.3.0", "final": true};
+tremppi.setup = {"version": "1.3.0", "final": true, "project_name": "Ecoli_biofilm"};
