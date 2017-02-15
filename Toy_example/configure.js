@@ -1,1 +1,0 @@
-tremppi.setup = {"project_name": "Toy_example", "version": "1.0.0", "final": true };

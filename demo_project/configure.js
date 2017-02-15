@@ -1,1 +1,0 @@
-tremppi.setup = {"final": true, "server_port": "8080", "project_name": "demo_project", "server_location": "localhost", "version": "1.0.0"};

@@ -1,1 +1,0 @@
-tremppi.regulations.setup = {"components": ["A", "B"], "files": ["ALL", "fall", "oscillate"]};

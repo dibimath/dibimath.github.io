@@ -1,37 +1,67 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/******************************************************************************
+ Created by Adam Streck, 2013-2015, adam.streck@fu-berlin.de
+ 
+ This file is part of the Toolkit for Reverse Engineering of Molecular Pathways
+ via Parameter Identification (TREMPPI)
+ 
+ This program is free software: you can redistribute it and/or modify it under
+ the terms of the GNU General Public License as published by the Free Software
+ Foundation, either version 3 of the License, or (at your option) any later
+ version.
+ 
+ This program is distributed in the hope that it will be useful, but WITHOUT ANY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License along with
+ this program.  If not, see <http://www.gnu.org/licenses/>.
+ ******************************************************************************/
 
 /* global tremppi */
 
+tremppi.quantitative.setPanel = function (panel) {
+    tremppi.widget[panel] = $('#table_' + panel).w2grid(tremppi.widget.getGrid(panel));
+};
+
+tremppi.quantitative.createPanelContent = function (data, panel) {
+    tremppi.quantitative[panel].records = data.records;
+    tremppi.quantitative[panel].header = data.setup.s_name;
+    tremppi.quantitative[panel].refresh();
+    tremppi.report.setDescription(panel, data.setup);
+};
+
 tremppi.quantitative.valuesSetter = function (source, panel) {
     return function (data) {
-        tremppi.quantitative[panel].records = data.records;
-        tremppi.quantitative[panel].header = source;
-        tremppi.quantitative[panel].refresh();
+        tremppi.quantitative.createPanelContent(data, panel);
         tremppi.log(source + " loaded successfully.");
 
         var sel_recs = tremppi.quantitative['left'].records;
-        var dif_recs = tremppi.quantitative['mid'].records = [];
-        var cmp_recs = tremppi.quantitative['right'].records;
-        for (var i = 0; i < sel_recs.length; i++) {
-            var sel_rec = sel_recs[i];
-            var cmp_rec = tremppi.report.findByName(cmp_recs, sel_rec.name);
-            if (typeof cmp_rec.name !== 'undefined') {
-                var dif_rec = {name: sel_rec.name};
-                ['count', 'portion', 'min', 'max', 'mean'].forEach(function (val) {
-                    if ((typeof sel_rec[val] !== 'undefined') && (typeof cmp_rec[val] !== 'undefined')) {
-                        dif_rec[val] = sel_rec[val] - cmp_rec[val];
-                    }
-                });
-                dif_recs.push(dif_rec);
+        if (panel === 'right') {
+            var dif_recs = [];
+            var cmp_recs = tremppi.quantitative['right'].records;
+            
+            for (var i = 0; i < sel_recs.length; i++) {
+                var sel_rec = sel_recs[i];
+                var cmp_rec = tremppi.report.findByName(cmp_recs, sel_rec.name);
+                if (typeof cmp_rec.name !== 'undefined') {
+                    var dif_rec = {name: sel_rec.name};
+                    ['count', 'portion', 'min', 'max', 'mean'].forEach(function (val) {
+                        if ((typeof sel_rec[val] !== 'undefined') && (typeof cmp_rec[val] !== 'undefined')) {
+                            dif_rec[val] = sel_rec[val] - cmp_rec[val];
+                        }
+                    });
+                    dif_recs.push(dif_rec);
+                }
             }
-        }
 
-        tremppi.quantitative.mid.header = tremppi.quantitative.left.header + " - " + tremppi.quantitative.right.header;
-        tremppi.quantitative.mid.refresh();
+            var mid = {
+                "records": dif_recs,
+                "setup": {
+                    "s_name": tremppi.quantitative.left.header + " - " + tremppi.quantitative.right.header
+                }
+            };
+            tremppi.quantitative.createPanelContent(mid, 'mid');
+        }
     };
 };
 
@@ -51,9 +81,4 @@ tremppi.quantitative.getGrid = function (grid_name) {
             {field: 'mean', caption: 'Mean', size: portion + '%', sortable: true}
         ]
     };
-};
-
-
-tremppi.quantitative.setPanel = function (panel) {
-    tremppi.widget[panel] = $('#container_' + panel).w2grid(tremppi.widget.getGrid(panel));
 };

@@ -1,1 +1,1 @@
-tremppi.projects = ["Toy_example", "Ecoli_biofilm", "HGF", "EGFR"]
+tremppi.projects = ["TremppiDemo", "Ecoli_biofilm", "HSB_2015", "HGF_4_8_12", "CMSB_2015", "Biosystems_2015"]

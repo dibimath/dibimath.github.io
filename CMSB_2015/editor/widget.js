@@ -1,8 +1,23 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/******************************************************************************
+Created by Adam Streck, 2013-2015, adam.streck@fu-berlin.de
+
+This file is part of the Toolkit for Reverse Engineering of Molecular Pathways
+via Parameter Identification (TREMPPI)
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program.  If not, see <http://www.gnu.org/licenses/>.
+******************************************************************************/
+
+/* global tremppi */
 
 tremppi.editor.lables = [
     "Activating",
@@ -30,14 +45,15 @@ tremppi.editor.setStyle = function (graph) {
         'content': 'data(Label)',
         'text-valign': 'center',
         'color': 'black',
-        'background-color': 'data(Color)',
+        'background-color': 'white',
         'border-color': 'black',
         'border-width': 1,
-        'shape': 'data(Shape)',
-        'width': 70,
+        'shape': 'rectangle',
+        'width': 100,
         'height': 25,
         'font-size': 15
     }).selector('edge').css({
+        'content': 'data(Threshold)',
         'text-outline-color': 'black',
         'text-outline-width': 1,
         'color': 'white',
@@ -64,16 +80,16 @@ tremppi.editor.glyphEdge = function (edge) {
         edge.line_color = "red";
     else
         edge.line_color = "black";
-    if (label === "Activating" || label === "Activating Only" || label === "Not Inhibiting")
+    if (label === "Activating" || label === "Activating Only")
         edge.target_arrow_shape = "triangle";
-    else if (label === "Inhibiting" || label === "Inhibiting Only" || label === "Not Activating")
+    else if (label === "Inhibiting" || label === "Inhibiting Only")
         edge.target_arrow_shape = "tee";
     else
         edge.target_arrow_shape = "circle";
 };
 
 tremppi.editor.glyphNode = function (node) {
-    node.Label = node.Name;
+    node.Label = node.Name + ":" + node.MaxActivity;
 };
 
 tremppi.editor.newNode = function (click_position) {

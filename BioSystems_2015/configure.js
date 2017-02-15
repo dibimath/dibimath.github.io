@@ -1,1 +1,1 @@
-tremppi.setup = {"server_location": "localhost", "project_name": "BioSystems 2015", "server_port": "8080", "version": "0.7.2", "final": true};
+tremppi.setup = {"project_name": "Biosystems_2015", "final": true, "version": "1.3.0"};

@@ -18,13 +18,37 @@ html {
 }
 
 #logo {
-    width: 100%;
-    min-height: 80px;
-    padding-bottom: 10px;
-    background-color: #FAFAFA;
+    height: 35px;
+    margin: 0px;
+    border: 0px;
+    width: 87.5px;
 }
 
-#select_name, #rename_btn, #delete_btn, #clone_btn, #save_btn {
+#top_panel {
+    height: 35px;
+    font-size: 0;
+    background-color: white;
+    box-shadow: 0px 3px 4px #888888;
+}
+
+#tremppi_controls {
+    position: absolute;
+    padding: 4px;
+    top: 0px;
+}
+
+#user_controls {
+    position: absolute;
+    padding: 4px;
+    top: 0px;
+    right: 0px;
+}
+
+#new_project_btn, #exit_btn {
+    display: inline;
+}
+
+#select_name, #rename_btn, #delete_btn, #clone_btn, #save_btn, #finalize_btn, #clean_btn {
     width: 100%;
     margin: 0px;
 }
@@ -32,6 +56,23 @@ html {
 div.sidebar_field {
     background-color: #FAFAFA;
     padding: 5px;
+}
+
+div.tremppi_popup {
+    text-align: center;
+}
+
+div.popup_title {
+    font-size: 25px;
+    margin: 10px 0px 20px 0px;
+}
+
+#fileSelect {
+    margin: 10px;
+}
+
+div.submit_buttons {
+    margin: 10px;
 }
 
 a.page_content {
@@ -50,14 +91,10 @@ a.page_content:link {
     overflow: auto;
 }
 
-#controls {
-    margin: 0px 0px 0px 200px; 
+#static_text {
     font-family: monospace;
     font-size: 20px; 
     text-align: center;
-    overflow: auto;
-    white-space: nowrap;
-    background-color: #EEEEEE;
 }
 
 button {
@@ -114,17 +151,31 @@ div.header {
     width: 100%;
 }
 
-div.graph {
+div.description {
+    height: 60pt;
+    width: 100%;
+    border: 0pt solid #c0c0c0;
+    border-top-width: 1px;
+    overflow: auto;
+    color: #DDDDDD;
+}
+
+div.report_content {
     width: 100%; 
-    height: 100%;
+    border: 0px;
+    height: calc(100% - 60pt);
+}
+
+p.report_text {
+    margin: 5pt 5pt 0pt 5pt;
 }
 
 canvas.legend { 
     width: 100%; 
-    height: 60px;
+    height: 60pt;
     text-align: center;
-    bottom: 0px;
-    position: absolute
+    bottom: 60pt;
+    position: absolute;
 }
 
 div.caption {

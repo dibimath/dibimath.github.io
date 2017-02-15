@@ -1,14 +1,34 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/******************************************************************************
+ Created by Adam Streck, 2013-2015, adam.streck@fu-berlin.de
+ 
+ This file is part of the Toolkit for Reverse Engineering of Molecular Pathways
+ via Parameter Identification (TREMPPI)
+ 
+ This program is free software: you can redistribute it and/or modify it under
+ the terms of the GNU General Public License as published by the Free Software
+ Foundation, either version 3 of the License, or (at your option) any later
+ version.
+ 
+ This program is distributed in the hope that it will be useful, but WITHOUT ANY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License along with
+ this program.  If not, see <http://www.gnu.org/licenses/>.
+ ******************************************************************************/
 
-/* global tremppi */
+/* global tremppi, paper */
 
 tremppi.common = {
     compare_numbers: function (a, b) {
         return a - b;
+    },
+    setCheck: function (id) {
+        var checked = tremppi.getItem(id, tremppi.toolbar.get(id).checked) === "true";
+        if (checked) {
+            tremppi.toolbar.check(id);
+        }
+        tremppi.setItem(id, checked);
     }
 };
 tremppi.qtip = {
@@ -152,6 +172,17 @@ tremppi.w2ui = {
     }
 };
 
+tremppi.paper = {
+    makeText: function (content, position) {
+        var text = new paper.PointText(position);
+        text.fillColor = 'black';
+        text.fontSize = 20;
+        text.fontFamily = 'Courier New';
+        text.content = content;
+        return text;
+    }
+};
+
 tremppi.cytoscape = {
     mapValue: function (type, selection, glyph, value) {
         tremppi.widget[type].style().selector(selection).css(glyph, value).update();
@@ -256,18 +287,16 @@ tremppi.report = {
         tremppi.widget.setPanel('left');
         tremppi.widget.setPanel('mid');
         tremppi.widget.setPanel('right');
-        var panel = tremppi.getItem('panel', 'all');
-        if (panel === 'left' || panel === 'mid' || panel === 'right') {
-            tremppi.toolbar.uncheck('all');
-            tremppi.toolbar.check(panel);
-            tremppi.report.showPanel(panel);
-        }
-
-        if (tremppi.getItem('selected') !== null) {
-            tremppi.report.pickData(tremppi.getItem('selected'), 'left');
-        }
-        if (tremppi.getItem('compared') !== null) {
-            tremppi.report.pickData(tremppi.getItem('compared'), 'right');
+                
+        tremppi.report.showPanel('left');
+    },
+    setDescription: function (panel, setup) {
+        if (typeof setup.select !== 'undefined') {
+            $('#desc_' + panel).html('<p class="report_text">' +
+                    'Date: ' + setup.date + '<br />' +
+                    'Size: ' + setup.size + '<br />' +
+                    'Condition: ' + setup.select + '<br />' +
+                    '</p>');
         }
     },
     findByName: function (list, name) {
@@ -298,35 +327,45 @@ tremppi.report = {
     },
     getBound: function (selected, param) {
         var min = Number.POSITIVE_INFINITY;
-        var max = 0;
+        var max = Number.NEGATIVE_INFINITY;
 
         for (var ele_no = 0; ele_no < selected.length; ele_no++) {
-            var value = Math.abs(selected[ele_no].data(param));
+            var value = selected[ele_no].data(param);
             min = Math.min(min, value);
             max = Math.max(max, value);
         }
 
         return {min: min, max: max};
     },
-    getRange: function (type, relative, selection, param, positive) {
+    getRange: function (type, relative, selection, param) {
         var range;
         if (relative) {
             var selected = tremppi.widget[type].elements(selection);
             range = tremppi.report.getBound(selected, param);
-        }
-        if (!relative || range.min === range.max || range.min === Number.POSITIVE_INFINITY) {
-            range = {
-                min: 0, max: tremppi.widget.bounds[param].max
-            };
-            if (type === 'mid') {
-                range = {min: 0, max: tremppi.widget.bounds[param].max - tremppi.widget.bounds[param].min};
+            if (Math.abs(range.min - range.max) < 0.000000001) { // To fix the -2*10^-17 problem
+                range.min = range.max = 0;
+            }
+            if (range.min === Number.POSITIVE_INFINITY || range.min === 0) {
+                range.min = tremppi.widget.bounds[param].min;
+            }
+            if (range.max === Number.NEGATIVE_INFINITY || range.max === 0) {
+                range.max = tremppi.widget.bounds[param].max;
             }
         }
-        if (!positive) {
-            return {min: -1 * range.max, max: -1 * range.min};
-        } else {
-            return range;
+        if (!relative || range.min === range.max) {
+            if (type === 'mid') {
+                range = {
+                    min: tremppi.widget.bounds[param].min - tremppi.widget.bounds[param].max,
+                    max: tremppi.widget.bounds[param].max - tremppi.widget.bounds[param].min
+                };
+            } else {
+                range = {
+                    min: tremppi.widget.bounds[param].min,
+                    max: tremppi.widget.bounds[param].max
+                };
+            }
         }
+        return range;
     }
 };
 
@@ -340,4 +379,9 @@ tremppi.log = function (content, level) {
     if ($('#log_line').length > 0) {
         $('#log_line')[0].className = level;
     }
+    console.log('TREMPPI ' + level + ': ' + content);
+};
+
+tremppi.logError = function (jqXHR, textStatus, errorThrown) {
+    tremppi.log(jqXHR.responseText, 'error');
 };

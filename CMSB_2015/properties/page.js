@@ -1,50 +1,69 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/******************************************************************************
+Created by Adam Streck, 2013-2015, adam.streck@fu-berlin.de
 
-/* global tremppi */
+This file is part of the Toolkit for Reverse Engineering of Molecular Pathways
+via Parameter Identification (TREMPPI)
 
-tremppi.properties.setPage = function () {
-    $("#widget").append('<div id="property_list"></div>');
-    $("#widget").append('<div id="property_detail"></div>');
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program.  If not, see <http://www.gnu.org/licenses/>.
+******************************************************************************/
+/* global tremppi  */
+
+tremppi.properties.page = function () {
+    if ((typeof tremppi.properties.setup === 'undefined') || jQuery.isEmptyObject(tremppi.properties.setup)) {
+        $("#widget").html('The property description has not been configured yet. The "TREMPPI enumerate" command needs to be called.');
+    }
+    else {
+        $("#widget").append('<div id="property_list"></div>');
+        $("#widget").append('<div id="property_detail"></div>');
+        tremppi.properties.list = $('#property_list').w2grid(tremppi.properties.makeList());
+        tremppi.properties.detail = $('#property_detail').w2grid(tremppi.properties.makeDetail());
+    }
 };
 
 tremppi.properties.setData = function (data) {
-    if (typeof data.components === 'undefined') {
-        tremppi.log("tremppi spawn not called / not successful.", 'error');
-        return false;
-    } else {
-        tremppi.properties.list = $('#property_list').w2grid(data.list);
-        tremppi.properties.listControls(tremppi.properties.list);
-        tremppi.properties.list.onChange = tremppi.w2ui.changeFunction(data.list.columns, data.list.records);
-        tremppi.properties.list.onClick = tremppi.properties.listSelect;
-
-        tremppi.properties.detail = $('#property_detail').w2grid(data.detail);
-        tremppi.properties.detailControls(tremppi.properties.detail);
-        if (tremppi.properties.detailed !== -1) {
-            tremppi.properties.listSelect({recid: tremppi.properties.detailed});
-        }
-        return true;
-    }
+    tremppi.properties.setDefaultData(data);
+    tremppi.properties.list.records = data.records;
+    tremppi.properties.list.refresh();
+    
+    tremppi.properties.list.onClick = tremppi.properties.listClick;
+    tremppi.properties.listSelect(parseInt(tremppi.getItem("detailed", -1)));
+    
+    tremppi.properties.controls();
 };
 
-tremppi.properties.save = function () {
-    tremppi.save();
+tremppi.properties.getData = function () {
+    tremppi.properties.detail.mergeChanges();
+    tremppi.properties.list.mergeChanges();
+    return {records: tremppi.properties.list.records};
+};
+
+tremppi.properties.layout = function () {
+    
 };
 
 tremppi.properties.setDefaultData = function (data) {
-    if (typeof tremppi.properties.detailed === 'undefined')
-        tremppi.properties.detailed = -1;
-    if (typeof data.list === 'undefined')
-        data.list = {};
-    if (typeof data.detail === 'undefined')
-        data.detail = {};
-    if (typeof data.components === 'undefined') {
-        tremppi.log("tremppi spawn not called / not successful.", 'error');
-    } else {
-        tremppi.properties.tableList(data.list, data.components);
-        tremppi.properties.tableDetail(data.detail, data.components);
-    }
+    if (typeof data.records === 'undefined')
+        data.records = [];
+};
+
+tremppi.properties.toolbarClass = function () {
+    return {};
+};
+
+tremppi.properties.toolbarClass = function () {
+    return {};
+};
+
+tremppi.properties.beforeUnload = function() {
+    tremppi.save();
 };

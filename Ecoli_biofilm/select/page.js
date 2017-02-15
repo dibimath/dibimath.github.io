@@ -19,8 +19,8 @@ this program.  If not, see <http://www.gnu.org/licenses/>.
 /* global tremppi */
 
 tremppi.select.page = function () {
-    if (typeof tremppi.select.setup === 'undefined') {
-        $("#widget").html("The selection has not been configured yet. The Tremppi Spawn command needs to be called.");
+    if (typeof tremppi.select.setup === 'undefined' || jQuery.isEmptyObject(tremppi.select.setup)) {
+        $("#widget").html('The property description has not been configured yet. The "TREMPPI freeze" command needs to be called.');
     }
     else {  
         $("#widget").append('<div id="selection_table"></div>');
@@ -33,6 +33,7 @@ tremppi.select.page = function () {
                 toolbarSave: false,
                 toolbarReload: false, 
                 toolbarSearch: false, 
+                toolbarInput: false,
                 toolbarColumns: false,
                 toolbarAdd: false, 
                 toolbarDelete: false
@@ -70,4 +71,8 @@ tremppi.select.setDefaultData = function (data) {
 
 tremppi.select.toolbarClass = function () {
     return {};
+};
+
+tremppi.select.beforeUnload = function() {
+    tremppi.save();
 };

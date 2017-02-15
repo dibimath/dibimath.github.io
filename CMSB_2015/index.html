@@ -1,58 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TREMPPI unspecified</title>
+        <title>TREMPPI</title>        
         
         <script src="./libs/jquery-2.1.3.js"></script>
         <script src="./libs/cytoscape-2.3.9.js"></script>
-        <link rel="stylesheet" type="text/css" href="./libs/w2ui-1.4.2.css">
-        <script src="./libs/w2ui-1.4.2.js"></script>
-
-        <link rel="stylesheet" type="text/css" href="./common/css.css">
+        <link rel="stylesheet" type="text/css" href="./libs/w2ui-1.4.3.css">
+        <script src="./libs/w2ui-1.5.x.js"></script>
+        <link rel="stylesheet" type="text/css" href="./libs/jquery.qtip.min.css">
+        <script src="./libs/jquery.qtip.min.js"></script>
+        <script src="./libs/paper-full.min.js"></script>
+        
         <script src="./common/tremppi.js"></script>
-        <script src="./common/common.js"></script>
-		
-	<style>
-		div.title {
-			font-size: 18pt;
-			text-align: center;
-			padding: 10pt
-		}
-		p {
-			padding: 0pt 10pt ;
-		}
-		div.section {
-			font-size: 14pt;
-			font-weight: bold;
-			padding: 0pt 10pt ;
-		}
-	</style>
-	<script>
-		tremppi.widget.setPage=function() {
-			$("#widget").append(
-				'<div class="title">EGFR network study</div>' +
-				'<p>Here we present data accompanying the study: "Optimizing the Automata Based Model Checking of Perturbations in EGFR Singalling".' + 
-				'<p>The individual sections (widgets) contain the following information: </p>'+
-				'<div class="section">network:</div>'+
-				'<p>The Boolean Network graph based on the study by Klinger et al. "Network quantification of EGFR signaling unveils potential for targeted combination therapy". The effects of AKT and p70S6K were changed from activating to inhibiting.</p>' +
-				'<div class="section">properties:</div>'+
-				'<p>A list of 160 properties, each describing a perturbation experiment. These are construcuted based on:</p>' +
-				'<ul>'+
-					'<li> 8 different stimulation-inhibition combinations: {IGIRF, TGFa, no stimulus} &times; {LY, AZD, no inhibitor}; the (no stimulus, no inhibitor) is removed as it mediates no difference </li>' +
-					'<li> 5 cell lines: {LIM1215, HCT116, SW403, SW480, HT29} </li>' +
-					'<li> 4 different path constraints: {transient, monotone, stable, monotone stable}</li>' +
-				'</ul>'+
-				'<div class="section">selections:</div>'+
-				'<p>A list of 26 selections, each defining a conjunction of properties that must be satisfied. There is one for each cell line under different path constraints, an additional set based on mixture of stable and transine (partially stable) and one for no constraints.</p>' +
-				'<div class="section">quantitative:</div>'+
-				'<p>A quantitative overlook over the resulting values in each selection. The <i>K<sub>v</sub>({0,1}<sup>n</sup>)</i> where <i>v</i> is a component and <i>n</i> is its in-degree denotes a parametrization function for <i>v</i> under the configuration of its regulators given as the argument. The <i>C<sub>&phi;</sub></i> is the cost value for the property <i>&phi;</i>. The property is satisfied by a model if and only if its cost value is set.' +
-				'<div class="section">qualitative:</div>'+
-				'<p>A qualitative overlook over the resulting values in each selection, covering the same values as the quantitative one. Additinally the regulatory function <i>F<sub>v</sub></i> for each component <i>v</i> is a component is provided.</p>' +
-				''
-			);
-		}
-	</script>
+        <script src="/exec_type.js"></script>
     </head>
-    <body>
+    <body > 
     </body>
 </html>
