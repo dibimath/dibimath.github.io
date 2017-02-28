@@ -17,7 +17,7 @@
  this program.  If not, see <http://www.gnu.org/licenses/>.
  ******************************************************************************/
 
-/* global w2ui */
+/* global w2ui tremppi */
 
 // TODO Project controls target (currently on selected, not clicked)
 
@@ -38,6 +38,9 @@ tremppi = {
             layout: function () {
                 tremppi.log("layout not implemented", "warning");
             },
+            getData: function () {
+                return "";
+            },
             setData: function (data) {
                 tremppi.log("setData not implemented", "warning");
             },
@@ -48,8 +51,9 @@ tremppi = {
                 tremppi.log("toolbarClass not implemented", "warning");
                 return {};
             },
-            beforeUnload: function () {
-                tremppi.log("beforeUnload not implemented", "warning");
+            lastSavedData: {},
+            compareData: function () {
+
             }
         };
     },
@@ -88,6 +92,10 @@ tremppi = {
             success: tremppi.log,
             error: tremppi.logError
         });
+    },
+    setData: function (data) {
+        tremppi.widget.lastSavedData = $.extend(true, {}, data);
+        tremppi.widget.setData(data);
     },
     getData: function (callback, filename) {
         var to_load = tremppi.makeDataFilepath(filename);
@@ -132,6 +140,14 @@ tremppi = {
             type: "POST",
             url: url
         });
+    },
+    beforeUnload: function (e) {
+        if (tremppi.hasControls() && !tremppi.isFinal()) {
+            var newData = tremppi.widget.getData();
+            if (!tremppi.widget.compareData(newData, tremppi.widget.lastSavedData)) {
+                return "";
+            }
+        }
     },
     makeScript: function (src) {
         var element = document.createElement('script');
@@ -196,12 +212,12 @@ tremppi = {
         tremppi.layout = $('body').w2layout(layout);
         tremppi.toolbar = w2ui.layout.get("main").toolbar;
         // Distable toolbar for final projects
-        if (tremppi.isFinal() || tremppi.toolbar.items.length === 0) {
+        if (tremppi.toolbar.items.length === 0) {
             w2ui.layout.hideToolbar('main');
         }
 
         var user_controls =
-                '<button class="btn" id="exit_btn" onclick="tremppi.docs()" >DOCS</button>';
+                '<button class="btn" id="exit_btn" onclick="tremppi.models()" >Public Models</button><button class="btn" id="exit_btn" onclick="tremppi.docs()" >Documentation</button>';
         var tremppi_controls = "";
         if (!tremppi.hasControls()) {
             user_controls += '<span id="static_text">STATIC VERSION</span>';
@@ -245,6 +261,11 @@ tremppi = {
                 {id: 7, text: 'save'},
                 {id: 8, text: 'download'},
                 {id: 9, text: 'upload'}
+            ];
+        } else {
+            sidebar.menu = [
+                {id: 1, text: 'open'},
+                {id: 2, text: 'compare'}
             ];
         }
         // Add the projects
@@ -300,8 +321,8 @@ tremppi = {
         w2ui.layout.on('resize', tremppi.widget.layout);
         // Load the specific data
         $.ajaxSetup({cache: false});
-        tremppi.getData(tremppi.widget.setData);
-        window.onbeforeunload = tremppi.widget.beforeUnload;
+        tremppi.getData(tremppi.setData);
+        window.onbeforeunload = tremppi.beforeUnload;
     },
     pickFile: function (filename) {
         tremppi.current_file = tremppi.makeDataFilepath(filename);
@@ -458,6 +479,9 @@ tremppi = {
     docs: function () {
         window.open('http://dibimath.github.io/TREMPPI/');
     },
+    models: function () {
+        window.open('http://dibimath.github.io/TremppiDemo/index.html');
+    },
     exit: function () {
         $.ajax({
             type: "POST",
@@ -506,8 +530,8 @@ tremppi = {
                 url: tremppi.getProjectAddress() + tremppi.makeDataFilepath(selectedFile) + '?command=rename&type=file&new_name=' + new_name,
                 error: tremppi.logError,
                 success: function (res) {
-                    tremppi.sidebar.insert('widget+' + tremppi.widget_name, 'file+' + selectedFile + '+' + tremppi.widget_name, 
-                    {id: 'file+' + new_name + '+' + tremppi.widget_name, text: new_name, img: 'icon-page'});
+                    tremppi.sidebar.insert('widget+' + tremppi.widget_name, 'file+' + selectedFile + '+' + tremppi.widget_name,
+                            {id: 'file+' + new_name + '+' + tremppi.widget_name, text: new_name, img: 'icon-page'});
                     tremppi.sidebar.remove('file+' + selectedFile + '+' + tremppi.widget_name);
                     tremppi.log(res);
                 }
@@ -529,7 +553,10 @@ tremppi = {
         }
     },
     save: function () {
-        tremppi.saveData(tremppi.widget.getData());
+        if (tremppi.hasControls() && !tremppi.isFinal()) {
+            tremppi.widget.lastSavedData = $.extend(true, {}, tremppi.widget.getData());
+            tremppi.saveData(tremppi.widget.lastSavedData);
+        }
     },
     projectNameValid: function (new_name) {
         if (new_name === '') {

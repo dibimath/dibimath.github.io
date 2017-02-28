@@ -1,1 +1,1 @@
-tremppi.setup = {"server_location": "localhost", "project_name": "HSB_2015", "version": "1.3.0", "server_port": "8080"};
+tremppi.setup = {"version": "1.3.1", "server_location": "localhost", "project_name": "HSB_2015", "server_port": "8080"};

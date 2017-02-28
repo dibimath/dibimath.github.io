@@ -1,1 +1,1 @@
-tremppi.setup = {"final": true, "project_name": "CMSB_2015", "version": "1.3.0"};
+tremppi.setup = {"final": true, "project_name": "CMSB_2015", "version": "1.3.1"};
