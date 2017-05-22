@@ -217,7 +217,7 @@ tremppi = {
         }
 
         var user_controls =
-                '<button class="btn" id="exit_btn" onclick="tremppi.models()" >Public Models</button><button class="btn" id="exit_btn" onclick="tremppi.docs()" >Documentation</button>';
+                '<button class="btn" id="exit_btn" onclick="tremppi.useTREMPPI()" >Use TREMPPI</button><button class="btn" id="exit_btn" onclick="tremppi.docs()" >Documentation</button>';
         var tremppi_controls = "";
         if (!tremppi.hasControls()) {
             user_controls += '<span id="static_text">STATIC VERSION</span>';
@@ -650,6 +650,9 @@ tremppi = {
         }
     }
     ,
+	useTREMPPI: function() {
+		location.replace("http://tremppi.fi.muni.cz");
+	}
     renameProject: function () {
         var new_name = prompt("Please enter the new name for the project.", tremppi.project_name);
         if (new_name !== null && tremppi.projectNameValid(new_name)) {
