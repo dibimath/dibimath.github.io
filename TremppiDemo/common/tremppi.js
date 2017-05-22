@@ -652,7 +652,7 @@ tremppi = {
     ,
 	useTREMPPI: function() {
 		location.replace("http://tremppi.fi.muni.cz");
-	}
+	},
     renameProject: function () {
         var new_name = prompt("Please enter the new name for the project.", tremppi.project_name);
         if (new_name !== null && tremppi.projectNameValid(new_name)) {
