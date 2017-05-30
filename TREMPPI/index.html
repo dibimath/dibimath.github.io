@@ -125,7 +125,7 @@
 	
     <div class="title">TREMPPI 1.3.1</div>
     <div class="subtitle">Toolkit for Reverse Engineering of Molecular Pathways via Parameter Identification </div>
-    <div class="subtitle">Last update: 28.02.2017</div>
+    <div class="subtitle">Last update: 30.05.2017</div>
 
     <div class ="section">Introduction</div>
     <p>
@@ -418,6 +418,8 @@
             <ul>
                 <li><span class="lelem">new project: </span>Creates a new project from scratch. Will be called <span class="code">project_0</span> or a higher index if this is taken.</li>
                 <li><span class="lelem">upload: </span>Allows to upload a project in the <span class="code">.zip</span> format.</li>
+                <li><span class="lelem">Import SBML: </span>Imports a model in the <a href="http://sbml.org/Documents/Specifications/SBML_Level_3/Packages/qual">SBML-qual</a> format. 
+                    This generates the network with unconstrained regulations, together with a single parametrization that is converted from the description in the file.</li>
             </ul>
         </li>
         <li><span class="lelem">Project:</span>The individual project's folder. In here all the data relating to a single project are stored. It has multiple options:
@@ -428,6 +430,10 @@
                 <li><span class="lelem">delete: </span>Removes the project.</li>
                 <li><span class="lelem">finalize: </span>Removes the background (not visible to user) data from the project and prohibits further analyses. The reports stay untouched. This usually reduced the size of the project to a fraction and is useful when you want to distribute your results.</li>
                 <li><span class="lelem">download: </span>Makes a zip archive that can be uploaded to another instance of TREMPPI.</li>
+                <li><span class="lelem">export SBML </span>
+                    Creates a file in the <a href="http://sbml.org/Documents/Specifications/SBML_Level_3/Packages/qual">SBML-qual</a> format.
+                    To fill the parameters, the first parametrization in the model is used.
+                </li>
             </ul>
         </li>
         <li><span class="lelem">Widget:</span>A specific project widget. This can be either a single page, or a collection of files.

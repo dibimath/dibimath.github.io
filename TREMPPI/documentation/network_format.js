@@ -12,7 +12,7 @@ var network = {
 					"MaxActivity" : 1 // Maximal activity level of a component, must be between 1 and 9
 				}
 			}
-		]
+		],
 		"edges" : [ // Comma separated list of edges
 			{
 				"data" : {
@@ -27,7 +27,7 @@ var network = {
 			}
 		]
 	}
-}
+};
 
 /** EDGE LABELS:
  * Edge label can be one of:
