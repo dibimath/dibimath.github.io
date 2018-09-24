@@ -1,0 +1,60 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Frequency" : 0.3333333333333333,
+               "Pearson" : -0.3333333333333333,
+               "Sign" : "-",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.3333333333333333,
+               "source" : "CompB",
+               "target" : "CompA"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.750,
+               "Pearson" : 0.51480850,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.4218750,
+               "source" : "CompA",
+               "target" : "CompB"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : -0.614052750,
+               "Sign" : "-",
+               "Threshold" : 2,
+               "WeightedFrequency" : 0.56250,
+               "source" : "CompB",
+               "target" : "CompB"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "id" : "CompA",
+               "name" : "CompA"
+            }
+         },
+         {
+            "data" : {
+               "id" : "CompB",
+               "name" : "CompB"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Sun Mar  5 18:05:17 2017",
+      "s_name" : "ALL_MODELS",
+      "select" : "1",
+      "size" : 12
+   }
+}
+

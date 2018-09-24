@@ -1,0 +1,61 @@
+{
+   "records" : [
+      {
+         "C_cycle" : 0,
+         "C_series" : 0,
+         "S_CompA_1_CompB" : 0,
+         "S_CompB_1_CompA" : 0,
+         "S_CompB_2_CompB" : 1,
+         "count" : 1,
+         "properties" : 0,
+         "regulations" : 1
+      },
+      {
+         "C_cycle" : 0,
+         "C_series" : 0,
+         "S_CompA_1_CompB" : 1,
+         "S_CompB_1_CompA" : 0,
+         "S_CompB_2_CompB" : 1,
+         "count" : 3,
+         "properties" : 0,
+         "regulations" : 2
+      },
+      {
+         "C_cycle" : 0,
+         "C_series" : 1,
+         "S_CompA_1_CompB" : 0,
+         "S_CompB_1_CompA" : 0,
+         "S_CompB_2_CompB" : 1,
+         "count" : 1,
+         "properties" : 1,
+         "regulations" : 1
+      },
+      {
+         "C_cycle" : 0,
+         "C_series" : 1,
+         "S_CompA_1_CompB" : 1,
+         "S_CompB_1_CompA" : 0,
+         "S_CompB_2_CompB" : 1,
+         "count" : 3,
+         "properties" : 1,
+         "regulations" : 2
+      },
+      {
+         "C_cycle" : 0,
+         "C_series" : 1,
+         "S_CompA_1_CompB" : 0,
+         "S_CompB_1_CompA" : 1,
+         "S_CompB_2_CompB" : 1,
+         "count" : 1,
+         "properties" : 1,
+         "regulations" : 2
+      }
+   ],
+   "setup" : {
+      "date" : "Sun Mar  5 18:05:18 2017",
+      "s_name" : "not_all_edges",
+      "select" : "E_SUM >= 1 AND E_SUM <= 2",
+      "size" : 9
+   }
+}
+

@@ -1,0 +1,81 @@
+{
+   "records" : [
+      {
+         "C_cycle" : 0,
+         "C_series" : 0,
+         "S_CompA_1_CompB" : 0,
+         "S_CompB_1_CompA" : 0,
+         "S_CompB_2_CompB" : 1,
+         "count" : 1,
+         "properties" : 0,
+         "regulations" : 1
+      },
+      {
+         "C_cycle" : 0,
+         "C_series" : 0,
+         "S_CompA_1_CompB" : 1,
+         "S_CompB_1_CompA" : 0,
+         "S_CompB_2_CompB" : 1,
+         "count" : 3,
+         "properties" : 0,
+         "regulations" : 2
+      },
+      {
+         "C_cycle" : 0,
+         "C_series" : 1,
+         "S_CompA_1_CompB" : 0,
+         "S_CompB_1_CompA" : 0,
+         "S_CompB_2_CompB" : 1,
+         "count" : 1,
+         "properties" : 1,
+         "regulations" : 1
+      },
+      {
+         "C_cycle" : 0,
+         "C_series" : 1,
+         "S_CompA_1_CompB" : 1,
+         "S_CompB_1_CompA" : 0,
+         "S_CompB_2_CompB" : 1,
+         "count" : 3,
+         "properties" : 1,
+         "regulations" : 2
+      },
+      {
+         "C_cycle" : 0,
+         "C_series" : 1,
+         "S_CompA_1_CompB" : 0,
+         "S_CompB_1_CompA" : 1,
+         "S_CompB_2_CompB" : 1,
+         "count" : 1,
+         "properties" : 1,
+         "regulations" : 2
+      },
+      {
+         "C_cycle" : 0,
+         "C_series" : 1,
+         "S_CompA_1_CompB" : 1,
+         "S_CompB_1_CompA" : 1,
+         "S_CompB_2_CompB" : 1,
+         "count" : 2,
+         "properties" : 1,
+         "regulations" : 3
+      },
+      {
+         "C_cycle" : 1,
+         "C_series" : 1,
+         "S_CompA_1_CompB" : 1,
+         "S_CompB_1_CompA" : 1,
+         "S_CompB_2_CompB" : 1,
+         "count" : 1,
+         "properties" : 2,
+         "regulations" : 3
+      }
+   ],
+   "setup" : {
+      "date" : "Sun Mar  5 18:05:18 2017",
+      "s_name" : "ALL_MODELS",
+      "select" : "1",
+      "size" : 12
+   }
+}
+

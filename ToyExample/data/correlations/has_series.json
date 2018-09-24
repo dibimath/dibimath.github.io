@@ -1,0 +1,42 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Pearson" : 0.0,
+               "source" : "CompB",
+               "target" : "CompA"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "Bias" : 0.750,
+               "Max" : 1,
+               "Mean" : 0.750,
+               "Std" : 0.250,
+               "id" : "CompA",
+               "name" : "CompA"
+            }
+         },
+         {
+            "data" : {
+               "Bias" : 0.656250,
+               "Max" : 2,
+               "Mean" : 0.656250,
+               "Std" : 0.1848774932218630,
+               "id" : "CompB",
+               "name" : "CompB"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Sun Mar  5 18:05:16 2017",
+      "s_name" : "has_series",
+      "select" : "C_series != 0",
+      "size" : 8
+   }
+}
+

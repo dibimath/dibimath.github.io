@@ -1,0 +1,1 @@
+tremppi.qualitative.setup = {"components": ["CompA", "CompB"], "files": ["ALL_MODELS", "has_series", "has_cycle", "not_all_edges"]};

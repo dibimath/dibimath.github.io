@@ -1,0 +1,60 @@
+{
+   "elements" : {
+      "edges" : [
+         {
+            "data" : {
+               "Frequency" : 0.1111111111111111,
+               "Pearson" : -0.1111111111111111,
+               "Sign" : "-",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.1111111111111111,
+               "source" : "CompB",
+               "target" : "CompA"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 0.6666666666666666,
+               "Pearson" : 0.4576075555555555,
+               "Sign" : "+",
+               "Threshold" : 1,
+               "WeightedFrequency" : 0.3750,
+               "source" : "CompA",
+               "target" : "CompB"
+            }
+         },
+         {
+            "data" : {
+               "Frequency" : 1.0,
+               "Pearson" : -0.6569357777777778,
+               "Sign" : "-",
+               "Threshold" : 2,
+               "WeightedFrequency" : 0.56250,
+               "source" : "CompB",
+               "target" : "CompB"
+            }
+         }
+      ],
+      "nodes" : [
+         {
+            "data" : {
+               "id" : "CompA",
+               "name" : "CompA"
+            }
+         },
+         {
+            "data" : {
+               "id" : "CompB",
+               "name" : "CompB"
+            }
+         }
+      ]
+   },
+   "setup" : {
+      "date" : "Sun Mar  5 18:05:17 2017",
+      "s_name" : "not_all_edges",
+      "select" : "E_SUM >= 1 AND E_SUM <= 2",
+      "size" : 9
+   }
+}
+

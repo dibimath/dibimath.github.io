@@ -1,0 +1,231 @@
+{
+   "setup" : {
+      "date" : "Sun Mar  5 18:05:16 2017",
+      "s_name" : "ALL_MODELS",
+      "select" : "1",
+      "size" : 12
+   },
+   "values" : [
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3333333333333333
+            },
+            {
+               "name" : "1",
+               "portion" : 0.6666666666666666
+            }
+         ],
+         "name" : "K<sub>CompA</sub>(CompB{0})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.6666666666666666
+            },
+            {
+               "name" : "1",
+               "portion" : 0.3333333333333333
+            }
+         ],
+         "name" : "K<sub>CompA</sub>(CompB{1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.250
+            },
+            {
+               "name" : "1",
+               "portion" : 0.250
+            },
+            {
+               "name" : "2",
+               "portion" : 0.50
+            }
+         ],
+         "name" : "K<sub>CompB</sub>(CompA{0},CompB{0,1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.250
+            },
+            {
+               "name" : "1",
+               "portion" : 0.750
+            }
+         ],
+         "name" : "K<sub>CompB</sub>(CompA{0},CompB{2})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "2",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "K<sub>CompB</sub>(CompA{1,2},CompB{0,1})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 0.750
+            },
+            {
+               "name" : "2",
+               "portion" : 0.250
+            }
+         ],
+         "name" : "K<sub>CompB</sub>(CompA{1,2},CompB{2})"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3333333333333333
+            },
+            {
+               "name" : "4",
+               "portion" : 0.6666666666666666
+            }
+         ],
+         "name" : "Cost(series)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.9166666666666666
+            },
+            {
+               "name" : "5",
+               "portion" : 0.08333333333333333
+            }
+         ],
+         "name" : "Cost(cycle)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "-",
+               "portion" : 0.3333333333333333
+            },
+            {
+               "name" : "0",
+               "portion" : 0.6666666666666666
+            }
+         ],
+         "name" : "Sign(CompB,1,CompA)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.6666666666666666
+            },
+            {
+               "name" : "1",
+               "portion" : 0.3333333333333333
+            }
+         ],
+         "name" : "Indigree(CompA)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "+",
+               "portion" : 0.750
+            },
+            {
+               "name" : "0",
+               "portion" : 0.250
+            }
+         ],
+         "name" : "Sign(CompA,1,CompB)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "-",
+               "portion" : 1.0
+            }
+         ],
+         "name" : "Sign(CompB,2,CompB)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 0.250
+            },
+            {
+               "name" : "2",
+               "portion" : 0.750
+            }
+         ],
+         "name" : "Indigree(CompB)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1",
+               "portion" : 0.1666666666666667
+            },
+            {
+               "name" : "2",
+               "portion" : 0.5833333333333334
+            },
+            {
+               "name" : "3",
+               "portion" : 0.250
+            }
+         ],
+         "name" : "Indigree(SUM)"
+      },
+      {
+         "data" : [
+            {
+               "name" : "0",
+               "portion" : 0.3333333333333333
+            },
+            {
+               "name" : "1",
+               "portion" : 0.3333333333333333
+            },
+            {
+               "name" : "CompB{0}",
+               "portion" : 0.3333333333333333
+            }
+         ],
+         "name" : "F<sub>CompA</sub>"
+      },
+      {
+         "data" : [
+            {
+               "name" : "1&!CompA&CompB{2}|2&CompB{01}|2&CompA",
+               "portion" : 0.250
+            },
+            {
+               "name" : "1&!CompA|1&CompB{2}|2&CompA&CompB{01}",
+               "portion" : 0.250
+            },
+            {
+               "name" : "1&CompA&CompB{2}|2&CompA&CompB{01}",
+               "portion" : 0.250
+            },
+            {
+               "name" : "1&CompB{2}|2&CompB{01}",
+               "portion" : 0.250
+            }
+         ],
+         "name" : "F<sub>CompB</sub>"
+      }
+   ]
+}
+

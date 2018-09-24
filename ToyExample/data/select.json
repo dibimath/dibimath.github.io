@@ -1,0 +1,1 @@
+{"records": [{"select": true, "recid": 0, "name": "ALL_MODELS"}, {"C_series": "!0", "recid": 1, "w2ui": {}, "select": true, "name": "has_series"}, {"C_series": "", "select": true, "recid": 2, "name": "has_cycle", "C_cycle": "!0", "w2ui": {}}, {"E_SUM": "[1,2]", "select": true, "w2ui": {}, "recid": 3, "name": "not_all_edges"}]}

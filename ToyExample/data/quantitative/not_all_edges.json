@@ -1,0 +1,137 @@
+{
+   "records" : [
+      {
+         "count" : 5,
+         "max" : 1.0,
+         "mean" : 0.5555555555555556,
+         "min" : 0.0,
+         "name" : "K<sub>CompA</sub>(CompB{0})"
+      },
+      {
+         "count" : 4,
+         "max" : 1.0,
+         "mean" : 0.4444444444444444,
+         "min" : 0.0,
+         "name" : "K<sub>CompA</sub>(CompB{1})"
+      },
+      {
+         "count" : 7,
+         "max" : 2.0,
+         "mean" : 1.333333333333333,
+         "min" : 0.0,
+         "name" : "K<sub>CompB</sub>(CompA{0},CompB{0,1})"
+      },
+      {
+         "count" : 7,
+         "max" : 1.0,
+         "mean" : 0.7777777777777778,
+         "min" : 0.0,
+         "name" : "K<sub>CompB</sub>(CompA{0},CompB{2})"
+      },
+      {
+         "count" : 9,
+         "max" : 2.0,
+         "mean" : 2.0,
+         "min" : 2.0,
+         "name" : "K<sub>CompB</sub>(CompA{1,2},CompB{0,1})"
+      },
+      {
+         "count" : 9,
+         "max" : 2.0,
+         "mean" : 1.222222222222222,
+         "min" : 1.0,
+         "name" : "K<sub>CompB</sub>(CompA{1,2},CompB{2})"
+      },
+      {
+         "count" : 5,
+         "max" : 4.0,
+         "mean" : 2.222222222222222,
+         "min" : 0.0,
+         "name" : "Cost(series)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Cost(cycle)"
+      },
+      {
+         "count" : 5,
+         "max" : 1.0,
+         "mean" : 0.50,
+         "min" : 0.0,
+         "name" : "Bias(CompA)"
+      },
+      {
+         "count" : 9,
+         "max" : 0.8750,
+         "mean" : 0.6666666666666666,
+         "min" : 0.3750,
+         "name" : "Bias(CompB)"
+      },
+      {
+         "count" : 1,
+         "max" : 1.0,
+         "mean" : 0.1111111111111111,
+         "min" : 0.0,
+         "name" : "Indigree(CompA)"
+      },
+      {
+         "count" : 9,
+         "max" : 2.0,
+         "mean" : 1.666666666666667,
+         "min" : 1.0,
+         "name" : "Indigree(CompB)"
+      },
+      {
+         "count" : 9,
+         "max" : 2.0,
+         "mean" : 1.777777777777778,
+         "min" : 1.0,
+         "name" : "Indigree(SUM)"
+      },
+      {
+         "count" : 1,
+         "max" : 0.0,
+         "mean" : -0.1111111111111111,
+         "min" : -1.0,
+         "name" : "Impact(CompB,1,CompA)"
+      },
+      {
+         "count" : 6,
+         "max" : 0.9045339999999999,
+         "mean" : 0.4576075555555555,
+         "min" : 0.0,
+         "name" : "Impact(CompA,1,CompB)"
+      },
+      {
+         "count" : 9,
+         "max" : -0.3015110,
+         "mean" : -0.6569357777777778,
+         "min" : -1.0,
+         "name" : "Impact(CompB,2,CompB)"
+      },
+      {
+         "count" : 5,
+         "max" : 1.0,
+         "mean" : 0.4722222222222222,
+         "min" : 0.0,
+         "name" : "Robustness(series)"
+      },
+      {
+         "count" : 0,
+         "max" : 0.0,
+         "mean" : 0.0,
+         "min" : 0.0,
+         "name" : "Robustness(cycle)"
+      }
+   ],
+   "setup" : {
+      "date" : "Sun Mar  5 18:05:17 2017",
+      "s_name" : "not_all_edges",
+      "select" : "E_SUM >= 1 AND E_SUM <= 2",
+      "size" : 9
+   }
+}
+
